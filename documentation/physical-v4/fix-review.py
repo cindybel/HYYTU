@@ -1,0 +1,21 @@
+from pathlib import Path
+def edit(file,a,b):
+ p=Path(file);s=p.read_text(encoding='utf-8-sig');assert a in s,(file,a[:90]);p.write_text(s.replace(a,b,1),encoding='utf-8')
+edit('src/physical-v4.js',"signature='',panelKey='',dirty=true;", "signature='',panelKey='',dirty=true,lastObjective='';")
+edit('src/physical-v4.js',"if(message.textContent!==hint)message.textContent=hint;", "lastObjective=hint;if(message.textContent!==hint)message.textContent=hint;")
+edit('src/main.js','function getObjectiveLine(connected, minScore, maskRequired, perfect) {','function getObjectiveLine(connected, minScore, maskRequired, perfect) {\n  if(currentGig?.physical)return window.PhysicalV4?.objective||\'Prépare et branche ton matériel.\';')
+edit('src/physical-v4.js',"m.visible=o.location!=='connected';", "m.visible=o.location!=='connected'&&!(state.active&&C.spec(o.modelId).kind==='surface'&&o.placed);")
+edit('src/physical-v4.js',"const hits=ray.intersectObject(group,true).filter(h=>h.object.visible&&h.object.parent?.visible!==false);", "const hits=ray.intersectObject(group,true).filter(h=>{if(h.object.isLine)return false;let o=h.object;while(o){if(!o.visible||held&&o.userData.uid===held)return false;o=o.parent;}return true;});")
+edit('src/physical-v4.js',"<button data-take>Prendre · E</button>", "<button data-take>Prendre · E</button>${state.active?'<button data-focus>Voir les ports</button>':''}")
+edit('src/physical-v4.js',"panel.querySelector('[data-mic-test]')", "panel.querySelector('[data-focus]')?.addEventListener('click',()=>{cameraControl.target.set(o.position.x,o.position.y+.2,o.position.z);cameraControl.distance=2.2;cameraControl.yaw=0;cameraControl.pitch=.35;});panel.querySelector('[data-mic-test]')")
+edit('src/physical-v4.js',"get selected(){return selected;}", "get objective(){return lastObjective;},get selected(){return selected;}")
+edit('src/physical-v4.js',"const controller=StudioDecor.group", "if(state.active){const old=deskStation?.children.find(o=>o.type==='Group');if(old)old.visible=false;}const controller=StudioDecor.group")
+edit('src/physical-v4.js',".physical-refonte.screen-gig #connect-projector-button", ".physical-refonte.screen-gig #open-computer-button{display:none!important}.physical-refonte.screen-gig #connect-projector-button")
+edit('src/main.js','function cancelCurrentGig() {','function cancelCurrentGig() {\n  if(currentGig?.physical)return window.PhysicalV4?.cancel();')
+# This phase has one explicit abort path; it restores ownership and garage connections without refunding used rentals.
+edit('src/physical-v4.js',' function finish(){'," function cancel(){if(!state.active)return;const g=currentGig,run=state.active;for(const saved of run.garage){const o=C.get(state,saved.uid);if(o)Object.assign(o,saved);}state.objects=state.objects.filter(o=>o.owner!=='rental');state.links=run.links.filter(l=>C.get(state,l.cable)&&C.get(state,l.a.device)&&C.get(state,l.b.device));state.active=null;state.prepared=null;profile.activeRun=null;profile.preparedDeparture=null;g.status='accepted';profile.stats.fatigue=Math.min(100,profile.stats.fatigue+5);held=selected=null;dirty=true;runFinished=true;showScreen('desktop');currentGig=null;StudioWorld.enter();saveSlots();notify('Installation interrompue. Matériel revenu au garage ; location déjà engagée conservée.');}\n function finish(){")
+edit('src/physical-v4.js','resume,tick,finish,preparation','resume,tick,finish,cancel,preparation')
+edit('src/simple-booking.js','Postuler à ce gig →','Choisir ce contrat →')
+edit('src/simple-booking.js','Les candidatures ne donnent jamais un contrat instantanément : les clients répondent avec le temps du jeu.','Choisis un mandat puis prépare ses objets dans le garage. La location est facturée une seule fois au départ.')
+# Block every software-only launch while retaining its implementation for a later phase.
+edit('src/physical-v4.js',' ensure();return{'," document.addEventListener('click',e=>{if(!profile.physical||!e.target.closest('#academy-launch,#field-launch,[data-rehearsal-launch]'))return;e.preventDefault();e.stopImmediatePropagation();StudioWorld.enter();notify('Pratique physique : prends ton matériel, relie ses ports et teste la projection dans le garage.');},true);\n ensure();return{")

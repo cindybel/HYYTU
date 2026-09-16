@@ -1,0 +1,5146 @@
+{
+  "cases": [
+    {
+      "level": 1,
+      "style": "techno",
+      "clips": [
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/grid.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/tunnel.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "style": "hiphop",
+      "clips": [
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "style": "chill",
+      "clips": [
+        {
+          "src": "/video/originals/aurora.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/ribbons.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/particles-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/orbits.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "style": "psytrance",
+      "clips": [
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/kaleido.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "style": "rock",
+      "clips": [
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "style": "techno",
+      "clips": [
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/grid.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/tunnel.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "style": "hiphop",
+      "clips": [
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "style": "chill",
+      "clips": [
+        {
+          "src": "/video/originals/aurora.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/ribbons.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/particles-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/orbits.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "style": "psytrance",
+      "clips": [
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/kaleido.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "style": "rock",
+      "clips": [
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "style": "techno",
+      "clips": [
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/grid.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/tunnel.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "style": "hiphop",
+      "clips": [
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "style": "chill",
+      "clips": [
+        {
+          "src": "/video/originals/particles-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/aurora.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/ribbons.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/particles-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/orbits.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "style": "psytrance",
+      "clips": [
+        {
+          "src": "/video/originals/arcs-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/diamonds-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/kaleido.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "style": "rock",
+      "clips": [
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "style": "techno",
+      "clips": [
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/grid.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/tunnel.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "style": "hiphop",
+      "clips": [
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "style": "chill",
+      "clips": [
+        {
+          "src": "/video/originals/particles-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/aurora.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/ribbons.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/particles-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/orbits.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "style": "psytrance",
+      "clips": [
+        {
+          "src": "/video/originals/arcs-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/diamonds-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/kaleido.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "style": "rock",
+      "clips": [
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "style": "techno",
+      "clips": [
+        {
+          "src": "/video/genres/techno-warmup.mp4",
+          "level": 5,
+          "styles": [
+            "techno"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/genres/techno-groove.mp4",
+          "level": 5,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/genres/techno-rise.mp4",
+          "level": 5,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/genres/techno-peak.mp4",
+          "level": 5,
+          "styles": [
+            "techno"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/lattice-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/grid.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/squares-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/tunnel.mp4",
+          "level": 1,
+          "styles": [
+            "techno"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "style": "hiphop",
+      "clips": [
+        {
+          "src": "/video/genres/hiphop-warmup.mp4",
+          "level": 5,
+          "styles": [
+            "hiphop"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/genres/hiphop-groove.mp4",
+          "level": 5,
+          "styles": [
+            "hiphop"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/genres/hiphop-rise.mp4",
+          "level": 5,
+          "styles": [
+            "hiphop"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/genres/hiphop-peak.mp4",
+          "level": 5,
+          "styles": [
+            "hiphop"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "style": "chill",
+      "clips": [
+        {
+          "src": "/video/genres/chill-warmup.mp4",
+          "level": 5,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/genres/chill-groove.mp4",
+          "level": 5,
+          "styles": [
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/genres/chill-rise.mp4",
+          "level": 5,
+          "styles": [
+            "chill"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/genres/chill-peak.mp4",
+          "level": 5,
+          "styles": [
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/particles-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/aurora.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/ribbons.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/particles-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/waves-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/orbits.mp4",
+          "level": 1,
+          "styles": [
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/discs-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/fan-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "style": "psytrance",
+      "clips": [
+        {
+          "src": "/video/genres/psytrance-warmup.mp4",
+          "level": 5,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/genres/psytrance-groove.mp4",
+          "level": 5,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/genres/psytrance-rise.mp4",
+          "level": 5,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/genres/psytrance-peak.mp4",
+          "level": 5,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/arcs-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/diamonds-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-2.mp4",
+          "level": 3,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/petals-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/helix-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/spiral-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/triangles-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/stars-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/kaleido.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/diamonds-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/knots-1.mp4",
+          "level": 1,
+          "styles": [
+            "chill",
+            "psytrance"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "style": "rock",
+      "clips": [
+        {
+          "src": "/video/genres/rock-warmup.mp4",
+          "level": 5,
+          "styles": [
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/genres/rock-groove.mp4",
+          "level": 5,
+          "styles": [
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/genres/rock-rise.mp4",
+          "level": 5,
+          "styles": [
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/genres/rock-peak.mp4",
+          "level": 5,
+          "styles": [
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-2.mp4",
+          "level": 3,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/terrain-2.mp4",
+          "level": 3,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-2.mp4",
+          "level": 3,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/contours-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/arcs-1.mp4",
+          "level": 1,
+          "styles": [
+            "psytrance",
+            "rock"
+          ],
+          "energy": "warmup"
+        },
+        {
+          "src": "/video/originals/circuit-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/bars-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "groove"
+        },
+        {
+          "src": "/video/originals/terrain-1.mp4",
+          "level": 1,
+          "styles": [
+            "hiphop",
+            "chill",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/scope-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "rise"
+        },
+        {
+          "src": "/video/originals/columns-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/originals/rays-1.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "rock"
+          ],
+          "energy": "peak"
+        },
+        {
+          "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        },
+        {
+          "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+          "level": 1,
+          "styles": [
+            "techno",
+            "hiphop",
+            "chill",
+            "psytrance",
+            "rock"
+          ],
+          "energy": "legacy"
+        }
+      ]
+    }
+  ],
+  "legacy": {
+    "src": "/video/originals/knots-1.mp4",
+    "expected": "/video/originals/knots-1.mp4",
+    "count": 51
+  },
+  "media": [
+    {
+      "src": "/video/genres/techno-warmup.mp4",
+      "motion": 14.927083333333334,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "113"
+          }
+        ],
+        "format": {
+          "duration": "3.766667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/techno-groove.mp4",
+      "motion": 16.08984375,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "113"
+          }
+        ],
+        "format": {
+          "duration": "3.766667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/techno-rise.mp4",
+      "motion": 17.81814236111111,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "113"
+          }
+        ],
+        "format": {
+          "duration": "3.766667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/techno-peak.mp4",
+      "motion": 16.979600694444443,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "113"
+          }
+        ],
+        "format": {
+          "duration": "3.766667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/hiphop-warmup.mp4",
+      "motion": 3.2152777777777777,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "157"
+          }
+        ],
+        "format": {
+          "duration": "5.233333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/hiphop-groove.mp4",
+      "motion": 2.4192708333333335,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "157"
+          }
+        ],
+        "format": {
+          "duration": "5.233333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/hiphop-rise.mp4",
+      "motion": 3.3016493055555554,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "157"
+          }
+        ],
+        "format": {
+          "duration": "5.233333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/hiphop-peak.mp4",
+      "motion": 2.4934895833333335,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "157"
+          }
+        ],
+        "format": {
+          "duration": "5.233333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/chill-warmup.mp4",
+      "motion": 1.8012152777777777,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "150"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/chill-groove.mp4",
+      "motion": 1.7317708333333333,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "150"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/chill-rise.mp4",
+      "motion": 2.208767361111111,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "150"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/chill-peak.mp4",
+      "motion": 2.291232638888889,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "150"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/psytrance-warmup.mp4",
+      "motion": 4.080729166666667,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "103"
+          }
+        ],
+        "format": {
+          "duration": "3.433333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/psytrance-groove.mp4",
+      "motion": 4.243055555555555,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "103"
+          }
+        ],
+        "format": {
+          "duration": "3.433333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/psytrance-rise.mp4",
+      "motion": 4.3515625,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "103"
+          }
+        ],
+        "format": {
+          "duration": "3.433333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/psytrance-peak.mp4",
+      "motion": 4.322048611111111,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "103"
+          }
+        ],
+        "format": {
+          "duration": "3.433333"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/rock-warmup.mp4",
+      "motion": 3.3120659722222223,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "116"
+          }
+        ],
+        "format": {
+          "duration": "3.866667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/rock-groove.mp4",
+      "motion": 2.6315104166666665,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "116"
+          }
+        ],
+        "format": {
+          "duration": "3.866667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/rock-rise.mp4",
+      "motion": 2.7191840277777777,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "116"
+          }
+        ],
+        "format": {
+          "duration": "3.866667"
+        }
+      }
+    },
+    {
+      "src": "/video/genres/rock-peak.mp4",
+      "motion": 2.6514756944444446,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "116"
+          }
+        ],
+        "format": {
+          "duration": "3.866667"
+        }
+      }
+    }
+  ],
+  "before": {
+    "money": 75,
+    "xp": 0,
+    "source": "/video/genres/rock-warmup.mp4",
+    "saved": {
+      "score": 80,
+      "completion": 0.007229999999999989,
+      "stageTasks": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "transitions": 0,
+      "syncedTransitions": 0,
+      "effectChanges": 0,
+      "seconds": 0,
+      "phases": [
+        {
+          "name": "ACCUEIL",
+          "seconds": 0.43379999999999935,
+          "matched": 0
+        },
+        {
+          "name": "GROOVE",
+          "seconds": 0,
+          "matched": 0
+        },
+        {
+          "name": "REFRAIN",
+          "seconds": 0,
+          "matched": 0
+        },
+        {
+          "name": "SORTIE",
+          "seconds": 0,
+          "matched": 0
+        }
+      ],
+      "playlist": [
+        "/video/genres/rock-warmup.mp4",
+        "/video/genres/rock-groove.mp4",
+        "/video/genres/rock-rise.mp4",
+        "/video/genres/rock-peak.mp4",
+        "/video/originals/contours-2.mp4",
+        "/video/originals/arcs-2.mp4",
+        "/video/originals/circuit-2.mp4",
+        "/video/originals/bars-2.mp4",
+        "/video/originals/terrain-2.mp4",
+        "/video/originals/scope-2.mp4",
+        "/video/originals/columns-2.mp4",
+        "/video/originals/rays-2.mp4",
+        "/video/originals/contours-1.mp4",
+        "/video/originals/arcs-1.mp4",
+        "/video/originals/circuit-1.mp4",
+        "/video/originals/bars-1.mp4",
+        "/video/originals/terrain-1.mp4",
+        "/video/originals/scope-1.mp4",
+        "/video/originals/columns-1.mp4",
+        "/video/originals/rays-1.mp4",
+        "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+        "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+        "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4"
+      ],
+      "preparedByPlayer": false,
+      "paused": true,
+      "queuedAt": null,
+      "elapsed": 0.43379999999999935,
+      "integral": 34.70399999999994,
+      "intensity": 0.5,
+      "blackout": false,
+      "effects": {
+        "saturation": 100,
+        "hue": 0,
+        "zoom": 100,
+        "mirror": false
+      },
+      "currentIndex": 0,
+      "previewIndex": 1,
+      "transition": null,
+      "programTime": 0.33467,
+      "previewTime": 0.334671
+    }
+  },
+  "after": {
+    "money": 75,
+    "xp": 0,
+    "source": "/video/genres/rock-warmup.mp4",
+    "saved": {
+      "score": 80,
+      "completion": 0.007229999999999989,
+      "stageTasks": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "transitions": 0,
+      "syncedTransitions": 0,
+      "effectChanges": 0,
+      "seconds": 0,
+      "phases": [
+        {
+          "name": "ACCUEIL",
+          "seconds": 0.43379999999999935,
+          "matched": 0
+        },
+        {
+          "name": "GROOVE",
+          "seconds": 0,
+          "matched": 0
+        },
+        {
+          "name": "REFRAIN",
+          "seconds": 0,
+          "matched": 0
+        },
+        {
+          "name": "SORTIE",
+          "seconds": 0,
+          "matched": 0
+        }
+      ],
+      "playlist": [
+        "/video/genres/rock-warmup.mp4",
+        "/video/genres/rock-groove.mp4",
+        "/video/genres/rock-rise.mp4",
+        "/video/genres/rock-peak.mp4",
+        "/video/originals/contours-2.mp4",
+        "/video/originals/arcs-2.mp4",
+        "/video/originals/circuit-2.mp4",
+        "/video/originals/bars-2.mp4",
+        "/video/originals/terrain-2.mp4",
+        "/video/originals/scope-2.mp4",
+        "/video/originals/columns-2.mp4",
+        "/video/originals/rays-2.mp4",
+        "/video/originals/contours-1.mp4",
+        "/video/originals/arcs-1.mp4",
+        "/video/originals/circuit-1.mp4",
+        "/video/originals/bars-1.mp4",
+        "/video/originals/terrain-1.mp4",
+        "/video/originals/scope-1.mp4",
+        "/video/originals/columns-1.mp4",
+        "/video/originals/rays-1.mp4",
+        "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+        "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+        "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4"
+      ],
+      "preparedByPlayer": false,
+      "paused": true,
+      "queuedAt": null,
+      "elapsed": 0.43379999999999935,
+      "integral": 34.70399999999994,
+      "intensity": 0.5,
+      "blackout": false,
+      "effects": {
+        "saturation": 100,
+        "hue": 0,
+        "zoom": 100,
+        "mirror": false
+      },
+      "currentIndex": 0,
+      "previewIndex": 1,
+      "transition": null,
+      "programTime": 0,
+      "previewTime": 0
+    }
+  },
+  "errors": []
+}

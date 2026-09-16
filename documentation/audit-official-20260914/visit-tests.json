@@ -1,0 +1,16 @@
+{
+  "rows": [
+    "housing-micro-room",
+    "housing-econo",
+    "housing-loft-small",
+    "housing-medium",
+    "housing-shared-studio",
+    "housing-warehouse-room",
+    "housing-soundproof",
+    "housing-luxe",
+    "housing-artist-loft",
+    "housing-penthouse"
+  ],
+  "mobileReturn": true,
+  "errors": []
+}

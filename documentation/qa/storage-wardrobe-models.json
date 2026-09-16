@@ -1,0 +1,1440 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "projector-cheap",
+      "children": 13,
+      "size": [
+        0.8999999761581421,
+        0.29999999873340133,
+        0.8269999942556023
+      ]
+    },
+    {
+      "id": "projector-standard",
+      "children": 14,
+      "size": [
+        0.9900000095367432,
+        0.32999999754130843,
+        0.8470000049844384
+      ]
+    },
+    {
+      "id": "projector-short-throw",
+      "children": 15,
+      "size": [
+        1.0800000429153442,
+        0.3649999957531691,
+        0.8669999859109521
+      ]
+    },
+    {
+      "id": "projector-laser-entry",
+      "children": 17,
+      "size": [
+        1.1699999570846558,
+        0.4549999994784594,
+        0.8869999966397881
+      ]
+    },
+    {
+      "id": "projector-pro-6500",
+      "children": 18,
+      "size": [
+        1.2599999904632568,
+        0.48999999947845946,
+        0.9070000073686242
+      ]
+    },
+    {
+      "id": "projector-ultra-4k",
+      "children": 19,
+      "size": [
+        1.350000023841858,
+        0.5249999994784594,
+        0.9269999882951379
+      ]
+    },
+    {
+      "id": "computer-starter-laptop",
+      "children": 27,
+      "size": [
+        0.8999999761581421,
+        0.5624999913573265,
+        0.6000000238418579
+      ]
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "children": 27,
+      "size": [
+        0.8999999761581421,
+        0.5624999913573265,
+        0.6000000238418579
+      ]
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "children": 5,
+      "size": [
+        0.5299999713897705,
+        1,
+        0.7414126723259687
+      ]
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "children": 8,
+      "size": [
+        0.5699999928474426,
+        1,
+        0.7414126723259687
+      ]
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "children": 11,
+      "size": [
+        0.6100000143051147,
+        1,
+        0.7414126723259687
+      ]
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "children": 14,
+      "size": [
+        1,
+        0.20250000020489095,
+        0.4200000027567148
+      ]
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "children": 20,
+      "size": [
+        1,
+        0.20250000020489095,
+        0.4200000027567148
+      ]
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "children": 26,
+      "size": [
+        1,
+        0.20250000020489095,
+        0.4200000027567148
+      ]
+    },
+    {
+      "id": "cable-25ft-basic",
+      "children": 6,
+      "size": [
+        0.9000000014901162,
+        0.6600000262260437,
+        0.28461217749643536
+      ]
+    },
+    {
+      "id": "cable-75ft-active",
+      "children": 7,
+      "size": [
+        0.9000000014901162,
+        0.6840000152587891,
+        0.28461217749643536
+      ]
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "children": 8,
+      "size": [
+        0.9000000014901162,
+        0.7080000042915344,
+        0.28461217749643536
+      ]
+    },
+    {
+      "id": "cable-loom-3pack-75",
+      "children": 10,
+      "size": [
+        0.9400000005960465,
+        0.7319999933242798,
+        0.44961218584108564
+      ]
+    },
+    {
+      "id": "cable-loom-3pack-150",
+      "children": 11,
+      "size": [
+        0.9400000005960465,
+        0.7559999823570251,
+        0.44961218584108564
+      ]
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "children": 4,
+      "size": [
+        0.3499999940395355,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "children": 5,
+      "size": [
+        0.5299999713897705,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "adapter-dp-hdmi-pro-3pack",
+      "children": 6,
+      "size": [
+        0.7099999785423279,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "adapter-edid-locker",
+      "children": 7,
+      "size": [
+        0.8899999856948853,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "children": 7,
+      "size": [
+        0.6499999761581421,
+        0.359999997317791,
+        0.5
+      ]
+    },
+    {
+      "id": "accessory-wide-lens",
+      "children": 9,
+      "size": [
+        0.7300000190734863,
+        0.359999997317791,
+        0.5
+      ]
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "children": 11,
+      "size": [
+        0.8100000023841858,
+        0.359999997317791,
+        0.5
+      ]
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "children": 13,
+      "size": [
+        0.8899999856948853,
+        0.359999997317791,
+        0.5
+      ]
+    },
+    {
+      "id": "accessory-mini-controller",
+      "children": 15,
+      "size": [
+        0.9700000286102295,
+        0.359999997317791,
+        0.5
+      ]
+    },
+    {
+      "id": "router-splitter-duo",
+      "children": 6,
+      "size": [
+        0.8999999761581421,
+        0.6330203927255091,
+        0.5667447809905634
+      ]
+    },
+    {
+      "id": "router-mapper-triple",
+      "children": 10,
+      "size": [
+        1.0199999809265137,
+        0.6330203927255091,
+        0.5667447809905634
+      ]
+    },
+    {
+      "id": "router-matrix-4x4",
+      "children": 14,
+      "size": [
+        1.1399999856948853,
+        0.6330203927255091,
+        0.5667447809905634
+      ]
+    },
+    {
+      "id": "console-midi-mini",
+      "children": 9,
+      "size": [
+        0.8999999761581421,
+        0.19749999828636647,
+        0.5
+      ]
+    },
+    {
+      "id": "console-vj-deck",
+      "children": 12,
+      "size": [
+        1.0199999809265137,
+        0.19749999828636647,
+        0.5
+      ]
+    },
+    {
+      "id": "console-show-control-pro",
+      "children": 15,
+      "size": [
+        1.1399999856948853,
+        0.19749999828636647,
+        0.5
+      ]
+    },
+    {
+      "id": "screen-monitor-24",
+      "children": 4,
+      "size": [
+        1.100000023841858,
+        0.9400000226497649,
+        0.060500000204890964
+      ]
+    },
+    {
+      "id": "screen-monitor-27",
+      "children": 6,
+      "size": [
+        1.100000023841858,
+        0.9650000146776437,
+        0.44999998807907093
+      ]
+    },
+    {
+      "id": "screen-portable-touch",
+      "children": 7,
+      "size": [
+        1.2000000476837158,
+        1.0225000002235174,
+        0.44999998807907093
+      ]
+    },
+    {
+      "id": "bag-messenger-basic",
+      "children": 4,
+      "size": [
+        0.6200000047683716,
+        0.8110000103712082,
+        0.4275000031664967
+      ]
+    },
+    {
+      "id": "bag-vj-backpack",
+      "children": 5,
+      "size": [
+        0.7400000095367432,
+        0.9710000127553939,
+        0.49000000208616257
+      ]
+    },
+    {
+      "id": "bag-road-backpack",
+      "children": 7,
+      "size": [
+        0.8600000143051147,
+        1.1310000151395796,
+        0.49000000208616257
+      ]
+    },
+    {
+      "id": "housing-micro-room",
+      "children": 7,
+      "size": [
+        1.600000023841858,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-econo",
+      "children": 10,
+      "size": [
+        1.6799999475479126,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-loft-small",
+      "children": 13,
+      "size": [
+        1.7599999904632568,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-medium",
+      "children": 13,
+      "size": [
+        1.840000033378601,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-shared-studio",
+      "children": 16,
+      "size": [
+        1.9199999570846558,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-warehouse-room",
+      "children": 17,
+      "size": [
+        2,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-soundproof",
+      "children": 15,
+      "size": [
+        2.0799999237060547,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-luxe",
+      "children": 16,
+      "size": [
+        2.1600000858306885,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-artist-loft",
+      "children": 17,
+      "size": [
+        2.240000009536743,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-penthouse",
+      "children": 15,
+      "size": [
+        2.319999933242798,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "clothing-pin-vj",
+      "children": 2,
+      "size": [
+        0.5,
+        0.5,
+        0.09592324316501623
+      ]
+    },
+    {
+      "id": "clothing-beanie-black",
+      "children": 20,
+      "size": [
+        0.6736892340163135,
+        0.3700000122189522,
+        0.6700000166893005
+      ]
+    },
+    {
+      "id": "clothing-hoodie-vj",
+      "children": 10,
+      "size": [
+        1.2447497062368866,
+        1.2423752546491167,
+        0.35999999955296513
+      ]
+    },
+    {
+      "id": "clothing-jacket-blackout",
+      "children": 9,
+      "size": [
+        1.2447497062368866,
+        1.2423752546491167,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-jacket-reflective",
+      "children": 11,
+      "size": [
+        1.2447497062368866,
+        1.2423752546491167,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-cap-low",
+      "children": 3,
+      "size": [
+        0.6700000166893005,
+        0.3700000122189522,
+        0.7911723704275877
+      ]
+    },
+    {
+      "id": "clothing-pants-cargo",
+      "children": 5,
+      "size": [
+        0.6400000011920929,
+        0.9699999904632568,
+        0.2425000023841858
+      ]
+    },
+    {
+      "id": "clothing-pants-tech",
+      "children": 5,
+      "size": [
+        0.6400000011920929,
+        0.9699999904632568,
+        0.2425000023841858
+      ]
+    },
+    {
+      "id": "clothing-shoes-cyan",
+      "children": 14,
+      "size": [
+        0.8400000143051147,
+        0.38500000163912773,
+        0.7300000190734863
+      ]
+    },
+    {
+      "id": "clothing-shoes-magenta",
+      "children": 14,
+      "size": [
+        0.8400000143051147,
+        0.4100000001490116,
+        0.7300000190734863
+      ]
+    },
+    {
+      "id": "clothing-headphones-basic",
+      "children": 3,
+      "size": [
+        0.8099999952316286,
+        0.7699999809265137,
+        0.25999999046325684
+      ]
+    },
+    {
+      "id": "clothing-headphones-pro",
+      "children": 3,
+      "size": [
+        0.8099999952316286,
+        0.7699999809265137,
+        0.3400000035762787
+      ]
+    },
+    {
+      "id": "clothing-gloves-stage",
+      "children": 12,
+      "size": [
+        0.7799429956988161,
+        0.4150000035762787,
+        0.07500000298023224
+      ]
+    },
+    {
+      "id": "clothing-mask-club",
+      "children": 6,
+      "size": [
+        0.9639999985694885,
+        0.2639999985694885,
+        0.17599999826401472
+      ]
+    },
+    {
+      "id": "clothing-coat-tour",
+      "children": 9,
+      "size": [
+        1.2805101872009914,
+        1.5669999784231186,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-vest-led",
+      "children": 9,
+      "size": [
+        0.8223606753186775,
+        1.1820000058412552,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-full-fit-pro",
+      "children": 13,
+      "size": [
+        1.2447497062368866,
+        1.786999996304512,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clip-starter-loop",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-garage-noise",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-liquid-lines",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psy-grid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-strobe",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-chrome",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-ambient-clouds",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-laser-cave",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-fractal-bloom",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-city-glitch",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-premium-opener",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-festival-rush",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-neon-water",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-black-white",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-retro-crt",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-organic-tunnel",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-gold-show",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-01-signal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-02-laser",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-03-chrome",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-04-liquid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-05-tunnel",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-06-pulse",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-07-prism",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-08-grid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-09-neon",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-10-smoke",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-11-orbit",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-12-fractal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-13-glass",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-14-strobe",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-15-depth",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-16-signal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-17-laser",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-18-chrome",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-19-liquid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-20-tunnel",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-21-pulse",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-22-prism",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-23-grid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-24-neon",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-25-smoke",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-26-orbit",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-27-fractal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-28-glass",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-29-strobe",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-30-depth",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-31-signal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-32-laser",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-33-chrome",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-34-liquid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-35-tunnel",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-36-pulse",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-37-prism",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-38-grid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-39-neon",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-40-smoke",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-41-orbit",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-42-fractal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-43-glass",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-44-strobe",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-45-depth",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-46-signal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-47-laser",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-48-chrome",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-49-liquid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-50-tunnel",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-51-pulse",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-52-prism",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-53-grid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-54-neon",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-55-smoke",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-56-orbit",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-57-fractal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-58-glass",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-59-strobe",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-60-depth",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-61-signal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-62-laser",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-63-chrome",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-64-liquid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-65-tunnel",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-66-pulse",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-67-prism",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-68-grid",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-69-neon",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-70-smoke",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-71-orbit",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-72-fractal",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-73-glass",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-74-strobe",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-75-depth",
+      "children": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    }
+  ],
+  "physicalClicks": 2,
+  "savedWear": true,
+  "fullDesktop": true,
+  "errors": []
+}

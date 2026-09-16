@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "starter laptop VGA + HDMI; VGA projector; stereo pair; two complete power bundles",
+    "airborne placement rejected",
+    "360-degree look and looking up while carrying",
+    "button places on actual floor height",
+    "E places on desktop rather than inside it",
+    "shelf contact and wheel height adjustment",
+    "click closed bag to open, click to pack, unpack same instance",
+    "wall to two power bars to laptop/projector; laptop AUX to passive stereo pair",
+    "projection follows lens direction, screen behind projector stays blank",
+    "power bar switch interrupts projector and beam",
+    "reload preserves placement and wires without duplicating bundles"
+  ],
+  "errors": []
+}

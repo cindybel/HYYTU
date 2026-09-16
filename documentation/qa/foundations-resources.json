@@ -1,0 +1,1161 @@
+{
+  "passed": true,
+  "itemRules": [
+    {
+      "id": "projector-cheap",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 60
+    },
+    {
+      "id": "projector-standard",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 140
+    },
+    {
+      "id": "projector-short-throw",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 227
+    },
+    {
+      "id": "projector-laser-entry",
+      "unlockLevel": 6,
+      "stars": 4,
+      "rentalCost": 253
+    },
+    {
+      "id": "projector-pro-6500",
+      "unlockLevel": 8,
+      "stars": 5,
+      "rentalCost": 483
+    },
+    {
+      "id": "projector-ultra-4k",
+      "unlockLevel": 8,
+      "stars": 5,
+      "rentalCost": 800
+    },
+    {
+      "id": "computer-starter-laptop",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 120
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 287
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 527
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "unlockLevel": 6,
+      "stars": 4,
+      "rentalCost": 660
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "unlockLevel": 8,
+      "stars": 5,
+      "rentalCost": 1200
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 173
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 320
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 587
+    },
+    {
+      "id": "cable-25ft-basic",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 20
+    },
+    {
+      "id": "cable-75ft-active",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 60
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 140
+    },
+    {
+      "id": "cable-loom-3pack-75",
+      "unlockLevel": 6,
+      "stars": 4,
+      "rentalCost": 160
+    },
+    {
+      "id": "cable-loom-3pack-150",
+      "unlockLevel": 8,
+      "stars": 5,
+      "rentalCost": 373
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 15
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 28
+    },
+    {
+      "id": "adapter-dp-hdmi-pro-3pack",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 70
+    },
+    {
+      "id": "adapter-edid-locker",
+      "unlockLevel": 6,
+      "stars": 4,
+      "rentalCost": 87
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 18
+    },
+    {
+      "id": "accessory-wide-lens",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 127
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 180
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "unlockLevel": 6,
+      "stars": 4,
+      "rentalCost": 207
+    },
+    {
+      "id": "accessory-mini-controller",
+      "unlockLevel": 8,
+      "stars": 5,
+      "rentalCost": 150
+    },
+    {
+      "id": "router-splitter-duo",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 87
+    },
+    {
+      "id": "router-mapper-triple",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 240
+    },
+    {
+      "id": "router-matrix-4x4",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 483
+    },
+    {
+      "id": "console-midi-mini",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 93
+    },
+    {
+      "id": "console-vj-deck",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 247
+    },
+    {
+      "id": "console-show-control-pro",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 527
+    },
+    {
+      "id": "screen-monitor-24",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 73
+    },
+    {
+      "id": "screen-monitor-27",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 140
+    },
+    {
+      "id": "screen-portable-touch",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 227
+    },
+    {
+      "id": "bag-messenger-basic",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": 18
+    },
+    {
+      "id": "bag-vj-backpack",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": 60
+    },
+    {
+      "id": "bag-road-backpack",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": 120
+    },
+    {
+      "id": "housing-micro-room",
+      "unlockLevel": 3,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-econo",
+      "unlockLevel": 3,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-loft-small",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-medium",
+      "unlockLevel": 4,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-shared-studio",
+      "unlockLevel": 5,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-warehouse-room",
+      "unlockLevel": 5,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-soundproof",
+      "unlockLevel": 5,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-luxe",
+      "unlockLevel": 6,
+      "stars": 5,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-artist-loft",
+      "unlockLevel": 6,
+      "stars": 5,
+      "rentalCost": null
+    },
+    {
+      "id": "housing-penthouse",
+      "unlockLevel": 6,
+      "stars": 5,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-pin-vj",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-beanie-black",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-hoodie-vj",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-jacket-blackout",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-jacket-reflective",
+      "unlockLevel": 4,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-cap-low",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-pants-cargo",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-pants-tech",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-shoes-cyan",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-shoes-magenta",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-headphones-basic",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-headphones-pro",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-gloves-stage",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-mask-club",
+      "unlockLevel": 4,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-coat-tour",
+      "unlockLevel": 4,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-vest-led",
+      "unlockLevel": 5,
+      "stars": 5,
+      "rentalCost": null
+    },
+    {
+      "id": "clothing-full-fit-pro",
+      "unlockLevel": 5,
+      "stars": 5,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-starter-loop",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-garage-noise",
+      "unlockLevel": 1,
+      "stars": 1,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-liquid-lines",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psy-grid",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-strobe",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-chrome",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-ambient-clouds",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-laser-cave",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-fractal-bloom",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-city-glitch",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-premium-opener",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-festival-rush",
+      "unlockLevel": 4,
+      "stars": 4,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-neon-water",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-black-white",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-retro-crt",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-organic-tunnel",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-gold-show",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-01-signal",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-02-laser",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-03-chrome",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-04-liquid",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-05-tunnel",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-06-pulse",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-07-prism",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-08-grid",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-09-neon",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-10-smoke",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-11-orbit",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-12-fractal",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-13-glass",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-14-strobe",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-techno-15-depth",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-16-signal",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-17-laser",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-18-chrome",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-19-liquid",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-20-tunnel",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-21-pulse",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-22-prism",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-23-grid",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-24-neon",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-25-smoke",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-26-orbit",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-27-fractal",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-28-glass",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-29-strobe",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-hiphop-30-depth",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-31-signal",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-32-laser",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-33-chrome",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-34-liquid",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-35-tunnel",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-36-pulse",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-37-prism",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-38-grid",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-39-neon",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-40-smoke",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-41-orbit",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-42-fractal",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-43-glass",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-44-strobe",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-chill-45-depth",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-46-signal",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-47-laser",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-48-chrome",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-49-liquid",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-50-tunnel",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-51-pulse",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-52-prism",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-53-grid",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-54-neon",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-55-smoke",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-56-orbit",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-57-fractal",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-58-glass",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-59-strobe",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-psytrance-60-depth",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-61-signal",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-62-laser",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-63-chrome",
+      "unlockLevel": 2,
+      "stars": 2,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-64-liquid",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-65-tunnel",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-66-pulse",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-67-prism",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-68-grid",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-69-neon",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-70-smoke",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-71-orbit",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-72-fractal",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-73-glass",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-74-strobe",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    },
+    {
+      "id": "clip-rock-75-depth",
+      "unlockLevel": 3,
+      "stars": 3,
+      "rentalCost": null
+    }
+  ],
+  "rebuildMemory": [
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    },
+    {
+      "geometries": 345,
+      "textures": 20
+    }
+  ]
+}

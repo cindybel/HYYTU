@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "test": "DMTEAM création",
+      "state": {
+        "god": true,
+        "money": 9999999,
+        "items": 159,
+        "total": 159,
+        "skills": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "locked": 0
+      }
+    },
+    {
+      "test": "projecteur hors du mur et posé sur le support",
+      "geometry": {
+        "stageVisible": false,
+        "projectorVisible": true,
+        "bounds": {
+          "min": [
+            2.3699999999999997,
+            1.12,
+            5.946133338562169
+          ],
+          "max": [
+            3.23,
+            1.4544444382057025,
+            6.536666654009879
+          ]
+        },
+        "hint": {
+          "enabled": true,
+          "label": "Tester mon projecteur · E",
+          "hint": "Le projecteur visible correspond à celui équipé."
+        }
+      }
+    },
+    "DMTEAM rechargé : déblocages et argent conservés",
+    "Nom voisin dmteam2 : carrière normale à 75 $"
+  ],
+  "errors": []
+}

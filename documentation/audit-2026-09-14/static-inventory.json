@@ -1,0 +1,361 @@
+{
+  "sources": {
+    "src\\academy.js": {
+      "lines": 99,
+      "bytes": 30695,
+      "sha256": "13e2912475c373fb28bb9ead3f9d82bc6a6a435d1f16d50401fa121fe108f1a4"
+    },
+    "src\\career-runtime.js": {
+      "lines": 74,
+      "bytes": 5441,
+      "sha256": "4effa42289ea19d28d1e1916bad02a56747b92fc75572a3209f1884c2fc0aa81"
+    },
+    "src\\catalog-runtime.js": {
+      "lines": 45,
+      "bytes": 3785,
+      "sha256": "fa597f3e0c4c1d78d0f9516925df76555e955d024af2bf2bc65ef61a36762948"
+    },
+    "src\\characters.js": {
+      "lines": 57,
+      "bytes": 4526,
+      "sha256": "557aa038aef19013eee0a8df11265afbd0daccdf5160841ec00137a897328093"
+    },
+    "src\\club-atmosphere.js": {
+      "lines": 9,
+      "bytes": 972,
+      "sha256": "2b86c718d0c22d3f5e281e6149b24bac6160b0075c21189a11c3c1dac9317b39"
+    },
+    "src\\desktop.ini": {
+      "lines": 2,
+      "bytes": 264,
+      "sha256": "5f693350126961abbf0fa15c966175874e620296f985536a3402717d48021341"
+    },
+    "src\\field-school.js": {
+      "lines": 24,
+      "bytes": 10769,
+      "sha256": "98c5a0c45bc8e277ec0ed7f1f5061a6b1495a549f8d7059f84cc5985249c82ad"
+    },
+    "src\\human-wardrobe.js": {
+      "lines": 40,
+      "bytes": 8304,
+      "sha256": "605e91ec582f22da6e3522436a96b827aeb2d7e9342727cccf7094901b3fd4d9"
+    },
+    "src\\live-show.js": {
+      "lines": 172,
+      "bytes": 16796,
+      "sha256": "04272ba728ab72c4235b8dddca2497a40215262a62763884be26ea5322b00fc2"
+    },
+    "src\\live-soundtrack.js": {
+      "lines": 9,
+      "bytes": 1961,
+      "sha256": "886e3c9f2a04fb0b6127139634d26a1b8d9b64721469b647d4ff9c45220fc6be"
+    },
+    "src\\main.js": {
+      "lines": 8627,
+      "bytes": 376349,
+      "sha256": "c9fc0a24fa347926a72462b5deb3ac09109bf713a0fb93a14f3a7d676cdddb08"
+    },
+    "src\\room-stage.js": {
+      "lines": 28,
+      "bytes": 3027,
+      "sha256": "7425288ff0b98b28d5645df5b6b18b399e7e4f9e06782007810e29684f400ffe"
+    },
+    "src\\simple-booking.js": {
+      "lines": 29,
+      "bytes": 5283,
+      "sha256": "50689059cc2812e79365558a650e8d7fe54b2608433074e9354a19b3e5185899"
+    },
+    "src\\studio-entry.js": {
+      "lines": 10,
+      "bytes": 527,
+      "sha256": "5786b66819cf3ad08f7ac1fdd163cde280eb90424ed6b859d8d9dfb8558bfb48"
+    },
+    "src\\studio-journey.js": {
+      "lines": 23,
+      "bytes": 4845,
+      "sha256": "eab70febbe9354062421d5bea134d106eb840ca7a050e8d271bbdb2e96bdd429"
+    },
+    "src\\studio-set.js": {
+      "lines": 27,
+      "bytes": 3006,
+      "sha256": "311207bc85420a4d6cd26204f7f00020216523f20db96a9ea69f04b2316d32e8"
+    },
+    "src\\studio-world.js": {
+      "lines": 34,
+      "bytes": 7935,
+      "sha256": "43a04dedadf5f5fc0614852b110a5731c9608387c2bdb01fb6cd7ee8f22362a9"
+    },
+    "src\\styles.css": {
+      "lines": 5697,
+      "bytes": 160801,
+      "sha256": "2e98d5e6875652140f7fbbc3fd013f9bf1a133e9a7f378ccda3162b9662c4366"
+    },
+    "index.html": {
+      "lines": 387,
+      "bytes": 21550,
+      "sha256": "bd48bded15fa46a9b1f9e709ecf7544ea6dc9de7e7d6694bc5de45dc22e19bcf"
+    },
+    "package.json": {
+      "lines": 7,
+      "bytes": 127,
+      "sha256": "79b2603caeb520d01c5f7e3bec1ab2d5a8fb197d1da7e207505a77742375464a"
+    }
+  },
+  "assets": [
+    {
+      "path": "assets\\desktop.ini",
+      "bytes": 264
+    },
+    {
+      "path": "assets\\vj-clip.png",
+      "bytes": 2944003
+    },
+    {
+      "path": "assets\\vj-loop-5s.mp4",
+      "bytes": 1171920
+    },
+    {
+      "path": "assets\\characters\\eli\\eli.blend",
+      "bytes": 9988820
+    },
+    {
+      "path": "assets\\characters\\eli\\eli.blend1",
+      "bytes": 9890476
+    },
+    {
+      "path": "assets\\characters\\eli\\eli.glb",
+      "bytes": 15516356
+    },
+    {
+      "path": "assets\\characters\\eli\\m007_body_color.png",
+      "bytes": 7007566
+    },
+    {
+      "path": "assets\\characters\\eli\\m007_body_normal.png",
+      "bytes": 1520004
+    },
+    {
+      "path": "assets\\characters\\eli\\m007_head_color.png",
+      "bytes": 5052821
+    },
+    {
+      "path": "assets\\characters\\eli\\m007_head_normal.png",
+      "bytes": 1051056
+    },
+    {
+      "path": "assets\\characters\\eli\\portrait.png",
+      "bytes": 671774
+    },
+    {
+      "path": "assets\\characters\\nova\\f012_body_color.png",
+      "bytes": 5398423
+    },
+    {
+      "path": "assets\\characters\\nova\\f012_body_normal.png",
+      "bytes": 1487089
+    },
+    {
+      "path": "assets\\characters\\nova\\f012_head_color.png",
+      "bytes": 6052197
+    },
+    {
+      "path": "assets\\characters\\nova\\f012_head_normal.png",
+      "bytes": 1296416
+    },
+    {
+      "path": "assets\\characters\\nova\\f012_opacity_color.png",
+      "bytes": 4733605
+    },
+    {
+      "path": "assets\\characters\\nova\\nova.blend",
+      "bytes": 10337492
+    },
+    {
+      "path": "assets\\characters\\nova\\nova.blend1",
+      "bytes": 10239148
+    },
+    {
+      "path": "assets\\characters\\nova\\nova.glb",
+      "bytes": 20054292
+    },
+    {
+      "path": "assets\\characters\\nova\\portrait.png",
+      "bytes": 554196
+    },
+    {
+      "path": "assets\\characters\\sam\\m022_body_color.png",
+      "bytes": 5692525
+    },
+    {
+      "path": "assets\\characters\\sam\\m022_body_normal.png",
+      "bytes": 1445565
+    },
+    {
+      "path": "assets\\characters\\sam\\m022_head_color.png",
+      "bytes": 5344825
+    },
+    {
+      "path": "assets\\characters\\sam\\m022_head_normal.png",
+      "bytes": 1495428
+    },
+    {
+      "path": "assets\\characters\\sam\\portrait.png",
+      "bytes": 589485
+    },
+    {
+      "path": "assets\\characters\\sam\\sam.blend",
+      "bytes": 10040264
+    },
+    {
+      "path": "assets\\characters\\sam\\sam.blend1",
+      "bytes": 9941920
+    },
+    {
+      "path": "assets\\characters\\sam\\sam.glb",
+      "bytes": 14908052
+    },
+    {
+      "path": "assets\\licenses\\rocketbox-LICENSE.md",
+      "bytes": 1066
+    },
+    {
+      "path": "assets\\licenses\\three-LICENSE.txt",
+      "bytes": 1081
+    },
+    {
+      "path": "assets\\vendor\\three-v150.js",
+      "bytes": 650721
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Animations\\all_animations_max_motextr_static\\f_idle_breathe_01.max.fbx",
+      "bytes": 1379504
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Animations\\all_animations_max_motextr_static\\m_idle_breathe_01.max.fbx",
+      "bytes": 1397280
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Female_Adult_12\\Export\\Female_Adult_12_facial.fbx",
+      "bytes": 2192768
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Female_Adult_12\\Textures\\f012_body_color.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Female_Adult_12\\Textures\\f012_body_normal.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Female_Adult_12\\Textures\\f012_head_color.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Female_Adult_12\\Textures\\f012_head_normal.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Female_Adult_12\\Textures\\f012_opacity_color.tga",
+      "bytes": 16777260
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Export\\Male_Adult_12_facial.fbx",
+      "bytes": 1772832
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_body_color.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_body_normal.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_head_color.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_head_normal.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Export\\Male_Adult_17_facial.fbx",
+      "bytes": 1821648
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_body_color.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_body_normal.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_head_color.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "assets-source\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_head_normal.tga",
+      "bytes": 12582956
+    },
+    {
+      "path": "video\\desktop.ini",
+      "bytes": 264
+    },
+    {
+      "path": "video\\vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4",
+      "bytes": 16161289
+    },
+    {
+      "path": "video\\vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4",
+      "bytes": 16172055
+    },
+    {
+      "path": "video\\vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4",
+      "bytes": 37184652
+    },
+    {
+      "path": "image\\7e95e574-d957-43b5-87b9-ea7193e894b6.png",
+      "bytes": 1622010
+    },
+    {
+      "path": "image\\desktop.ini",
+      "bytes": 264
+    },
+    {
+      "path": "image\\ee5bea38-f7a7-4313-9c20-1025dba65ed1.png",
+      "bytes": 1842087
+    }
+  ],
+  "models": [
+    {
+      "path": "assets\\characters\\eli\\eli.glb",
+      "meshes": 1,
+      "materials": 5,
+      "animations": [
+        "Animation"
+      ],
+      "skins": 1
+    },
+    {
+      "path": "assets\\characters\\nova\\nova.glb",
+      "meshes": 1,
+      "materials": 6,
+      "animations": [
+        "Animation"
+      ],
+      "skins": 1
+    },
+    {
+      "path": "assets\\characters\\sam\\sam.glb",
+      "meshes": 1,
+      "materials": 5,
+      "animations": [
+        "Animation"
+      ],
+      "skins": 1
+    }
+  ],
+  "functions": 351,
+  "duplicateMainFunctions": {}
+}

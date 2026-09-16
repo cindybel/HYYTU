@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "name": "initial",
+      "r": {
+        "x": 64,
+        "y": 66,
+        "width": 680,
+        "height": 520
+      },
+      "s": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "drag-2500",
+      "r": {
+        "x": 584,
+        "y": 284,
+        "width": 680,
+        "height": 520
+      },
+      "s": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "drag--500",
+      "r": {
+        "x": 8,
+        "y": 48,
+        "width": 680,
+        "height": 520
+      },
+      "s": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "maximized",
+      "r": {
+        "x": 8,
+        "y": 48,
+        "width": 1248,
+        "height": 748
+      },
+      "s": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "restored",
+      "r": {
+        "x": 8,
+        "y": 48,
+        "width": 680,
+        "height": 520
+      },
+      "s": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "reopened from taskbar",
+      "r": {
+        "x": 8,
+        "y": 48,
+        "width": 680,
+        "height": 520
+      },
+      "s": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "small viewport",
+      "r": {
+        "x": 18,
+        "y": 50,
+        "width": 360,
+        "height": 520
+      },
+      "s": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "small maximize",
+      "r": {
+        "x": 8,
+        "y": 48,
+        "width": 360,
+        "height": 692
+      },
+      "s": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "small restore",
+      "r": {
+        "x": 8,
+        "y": 48,
+        "width": 360,
+        "height": 520
+      },
+      "s": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "errors": []
+}

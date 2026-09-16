@@ -1,0 +1,611 @@
+{
+  "performance": {
+    "seconds": 10.00129999999404,
+    "frames": 600,
+    "averageFps": 59.992201013903944,
+    "p95ms": 16.900000000000546,
+    "over50ms": 0,
+    "renderer": {
+      "frame": 645,
+      "calls": 399,
+      "triangles": 9782,
+      "points": 0,
+      "lines": 0
+    },
+    "memory": {
+      "geometries": 386,
+      "textures": 23
+    },
+    "pixelRatio": 1,
+    "hardware": 24
+  },
+  "screens": [
+    {
+      "app": "calendar",
+      "title": "Ton prochain show",
+      "text": "Ton prochain show\n\nChoisis une scène. Prépare ton mix. À toi de jouer.\n\nRetour au bureau\n×\n—\n□\nChoisir\nPréparer\nJouer\nDébloquer\nPOUR TOI\nParty Garage\n\nGarage de quartier · Techno\n\nCadrer un écran et accompagner la musique\n\nCachet prévu 364 $\n1 projecteur\n\nChoisis ton setup, puis entre en scène.\n\nPréparer ce show →\nBrief et frais\nAUTRE AMBIANCE\nRush Setup\n\nBar rush · HipHop\n\nCadrer un écran et accompagner la musique\n\nCachet prévu 591 $\n1 projecteur\n\nChoisis ton setup, puis entre en scène.\n\nPréparer ce show →\nBrief et frais\nCréer librement · sans frais\nS’entraîner à un geste\nGestion détaillée · optionnelle\nChaque show se lance quand tu es prête. Le temps du monde avance ; les contrats attendent ton départ.",
+      "buttons": [
+        {
+          "text": "Retour au bureau",
+          "disabled": false
+        },
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Préparer ce show →",
+          "disabled": false
+        },
+        {
+          "text": "Préparer ce show →",
+          "disabled": false
+        },
+        {
+          "text": "Créer librement · sans frais",
+          "disabled": false
+        },
+        {
+          "text": "S’entraîner à un geste",
+          "disabled": false
+        },
+        {
+          "text": "Gestion détaillée · optionnelle",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 734,
+      "clientHeight": 678
+    },
+    {
+      "app": "guide",
+      "title": "Guide du VJ",
+      "text": "Guide du VJ\n\nTout le fonctionnement du jeu est ici: moins de texte partout, plus d infos quand tu en as besoin.\n\n×\n—\n□\nDepart\nJournee\nBooking\nGear\nInventaire\nGig 3D\nScore\nSkills\nShop\nPrerequis gigs\nVJOS MANUEL\nBut du jeu\n\nCréer des shows, apprendre les gestes du VJ et découvrir de nouvelles scènes.\n\n01\n\nTu commences avec peu d argent, un setup simple et des petits contrats.\n\n02\n\nDepuis ton studio, pratique librement ou prépare un contrat à l’ordinateur. Le temps avance naturellement ; les shows se lancent quand tu pars.\n\n03\n\nLes gigs demandent du materiel, des VJ loops, des skills et une bonne preparation.\n\n04\n\nPlus tu reussis, plus tu gagnes argent, reputation, XP, hype et acces a de meilleurs contrats.\n\nConseil VJ\n\nCommence par accepter les petits gigs, acheter du gear utile et garder ta fatigue basse.",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Depart",
+          "disabled": false
+        },
+        {
+          "text": "Journee",
+          "disabled": false
+        },
+        {
+          "text": "Booking",
+          "disabled": false
+        },
+        {
+          "text": "Gear",
+          "disabled": false
+        },
+        {
+          "text": "Inventaire",
+          "disabled": false
+        },
+        {
+          "text": "Gig 3D",
+          "disabled": false
+        },
+        {
+          "text": "Score",
+          "disabled": false
+        },
+        {
+          "text": "Skills",
+          "disabled": false
+        },
+        {
+          "text": "Shop",
+          "disabled": false
+        },
+        {
+          "text": "Prerequis gigs",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 708,
+      "clientHeight": 678
+    },
+    {
+      "app": "phone",
+      "title": "Contacts",
+      "text": "Contacts\n\nPromoters, clients, DM et petites histoires de scene.\n\n×\n—\n□\nHype VJ\nUnderground\n0\nCorporate\n0\nArtistique\n0\nPresence\n0\nFestival\n0\nMessages\n\nAucun contact actif pour le moment. Les histoires arrivent avec les gigs.\n\nStories\nSetup\nBackstage\nClips",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 678,
+      "clientHeight": 678
+    },
+    {
+      "app": "email",
+      "title": "Email",
+      "text": "Email\n\nInbox VJ Mail. Clique un message pour le lire, puis reponds aux offres importantes.\n\n×\n—\n□\nNouveau\nInbox\nClients\nFinance\nArchives\nMaman\nTon garage est pret\nJour 1\nMaman\nTon garage est pret\n\nJour 1\n\nVJ Audit isolé, ton setup cheap est dans le garage. Ouvre Booking pour trouver ton premier petit gig.",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Nouveau",
+          "disabled": true
+        },
+        {
+          "text": "Maman\nTon garage est pret\nJour 1",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 716,
+      "clientHeight": 678
+    },
+    {
+      "app": "social",
+      "title": "Ton prochain show",
+      "text": "Ton prochain show\n\nChoisis une scène. Prépare ton mix. À toi de jouer.\n\nRetour au bureau\n×\n—\n□\nChoisir\nPréparer\nJouer\nDébloquer\nPOUR TOI\nParty Garage\n\nGarage de quartier · Techno\n\nCadrer un écran et accompagner la musique\n\nCachet prévu 364 $\n1 projecteur\n\nChoisis ton setup, puis entre en scène.\n\nPréparer ce show →\nBrief et frais\nAUTRE AMBIANCE\nRush Setup\n\nBar rush · HipHop\n\nCadrer un écran et accompagner la musique\n\nCachet prévu 591 $\n1 projecteur\n\nChoisis ton setup, puis entre en scène.\n\nPréparer ce show →\nBrief et frais\nCréer librement · sans frais\nS’entraîner à un geste\nGestion détaillée · optionnelle\nChaque show se lance quand tu es prête. Le temps du monde avance ; les contrats attendent ton départ.",
+      "buttons": [
+        {
+          "text": "Retour au bureau",
+          "disabled": false
+        },
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Préparer ce show →",
+          "disabled": false
+        },
+        {
+          "text": "Préparer ce show →",
+          "disabled": false
+        },
+        {
+          "text": "Créer librement · sans frais",
+          "disabled": false
+        },
+        {
+          "text": "S’entraîner à un geste",
+          "disabled": false
+        },
+        {
+          "text": "Gestion détaillée · optionnelle",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 734,
+      "clientHeight": 678
+    },
+    {
+      "app": "transport",
+      "title": "Uver",
+      "text": "Uver\n\nTransport pour tes projecteurs, fils, ordinateur et controleurs avant un show.\n\nU\n×\n—\n□\nAucun show reserve\n\nPostule dans Booking. Quand un client accepte, Uver calcule automatiquement le prix selon la quantite de gear.\n\nOuvrir Booking",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Ouvrir Booking",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 678,
+      "clientHeight": 678
+    },
+    {
+      "app": "music",
+      "title": "Music Player",
+      "text": "Music Player\n\nLecteur local pour tester une vibe pendant que tu geres ta carriere.\n\nBATTERIE\n100%\n×\n—\n□\nTRACK\nAucune track\nPrev\nPlay\nPause\nStop\nNext\nVolume\nPlaylist\n0 tracks\n\nAjoute plusieurs fichiers audio pour construire une playlist.",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Prev",
+          "disabled": false
+        },
+        {
+          "text": "Play",
+          "disabled": false
+        },
+        {
+          "text": "Pause",
+          "disabled": false
+        },
+        {
+          "text": "Stop",
+          "disabled": false
+        },
+        {
+          "text": "Next",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 700,
+      "clientHeight": 678
+    },
+    {
+      "app": "stats",
+      "title": "Stats",
+      "text": "Stats\n\nChaque jauge influence un calcul reel: score, argent, reputation ou opportunites.\n\n×\n—\n□\nCreativite\n\n100/100 - + score artistique\n\nTechnique\n\n0/100 - reduit les erreurs\n\nFatigue\n\n0/100 - penalise tout\n\nReputation\n\n0/100 - debloque gigs et paiement\n\nStyle\n\n0/100 - acces gigs et booking\n\nReseau\n\n0/100 - opportunites et invitations\n\nJobine\n\n0/100 - 0 jours travailles. Salaire 120$ / jour. +10$ dans 20 jours.\n\nXP / Niveau\n\nNiveau 1 - 0/100 XP\n\nProjection score\n35%\n★\n★\n★\n★\n★\n1/5\nTechnique\n40%\nArtistique\n35%\nProfessionnel\n25%\n\nLe score monte avec un mapping propre, les bons loops, du gear stable et peu de fatigue.\n\nStyles musicaux\n\nTECHNO niveau 0/10 | 1 pack\n\nHIPHOP niveau 0/10 | 0 pack\n\nCHILL niveau 0/10 | 0 pack\n\nPSYTRANCE niveau 0/10 | 0 pack\n\nROCK niveau 0/10 | 0 pack\n\nLogement\n\nChez tes parents - garage - loyer 0$\n\nConfort 2/30. Le loyer est traite le 1er du mois.",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 946,
+      "clientHeight": 678
+    },
+    {
+      "app": "inventory",
+      "title": "Inventaire",
+      "text": "Inventaire\n\nTon stock reel: gear, fils, adaptateurs, loops et vetements. Les items stackables peuvent etre achetes plusieurs fois.\n\n×\n—\n□\n4\ntypes gear\n1\nfils\n0\nadaptateurs\n1\npacks VJ\n0\nvetements\nGear possede\n4\nBS\nBinq StarterBeam 2200 \n★\n★\n★\n★\n★\n1/5\n projector | quantite 1 | Equipped\n1 capacité matérielle\nGarde au moins 1 pour ton setup\nLF\nLenovox FieldPad iGPU \n★\n★\n★\n★\n★\n1/5\n computer | Equipped\n2 capacité matérielle\nGarde au moins 1 pour ton setup\nKH\nKramark HDMI Run 25 \n★\n★\n★\n★\n★\n1/5\n cable | quantite 1 | Equipped\n1 capacité matérielle\nGarde au moins 1 pour ton setup\nRM\nRoadVault Messenger 12 \n★\n★\n★\n★\n★\n1/5\n bag | Equipped\n1 capacité matérielle\nGarde au moins 1 pour ton setup\nVJ loops\n1\nTECHNO\n1\npacks\nHIPHOP\n0\npacks\nCHILL\n0\npacks\nPSYTRANCE\n0\npacks\nROCK\n0\npacks\nTenue portée · bonus actifs\n\nTenue de départ, sans bonus acheté.\n\nVetements\n0\n\nAucun vetement achete encore.",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 977,
+      "clientHeight": 678
+    },
+    {
+      "app": "finance",
+      "title": "Finance",
+      "text": "Finance\n\nArgent, loyer, jobine et revenus de gigs. Le loyer est gere ici, pas dans le calendrier.\n\nSOLDE\n75$\n×\n—\n□\nCOMPTE VJ\n75$\n\nNiveau 1 | Reputation 0 | Dette 0$\n\nREVENUS\n0$\n\nCe mois. Carriere gigs: 0$.\n\nDEPENSES\n0$\n\nCe mois: achats, Uver, loyer et paiements de dettes.\n\nPAIEMENTS A VENIR\n0$\n\nAucun contrat confirme.\n\nBanque VJ\n\nMaximum 3 prets actifs, un seul de chaque type. Les paiements minimums sortent le 1er du mois.\n\n300$\n8% | min 35$\nMicro pret - disponible\n800$\n12% | min 85$\nGear bridge - disponible\n1600$\n18% | min 170$\nStudio credit - disponible\n\nAucun pret actif.\n\nContrats en cours\n\nAucun contrat accepte pour le moment.\n\nPlanification\nLoyer prevu\n-0$\nJour 1\nGigs termines\n0\nTotal carriere\nSalaire jobine\n120$\nAction quotidienne\nDettes\n-0$\nminimum 0$\nProjection mois\n+0$\nrevenus - depenses - dettes\nSolde projete\n75$\nsi tout passe ce mois\nCalcul du mois\nSolde actuel\n75$\ncompte VJ\n+ Revenus faits\n+0$\njobine, gigs, revente, prets\n- Depenses faites\n-0$\nshop, Uver, repos, paiements\n- Loyer prevu\n-0$\njour 1\n- Minimum dettes\n-0$\n0/3 prets actifs\nTotal mensuel\n+0$\nprojection claire\nActivite du mois\n\nAucune transaction ce mois.",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "300$\n8% | min 35$\nMicro pret - disponible",
+          "disabled": false
+        },
+        {
+          "text": "800$\n12% | min 85$\nGear bridge - disponible",
+          "disabled": false
+        },
+        {
+          "text": "1600$\n18% | min 170$\nStudio credit - disponible",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 969,
+      "clientHeight": 678
+    },
+    {
+      "app": "settings",
+      "title": "Réglages de jeu",
+      "text": "Réglages de jeu\n\nLes réglages s’appliquent à ce profil et sont sauvegardés.\n\n×\n—\n□\nLangue\nFrançais\nEnglish (traduction partielle)\nMusique 70 %\nQualité graphique\nÉquilibré\nPerformance · sans ombres\nQualité · résolution maximale\nSensibilité de la caméra 100 %\nMouvements réduits\nVisuels fixes + fondus\n\nRemplace l’animation des loops par des images fixes pour réduire les flashs.\nVolume des boutons 35 %\nSons discrets des boutons\nSauvegarder maintenant",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Sauvegarder maintenant",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 929,
+      "clientHeight": 678
+    },
+    {
+      "app": "skills",
+      "title": "Competences",
+      "text": "Competences\n\nChaque nouvelle difficulte doit etre apprise. Les skills ont 3 niveaux et debloquent les gigs plus exigeants.\n\nBUDGET\n75$\n×\n—\n□\nCablage propre\n\nLire les distances, eviter la surtension et gerer les fils au sol.\n\nNiveau 0/3\nPratique 0/2\nProchain 0$\nApprendre gratuit\nPratique gratuite\nMapping trapeze\n\nCorriger angles, trapeze et profondeur quand le rack est mal place.\n\nNiveau 0/3\nPratique 0/2\nProchain 120$\nApprendre 120$\nPratique gratuite\nMulti-projecteurs\n\nBoites, matrix, sorties HDMI/DisplayPort et synchronisation.\n\nNiveau 0/3\nPratique 0/2\nProchain 220$\nApprendre 220$\nPratique gratuite\nPression live\n\nRester efficace quand le client impose une limite de temps.\n\nNiveau 0/3\nPratique 0/2\nProchain 180$\nApprendre 180$\nPratique gratuite\nPlume contour\n\nDelimitation des formes, ecrans ronds et masques propres.\n\nNiveau 0/3\nPratique 0/2\nProchain 260$\nApprendre 260$\nPratique gratuite",
+      "buttons": [
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Apprendre gratuit",
+          "disabled": false
+        },
+        {
+          "text": "Pratique gratuite",
+          "disabled": false
+        },
+        {
+          "text": "Apprendre 120$",
+          "disabled": true
+        },
+        {
+          "text": "Pratique gratuite",
+          "disabled": false
+        },
+        {
+          "text": "Apprendre 220$",
+          "disabled": true
+        },
+        {
+          "text": "Pratique gratuite",
+          "disabled": false
+        },
+        {
+          "text": "Apprendre 180$",
+          "disabled": true
+        },
+        {
+          "text": "Pratique gratuite",
+          "disabled": false
+        },
+        {
+          "text": "Apprendre 260$",
+          "disabled": true
+        },
+        {
+          "text": "Pratique gratuite",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 890,
+      "clientHeight": 678
+    },
+    {
+      "app": "shop",
+      "title": "Equipe ta carriere comme un vrai artiste de scene.",
+      "text": "Atazone\nVJ GEAR MARKET\nGear\nTous les departements\nRecherche dans Tous les departements\nBUDGET\n75$\n×\n—\n□\nGear\nVJ Loop\nVetements\n40 articles\nGEAR\nENTRER GEAR\n92 articles\nVJ LOOP\nVOIR LOOPS\n17 articles\nVETEMENTS\nOUVRIR PERSO 3D",
+      "buttons": [
+        {
+          "text": "Gear",
+          "disabled": false
+        },
+        {
+          "text": "×",
+          "disabled": false
+        },
+        {
+          "text": "—",
+          "disabled": false
+        },
+        {
+          "text": "□",
+          "disabled": false
+        },
+        {
+          "text": "Gear",
+          "disabled": false
+        },
+        {
+          "text": "VJ Loop",
+          "disabled": false
+        },
+        {
+          "text": "Vetements",
+          "disabled": false
+        },
+        {
+          "text": "Voir le gear",
+          "disabled": false
+        },
+        {
+          "text": "VJ Loop",
+          "disabled": false
+        },
+        {
+          "text": "Cabine vÃªtements",
+          "disabled": false
+        },
+        {
+          "text": "40 articles\nGEAR\nENTRER GEAR",
+          "disabled": false
+        },
+        {
+          "text": "92 articles\nVJ LOOP\nVOIR LOOPS",
+          "disabled": false
+        },
+        {
+          "text": "17 articles\nVETEMENTS\nOUVRIR PERSO 3D",
+          "disabled": false
+        }
+      ],
+      "scrollHeight": 678,
+      "clientHeight": 678
+    }
+  ],
+  "setup": {
+    "text": "BRIEF DU CONTRAT\nParty Garage - Garage de quartier\n\nPrépare ton intervention : brief, contenu, signal vidéo et logistique. Vérifie tes frais avant de partir.\n\nRetour\n01 Préproduction\n02 Installation & mapping\n03 Prestation & bilan\nCACHET ANNONCÉ\n364$\nAvant frais · paiement selon résultat\nDIRECTION VISUELLE\nTechno\n1 sortie de projection\nFENÊTRE DE MONTAGE\nSans chrono\nDurée de jeu, pas une durée réelle\nBrief client\n\nBase projection: aucune. 1 rectangle, 1 projecteur.\n\nUver transport\n40$\n\nUver Compact: 1 projo, 1 fil, 1 pack VJ et accessoires.\n\nClient chill\nFacile a convaincre, paie moins, pardonne les petits defauts.\nBRIEF CLIENT\nGig 1 - Base projection\n1 rectangle (rectangle)\nContrainte: aucune\nObjectif client 82%\nmateriel prete par le client: aucun bonus gear\nOBLIGATOIRE POUR ENTRER\nNiveau 1\nReputation/reseau 0+\n1 pack Techno\nProjecteur: Binq StarterBeam 2200 ou mieux\nOrdinateur: Lenovox FieldPad iGPU ou mieux\nFils video: Kramark HDMI Run 25 ou mieux\nSac: RoadVault Messenger 12 ou mieux\nCONSEILLE POUR MIEUX SCORER\nLouer un palier superieur si budget OK\nPriorité avant le départ\n\nUne préparation ciblée. Son effet est appliqué au départ, puis au bilan.\n\nTRAVAIL DE PRÉPRODUCTION\nPreparer loops\nTester gear\nPlan projection\nSe reposer\nRelance client\n\n+ artistique: meilleure vibe et transitions. Fatigue : +4.\n\nRepères métier\n\nConfirmer le format des surfaces et les horaires avec la régie. Prévoir une mire, tester les sorties vidéo et garder un visuel de secours. Le jeu simule ici la préparation et le mapping.\n\nMon setup pour ce gig\n\nUtilise ton stock, loue du gear plus fort quand le client l'autorise, ou va acheter dans Atazone.\n\nShop\nProjecteur\n1 unite necessaire - modele exige/recommande\nUtiliser mon Binq StarterBeam 2200 - 0$\nLouer Epsun EB-Lo 4200 3LCD - 140$\nLouer Optomix ShortCast ST-4 - 227$\nLouer Panasound PT-Rave LZ320 - 253$\nLouer Christalux Boxer Mini 6500 - 483$\nLouer Barq UDMini 4K Laser - 800$\nOrdinateur\n1 unite necessaire - modele exige/recommande\nUtiliser mon Lenovox FieldPad iGPU - 0$\nLouer M-Synth StageMini GTX 1 HDMI - 287$\nLouer Azus ProArtish RTX 2 sorties - 527$\nLouer Raytrix Tower 4060 DP3 - 660$\nLouer Raytrix Tower 4080 Show DP3 - 1200$\nFils video\n1 unite necessaire - modele exige/recommande\nUtiliser mon Kramark HDMI Run 25 - 0$\nLouer Kramark ActiveRun 75 - 60$\nLouer Kramark FiberRun 150 - 140$\nLouer LiteWire Trio Loom 75 - 160$\nLouer LiteWire Fiber Trio 150 - 373$\nSac de transport\n1 unite necessaire - modele exige/recommande\nUtiliser mon RoadVault Messenger 12 - 0$\nLouer RoadVault VJ Pack 32 - 60$\nLouer RoadVault Flight Backpack - 120$\nVJ loops Techno\n1/1 possede. Les loops ne sont jamais en location.\nUtiliser mes packs Techno x1 - 0$\nGear auto: 0$\nTransport Uver: 40$\nFrais au départ : 40$\nTrésorerie restante : 35$\nMarge si cachet payé à 100 % : 324$\nSetup correct\nValider le setup et partir",
+    "loadout": {
+      "selected": {
+        "prep": {
+          "source": "choice",
+          "slug": "loops",
+          "quantity": 1,
+          "rentCount": 0,
+          "cost": 0,
+          "label": "Preparer loops",
+          "scoreBonus": 0,
+          "bonus": {
+            "artistic": 8
+          }
+        },
+        "projector": {
+          "source": "owned",
+          "slug": "cheap",
+          "quantity": 1,
+          "rentCount": 0,
+          "cost": 0,
+          "label": "Binq StarterBeam 2200",
+          "scoreBonus": 1
+        },
+        "computer": {
+          "source": "owned",
+          "slug": "starter-laptop",
+          "quantity": 1,
+          "rentCount": 0,
+          "cost": 0,
+          "label": "Lenovox FieldPad iGPU",
+          "scoreBonus": 2
+        },
+        "cable": {
+          "source": "owned",
+          "slug": "25ft-basic",
+          "quantity": 1,
+          "rentCount": 0,
+          "cost": 0,
+          "label": "Kramark HDMI Run 25",
+          "scoreBonus": 1
+        },
+        "bag": {
+          "source": "owned",
+          "slug": "messenger-basic",
+          "quantity": 1,
+          "rentCount": 0,
+          "cost": 0,
+          "label": "RoadVault Messenger 12",
+          "scoreBonus": 1
+        },
+        "vjloop": {
+          "source": "owned",
+          "slug": "techno",
+          "style": "techno",
+          "quantity": 1,
+          "rentCount": 0,
+          "cost": 0,
+          "label": "Packs techno",
+          "scoreBonus": 2
+        }
+      },
+      "labels": [
+        "Prep: Preparer loops",
+        "Binq StarterBeam 2200",
+        "Lenovox FieldPad iGPU",
+        "Kramark HDMI Run 25",
+        "RoadVault Messenger 12",
+        "Mes packs Techno x1"
+      ],
+      "rentalCost": 0,
+      "transportCost": 40,
+      "transport": {
+        "cost": 40,
+        "units": 3.1,
+        "vehicle": "Uver Compact",
+        "label": "Uver Compact: 1 projo, 1 fil, 1 pack VJ et accessoires."
+      },
+      "totalCost": 40,
+      "scoreBonus": 9,
+      "qualityLabel": "Setup correct",
+      "extraRentals": []
+    }
+  },
+  "scoreProbe": {
+    "pack": "clip-starter-loop",
+    "before": {
+      "score": 85,
+      "artistic": 84
+    },
+    "after": {
+      "score": 87,
+      "artistic": 89
+    },
+    "liveSources": 3
+  },
+  "errors": []
+}

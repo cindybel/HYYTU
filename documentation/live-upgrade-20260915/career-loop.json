@@ -1,0 +1,92 @@
+{
+  "balanceBefore": 368,
+  "purchased": {
+    "balance": 88,
+    "owned": true,
+    "gear": "standard",
+    "level": 2
+  },
+  "final": {
+    "money": 620,
+    "day": 8,
+    "sessions": 2,
+    "level": 3,
+    "gear": "standard",
+    "relations": {
+      "venue:Garage de quartier": {
+        "trust": 2,
+        "shows": 1,
+        "successful": 1,
+        "events": [
+          "gig-01-party-garage:1"
+        ],
+        "lastFeedback": "Tu as livré le brief. Je te reprends volontiers : +10 % sur une prochaine offre tant que notre confiance reste au moins à 2/10. Une recommandation t’attend dans Email : Neon Wall.",
+        "referred": "gig-02-neon-wall"
+      },
+      "venue:Mur neon local": {
+        "trust": 2,
+        "shows": 1,
+        "successful": 1,
+        "events": [
+          "gig-02-neon-wall:1"
+        ],
+        "lastFeedback": "Tu as livré le brief. Je te reprends volontiers : +10 % sur une prochaine offre tant que notre confiance reste au moins à 2/10. Une recommandation t’attend dans Email : Rush Setup.",
+        "referred": "gig-03-rush-setup"
+      }
+    },
+    "bank": [
+      {
+        "reference": "SIG-000001",
+        "day": 5,
+        "time": "06:00",
+        "amount": -40,
+        "label": "Transport · Party Garage",
+        "counterparty": "Uver",
+        "status": "completed",
+        "balanceAfter": 35
+      },
+      {
+        "reference": "SIG-000002",
+        "day": 5,
+        "time": "06:12",
+        "amount": 333,
+        "label": "Cachet · Party Garage",
+        "counterparty": "Garage de quartier",
+        "status": "completed",
+        "balanceAfter": 368
+      },
+      {
+        "reference": "SIG-000003",
+        "day": 5,
+        "time": "06:12",
+        "amount": -280,
+        "label": "Achat Epsun EB-Lo 4200 3LCD",
+        "counterparty": "Atazone",
+        "status": "completed",
+        "balanceAfter": 88
+      },
+      {
+        "reference": "SIG-000004",
+        "day": 8,
+        "time": "06:13",
+        "amount": -60,
+        "label": "Transport · Neon Wall",
+        "counterparty": "Uver",
+        "status": "completed",
+        "balanceAfter": 28
+      },
+      {
+        "reference": "SIG-000005",
+        "day": 8,
+        "time": "06:25",
+        "amount": 592,
+        "label": "Cachet · Neon Wall",
+        "counterparty": "Mur neon local",
+        "status": "completed",
+        "balanceAfter": 620
+      }
+    ]
+  },
+  "paused": true,
+  "errors": []
+}

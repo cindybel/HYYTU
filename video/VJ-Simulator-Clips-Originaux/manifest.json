@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aurora",
+    "label": "Aurore · warm-up",
+    "src": "/video/originals/aurora.mp4",
+    "poster": "/video/originals/aurora.jpg",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 8
+  },
+  {
+    "id": "ribbons",
+    "label": "Rubans · break",
+    "src": "/video/originals/ribbons.mp4",
+    "poster": "/video/originals/ribbons.jpg",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 8
+  },
+  {
+    "id": "orbits",
+    "label": "Orbites · groove",
+    "src": "/video/originals/orbits.mp4",
+    "poster": "/video/originals/orbits.jpg",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 8
+  },
+  {
+    "id": "grid",
+    "label": "Grille · montée",
+    "src": "/video/originals/grid.mp4",
+    "poster": "/video/originals/grid.jpg",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 8
+  },
+  {
+    "id": "tunnel",
+    "label": "Tunnel · peak",
+    "src": "/video/originals/tunnel.mp4",
+    "poster": "/video/originals/tunnel.jpg",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 8
+  },
+  {
+    "id": "kaleido",
+    "label": "Prisme · peak",
+    "src": "/video/originals/kaleido.mp4",
+    "poster": "/video/originals/kaleido.jpg",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 8
+  }
+]

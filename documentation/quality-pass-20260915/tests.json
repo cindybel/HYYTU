@@ -1,0 +1,83 @@
+{
+  "original": {
+    "money": 75,
+    "xp": 0,
+    "day": 1,
+    "gigs": [
+      "open",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked"
+    ]
+  },
+  "after": {
+    "money": 75,
+    "xp": 0,
+    "day": 1,
+    "gigs": [
+      "open",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked"
+    ]
+  },
+  "best": {
+    "gig-01-party-garage:2": {
+      "percent": 100,
+      "gesture": true
+    }
+  },
+  "errors": []
+}

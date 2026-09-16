@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "elapsedSeconds": 601,
+  "progress": {
+    "mix": true,
+    "energy": true,
+    "wall": true,
+    "cable": true,
+    "client": true
+  },
+  "log": [
+    {
+      "seconds": 6,
+      "text": "Premiers gestes et Prisme débloqué sans carrière ni guide"
+    },
+    {
+      "seconds": 39,
+      "text": "Échec réel sans fondu : explication et relance disponibles"
+    },
+    {
+      "seconds": 71,
+      "text": "Défi 1 terminé avec les commandes"
+    },
+    {
+      "seconds": 106,
+      "text": "Défi 2 terminé avec les commandes"
+    },
+    {
+      "seconds": 138,
+      "text": "Défi 3 terminé avec les commandes"
+    },
+    {
+      "seconds": 139,
+      "text": "Garage, panne de câble et demande client : bonnes et mauvaises solutions testées"
+    },
+    {
+      "seconds": 140,
+      "text": "Carrière créée après apprentissage"
+    },
+    {
+      "seconds": 141,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 177,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 213,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 249,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 285,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 321,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 356,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 392,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 428,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 464,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 500,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 536,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 572,
+      "text": "Pratique libre, cinq visuels, intensité et accessibilité"
+    },
+    {
+      "seconds": 601,
+      "text": "Sauvegardes finales vérifiées"
+    }
+  ],
+  "errors": []
+}

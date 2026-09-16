@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "home": "garage",
+      "fatigue": 86
+    },
+    {
+      "home": "housing-luxe",
+      "fatigue": 80
+    },
+    {
+      "home": "housing-penthouse",
+      "fatigue": 78
+    }
+  ],
+  "floor": 0,
+  "reloaded": true,
+  "errors": []
+}

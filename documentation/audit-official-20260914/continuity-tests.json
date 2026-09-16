@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "test": "minuit sans action préalable",
+      "day": 2,
+      "clock": 2
+    },
+    {
+      "test": "sommeil UI sans minuit",
+      "day": 2,
+      "hour": 8
+    },
+    {
+      "test": "sommeil UI minuit compté une fois",
+      "day": 3,
+      "clock": 3,
+      "hour": 7
+    },
+    {
+      "test": "rechargement sauvegarde",
+      "day": 3,
+      "clock": 3,
+      "hour": 7
+    },
+    {
+      "test": "application calendar",
+      "text": "Réseau VJ Booking\n\nTrouve un gig, vérifie les prérequis, postule et attends la réponse du client.\n\nRetour au bureau\n×\n—\n□\nParcours de difficulté · 6 paliers\nCALENDRIER\nJanvier 1\nAujourd’hui : Mer 3 Ja"
+    },
+    {
+      "test": "application guide",
+      "text": "Guide du VJ\n\nTout le fonctionnement du jeu est ici: moins de texte partout, plus d infos quand tu en as besoin.\n\n×\n—\n□\nDepart\nJournee\nBooking\nGear\nInventaire\nGig 3D\nScore\nSkills\nShop\nPrerequis gigs\nVJ"
+    },
+    {
+      "test": "application phone",
+      "text": "Contacts\n\nPromoters, clients, DM et petites histoires de scene.\n\n×\n—\n□\nHype VJ\nUnderground\n0\nCorporate\n0\nArtistique\n0\nPresence\n0\nFestival\n0\nMessages\nPROMOTER | JOUR 2\nNouveau booking Rock\n\nOn commence"
+    },
+    {
+      "test": "application email",
+      "text": "Email\n\nInbox VJ Mail. Clique un message pour le lire, puis reponds aux offres importantes.\n\n×\n—\n□\nNouveau\nInbox\nClients\nFinance\nArchives\nBooking\nNouvelle opportunite: Hexa Pulse\nJour 2\n● Booking\nNouve"
+    },
+    {
+      "test": "application social",
+      "text": "Réseau VJ Booking\n\nTrouve un gig, vérifie les prérequis, postule et attends la réponse du client.\n\nRetour au bureau\n×\n—\n□\nParcours de difficulté · 6 paliers\nCALENDRIER\nJanvier 1\nAujourd’hui : Mer 3 Ja"
+    },
+    {
+      "test": "application transport",
+      "text": "Uver\n\nTransport pour tes projecteurs, fils, ordinateur et controleurs avant un show.\n\nU\n×\n—\n□\nAucun show reserve\n\nPostule dans Booking. Quand un client accepte, Uver calcule automatiquement le prix se"
+    },
+    {
+      "test": "application music",
+      "text": "Music Player\n\nLecteur local pour tester une vibe pendant que tu geres ta carriere.\n\nBATTERIE\n100%\n×\n—\n□\nTRACK\nAucune track\nPrev\nPlay\nPause\nStop\nNext\nVolume\nPlaylist\n0 tracks\n\nAjoute plusieurs fichiers"
+    },
+    {
+      "test": "application stats",
+      "text": "Stats\n\nChaque jauge influence un calcul reel: score, argent, reputation ou opportunites.\n\n×\n—\n□\nCreativite\n\n100/100 - + score artistique\n\nTechnique\n\n0/100 - reduit les erreurs\n\nFatigue\n\n0/100 - penali"
+    },
+    {
+      "test": "application inventory",
+      "text": "Inventaire\n\nRangement : 6 / 24 places · Chez tes parents - garage\n\nTon stock reel: gear, fils, adaptateurs, loops et vetements. Les items stackables peuvent etre achetes plusieurs fois.\n\n×\n—\n□\n4\ntypes"
+    },
+    {
+      "test": "application finance",
+      "text": "Banque Signal\n\nTon compte professionnel VJ.\n\n×\n—\n□\nCOMPTE COURANT · CAD\n75,00 $\n\nSolde disponible\n\nS /\nVJ QA continuité\nInformations du compte ↗\nAperçu\nVirements\nMon compte\nCrédits & budget\nEntrées ce"
+    },
+    {
+      "test": "application settings",
+      "text": "Réglages de jeu\n\nLes réglages s’appliquent à ce profil et sont sauvegardés.\n\n×\n—\n□\nLangue\nFrançais\nEnglish (traduction partielle)\nMusique 70 %\nQualité graphique\nÉquilibré\nPerformance · sans ombres\nQua"
+    },
+    {
+      "test": "application skills",
+      "text": "VJ School & Skills\n\nApprends, pratique, puis prouve tes compétences sur le terrain. Les niveaux ouvrent maintenant des capacités visibles dans la régie, en plus des contrats et du matériel.\n\n×\n—\n□\nCOM"
+    },
+    {
+      "test": "application shop",
+      "text": "Atazone\nVJ GEAR MARKET\nGear\nTous les departements\nRecherche dans Tous les departements\nBUDGET\n75$\n×\n—\n□\nGear\nVJ Loop\nVetements\n40 articles\nGEAR\nENTRER GEAR\n92 articles\nVJ LOOP\nVOIR LOOPS\n17 articles\nV"
+    }
+  ],
+  "errors": []
+}

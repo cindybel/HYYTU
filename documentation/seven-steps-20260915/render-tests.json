@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "slug": "starter-laptop",
+      "width": 640,
+      "height": 360,
+      "lit": 113531
+    },
+    {
+      "slug": "vj-laptop-gtx",
+      "width": 960,
+      "height": 540,
+      "lit": 253982
+    },
+    {
+      "slug": "creator-laptop-rtx",
+      "width": 1280,
+      "height": 720,
+      "lit": 452299
+    },
+    {
+      "slug": "desktop-rtx4060",
+      "width": 1600,
+      "height": 900,
+      "lit": 705690
+    },
+    {
+      "slug": "desktop-rtx4080",
+      "width": 1920,
+      "height": 1080,
+      "lit": 1016314
+    }
+  ],
+  "errors": []
+}

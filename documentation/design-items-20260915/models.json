@@ -1,0 +1,860 @@
+{
+  "rows": [
+    {
+      "id": "projector-cheap",
+      "label": "Binq StarterBeam 2200",
+      "type": "projector",
+      "category": "gear",
+      "vertices": 24984,
+      "meshes": 10,
+      "finite": true,
+      "size": [
+        0.8930000066757202,
+        0.3224999881349504,
+        0.796999990940094
+      ],
+      "ms": 343
+    },
+    {
+      "id": "projector-standard",
+      "label": "Epsun EB-Lo 4200 3LCD",
+      "type": "projector",
+      "category": "gear",
+      "vertices": 24978,
+      "meshes": 9,
+      "finite": true,
+      "size": [
+        1.0529999732971191,
+        0.3354999995790422,
+        0.847000002861023
+      ],
+      "ms": 77
+    },
+    {
+      "id": "projector-short-throw",
+      "label": "Optomix ShortCast ST-4",
+      "type": "projector",
+      "category": "gear",
+      "vertices": 24978,
+      "meshes": 9,
+      "finite": true,
+      "size": [
+        0.9229999780654907,
+        0.4304999983869493,
+        0.8669999837875366
+      ],
+      "ms": 56
+    },
+    {
+      "id": "projector-laser-entry",
+      "label": "Panasound PT-Rave LZ320",
+      "type": "projector",
+      "category": "gear",
+      "vertices": 24978,
+      "meshes": 9,
+      "finite": true,
+      "size": [
+        1.1130000352859497,
+        0.32550000911578536,
+        0.847000002861023
+      ],
+      "ms": 51
+    },
+    {
+      "id": "projector-pro-6500",
+      "label": "Christalux Boxer Mini 6500",
+      "type": "projector",
+      "category": "gear",
+      "vertices": 32088,
+      "meshes": 10,
+      "finite": true,
+      "size": [
+        1.5203922986984253,
+        0.4849999821744859,
+        1.026999980211258
+      ],
+      "ms": 63
+    },
+    {
+      "id": "projector-ultra-4k",
+      "label": "Barq UDMini 4K Laser",
+      "type": "projector",
+      "category": "gear",
+      "vertices": 32088,
+      "meshes": 10,
+      "finite": true,
+      "size": [
+        1.6162272691726685,
+        0.5250000334344804,
+        1.1169999837875366
+      ],
+      "ms": 56
+    },
+    {
+      "id": "computer-starter-laptop",
+      "label": "Lenovox FieldPad iGPU",
+      "type": "computer",
+      "category": "gear",
+      "vertices": 34908,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        0.9800000190734863,
+        0.6478245831094682,
+        0.7404853105545044
+      ],
+      "ms": 74
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "label": "M-Synth StageMini GTX 1 HDMI",
+      "type": "computer",
+      "category": "gear",
+      "vertices": 34908,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        1.0800000429153442,
+        0.6874870634637773,
+        0.7706706523895264
+      ],
+      "ms": 73
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "label": "Azus ProArtish RTX 2 sorties",
+      "type": "computer",
+      "category": "gear",
+      "vertices": 34908,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        1.1799999475479126,
+        0.7271495438180864,
+        0.8008560538291931
+      ],
+      "ms": 76
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "label": "Raytrix Tower 4060 DP3",
+      "type": "computer",
+      "category": "gear",
+      "vertices": 23142,
+      "meshes": 8,
+      "finite": true,
+      "size": [
+        0.5214999914169312,
+        1.0875000334344804,
+        0.8669999837875366
+      ],
+      "ms": 206
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "label": "Raytrix Tower 4080 Show DP3",
+      "type": "computer",
+      "category": "gear",
+      "vertices": 31014,
+      "meshes": 8,
+      "finite": true,
+      "size": [
+        0.6315000057220459,
+        1.0875000334344804,
+        0.8669999837875366
+      ],
+      "ms": 69
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "label": "Raytrix Mobile VJ Core",
+      "type": "gpu",
+      "category": "gear",
+      "vertices": 38790,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        0.9025000035762787,
+        0.23999999649822712,
+        0.42399999499320984
+      ],
+      "ms": 56
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "label": "Raytrix Desktop DP Duo",
+      "type": "gpu",
+      "category": "gear",
+      "vertices": 38790,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        0.9025000035762787,
+        0.23999999649822712,
+        0.42399999499320984
+      ],
+      "ms": 56
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "label": "Raytrix Desktop DP Quad Pro",
+      "type": "gpu",
+      "category": "gear",
+      "vertices": 46662,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        1.162500023841858,
+        0.23999999649822712,
+        0.42399999499320984
+      ],
+      "ms": 58
+    },
+    {
+      "id": "cable-25ft-basic",
+      "label": "Kramark HDMI Run 25",
+      "type": "cable",
+      "category": "gear",
+      "vertices": 14598,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.878000020980835,
+        0.11000000312924385,
+        0.804999977350235
+      ],
+      "ms": 39
+    },
+    {
+      "id": "cable-75ft-active",
+      "label": "Kramark ActiveRun 75",
+      "type": "cable",
+      "category": "gear",
+      "vertices": 14598,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.878000020980835,
+        0.11000000312924385,
+        0.804999977350235
+      ],
+      "ms": 36
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "label": "Kramark FiberRun 150",
+      "type": "cable",
+      "category": "gear",
+      "vertices": 14598,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.878000020980835,
+        0.11000000312924385,
+        0.804999977350235
+      ],
+      "ms": 37
+    },
+    {
+      "id": "cable-loom-3pack-75",
+      "label": "LiteWire Trio Loom 75",
+      "type": "cable",
+      "category": "gear",
+      "vertices": 41478,
+      "meshes": 7,
+      "finite": true,
+      "size": [
+        1.1380000114440918,
+        0.2447280939668417,
+        0.8409999907016754
+      ],
+      "ms": 55
+    },
+    {
+      "id": "cable-loom-3pack-150",
+      "label": "LiteWire Fiber Trio 150",
+      "type": "cable",
+      "category": "gear",
+      "vertices": 41478,
+      "meshes": 7,
+      "finite": true,
+      "size": [
+        1.1380000114440918,
+        0.2447280939668417,
+        0.8409999907016754
+      ],
+      "ms": 56
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "label": "PortSmith DP-HDMI Solo",
+      "type": "adapter",
+      "category": "gear",
+      "vertices": 3840,
+      "meshes": 2,
+      "finite": true,
+      "size": [
+        0.1599999964237213,
+        0.07200000062584877,
+        0.5280000120401382
+      ],
+      "ms": 23
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "label": "PortSmith USB-C Active HDMI",
+      "type": "adapter",
+      "category": "gear",
+      "vertices": 3840,
+      "meshes": 2,
+      "finite": true,
+      "size": [
+        0.1599999964237213,
+        0.07200000062584877,
+        0.5280000120401382
+      ],
+      "ms": 32
+    },
+    {
+      "id": "adapter-dp-hdmi-pro-3pack",
+      "label": "PortSmith DP-HDMI Triple Pro",
+      "type": "adapter",
+      "category": "gear",
+      "vertices": 11520,
+      "meshes": 2,
+      "finite": true,
+      "size": [
+        0.6200000047683716,
+        0.07200000062584877,
+        0.5280000120401382
+      ],
+      "ms": 36
+    },
+    {
+      "id": "adapter-edid-locker",
+      "label": "SignalLock EDID Box",
+      "type": "adapter",
+      "category": "gear",
+      "vertices": 4038,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        0.1599999964237213,
+        0.13299999997019762,
+        0.3100000023841858
+      ],
+      "ms": 40
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "label": "StageTack Pocket Roll",
+      "type": "accessory",
+      "category": "gear",
+      "vertices": 13320,
+      "meshes": 3,
+      "finite": true,
+      "size": [
+        0.6250026673078537,
+        0.13250000309199095,
+        0.49000534415245056
+      ],
+      "ms": 35
+    },
+    {
+      "id": "accessory-wide-lens",
+      "label": "Optomix WideKit 0.8",
+      "type": "accessory",
+      "category": "gear",
+      "vertices": 19974,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.47999998927116394,
+        0.4300000064820051,
+        0.41200000047683716
+      ],
+      "ms": 43
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "label": "MapLab Marker Kit",
+      "type": "accessory",
+      "category": "gear",
+      "vertices": 10374,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        0.8769999742507935,
+        0.6058862395584583,
+        0.6620784103870392
+      ],
+      "ms": 38
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "label": "RoadVault Flight XL",
+      "type": "accessory",
+      "category": "gear",
+      "vertices": 8844,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        1.0770000219345093,
+        0.718500021379441,
+        0.7785784006118774
+      ],
+      "ms": 38
+    },
+    {
+      "id": "accessory-mini-controller",
+      "label": "StageCue Footswitch Duo",
+      "type": "accessory",
+      "category": "gear",
+      "vertices": 10182,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        0.6800000071525574,
+        0.1814999934285879,
+        0.45499999821186066
+      ],
+      "ms": 34
+    },
+    {
+      "id": "router-splitter-duo",
+      "label": "DataPatch Duo Split",
+      "type": "router",
+      "category": "gear",
+      "vertices": 5766,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.4000000059604645,
+        0.12399999983608723,
+        0.4650000035762787
+      ],
+      "ms": 38
+    },
+    {
+      "id": "router-mapper-triple",
+      "label": "BlackMagi MapBox Triple",
+      "type": "router",
+      "category": "gear",
+      "vertices": 6918,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.6499999761581421,
+        0.12399999983608723,
+        0.4650000035762787
+      ],
+      "ms": 35
+    },
+    {
+      "id": "router-matrix-4x4",
+      "label": "AnalogWhey Matrix 4x4 Pro",
+      "type": "router",
+      "category": "gear",
+      "vertices": 16422,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        1.2599999904632568,
+        0.16400000639259815,
+        0.4650000035762787
+      ],
+      "ms": 53
+    },
+    {
+      "id": "console-midi-mini",
+      "label": "A-KAI PadMix Mini",
+      "type": "console",
+      "category": "gear",
+      "vertices": 16902,
+      "meshes": 7,
+      "finite": true,
+      "size": [
+        0.7300000190734863,
+        0.19400000339373946,
+        0.5789999961853027
+      ],
+      "ms": 42
+    },
+    {
+      "id": "console-vj-deck",
+      "label": "ElGateau StreamPad VJ 8",
+      "type": "console",
+      "category": "gear",
+      "vertices": 21510,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        0.7300000190734863,
+        0.19400000339373946,
+        0.5789999961853027
+      ],
+      "ms": 37
+    },
+    {
+      "id": "console-show-control-pro",
+      "label": "Rezolume ShowDeck Pro",
+      "type": "console",
+      "category": "gear",
+      "vertices": 37062,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        1.25,
+        0.19400000339373946,
+        0.5789999961853027
+      ],
+      "ms": 54
+    },
+    {
+      "id": "screen-monitor-24",
+      "label": "Delle ViewDesk 24",
+      "type": "screen",
+      "category": "gear",
+      "vertices": 3468,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        1.059999942779541,
+        0.8847500095143914,
+        0.27000001072883606
+      ],
+      "ms": 61
+    },
+    {
+      "id": "screen-monitor-27",
+      "label": "Azus ProArtish 27",
+      "type": "screen",
+      "category": "gear",
+      "vertices": 3468,
+      "meshes": 6,
+      "finite": true,
+      "size": [
+        1.2699999809265137,
+        1.0028749713674188,
+        0.27000001072883606
+      ],
+      "ms": 52
+    },
+    {
+      "id": "screen-portable-touch",
+      "label": "ViewSonic-ish TouchStage 15",
+      "type": "screen",
+      "category": "gear",
+      "vertices": 5388,
+      "meshes": 5,
+      "finite": true,
+      "size": [
+        0.9100000262260437,
+        0.5527733936905861,
+        0.34471429139375687
+      ],
+      "ms": 60
+    },
+    {
+      "id": "bag-messenger-basic",
+      "label": "RoadVault Messenger 12",
+      "type": "bag",
+      "category": "gear",
+      "vertices": 11718,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        0.699999988079071,
+        0.6394409704953432,
+        0.5556734800338745
+      ],
+      "ms": 49
+    },
+    {
+      "id": "bag-vj-backpack",
+      "label": "RoadVault VJ Pack 32",
+      "type": "bag",
+      "category": "gear",
+      "vertices": 11718,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        0.5,
+        0.8594410140067339,
+        0.6053886413574219
+      ],
+      "ms": 41
+    },
+    {
+      "id": "bag-road-backpack",
+      "label": "RoadVault Flight Backpack",
+      "type": "bag",
+      "category": "gear",
+      "vertices": 12486,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        0.6000000238418579,
+        1.024441009387374,
+        0.6049955189228058
+      ],
+      "ms": 39
+    },
+    {
+      "id": "clothing-pin-vj",
+      "label": "Pin VJ neon",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 2748,
+      "meshes": 4,
+      "finite": true,
+      "size": [
+        0.3799999952316284,
+        0.3799999952316284,
+        0.06349999830126767
+      ],
+      "ms": 35
+    },
+    {
+      "id": "clothing-beanie-black",
+      "label": "Tuque noire VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 9438,
+      "meshes": 59,
+      "finite": true,
+      "size": [
+        0.6466000080108643,
+        0.3950000101327896,
+        0.6466000080108643
+      ],
+      "ms": 210
+    },
+    {
+      "id": "clothing-hoodie-vj",
+      "label": "Hoodie VJ classic",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 12941,
+      "meshes": 18,
+      "finite": true,
+      "size": [
+        1.1871600151062012,
+        1.100000023841858,
+        0.4551718235015869
+      ],
+      "ms": 58
+    },
+    {
+      "id": "clothing-jacket-blackout",
+      "label": "Veste Blackout",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 15495,
+      "meshes": 20,
+      "finite": true,
+      "size": [
+        1.1871600151062012,
+        0.8799999952316284,
+        0.36532774567604065
+      ],
+      "ms": 53
+    },
+    {
+      "id": "clothing-jacket-reflective",
+      "label": "Veste reflective",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 15959,
+      "meshes": 23,
+      "finite": true,
+      "size": [
+        1.1871600151062012,
+        0.8799999952316284,
+        0.36532774567604065
+      ],
+      "ms": 55
+    },
+    {
+      "id": "clothing-cap-low",
+      "label": "Casquette low profile",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 4248,
+      "meshes": 9,
+      "finite": true,
+      "size": [
+        0.6466000080108643,
+        0.33783678996072114,
+        0.8246467974355488
+      ],
+      "ms": 38
+    },
+    {
+      "id": "clothing-pants-cargo",
+      "label": "Cargo noir scene",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 12201,
+      "meshes": 17,
+      "finite": true,
+      "size": [
+        0.6438797116279602,
+        0.9499999992549419,
+        0.30461185267567636
+      ],
+      "ms": 54
+    },
+    {
+      "id": "clothing-pants-tech",
+      "label": "Pantalon techwear",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 12201,
+      "meshes": 17,
+      "finite": true,
+      "size": [
+        0.6438797116279602,
+        0.9499999992549419,
+        0.30461185267567636
+      ],
+      "ms": 57
+    },
+    {
+      "id": "clothing-shoes-cyan",
+      "label": "Sneakers cyan LED",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 15706,
+      "meshes": 40,
+      "finite": true,
+      "size": [
+        0.7784566283226013,
+        0.40099999999999997,
+        0.673
+      ],
+      "ms": 55
+    },
+    {
+      "id": "clothing-shoes-magenta",
+      "label": "Sneakers magenta",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 15706,
+      "meshes": 40,
+      "finite": true,
+      "size": [
+        0.7784566283226013,
+        0.40099999999999997,
+        0.673
+      ],
+      "ms": 55
+    },
+    {
+      "id": "clothing-headphones-basic",
+      "label": "Casque monitoring basic",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 6918,
+      "meshes": 12,
+      "finite": true,
+      "size": [
+        0.796,
+        0.5918996238708496,
+        0.211
+      ],
+      "ms": 60
+    },
+    {
+      "id": "clothing-headphones-pro",
+      "label": "Casque monitoring pro",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 7784,
+      "meshes": 15,
+      "finite": true,
+      "size": [
+        0.8080000001043082,
+        0.6708635687828064,
+        0.38320392155647276
+      ],
+      "ms": 52
+    },
+    {
+      "id": "clothing-gloves-stage",
+      "label": "Gants stage noir",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 12994,
+      "meshes": 26,
+      "finite": true,
+      "size": [
+        0.8683740593280457,
+        0.5324999982118607,
+        0.11611999902129173
+      ],
+      "ms": 44
+    },
+    {
+      "id": "clothing-mask-club",
+      "label": "Masque club neon",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 5381,
+      "meshes": 7,
+      "finite": true,
+      "size": [
+        0.8355664014816284,
+        0.27,
+        0.2793673223257065
+      ],
+      "ms": 47
+    },
+    {
+      "id": "clothing-coat-tour",
+      "label": "Manteau tour manager",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 15495,
+      "meshes": 20,
+      "finite": true,
+      "size": [
+        1.1871600151062012,
+        1.1399999931454659,
+        0.36730651557445526
+      ],
+      "ms": 59
+    },
+    {
+      "id": "clothing-vest-led",
+      "label": "Veste LED VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 10763,
+      "meshes": 17,
+      "finite": true,
+      "size": [
+        0.7276245355606079,
+        0.8400000035762787,
+        0.36532774567604065
+      ],
+      "ms": 62
+    },
+    {
+      "id": "clothing-full-fit-pro",
+      "label": "Fit complet Pro VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "vertices": 28160,
+      "meshes": 40,
+      "finite": true,
+      "size": [
+        1.1871600151062012,
+        1.6184999898448587,
+        0.36532774567604065
+      ],
+      "ms": 70
+    }
+  ],
+  "errors": []
+}

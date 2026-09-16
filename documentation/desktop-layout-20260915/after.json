@@ -1,0 +1,2805 @@
+{
+  "rows": [
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "calendar",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "phone",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "email",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "social",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "transport",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "music",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "settings",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "stats",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "job",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "rest",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "inventory",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "finance",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "housing",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "skills",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "shop",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-start",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-day",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-booking",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-gear",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-inventory-flow",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-gig3d",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-score",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-skills",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-shop",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "guide-progression",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "bank-transfers",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "bank-account",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "bank-management",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "shop-gear",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "detail-gear",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "shop-vjloop",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "detail-vjloop",
+      "width": 760,
+      "height": 600,
+      "left": 84,
+      "top": 66,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "shop-clothing",
+      "width": 540,
+      "height": 836,
+      "left": 1124,
+      "top": 76,
+      "scrollWidth": 538,
+      "clientWidth": 538,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1680,
+        "height": 950
+      },
+      "name": "detail-clothing",
+      "width": 540,
+      "height": 836,
+      "left": 1124,
+      "top": 76,
+      "scrollWidth": 538,
+      "clientWidth": 538,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "calendar",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "phone",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "email",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "social",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "transport",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "music",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "settings",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "stats",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "job",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "rest",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "inventory",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "finance",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "housing",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "skills",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "shop",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-start",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-day",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-booking",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-gear",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-inventory-flow",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-gig3d",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-score",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-skills",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-shop",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "guide-progression",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "bank-transfers",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "bank-account",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "bank-management",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "shop-gear",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "detail-gear",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "shop-vjloop",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "detail-vjloop",
+      "width": 760,
+      "height": 570,
+      "left": 64,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "shop-clothing",
+      "width": 537.59375,
+      "height": 620,
+      "left": 726.40625,
+      "top": 76,
+      "scrollWidth": 536,
+      "clientWidth": 536,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "name": "detail-clothing",
+      "width": 537.59375,
+      "height": 620,
+      "left": 726.40625,
+      "top": 76,
+      "scrollWidth": 536,
+      "clientWidth": 536,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "calendar",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "phone",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "email",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "social",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "transport",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "music",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "settings",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "stats",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "job",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "rest",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "inventory",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "finance",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "housing",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "skills",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "shop",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-start",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-day",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-booking",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-gear",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-inventory-flow",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-gig3d",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-score",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-skills",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-shop",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "guide-progression",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "bank-transfers",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "bank-account",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "bank-management",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "shop-gear",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "detail-gear",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "shop-vjloop",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "detail-vjloop",
+      "width": 760,
+      "height": 567,
+      "left": 56,
+      "top": 54,
+      "scrollWidth": 758,
+      "clientWidth": 758,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "shop-clothing",
+      "width": 468.71875,
+      "height": 617,
+      "left": 631.28125,
+      "top": 76,
+      "scrollWidth": 467,
+      "clientWidth": 467,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "name": "detail-clothing",
+      "width": 468.71875,
+      "height": 617,
+      "left": 631.28125,
+      "top": 76,
+      "scrollWidth": 467,
+      "clientWidth": 467,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "calendar",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "phone",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "email",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "social",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "transport",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "music",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "settings",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "stats",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "job",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "rest",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "inventory",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "finance",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "housing",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "skills",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "shop",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-start",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-day",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-booking",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-gear",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-inventory-flow",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-gig3d",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-score",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-skills",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-shop",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "guide-progression",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "bank-transfers",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "bank-account",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "bank-management",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "shop-gear",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "detail-gear",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "shop-vjloop",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "detail-vjloop",
+      "width": 752,
+      "height": 550,
+      "left": 30,
+      "top": 54,
+      "scrollWidth": 750,
+      "clientWidth": 750,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "shop-clothing",
+      "width": 776,
+      "height": 364,
+      "left": 12,
+      "top": 324,
+      "scrollWidth": 774,
+      "clientWidth": 774,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 800,
+        "height": 700
+      },
+      "name": "detail-clothing",
+      "width": 776,
+      "height": 364,
+      "left": 12,
+      "top": 324,
+      "scrollWidth": 774,
+      "clientWidth": 774,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "calendar",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "phone",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "email",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "social",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "transport",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "music",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "settings",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "stats",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "job",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "rest",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "inventory",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "finance",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "housing",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "skills",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "shop",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-start",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-day",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-booking",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-gear",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-inventory-flow",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-gig3d",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-score",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-skills",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-shop",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "guide-progression",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "bank-transfers",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "bank-account",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "bank-management",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "shop-gear",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "detail-gear",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "shop-vjloop",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "detail-vjloop",
+      "width": 360,
+      "height": 600,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "shop-clothing",
+      "width": 366,
+      "height": 438.875,
+      "left": 12,
+      "top": 393.125,
+      "scrollWidth": 364,
+      "clientWidth": 364,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "name": "detail-clothing",
+      "width": 366,
+      "height": 438.875,
+      "left": 12,
+      "top": 393.125,
+      "scrollWidth": 364,
+      "clientWidth": 364,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    }
+  ],
+  "errors": []
+}

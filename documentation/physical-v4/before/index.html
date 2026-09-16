@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VJ Simulator — Studio 3D</title><meta name="vj-build" content="library48-20260914">
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./src/styles.css?v=library48-20260914" />
+    <script src="./assets/vendor/three-v150.js"></script>
+    <script defer src="./src/live-soundtrack.js?v=library48-20260914"></script>
+    <script defer src="./src/live-show.js?v=quality-20260915"></script>
+    <script defer src="./src/career-runtime.js?v=library48-20260914"></script>
+    <script defer src="./src/fitted-wardrobe.js?v=20260915"></script>
+    <script defer src="./src/human-wardrobe.js?v=natural-20260915"></script>
+    <script defer src="./src/characters.js?v=library48-20260914"></script>
+    <script defer src="./src/catalog-runtime.js?v=library48-20260914"></script>
+    <script defer src="./src/simple-booking.js?v=library48-20260914"></script>
+    <script defer src="./src/session-rules.js?v=library48-20260914"></script>
+    <script defer src="./src/clothing-models.js?v=20260915"></script>
+    <script defer src="./src/gear-models.js?build=design-20260915"></script>
+    <script defer src="./src/item-models.js?build=design-20260915"></script>
+    <script defer src="./src/product-stage.js?build=design-20260915"></script>
+<script defer src="./src/venue-design.js?build=venues-20260914"></script>
+<script defer src="./src/clip-library.js?build=library48-20260914"></script>
+<script defer src="./src/genre-clip-library.js?v=20260915"></script>
+<script defer src="./src/clip-progression.js?v=20260915"></script>
+<script defer src="./src/clip-browser.js?build=library48-20260914"></script>
+<script defer src="./src/gig-difficulty.js"></script>
+<script defer src="./src/career-development.js?v=20260915"></script>
+<script defer src="./src/main.js?v=quality-20260915"></script>
+<script defer src="./src/content-runtime.js?v=content-20260914"></script>
+<script defer src="./src/bank.js?v=bank-20260914"></script>
+<link rel="stylesheet" href="./src/bank.css?v=bank-20260914" />
+    <script defer src="./src/field-school.js?v=library48-20260914"></script>
+    <script defer src="./src/room-stage.js?v=library48-20260914"></script>
+    <script defer src="./src/academy.js?v=library48-20260914"></script>
+    <script defer src="./src/club-atmosphere.js?v=quality-20260915"></script>
+    <script defer src="./src/studio-decor.js?v=design-20260915"></script>
+    <script defer src="./src/studio-layouts.js?v=design-20260915"></script>
+    <script defer src="./src/studio-set.js?v=library48-20260914"></script>
+    <script defer src="./src/studio-world.js?v=library48-20260914"></script>
+    <script defer src="./src/desktop-focus.js?v=library48-20260914"></script>
+    <script defer src="./src/skill-workshop.js?v=library48-20260914"></script>
+    <script defer src="./src/studio-entry.js?v=quality-20260915"></script>
+<script defer src="./src/resolut-beginner.js?v=learning-20260914"></script>
+    <script defer src="./src/studio-journey.js?v=library48-20260914"></script>
+  </head>
+  <body class="screen-slots">
+    <main id="app">
+      <canvas id="game"></canvas>
+
+      <section class="menu-screen" id="slots-screen" aria-label="Slots de partie">
+        <div class="venue-caption" aria-hidden="true"><span class="venue-live-dot"></span> SIGNAL LAB <small>ESPACE DE PROJECTION / 01</small></div>
+        <button class="god-mode-entry" id="god-mode-entry" type="button" aria-label="Mode argent secret">$</button>
+        <div class="menu-panel wide-panel">
+          <span class="brand-mark large"></span>
+          <span class="production-eyebrow">L’ENVERS DU SHOW</span><h1>VJ<span class="title-outline">SIMULATOR</span></h1>
+          <p>Ton studio. Tes visuels. Ta prochaine scène.</p>
+          <div class="studio-entry-actions"><span>STUDIO / SESSIONS LIVE</span><button id="studio-entry-button" type="button">Ouvrir mon studio <b>↗</b></button><p>Choisir une scène · Préparer · Jouer</p><button id="career-reveal-button" class="secondary-action" type="button">Mes profils sauvegardés</button></div><div class="career-section-label"><span>CHOISIS TA CARRIÈRE</span><span>03 PROFILS LOCAUX</span></div><div class="slot-grid" id="slot-grid">
+            <button class="career-slot" type="button" data-slot="0"></button>
+            <button class="career-slot" type="button" data-slot="1"></button>
+            <button class="career-slot" type="button" data-slot="2"></button>
+          </div>
+          <div class="menu-actions">
+            <button class="secondary-action" id="delete-slot-button" type="button">Effacer slot</button>
+            <button class="secondary-action" id="open-options-button" type="button">Options</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-screen" id="creator-screen" aria-label="Creation du personnage">
+        <div class="creator-stage-label">
+          <span class="brand-mark"></span>
+          <div>
+            <h1>Creation du VJ</h1>
+            <p>Des silhouettes humaines, des tenues de scène et ton identité visuelle.</p>
+          </div>
+        </div>
+        <div class="menu-panel creator-panel">
+          <div class="human-selector" id="human-selector"></div><p id="character-status" role="status">Choisis une silhouette et sa tenue de scène.</p><div class="creator-grid">
+            <label class="field">
+              <span>Nom du VJ</span>
+              <input id="vj-name" type="text" maxlength="22" value="VJ" />
+            </label>
+            <label class="field" hidden data-legacy-character-control>
+              <span>Logo chandail</span>
+              <select id="shirt-style">
+                <option value="neon">VJ Neon triangle</option>
+                <option value="minimal">VJ Minimal</option>
+                <option value="glitch">VJ Glitch rose</option>
+                <option value="wave">VJ Wave cyan</option>
+                <option value="laser">VJ Laser</option>
+                <option value="cube">VJ Cube</option>
+                <option value="equalizer">VJ Equalizer</option>
+                <option value="orbit">VJ Orbit</option>
+                <option value="prism">VJ Prism</option>
+                <option value="chrome">VJ Chrome</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Couleur chandail</span>
+              <select id="shirt-color">
+                <option value="black">Noir</option>
+                <option value="charcoal">Charbon</option>
+                <option value="white">Blanc</option>
+                <option value="cyan">Cyan</option>
+                <option value="magenta">Magenta</option>
+                <option value="purple">Mauve</option>
+                <option value="blue">Bleu</option>
+                <option value="green">Vert</option>
+                <option value="yellow">Jaune</option>
+                <option value="red">Rouge</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Pantalon</span>
+              <select id="pants-color">
+                <option value="black">Noir</option>
+                <option value="charcoal">Charbon</option>
+                <option value="blue">Bleu nuit</option>
+                <option value="white">Blanc</option>
+                <option value="cyan">Cyan</option>
+                <option value="magenta">Magenta</option>
+                <option value="purple">Mauve</option>
+                <option value="green">Vert</option>
+                <option value="yellow">Jaune</option>
+                <option value="red">Rouge</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Chaussures</span>
+              <select id="shoe-style">
+                <option value="cyan">Cyan</option>
+                <option value="pink">Rose</option>
+                <option value="white">Blanc</option>
+                <option value="black">Noir</option>
+                <option value="charcoal">Charbon</option>
+                <option value="blue">Bleu</option>
+                <option value="magenta">Magenta</option>
+                <option value="purple">Mauve</option>
+                <option value="green">Vert</option>
+                <option value="yellow">Jaune</option>
+                <option value="red">Rouge</option>
+              </select>
+            </label>
+            <label class="field" hidden data-legacy-character-control>
+              <span>Cheveux</span>
+              <select id="hair-style">
+                <option value="cap">Casquette</option>
+                <option value="short">Court</option>
+                <option value="fade">Fade</option>
+                <option value="curls">Boucles</option>
+                <option value="mohawk">Mohawk</option>
+              </select>
+            </label>
+            <label class="field" hidden data-legacy-character-control>
+              <span>Couleur cheveux</span>
+              <select id="hair-color">
+                <option value="black">Noir</option>
+                <option value="brown">Brun</option>
+                <option value="blond">Blond</option>
+                <option value="cyan">Cyan</option>
+                <option value="magenta">Magenta</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Langue</span>
+              <select id="creator-language">
+                <option value="fr">Francais</option>
+                <option value="en">English</option>
+              </select>
+            </label>
+            <label class="field checkbox-field">
+              <input id="headphones" type="checkbox" checked />
+              <span>Casque / ecouteurs</span>
+            </label>
+          </div>
+          <div class="menu-actions">
+            <button class="primary-action" id="create-vj-button" type="button">Commencer la carriere</button>
+            <button class="secondary-action" id="back-slots-button" type="button">Retour</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-screen" id="options-screen" aria-label="Options">
+        <div class="menu-panel">
+          <span class="brand-mark large"></span>
+          <h1>Options</h1>
+          <div id="options-content"></div>
+          <button class="secondary-action" id="close-options-button" type="button">Retour</button>
+        </div>
+      </section>
+
+      <section class="desktop" id="desktop-screen" aria-label="Ordinateur VJ">
+        <header class="desktop-bar">
+          <div>
+            <strong id="desktop-name">VJ</strong>
+            <span id="desktop-day">Jour 1 - Garage</span>
+          </div>
+          <div class="desktop-stats">
+            <span id="money-pill">0$</span>
+            <span id="rep-pill">Rep 0</span>
+            <span id="fatigue-pill">Fatigue 0</span>
+          </div>
+        </header>
+        <nav class="os-menu-bar" aria-label="Menu systeme">
+          <div class="os-menu-left">
+            <button type="button" data-menu-action="game">Game</button>
+            <button type="button" data-os-open="inventory">Inventory</button>
+            <button type="button" data-os-open="shop">Shop</button>
+            <button type="button" data-os-open="finance">Banque</button>
+            <button type="button" data-os-open="music">Music Player</button>
+            <button type="button" data-os-open="settings">Settings</button>
+            <button type="button" data-menu-action="save">Save</button>
+          </div>
+          <div class="os-game-menu" id="os-game-menu" hidden>
+            <button type="button" data-menu-action="new">New Game</button>
+            <button type="button" data-menu-action="load">Load Game</button>
+            <button type="button" data-menu-action="save">Save Game</button>
+            <button type="button" data-menu-action="quit">Quit</button>
+          </div>
+          <div class="os-menu-right">
+            <span id="menu-track">No track</span>
+            <span class="menu-eq"><i></i><i></i><i></i><i></i></span>
+            <span class="menu-battery" id="menu-battery"><b></b></span>
+          </div>
+        </nav>
+        <nav class="desktop-icons" aria-label="Bureau">
+          <button class="desktop-icon" type="button" data-app="files" data-icon="▱">Explorateur</button>
+          <button class="desktop-icon" type="button" data-app="calendar" data-icon="▶">Sessions</button>
+          <button class="desktop-icon" type="button" data-app="guide" data-icon="?">Guide</button>
+          <button class="desktop-icon" type="button" data-app="phone" data-icon="CO">Contacts</button>
+          <button class="desktop-icon" type="button" data-app="email" data-icon="@">Email</button>
+          <button class="desktop-icon" type="button" data-app="social" data-icon="BK">Booking</button>
+          <button class="desktop-icon" type="button" data-app="transport" data-icon="UV">Uver</button>
+          <button class="desktop-icon" type="button" data-app="music" data-icon="EQ">Player</button>
+          <button class="desktop-icon" type="button" data-app="stats" data-icon="%">Stats</button>
+          <button class="desktop-icon" type="button" data-app="inventory" data-icon="IN">Inventaire</button>
+          <button class="desktop-icon" type="button" data-app="finance" data-icon="$">Banque</button>
+          <button class="desktop-icon" type="button" data-app="settings" data-icon="S">Settings</button>
+          <button class="desktop-icon" type="button" data-app="skills" data-icon="XP">Skills</button>
+          <button class="desktop-icon" type="button" data-app="housing" data-icon="⌂">Locaux</button>
+          <button class="desktop-icon" type="button" data-app="shop" data-icon="AZ">Shop</button>
+        </nav>
+        <section class="desktop-widget" id="desktop-widget" aria-label="Stats rapides"></section>
+        <nav class="app-dock" aria-label="Applications">
+          <button class="app-button" type="button" data-app="files" data-icon="▱">Explorateur</button>
+          <button class="app-button selected" type="button" data-app="calendar" data-icon="▶">Sessions</button>
+          <button class="app-button" type="button" data-app="phone" data-icon="CO">Contacts</button>
+          <button class="app-button" type="button" data-app="email" data-icon="@">Email <span id="email-badge">0</span></button>
+          <button class="app-button" type="button" data-app="social" data-icon="BK">Booking</button>
+          <button class="app-button" type="button" data-app="transport" data-icon="UV">Uver</button>
+          <button class="app-button" type="button" data-app="music" data-icon="EQ">Player</button>
+          <button class="app-button" type="button" data-app="stats" data-icon="%">Stats</button>
+          <button class="app-button" type="button" data-app="inventory" data-icon="IN">Inventaire</button>
+          <button class="app-button" type="button" data-app="finance" data-icon="$">Banque</button>
+          <button class="app-button" type="button" data-app="housing" data-icon="⌂">Locaux</button>
+          <button class="app-button" type="button" data-app="shop" data-icon="AZ">Shop</button>
+        </nav>
+        <section class="app-window" id="app-window"></section>
+        <footer class="windows-taskbar" aria-label="Barre de taches">
+          <span>VJOS</span>
+          <span class="task-clock">Desktop</span>
+        </footer>
+        <div class="toast-list" id="toast-list" aria-live="polite"></div>
+      </section>
+
+      <section class="gig-ui" id="gig-ui" aria-label="Gig 3D">
+        <header class="hud">
+          <div class="quest-title">
+            <h1>VJ / <span>RÉGIE</span></h1>
+            <p id="gig-title">Garage mapping</p>
+            <span class="vj-tag">VJ <strong id="hud-name">VJ</strong></span>
+          </div>
+          <div class="timer-panel" aria-label="Temps du gig">
+            <span class="timer-icon"></span>
+            <strong id="gig-timer">00:00</strong>
+          </div>
+          <div class="install-prompt" id="install-prompt" hidden>
+            <strong>E</strong>
+            <span>Installer</span>
+          </div>
+          <div class="top-actions">
+            <button id="open-computer-button" type="button" title="Ouvrir le laptop pendant le gig">Ordi</button>
+            <button id="return-desktop-button" type="button" title="Quitter la salle et revenir au VJOS">Retour ordi</button>
+            <button id="connect-projector-button" type="button" title="Brancher le projecteur selectionne">Connecter projo</button>
+            <button id="toggle-help-button" type="button" title="Cacher ou afficher la fenetre d'aide">Aide</button>
+            <button id="mask-tool-button" type="button" title="Tracer un contour pour les niveaux avances">Plume</button>
+            <button id="undo-button" type="button" title="Revenir au mouvement precedent">Undo</button>
+            <button id="reset-button" type="button" title="Remettre ce gig au depart">Refaire</button>
+            <button id="cancel-gig-button" type="button" title="Annuler le contrat avec penalite">Annuler gig</button>
+            <button id="start-live-button" type="button" disabled>Lancer la prestation</button>
+            <button id="finish-gig-button" type="button" hidden>Terminer</button>
+          </div>
+        </header>
+        <aside class="quest-panel projectors-panel">
+          <div class="panel-head">
+            <span class="projector-glyph"></span>
+            <div>
+              <h2>Projecteurs</h2>
+              <div class="meter"><strong id="connected-count">0 / 3</strong></div>
+            </div>
+          </div>
+          <div class="projector-slots" id="projector-slots">
+            <span class="projector-slot"></span>
+            <span class="projector-slot"></span>
+            <span class="projector-slot"></span>
+          </div>
+        </aside>
+        <aside class="quest-panel signal-panel">
+          <h2>Signal</h2>
+          <div class="signal-bars" id="signal-bars">
+            <span class="signal-bar"></span><span class="signal-bar"></span><span class="signal-bar"></span><span class="signal-bar"></span><span class="signal-bar"></span><span class="signal-bar"></span><span class="signal-bar"></span>
+          </div>
+          <div class="signal-stats">
+            <div class="meter"><span>Couverture</span><strong id="coverage-count">0%</strong></div>
+            <div class="meter"><span>Trapeze</span><strong id="trapeze-count">0%</strong></div>
+            <div class="meter"><span>Plume</span><strong id="mask-count">0%</strong></div>
+          </div>
+        </aside>
+        <aside class="quest-panel objective">
+          <h2>Objectif</h2>
+          <p id="objective-text">Connecte chaque projecteur, puis aligne les images sur les ecrans.</p>
+          <div class="keys">
+            <span>Fleches</span><span>W/S</span><span>A/D</span><span>E</span><span>1-3</span><span>Souris</span><span>Molette</span>
+          </div>
+        </aside>
+        <aside class="quest-panel mini-map" aria-label="Mini map" hidden>
+          <div class="map-north">N</div>
+          <div class="map-frame">
+            <span class="map-screen"></span>
+            <span class="map-player"></span>
+            <span class="map-projector one"></span>
+            <span class="map-projector two"></span>
+            <span class="map-desk"></span>
+          </div>
+        </aside>
+        <aside class="quest-panel clip-dock">
+          <h2>Clip VJ</h2>
+          <div class="clip-list" id="clip-list"></div>
+        </aside>
+        <section id="live-show-desk" class="live-show-desk" aria-label="Régie vidéo live" hidden></section>
+        <div class="message" id="message">Selectionne un projecteur, puis clique le bouton connecter sur la table du VJ.</div>
+      </section>
+
+      <section class="gig-computer" id="gig-computer" aria-label="Ordinateur en gig" hidden>
+        <div class="gig-computer-panel">
+          <div>
+            <h2>Ordinateur du VJ</h2>
+            <p>Tu peux changer les visuels pendant le gig. Au debut, l'ordi est lent et limite.</p>
+          </div>
+          <button class="secondary-action" id="close-gig-computer-button" type="button">Retour au gig</button>
+        </div>
+      </section>
+
+      <section class="slot-confirm-modal" id="slot-confirm-modal" hidden aria-label="Confirmation du slot">
+        <div class="slot-confirm-panel">
+          <span class="brand-mark"></span>
+          <h2 id="slot-confirm-title">Commencer la carriere?</h2>
+          <p id="slot-confirm-text">Voulez-vous commencer votre carriere de VJ avec ce slot?</p>
+          <div class="menu-actions">
+            <button class="primary-action" id="slot-confirm-yes" type="button">Oui</button>
+            <button class="secondary-action" id="slot-confirm-no" type="button">Non</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="slot-confirm-modal" id="god-password-modal" hidden aria-label="Mot de passe God Mode">
+        <div class="slot-confirm-panel god-password-panel">
+          <span class="brand-mark"></span>
+          <h2>God Mode</h2>
+          <p>Entre le mot de passe pour debloquer tous les items, skills, gigs et argent illimite.</p>
+          <label class="field">
+            <span>Mot de passe</span>
+            <input id="god-password-input" type="password" autocomplete="off" />
+          </label>
+          <div class="menu-actions">
+            <button class="primary-action" id="god-password-submit" type="button">Entrer</button>
+            <button class="secondary-action" id="god-password-cancel" type="button">Annuler</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="gear-setup-modal" id="gig-setup-modal" aria-label="Brief du gig" hidden>
+        <div class="gear-setup-panel">
+          <div class="gear-setup-head">
+            <div>
+              <span>Brief du contrat</span>
+              <h1 id="gig-setup-title">Brief du gig</h1>
+              <p id="gig-setup-subtitle">Choisis ton stock, loue du gear si permis, puis entre dans la salle.</p>
+            </div>
+            <button class="secondary-action" id="gig-setup-close-button" type="button">Retour</button>
+          </div>
+          <div id="gig-setup-content"></div>
+          <div class="gear-setup-footer">
+            <div id="gig-setup-summary"></div>
+            <button class="primary-action" id="gig-setup-start-button" type="button">Valider le setup et partir</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="result-modal" id="result-modal" hidden>
+        <div class="result-panel">
+          <h1>Ton bilan de show</h1>
+          <div id="result-content"></div>
+          <button class="primary-action" id="result-close-button" type="button">Retour ordinateur</button>
+        </div>
+      </section>
+      <div class="toast-list global-toasts" id="global-toast-list" aria-live="polite"></div>
+    </main>
+  <script defer src="./src/studio-storage.js?build=storage-20260914"></script>
+<script defer src="./src/studio-wardrobe.js?build=wardrobe-20260914"></script>
+<script defer src="./src/item-inspector.js?build=items-20260914"></script>
+<script defer src="./src/clip-collections.js?build=collections-20260914"></script>
+<script defer src="./src/physical-panels.js?build=panels-20260914"></script>
+<script defer src="./src/studio-rehearsal.js?v=quality-20260915"></script>
+<script defer src="./src/item-previews.js?v=20260915"></script>
+<script defer src="./src/desktop-design.js?v=20260915"></script>
+<script defer src="./src/file-explorer.js?v=20260915"></script>
+<script defer src="./src/catalog-browser.js?v=design-20260915"></script>
+</body>
+</html>

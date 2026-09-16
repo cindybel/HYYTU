@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "elapsedSeconds": 603,
+  "progress": {
+    "mix": true,
+    "energy": true,
+    "wall": true,
+    "cable": true,
+    "client": true
+  },
+  "errors": [],
+  "log": [
+    {
+      "seconds": 5,
+      "text": "Premier visuel, second fondu et déblocage sans guide"
+    },
+    {
+      "seconds": 101,
+      "text": "Premier show complet validé"
+    },
+    {
+      "seconds": 102,
+      "text": "Garage, câble et brief client validés sans fixture"
+    },
+    {
+      "seconds": 207,
+      "text": "Show complet, pause et rechargement validés"
+    },
+    {
+      "seconds": 207,
+      "text": "Carrière créée après apprentissage ; pratique libre"
+    },
+    {
+      "seconds": 258,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    },
+    {
+      "seconds": 309,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    },
+    {
+      "seconds": 360,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    },
+    {
+      "seconds": 411,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    },
+    {
+      "seconds": 462,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    },
+    {
+      "seconds": 513,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    },
+    {
+      "seconds": 564,
+      "text": "Pratique libre : contrôles et rendu toujours réactifs"
+    }
+  ]
+}

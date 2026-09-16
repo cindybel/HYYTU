@@ -1,0 +1,4370 @@
+{
+  "result": {
+    "level": 5,
+    "summary": "Niveau 5 · Essentiels + Compositions + Matières & profondeur · Toutes les collections débloquées",
+    "packs": [
+      {
+        "id": "clip-starter-loop",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-garage-noise",
+        "tier": 1,
+        "required": 1,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-liquid-lines",
+        "tier": 1,
+        "required": 1,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psy-grid",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-strobe",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-chrome",
+        "tier": 1,
+        "required": 1,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-ambient-clouds",
+        "tier": 1,
+        "required": 1,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-laser-cave",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-fractal-bloom",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-city-glitch",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-premium-opener",
+        "tier": 5,
+        "required": 5,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-festival-rush",
+        "tier": 5,
+        "required": 5,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-neon-water",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-black-white",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-retro-crt",
+        "tier": 1,
+        "required": 1,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-organic-tunnel",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-gold-show",
+        "tier": 5,
+        "required": 5,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-01-signal",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-02-laser",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-03-chrome",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-04-liquid",
+        "tier": 1,
+        "required": 1,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-05-tunnel",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-06-pulse",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-07-prism",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-08-grid",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-09-neon",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-10-smoke",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-11-orbit",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-12-fractal",
+        "tier": 3,
+        "required": 3,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-13-glass",
+        "tier": 5,
+        "required": 5,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-14-strobe",
+        "tier": 5,
+        "required": 5,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-techno-15-depth",
+        "tier": 5,
+        "required": 5,
+        "style": "techno",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "techno"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-16-signal",
+        "tier": 1,
+        "required": 1,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-17-laser",
+        "tier": 1,
+        "required": 1,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-18-chrome",
+        "tier": 1,
+        "required": 1,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-19-liquid",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-20-tunnel",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-21-pulse",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-22-prism",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-23-grid",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-24-neon",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-25-smoke",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-26-orbit",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-27-fractal",
+        "tier": 3,
+        "required": 3,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-28-glass",
+        "tier": 5,
+        "required": 5,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-29-strobe",
+        "tier": 5,
+        "required": 5,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-hiphop-30-depth",
+        "tier": 5,
+        "required": 5,
+        "style": "hiphop",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "hiphop"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-31-signal",
+        "tier": 1,
+        "required": 1,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-32-laser",
+        "tier": 1,
+        "required": 1,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-33-chrome",
+        "tier": 1,
+        "required": 1,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-34-liquid",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-35-tunnel",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-36-pulse",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-37-prism",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-38-grid",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-39-neon",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-40-smoke",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-41-orbit",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-42-fractal",
+        "tier": 3,
+        "required": 3,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-43-glass",
+        "tier": 5,
+        "required": 5,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-44-strobe",
+        "tier": 5,
+        "required": 5,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-chill-45-depth",
+        "tier": 5,
+        "required": 5,
+        "style": "chill",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "chill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-46-signal",
+        "tier": 1,
+        "required": 1,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-47-laser",
+        "tier": 1,
+        "required": 1,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-48-chrome",
+        "tier": 1,
+        "required": 1,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-49-liquid",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-50-tunnel",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-51-pulse",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-52-prism",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-53-grid",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-54-neon",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-55-smoke",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-56-orbit",
+        "tier": 3,
+        "required": 3,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "psytrance"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "chill",
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-57-fractal",
+        "tier": 5,
+        "required": 5,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-58-glass",
+        "tier": 5,
+        "required": 5,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-59-strobe",
+        "tier": 5,
+        "required": 5,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-psytrance-60-depth",
+        "tier": 5,
+        "required": 5,
+        "style": "psytrance",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "psytrance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-61-signal",
+        "tier": 1,
+        "required": 1,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-62-laser",
+        "tier": 1,
+        "required": 1,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-63-chrome",
+        "tier": 1,
+        "required": 1,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 1,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-64-liquid",
+        "tier": 3,
+        "required": 3,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-65-tunnel",
+        "tier": 3,
+        "required": 3,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-66-pulse",
+        "tier": 3,
+        "required": 3,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-67-prism",
+        "tier": 3,
+        "required": 3,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-68-grid",
+        "tier": 3,
+        "required": 3,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-69-neon",
+        "tier": 3,
+        "required": 3,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "psytrance",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "hiphop",
+              "chill",
+              "rock"
+            ]
+          },
+          {
+            "level": 3,
+            "styles": [
+              "techno",
+              "hiphop",
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-70-smoke",
+        "tier": 5,
+        "required": 5,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-71-orbit",
+        "tier": 5,
+        "required": 5,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-72-fractal",
+        "tier": 5,
+        "required": 5,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-73-glass",
+        "tier": 5,
+        "required": 5,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-74-strobe",
+        "tier": 5,
+        "required": 5,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clip-rock-75-depth",
+        "tier": 5,
+        "required": 5,
+        "style": "rock",
+        "clips": [
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          },
+          {
+            "level": 5,
+            "styles": [
+              "rock"
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocked": 71,
+    "mail": [
+      {
+        "id": "mail-1789490786274-d4a462fe092508",
+        "day": 1,
+        "from": "Carriere",
+        "subject": "Niveau 2",
+        "body": "Tu gagnes un niveau. Bonus de progression: technique +2, creativite +1, reputation +1. De nouveaux paliers Atazone peuvent se débloquer.",
+        "read": false,
+        "type": "info",
+        "gigId": null
+      },
+      {
+        "id": "mail-1789490786274-6626f58d560a58",
+        "day": 1,
+        "from": "Carriere",
+        "subject": "Niveau 3",
+        "body": "Tu gagnes un niveau. Bonus de progression: technique +2, creativite +1, reseau +1. De nouveaux paliers Atazone peuvent se débloquer. Collection Compositions débloquée dans ta régie : 21 clips supplémentaires. Tes anciens clips restent disponibles.",
+        "read": false,
+        "type": "info",
+        "gigId": null
+      },
+      {
+        "id": "mail-1789490786274-1680872df5e1d",
+        "day": 1,
+        "from": "Carriere",
+        "subject": "Niveau 4",
+        "body": "Tu gagnes un niveau. Bonus de progression: technique +2, creativite +1, reputation +1, style +1. De nouveaux paliers Atazone peuvent se débloquer.",
+        "read": false,
+        "type": "info",
+        "gigId": null
+      },
+      {
+        "id": "mail-1789490786275-faae8aaac013f8",
+        "day": 1,
+        "from": "Carriere",
+        "subject": "Niveau 5",
+        "body": "Tu gagnes un niveau. Bonus de progression: technique +2, creativite +1. De nouveaux paliers Atazone peuvent se débloquer. Collection Matières & profondeur débloquée dans ta régie : 20 clips supplémentaires. Tes anciens clips restent disponibles.",
+        "read": false,
+        "type": "info",
+        "gigId": null
+      }
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('src/main.js');s=p.read_text(encoding='utf-8').replace("const texture = rig.cable.connected ? (liveTexture || clipTexture) : testCardTexture;", "const texture = currentGig?.physical ? PhysicalOutputs.texture(PhysicalV4.state,rig,currentGig) : rig.cable.connected ? (liveTexture || clipTexture) : testCardTexture;");p.write_text(s,encoding='utf-8')
+p=Path('src/physical-v4.js');s=p.read_text(encoding='utf-8').replace("if(!active){panel.hidden=true;return;}", "if(!active){PhysicalOutputs.pause();panel.hidden=true;return;}").replace("owner=profile;state=PhysicalCareer.migrate();", "owner=profile;PhysicalOutputs.reset();state=PhysicalCareer.migrate();");p.write_text(s,encoding='utf-8')
+p=Path('src/physical-core.js');s=p.read_text(encoding='utf-8').replace("return trace(s,id,'in'+(o.route||1),seen);", "return trace(s,id,'in'+(o.routes?.[portId]||o.route||1),seen);")
+start=s.index(" root.PhysicalCore=")
+s=s[:start]+""" function setRoute(s,id,output,input){const o=get(s,id);if(!o||spec(o.modelId).kind!=='matrix'||!o.ports.some(p=>p.id===output&&p.direction==='out')||![1,2,3,4].includes(input))return fail('Routage invalide.');if(!operational(s,o))return fail('Alimente et allume la matrice.');o.routes||={};o.routes[output]=input;return{ok:true};}
+ function uninstall(s,cardId){const card=get(s,cardId),tower=card&&get(s,card.container);if(!card||card.location!=='installed'||!tower)return fail('Carte non installée.');if(tower.powerOn)return fail('Éteins la tour avant de retirer une carte.');if(s.links.some(l=>[l.a,l.b].some(e=>e.device===tower.uid&&card.ports.some(p=>p.id===e.port))))return fail('Débranche les sorties de cette carte.');tower.ports=tower.ports.filter(p=>!card.ports.some(q=>q.id===p.id));tower.installed=tower.installed.filter(id=>id!==cardId);card.location=tower.location==='venue'?'venue':'desk';card.position={...tower.position,x:tower.position.x+.65};delete card.container;return{ok:true};}
+"""+s[start:]
+s=s.replace("load,move,install};", "load,move,install,uninstall,setRoute};")
+p.write_text(s,encoding='utf-8')

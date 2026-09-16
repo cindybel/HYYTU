@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VJ Simulator — Du local à la scène</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101923;color:#e9eff2;font:16px/1.5 system-ui,sans-serif}main{max-width:1450px;margin:auto;padding:28px}header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:20px;margin-bottom:24px}small{color:#78d0c5;letter-spacing:.1em}h1{font-size:clamp(28px,4vw,48px);line-height:1.1;max-width:800px;margin:10px 0}p{color:#b7c8d3;margin:8px 0}a{color:#8ad6cc}.play{display:inline-block;background:#78d0c5;color:#102326;padding:12px 20px;border-radius:6px;text-decoration:none;font-weight:650}nav{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 16px}button{font:inherit;cursor:pointer;background:#1a2b3b;color:#e9eff2;border:1px solid #476177;border-radius:6px;padding:9px 15px}button[aria-pressed=true]{background:#dfbe78;border-color:#dfbe78;color:#23221e}button:focus-visible,a:focus-visible{outline:3px solid #78d0c5;outline-offset:3px}figure{margin:0;border:1px solid #425568;border-radius:10px;overflow:hidden;background:#080e14}figure img{display:block;width:100%;max-height:900px;object-fit:contain}figcaption{padding:20px 24px;background:#172633}h2{font-size:22px;margin:0 0 5px}.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}.facts article{border-top:2px solid #527d85;padding:14px 4px}.facts strong{font-size:18px}.facts p{font-size:14px}details{background:#192935;padding:18px;border-radius:8px}summary{cursor:pointer;font-weight:600}details p{max-width:1050px}footer{margin:24px 0;font-size:14px}footer a{margin-right:18px}@media(max-width:700px){main{padding:16px}.facts{grid-template-columns:1fr;gap:2px}button{font-size:14px;padding:8px 11px}figcaption{padding:16px}}
+</style>
+<main>
+ <header><div><small>VJ SIMULATOR · CAPTURES DU JEU · 15 SEPTEMBRE 2026</small><h1>Le même poste, du local à la scène.</h1><p>Un ordinateur qui ressemble à un ordinateur. Une régie à apprendre, puis à jouer en live.</p></div><a class="play" href="../../index.html" target="_blank" rel="noopener">Ouvrir le jeu ↗</a></header>
+ <nav aria-label="Captures des améliorations"></nav>
+ <figure><a id="full" target="_blank" rel="noopener"><img id="capture" alt=""></a><figcaption><h2 id="title"></h2><p id="description"></p></figcaption></figure>
+ <section class="facts" aria-label="Ce qui a changé">
+  <article><strong>Des repères familiers</strong><p>Démarrer, barre des tâches, fenêtres, dossiers et recherche. L’explorateur ouvre réellement les clips et les objets du jeu.</p></article>
+  <article><strong>Un geste clair à chaque passage</strong><p>Préparer une image, terminer un fondu, jouer sur le rythme et régler l’intensité. La régie montre la progression du geste.</p></article>
+  <article><strong>Pratiquer ce qui bloque</strong><p>Rejouer 15 secondes, lire le bilan et réessayer. Les résultats de répétition sont conservés.</p></article>
+ </section>
+ <details><summary>Vérifications et limites de cette version</summary><p>257 cas d’applications avec contenu rempli, dont 149 fiches d’articles, puis 30 vues d’explorateur : aucun débordement ni contrôle masqué détecté. Les fenêtres ont été déplacées, réduites et restaurées ; les vidéos et objets 3D ont été ouverts réellement.</p><p>Un passage de pratique et un contrat payant complet ont été joués par les commandes de l’interface, avec vérification de la sauvegarde. Les vêtements ont été contrôlés sur trois personnages, de face, de profil et pendant la marche.</p><p>La disposition reprend les repères de Resolume. Cette version du jeu possède une couche active et un mixeur préview/programme. Des couches superposées, de nouvelles coupes de vêtements et des arrangements musicaux plus riches restent des améliorations à développer.</p></details>
+ <footer><a href="RESULTATS.md">Rapport complet</a><a href="../desktop-layout-20260915/RESULTATS.md">Audit des applications</a><a href="../art-direction-20260915/apercu.html">Comparer les niveaux de clips</a><a href="https://www.resolume.com/support/en/quickstart-tutorial" target="_blank" rel="noopener">Référence : logique de Resolume</a></footer>
+</main>
+<script>
+const views=[
+ ['Bureau','desktop-1280.png','Un bureau avec ses fenêtres','Raccourcis, menu Démarrer et barre des tâches. Les applications conservent leurs fonctions.'],
+ ['Explorateur','explorer-1280.png','Les vrais fichiers du jeu','Dossiers Vidéos VJ, Matériel, Tenues et Documents. Recherche, historique et affichage par icônes ou en liste.'],
+ ['Régie · local','live-peak.png','Pratiquer les commandes du show','Banque de clips en haut, préview et programme, fondus, intensité et effets. Les consignes accompagnent le geste.'],
+ ['Régie · gig','gig-live.png','Retrouver la même régie en prestation','La disposition s’adapte à la largeur disponible. Le show conserve ses objectifs, sa scène et ses récompenses.'],
+ ['Bilan','passage-result.png','Rejouer seulement le passage à travailler','Chaque exercice dure 15 secondes. Le bilan indique le geste réussi, le temps dans la cible et le meilleur résultat.'],
+ ['Vêtements','../natural-wardrobe-20260915/nova-hoodie-vj-0.png','Les détails suivent le personnage','Les poches et les bandes sont intégrées aux surfaces animées. Nova porte un pantalon complet lorsqu’il est équipé. Rendu du modèle utilisé dans le jeu.'],
+ ['Petite fenêtre','explorer-390.png','Des commandes encore accessibles','L’explorateur adapte ses dossiers, sa recherche et ses miniatures. Son contenu se parcourt par défilement.']
+];
+const nav=document.querySelector('nav');
+function show(i){const v=views[i];document.querySelector('#capture').src=v[1];document.querySelector('#capture').alt=v[2];document.querySelector('#full').href=v[1];document.querySelector('#title').textContent=v[2];document.querySelector('#description').textContent=v[3];nav.querySelectorAll('button').forEach((b,j)=>b.setAttribute('aria-pressed',String(i===j)));}
+views.forEach((v,i)=>{const b=document.createElement('button');b.textContent=v[0];b.onclick=()=>show(i);nav.append(b);});show(0);
+</script>
+</html>

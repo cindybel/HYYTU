@@ -1,0 +1,119 @@
+{
+  "result": {
+    "score": 100,
+    "completion": 1,
+    "stageTasks": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "transitions": 2,
+    "syncedTransitions": 1,
+    "effectChanges": 0,
+    "seconds": 60,
+    "phases": [
+      {
+        "name": "WARM-UP",
+        "seconds": 15,
+        "matched": 15
+      },
+      {
+        "name": "MONTÉE",
+        "seconds": 15,
+        "matched": 15
+      },
+      {
+        "name": "PEAK",
+        "seconds": 15,
+        "matched": 14.9833
+      },
+      {
+        "name": "BREAK",
+        "seconds": 15,
+        "matched": 15
+      }
+    ]
+  },
+  "baseline": {
+    "money": 75,
+    "sessions": 0,
+    "day": 1,
+    "clock": {
+      "seconds": 64803.631199999574,
+      "day": 1,
+      "hour": 18,
+      "minute": 0
+    },
+    "statuses": [
+      "open",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked"
+    ]
+  },
+  "after": {
+    "money": 75,
+    "sessions": 0,
+    "day": 1,
+    "statuses": [
+      "open",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked",
+      "locked"
+    ]
+  },
+  "errors": []
+}

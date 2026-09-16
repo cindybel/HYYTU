@@ -1,0 +1,341 @@
+{
+  "rows": [
+    {
+      "cast": "nova",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_5",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Fitted full-length trousers",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": true
+    },
+    {
+      "cast": "nova",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_5",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Fitted full-length trousers",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": true
+    },
+    {
+      "cast": "nova",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_5",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Fitted full-length trousers",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": true
+    },
+    {
+      "cast": "eli",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": false
+    },
+    {
+      "cast": "eli",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": false
+    },
+    {
+      "cast": "eli",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": false
+    },
+    {
+      "cast": "sam",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": false
+    },
+    {
+      "cast": "sam",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": false
+    },
+    {
+      "cast": "sam",
+      "meshes": [
+        {
+          "name": "Mesh",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_1",
+          "uniforms": false,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_2",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_3",
+          "uniforms": true,
+          "attributes": true
+        },
+        {
+          "name": "Mesh_4",
+          "uniforms": true,
+          "attributes": true
+        }
+      ],
+      "props": [
+        "headphones-basic"
+      ],
+      "extension": false
+    }
+  ],
+  "errors": []
+}

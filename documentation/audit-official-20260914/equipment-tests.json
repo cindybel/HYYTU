@@ -1,0 +1,1149 @@
+{
+  "checks": [
+    "Garde-robe : panneau dédié et retour studio",
+    "Étagère : inventaire partagé et retour studio",
+    "51 combinaisons personnage / article : volumes finis, fixations sur os, bonus non doublés",
+    "7 nouveaux modèles ouverts et refermés en 3D"
+  ],
+  "cases": [
+    {
+      "cast": "nova",
+      "items": [
+        {
+          "id": "clothing-pin-vj",
+          "stable": true,
+          "attached": [
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-beanie-black",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.23648070849858716,
+                0.1106000208635296,
+                0.25504254680968863
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-hoodie-vj",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.23648070849858716,
+                0.1106000208635296,
+                0.25504254680968863
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-jacket-blackout",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.23648070849858716,
+                0.1106000208635296,
+                0.25504254680968863
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-jacket-reflective",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.23648070849858716,
+                0.1106000208635296,
+                0.25504254680968863
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-cap-low",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-pants-cargo",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-pants-tech",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-shoes-cyan",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-shoes-magenta",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-headphones-basic",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31367550761041585,
+                0.16573190950754202,
+                0.09672191766890315
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-headphones-pro",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3174395001898591,
+                0.18784179911395538,
+                0.1651555692054476
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-gloves-stage",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3174395001898591,
+                0.18784179911395538,
+                0.1651555692054476
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-mask-club",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3174395001898591,
+                0.18784179911395538,
+                0.1651555692054476
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2172205160195655,
+                0.07020000950244976,
+                0.0780804875925174
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-coat-tour",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3174395001898591,
+                0.18784179911395538,
+                0.1651555692054476
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2172205160195655,
+                0.07020000950244976,
+                0.0780804875925174
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-vest-led",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3174395001898591,
+                0.18784179911395538,
+                0.1651555692054476
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2172205160195655,
+                0.07020000950244976,
+                0.0780804875925174
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-full-fit-pro",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.23648070849858716,
+                0.09459429918100404,
+                0.32229575112584286
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3174395001898591,
+                0.18784179911395538,
+                0.1651555692054476
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2172205160195655,
+                0.07020000950244976,
+                0.0780804875925174
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cast": "eli",
+      "items": [
+        {
+          "id": "clothing-pin-vj",
+          "stable": true,
+          "attached": []
+        },
+        {
+          "id": "clothing-beanie-black",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24295296028909363,
+                0.11060004059867157,
+                0.26094564015767396
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-hoodie-vj",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24295296028909363,
+                0.11060004059867157,
+                0.26094564015767396
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-jacket-blackout",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24295296028909363,
+                0.11060004059867157,
+                0.26094564015767396
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-jacket-reflective",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24295296028909363,
+                0.11060004059867157,
+                0.26094564015767396
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-cap-low",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-pants-cargo",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-pants-tech",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-shoes-cyan",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-shoes-magenta",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-headphones-basic",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.31550211286359686,
+                0.1657319330574154,
+                0.10474801253222843
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-headphones-pro",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.31865877173581914,
+                0.18784183984752412,
+                0.1728198032843249
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-gloves-stage",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.31865877173581914,
+                0.18784183984752412,
+                0.1728198032843249
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-mask-club",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.31865877173581914,
+                0.18784183984752412,
+                0.1728198032843249
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.21699122208834476,
+                0.0702000210805358,
+                0.08159273328221239
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-coat-tour",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.31865877173581914,
+                0.18784183984752412,
+                0.1728198032843249
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.21699122208834476,
+                0.0702000210805358,
+                0.08159273328221239
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-vest-led",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.31865877173581914,
+                0.18784183984752412,
+                0.1728198032843249
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.21699122208834476,
+                0.0702000210805358,
+                0.08159273328221239
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-full-fit-pro",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24295296028909363,
+                0.09459432657812106,
+                0.32786669026041615
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.31865877173581914,
+                0.18784183984752412,
+                0.1728198032843249
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.21699122208834476,
+                0.0702000210805358,
+                0.08159273328221239
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cast": "sam",
+      "items": [
+        {
+          "id": "clothing-pin-vj",
+          "stable": true,
+          "attached": []
+        },
+        {
+          "id": "clothing-beanie-black",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24849256921266782,
+                0.11060003609336144,
+                0.31394386324489787
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-hoodie-vj",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24849256921266782,
+                0.11060003609336144,
+                0.31394386324489787
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-jacket-blackout",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24849256921266782,
+                0.11060003609336144,
+                0.31394386324489787
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-jacket-reflective",
+          "stable": true,
+          "attached": [
+            {
+              "id": "beanie-black",
+              "size": [
+                0.24849256921266782,
+                0.11060003609336144,
+                0.31394386324489787
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-cap-low",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-pants-cargo",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-pants-tech",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-shoes-cyan",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-shoes-magenta",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-headphones-basic",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-basic",
+              "size": [
+                0.3159145639860257,
+                0.1657319263677124,
+                0.10680460733886399
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-headphones-pro",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3189212427110242,
+                0.1878418327734721,
+                0.17468721092882866
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-gloves-stage",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3189212427110242,
+                0.1878418327734721,
+                0.17468721092882866
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-mask-club",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3189212427110242,
+                0.1878418327734721,
+                0.17468721092882866
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2169089488583804,
+                0.07020001740600623,
+                0.0824482164999818
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-coat-tour",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3189212427110242,
+                0.1878418327734721,
+                0.17468721092882866
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2169089488583804,
+                0.07020001740600623,
+                0.0824482164999818
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-vest-led",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3189212427110242,
+                0.1878418327734721,
+                0.17468721092882866
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2169089488583804,
+                0.07020001740600623,
+                0.0824482164999818
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        },
+        {
+          "id": "clothing-full-fit-pro",
+          "stable": true,
+          "attached": [
+            {
+              "id": "cap-low",
+              "size": [
+                0.24849256921266782,
+                0.0945943238973328,
+                0.39497678351363064
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "headphones-pro",
+              "size": [
+                0.3189212427110242,
+                0.1878418327734721,
+                0.17468721092882866
+              ],
+              "bone": "Bip01_Head"
+            },
+            {
+              "id": "mask-club",
+              "size": [
+                0.2169089488583804,
+                0.07020001740600623,
+                0.0824482164999818
+              ],
+              "bone": "Bip01_Head"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

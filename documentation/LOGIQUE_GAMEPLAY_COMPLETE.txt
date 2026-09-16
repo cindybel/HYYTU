@@ -1,0 +1,998 @@
+VJ SIMULATOR - LOGIQUE GAMEPLAY COMPLETE
+Version document: 2026-05-06
+
+Ce document explique la logique actuelle du jeu de A a Z: boucle de jeu, calendrier,
+booking, progression, gigs, materiel, score, argent, XP, reputation, shop et difficulte.
+
+
+1. VISION DU JEU
+================
+
+Le joueur incarne un VJ qui commence avec peu de moyens et doit construire une carriere.
+Le coeur du jeu est:
+
+1. Gerer ses journees.
+2. Chercher des gigs dans VJ Booking.
+3. Repondre aux clients par email.
+4. Acheter ou louer le bon materiel.
+5. Entrer dans une salle 3D.
+6. Connecter les projecteurs.
+7. Aligner la projection sur les ecrans.
+8. Finir le gig, gagner argent / XP / reputation.
+9. Debloquer des gigs plus difficiles.
+
+Le jeu melange simulation de carriere et gameplay 3D de mapping projection.
+
+
+2. PROFIL ET SAUVEGARDE
+=======================
+
+Le jeu utilise 3 slots de profil.
+
+Chaque profil sauvegarde:
+- nom du VJ;
+- jour actuel;
+- argent;
+- logement;
+- apparence du personnage;
+- stats;
+- skills;
+- inventaire;
+- materiel possede;
+- emails;
+- gigs;
+- reponses client en attente;
+- calendrier;
+- progression VJ Loop par style;
+- nombre de jours travailles a la jobine;
+- emails de candidature utilises dans la journee.
+
+Stats de depart:
+- Creativite: 25
+- Technique: 25
+- Fatigue: 10
+- Reputation: 0
+- Style: 20
+- Reseau: 0
+- Jobine: 120$
+- XP: 0
+- Niveau: 1
+
+Gear de depart:
+- Projecteur: Binq StarterBeam 2200
+- Ordinateur: Lenovox FieldPad iGPU
+- Cable: Kramark HDMI Run 25
+- Sac: RoadVault Messenger 12
+- Pas d'adaptateur special
+- Pas de routeur/matrix
+- Pas de console
+- Pas d'ecran externe
+- Pas d'accessoire special
+
+Logement de depart:
+- Chez ta mere
+- Loyer: 0$
+- Confort: 0
+
+
+3. BOUCLE JOURNALIERE
+=====================
+
+Le calendrier affiche un mois de 30 jours.
+
+Le joueur doit cliquer sur une journee du calendrier pour ouvrir un popup.
+Si la journee cliquee est aujourd'hui, le joueur peut choisir une action.
+Si la journee cliquee est dans le futur ou le passe, il peut seulement regarder les evenements.
+
+Une journee ne peut pas passer automatiquement.
+Pour avancer:
+1. Faire une action du jour OU jouer/canceller un gig prevu.
+2. Cliquer sur Next Day.
+
+Chaque jour donne maintenant 3 points d'energie.
+Le joueur peut faire plusieurs petites actions dans la meme journee tant qu'il a de l'energie.
+
+Couts:
+- Pratiquer VJ: 1 energie
+- Jobine: 2 energies
+- Repos simple: 1 energie
+- Sortie inspiration: 1 energie
+- Repos premium: 1 energie
+- Apprendre un skill: 2 energies
+- Gig: prend toute la journee
+
+Actions du jour:
+
+Pratiquer VJ
+- + creativite
+- + 30 XP
+- + fatigue
+
+Jobine
+- + argent selon salaire actuel
+- + fatigue
+- le salaire commence a 120$
+- tous les 20 jours travailles, la jobine augmente de +10$
+
+Repos simple
+- reduit la fatigue
+- gratuit
+
+Sortie inspiration
+- coute 45$
+- + creativite
+- + un peu de fatigue
+- + 10 XP
+
+Repos premium
+- coute 140$
+- + creativite
+- grosse reduction de fatigue
+- + 18 XP
+
+Regles importantes:
+- Si un gig est du aujourd'hui, le joueur ne peut pas faire une autre action.
+- Il doit jouer le gig ou le canceler.
+- Les emails de candidature dans VJ Booking ne coutent pas d'energie, mais sont limites a 3 par jour.
+
+
+4. CALENDRIER
+=============
+
+Le calendrier sert a:
+- voir les 30 jours du mois;
+- voir les gigs confirmes;
+- voir les reponses client prevues;
+- voir les jours finis avec un X;
+- ouvrir le popup d'activite du jour.
+
+Le calendrier ne sert pas a postuler aux gigs.
+Les candidatures sont dans VJ Booking seulement.
+
+Un mois a 30 jours.
+Les mois avancent:
+Janvier, Fevrier, Mars, Avril, Mai, Juin, Juillet, Aout, Septembre, Octobre,
+Novembre, Decembre, puis annee suivante.
+
+Le loyer est traite le jour 1 du mois.
+Si le joueur ne peut pas payer:
+- son argent tombe a 0;
+- fatigue +18;
+- reputation -4;
+- email Finance envoye.
+
+
+5. VJ BOOKING
+=============
+
+VJ Booking est l'application de recherche de contrats.
+Elle remplace l'ancien style "reseau social" par une interface de booking.
+
+Fonctions:
+- voir les opportunites;
+- envoyer des emails de candidature;
+- suivre les candidatures en attente;
+- voir les offres recues;
+- voir les gigs confirmes;
+- relancer un ancien client apres cooldown.
+
+Regle des emails:
+- Le joueur peut envoyer 3 emails de candidature par jour.
+- Chaque candidature consomme 1 email.
+- Le compteur revient a 3 au prochain jour.
+- Les emails de candidature ne consomment pas l'action du calendrier.
+
+Reponse client:
+- Apres une candidature, le client repond dans 1 a 3 jours aleatoirement.
+- La reponse arrive dans l'app Email.
+- Si le client accepte, le gig passe en "offert".
+- Le joueur doit ouvrir Email et accepter/refuser/negocier.
+
+Acceptation:
+- Si le joueur accepte une offre, le gig est planifie au vendredi ou samedi le plus proche.
+- Le joueur doit attendre cette date avant de jouer.
+
+Negociation:
+- Augmente le budget du gig de 8%.
+- +1 reseau.
+- Le gig est ensuite accepte et planifie vendredi/samedi.
+
+Refus:
+- Le gig retourne ouvert si jamais fait.
+- Si c'etait un replay, il retourne termine.
+- Reputation -1.
+
+Rejouer un gig:
+- Un gig termine peut etre relance.
+- Cooldown: 7 jours.
+- Il faut renvoyer un email.
+- La reponse peut arriver dans 1 a 3 jours.
+
+Types de clients:
+- Client chill: accepte plus facilement, paie moins, pardonne les defauts.
+- Client corpo: paie mieux, exige technique et setup propre.
+- Client underground: aime le style, tolere un peu le chaos.
+- Client festival: gros potentiel, demande fiabilite, gear et reputation.
+
+Chaque client reagit differemment aux notes Technique / Artistique / Professionnel.
+
+
+6. LOGIQUE DES OPPORTUNITES
+===========================
+
+Le jeu garde des gigs ouverts pour que le joueur ait toujours quelque chose a faire.
+
+VJ Booking met en avant 3 gigs:
+- ils peuvent etre un peu au-dessus du niveau du joueur;
+- ils donnent plus d'argent mais sont plus risques;
+- si le joueur n'est pas pret, il perd des points dans le score.
+
+Les anciens petits gigs restent accessibles.
+Le joueur peut revenir aux gigs moins payants pour faire de l'argent ou pratiquer.
+
+Deblocage:
+- Les gigs peuvent s'ouvrir par niveau.
+- Ils peuvent aussi s'ouvrir par reputation ou reseau.
+- Le jeu ouvre aussi des opportunites "stretch" jusqu'a environ +1 niveau pour pousser la progression.
+
+Penalite si gig trop haut:
+- Chaque niveau d'ecart donne environ -8 points dans le score final.
+- Donc un gig au-dessus du niveau peut rapporter moins que prevu si le joueur echoue.
+
+
+7. EMAIL
+========
+
+Email sert a:
+- lire les reponses client;
+- accepter un gig;
+- refuser;
+- negocier;
+- recevoir les paiements;
+- recevoir les messages de niveau;
+- recevoir les messages Finance.
+
+Les emails non lus affichent une notification.
+Lire un email le marque comme lu.
+
+Les offres de gig affichent:
+- titre;
+- venue;
+- budget;
+- score minimum attendu;
+- boutons accepter/refuser/negocier.
+
+
+8. PHONE
+========
+
+Phone est l'application qui rend le monde plus vivant.
+
+Elle affiche:
+- messages;
+- stories;
+- reactions de scene;
+- hype du VJ;
+- feedback plus narratif apres les gigs.
+
+Hype:
+- Underground hype
+- Corporate credibility
+- Artistic identity
+- Social presence
+- Festival hype
+
+La hype monte selon les gigs reussis, le type de client et le style du show.
+Elle sert de fondation pour creer des builds de VJ:
+- VJ artistique;
+- VJ technique;
+- VJ festival;
+- VJ corpo;
+- VJ underground;
+- VJ experimental.
+
+
+9. FINANCE
+==========
+
+Finance est l'application pour:
+- voir l'argent;
+- voir le salaire de jobine;
+- voir le logement et le loyer;
+- voir les contrats confirmes;
+- voir le resume du mois;
+- voir les revenus de gigs.
+
+La logique Finance:
+- Jobine commence a 120$ par jour.
+- +10$ apres chaque 20 jours travailles.
+- Le loyer est paye le 1er du mois.
+- Les gigs paient apres completion.
+- Les locations sont payees avant d'entrer dans le gig.
+
+
+10. STATS ET XP
+==============
+
+Stats principales:
+
+Creativite
+- augmente le score artistique.
+- monte avec pratique, sorties inspiration, gigs reussis et certains items.
+
+Technique
+- aide la projection et reduit les erreurs globales.
+- monte avec certains items, skills et gigs.
+
+Fatigue
+- penalise le score final.
+- augmente avec jobine, pratique, gigs.
+- baisse avec repos.
+
+Reputation
+- aide a debloquer des gigs.
+- augmente avec bons resultats.
+- baisse si gig rate ou loyer impaye.
+
+Style
+- aide le booking et la credibilite.
+- monte avec vetements et VJ Loop.
+
+Reseau
+- aide a obtenir des opportunites.
+- monte avec booking, negociation, items et logement.
+
+XP
+- fait monter le niveau.
+- Quand XP atteint niveau * 100, le joueur gagne un niveau.
+- Au niveau gagne: technique +2, creativite +2.
+
+Exemples:
+- Niveau 1 demande 100 XP pour passer niveau 2.
+- Niveau 2 demande 200 XP pour passer niveau 3.
+- Niveau 3 demande 300 XP pour passer niveau 4.
+
+
+11. SKILLS
+==========
+
+Il y a 5 familles de competence.
+Chaque skill a 3 niveaux.
+
+Cablage propre
+- Lire les distances.
+- Eviter la surtension.
+- Gerer les fils au sol.
+- Devient important a partir du gig 6.
+
+Mapping trapeze
+- Corriger angles, trapeze, profondeur.
+- Devient important a partir du gig 9.
+- Niveau 2 requis plus tard.
+
+Multi-projecteurs
+- Gerer les sorties, matrix, HDMI/DisplayPort et synchronisation.
+- Devient important a partir du gig 12.
+- Niveau 2 requis plus tard.
+
+Pression live
+- Rester efficace avec limite de temps.
+- Devient important a partir du gig 15.
+- Niveau 2 requis plus tard.
+
+Plume contour
+- Delimiter des formes.
+- Gerer ecrans ronds, masques, contours.
+- Devient important a partir du gig 18.
+
+Apprendre un skill:
+- coute argent selon niveau;
+- prend une journee;
+- marque l'action du jour;
+- augmente technique +2.
+
+Pratique de skill:
+- Certains gigs reussis peuvent donner de la pratique skill.
+- Quand assez de pratique est gagnee, le skill peut monter.
+
+
+12. SHOP
+========
+
+Le shop est separe en:
+- Gear
+- VJ Loop
+- Vetements
+
+Immobilier est une app separee.
+
+Chaque item a:
+- un prix;
+- un avantage;
+- un compromis;
+- une influence sur les stats ou le score.
+
+Regle de balance:
+- Plus un item coute cher, plus il donne un gros avantage.
+- Les items forts ont souvent un compromis: fatigue, reseau, technique, loyer, etc.
+- Les items ne doivent pas etre inutiles: chaque categorie sert a un moment de la progression.
+
+
+13. GEAR
+========
+
+Categories de gear:
+- Projecteur
+- Ordinateur
+- GPU
+- Cable
+- Adaptateur
+- Routeur / boite multi-projecteur
+- Console
+- Ecran de controle
+- Sac / transport
+- Accessoire
+
+Projecteurs:
+- plus le projecteur est bon, plus le setup gagne en score et reputation.
+- les gros gigs demandent de meilleurs projecteurs.
+
+Ordinateurs:
+- laptop starter: 1 HDMI, clips simples.
+- laptop VJ/creator: meilleurs clips et sorties.
+- desktop: plus puissant, mais demande ecran et adaptateurs.
+
+GPU:
+- sert surtout pour les tours desktop.
+- les cartes graphiques ont souvent 1 HDMI et plusieurs DisplayPort.
+- donc les adaptateurs DP-HDMI deviennent importants.
+
+Cables:
+- 25 pieds: petits setups.
+- 75 pieds: salles moyennes.
+- 150 pieds/fibre: grands lieux.
+- les gros gigs demandent de longs cables ou packs multi-cables.
+
+Adaptateurs:
+- necessaires quand le gear utilise DisplayPort/USB-C vers HDMI.
+- importants pour multi-projecteurs.
+
+Routeurs / matrix:
+- splitter duo pour 2 projecteurs.
+- mapper triple pour 3 projecteurs.
+- matrix 4x4 pour niveau pro.
+
+Consoles:
+- MIDI mini: controle simple.
+- VJ deck: meilleurs controles live.
+- ShowDeck pro: shows rapides et multi-projecteurs.
+
+Ecrans:
+- necessaires/pratiques avec desktop.
+- augmentent controle et previsualisation.
+
+Sac / transport:
+- reduit les problemes logistiques.
+- augmente credibilite/reputation selon qualite.
+
+Accessoire:
+- mapping kit devient important avec plume, contour et contraintes.
+
+
+14. LOCATION ET PRET CLIENT
+===========================
+
+Avant chaque gig, une fenetre de setup apparait.
+Le joueur choisit:
+- son gear possede;
+- du gear loue;
+- du gear prete par le client;
+- des VJ loops;
+- parfois la position du rack.
+
+Regles:
+- Les 5 premiers gigs peuvent preter du materiel.
+- Le materiel prete ne donne pas de bonus.
+- Louer coute environ 1/3 du prix de l'item.
+- Si le joueur possede le gear, il ne paie pas de location.
+- Si un gig ne permet pas la location et que le gear manque, impossible d'entrer.
+- Si la location coute plus que l'argent disponible, impossible d'entrer.
+
+Le cout de location est retire avant d'entrer dans la salle.
+
+
+15. VJ LOOP
+===========
+
+VJ Loop est une categorie de shop pour acheter des packs video.
+
+Styles:
+- techno
+- hiphop
+- chill
+- psytrance
+- rock
+
+Les gigs demandent un style.
+Certains gigs demandent 1, 2 ou 3 packs du bon style.
+
+Acheter un pack:
+- augmente creativite;
+- augmente style general;
+- augmente XP du style musical;
+- peut ajouter fatigue ou penalite technique selon le pack.
+
+Style XP:
+- chaque style a une progression.
+- plus le joueur possede de loops du style, plus il est credible pour ce type de gig.
+
+
+16. VETEMENTS ET PERSONNAGE
+===========================
+
+Le joueur choisit son look au debut et peut acheter des vetements.
+
+Les vetements peuvent changer:
+- chandail/logo;
+- pantalons;
+- chaussures;
+- cheveux;
+- chapeau/casque;
+- accessoires visuels.
+
+Effets:
+- style;
+- reputation;
+- parfois technique ou fatigue.
+
+Le but est de rendre le personnage reconnaissable et d'ajouter une progression visuelle.
+
+
+17. IMMOBILIER
+===============
+
+Immobilier est separe du shop.
+
+Le logement influence:
+- loyer mensuel;
+- confort;
+- fatigue;
+- creativite;
+- reputation;
+- reseau.
+
+Logements chers:
+- meilleurs bonus;
+- plus de loyer;
+- plus de pression financiere.
+
+Le loyer est paye le 1er du mois.
+
+
+18. GIGS ET DIFFICULTE
+======================
+
+Le jeu contient maintenant 30 gigs definis a la main. Chaque gig introduit une difficulte claire, un besoin de gear logique et un niveau de pression plus fort que le precedent.
+
+Table de progression officielle:
+
+| # | Nom | Projos | Zones/ecrans | Nouvelle difficulte | Contraintes | Gear requis | Location | Skills utiles | Timer |
+| - | --- | ------ | ------------ | ------------------- | ----------- | ----------- | -------- | ------------- | ----- |
+| 1 | Party Garage | 1 | 1 rectangle | Base projection | aucune | starter laptop + 1 HDMI | prete | aucune | non |
+| 2 | Neon Wall | 1 | 1 rectangle | Plume intro | decoupe simple | plume basic | prete | plume 1 | non |
+| 3 | Rush Setup | 1 | 1 rectangle | Premier stress | setup rapide | starter gear | prete | aucune | facile |
+| 4 | Moon Circle | 1 | 1 rond | Forme ronde | contour precis | plume basic | prete | plume 1 | non |
+| 5 | Hexa Pulse | 1 | 1 hexagone | Angles | precision trapeze | plume basic | prete | mapping 1 | leger |
+| 6 | Bad Placement | 1 | 1 rectangle | 3 positions possibles | mauvais angle possible | ton projo conseille | oui | cablage 1 | non |
+| 7 | Zoom Test | 1 | 1 rectangle | Zoom projection | distance trop longue | software zoom | oui | mapping 1 | non |
+| 8 | Far Circle | 1 | 1 rond | Zoom + plume | placement serre | zoom + plume | oui | plume 1 | leger |
+| 9 | Split Vision | 1 | 2 zones | 2 ecrans avec 1 projo | decoupe precise | plume niv.1 | oui | plume 1 | non |
+| 10 | Dual Rush | 1 | 2 zones | Timer + split | stress setup | laptop correct | oui | pression live 1 | moyen |
+| 11 | Twin Screens | 2 | 2 rectangles | Intro 2 projos | double connexion | splitter duo | oui | multi-projo 1 | non |
+| 12 | Long Cable | 2 | 2 rectangles | Distance | cable trop court sinon | cable 75 pieds | oui | cablage 1 | non |
+| 13 | Triple Shape | 2 | 3 zones | 1 projo split | formes mixtes | plume niv.1 | oui | plume 1 | leger |
+| 14 | Tight Venue | 2 | 3 zones | Salle serree | peu de place | zoom + cable long | oui | mapping 1 | moyen |
+| 15 | Quad Layout | 2 | 4 zones | 2 splits simultanes | precision forte | plume niv.2 | oui | plume 2 | non |
+| 16 | Club Pressure | 2 | 4 zones | Stress live | timer agressif | console MIDI mini | oui | pression live 1 | moyen |
+| 17 | Mixed Geometry | 2 | 4 zones | Rond + hexa + rectangle | angles complexes | meilleur laptop | oui | mapping 2 | moyen |
+| 18 | No Rental Night | 2 | 4 zones | Plus de location | doit posseder gear | 2 projos perso | non | multi-projo 1 | moyen |
+| 19 | Crooked Walls | 2 | 4 zones | Mauvais murs | trapeze fort | zoom + plume 2 | non | mapping 2 | moyen |
+| 20 | Warehouse Major | 2 | 4 zones | Premier gros gig | grosses penalites | laptop VJ + splitter | oui | pression live 1 | difficile |
+| 21 | Triple Intro | 3 | 3 rectangles | Intro 3 projos | outputs multiples | routeur triple | oui | multi-projo 2 | non |
+| 22 | Output Crisis | 3 | 3 zones | Ports limites | adaptateurs requis | DP-HDMI adapters | oui | multi-projo 2 | moyen |
+| 23 | Triple Split | 3 | 4 zones | Split avance | synchronisation | plume niv.2 | oui | plume 2 | moyen |
+| 24 | Festival Sidewalls | 3 | 5 zones | Grande couverture | mauvaise distance | matrix + zoom | oui | mapping 2 | moyen |
+| 25 | Psy Main Room | 3 | 5 zones | Stress intense | timer severe | VJ Deck | oui | pression live 2 | difficile |
+| 26 | Mapping Cathedral | 3 | 6 zones | 2 zones/projo | architecture complexe | plume niv.3 | non | plume 3 | difficile |
+| 27 | Geometry Overload | 3 | 6 zones | Toutes formes mixtes | precision extreme | GPU pro | non | mapping 3 | difficile |
+| 28 | Technical Nightmare | 3 | 6 zones | Tres peu de placements | mauvais angles partout | matrix 4x4 | non | multi-projo 3 | tres difficile |
+| 29 | Festival Headliner | 3 | 6 zones | Aucun droit erreur | pas de location | full setup pro | non | pression live 3 | extreme |
+| 30 | Legendary AV Show | 3 | 6 zones | Toutes mecaniques combinees | timer + placement + plume + zoom + stress | setup premium complet | non | toutes skills niv.3 | brutal |
+
+Regles liees a cette table:
+- Les 5 premiers gigs pretent le gear de base, sans bonus.
+- A partir du gig 6, le joueur doit commencer a louer ou acheter.
+- Certains gigs bloquent la location: il faut posseder le bon setup.
+- Le nombre de packs VJ Loop requis monte graduellement: 1, puis 2, puis 3.
+- Les timers deviennent plus courts et plus stressants.
+- Les contraintes de placement deviennent de plus en plus importantes.
+- Les skills utiles sont visibles avant d'entrer dans le gig.
+
+Progression de difficulte:
+
+Gigs 1-5:
+- initiation;
+- gear souvent prete;
+- peu ou pas de skills obligatoires;
+- pas de limite de temps dure.
+
+Gigs 6-8:
+- cablage propre requis;
+- distances et fils plus importants.
+
+Gigs 9-11:
+- mapping trapeze requis;
+- angles plus importants.
+
+Gigs 12-14:
+- multi-projecteurs;
+- sorties video, adaptateurs, routeurs.
+
+Gigs 15-17:
+- pression live;
+- limite de temps plus importante.
+
+Gigs 18-21:
+- plume contour;
+- masques plus exigeants.
+
+Gigs 22-24:
+- mapping niveau 2;
+- precision plus forte.
+
+Gigs 25-27:
+- multi-output niveau 2;
+- setups multi-projecteurs plus lourds.
+
+Gigs 28-30:
+- pression live niveau 2;
+- gros budget;
+- gear pro;
+- 3 projecteurs;
+- VJ loops multiples.
+
+
+19. PREPARATION AVANT GIG
+=========================
+
+Avant d'entrer dans un gig, le joueur choisit une preparation.
+
+Choix:
+- Preparer loops: bonus artistique.
+- Tester gear: bonus technique et professionnel.
+- Plan projection: bonus technique.
+- Se reposer: baisse fatigue et stabilise le show.
+- Relance client: bonus professionnel et reseau.
+
+Cette prep donne un feedback lisible dans l'ecran de fin.
+Elle peut aussi reduire le risque de catastrophe.
+
+
+20. EVENEMENTS IMPREVUS
+=======================
+
+Certains gigs peuvent declencher une surprise.
+
+Exemples deja prevus:
+- Cable trop court.
+- Projecteur faible.
+- Ordinateur qui lag.
+- Client change d'idee.
+- Mur pas droit.
+
+Ces evenements ajoutent une penalite lisible:
+- technique;
+- artistique;
+- professionnel.
+
+Le but n'est pas de punir au hasard, mais de creer des histoires.
+
+
+21. CONTRAINTES 3D
+==================
+
+Pendant un gig, le joueur voit la salle 3D.
+
+Elements:
+- VJ au bureau;
+- laptop;
+- table;
+- projecteurs;
+- racks;
+- fils;
+- ecran(s);
+- mur du fond;
+- projection et faisceau lumineux;
+- test card avant connexion;
+- clip VJ apres connexion.
+
+Commandes principales:
+- Selectionner projecteur.
+- Connecter projecteur.
+- Bouger projecteur.
+- Ajuster angle avec W/S/A/D.
+- Deplacer avec fleches.
+- Souris/molette pour camera.
+- Plume pour contours dans niveaux avances.
+- Terminer pour calculer le score.
+
+Le joueur peut terminer meme sans 100%.
+Mais plus le score est bas, plus les recompenses baissent.
+
+
+22. SCORING 3D
+==============
+
+Le score final est maintenant presente au joueur en 3 axes clairs.
+
+Technique - 40%
+- Alignement projection
+- Trapeze
+- Connexions
+- Placement projecteur
+- Temps de setup
+
+Artistique - 35%
+- Choix des loops
+- Style adapte au client
+- Creativite
+- Vibe
+- Preparation loops
+
+Professionnel - 25%
+- Arriver prepare
+- Bon gear
+- Peu de fatigue
+- Respect des contraintes
+- Reputation
+
+Le backend garde des calculs, mais l'ecran joueur doit surtout montrer:
+- Projection Quality
+- Artistic Direction
+- Client Satisfaction
+- Technical Stability
+- Final Result
+
+Penalites:
+- projecteurs non connectes;
+- mauvais point de rack;
+- depassement de limite de temps;
+- fatigue;
+- gig trop haut pour le niveau;
+- manque de gear/bonus;
+- mauvais style ou loops insuffisants.
+
+Formule simplifiee:
+
+BaseSkill =
+  score mapping * ratio projecteurs connectes
+  - penalite connexion
+  - penalite placement
+  - penalite temps
+
+Score final =
+  Technique * 40%
+  + Artistique * 35%
+  + Professionnel * 25%
+
+Le client calcule aussi une satisfaction selon son type.
+Un client corpo regarde plus la technique.
+Un client underground regarde plus l'artistique.
+
+Le score est limite entre 0 et 100.
+
+Etoiles:
+- 3 etoiles: score >= score minimum + 8
+- 2 etoiles: score >= score minimum
+- 1 etoile: sous le minimum
+
+Notes finales:
+- LEGENDARY SHOW
+- EXCELLENT SHOW
+- SOLID SET
+- MESSY NIGHT
+- DISASTER
+
+Bonus nommes possibles:
+- Client impressionne
+- Projection ultra clean
+- Setup professionnel
+- Gear solide
+- Excellente preparation
+
+Penalites nommees possibles:
+- Cable trop court
+- Connexions incompletes
+- Mauvais point de rack
+- Setup trop lent
+- Style musical peu prepare
+- Stress/fatigue
+- Gear debutant
+
+
+23. RECOMPENSES DE GIG
+======================
+
+Quand le joueur termine un gig:
+
+Argent:
+- depend du budget;
+- depend du ratio score / score minimum;
+- depend de la reputation;
+- la location a deja ete payee avant le gig.
+
+XP:
+- score >= minimum: +150 XP
+- score >= 82% du minimum: +110 XP
+- score >= 55% du minimum: +80 XP
+- plus bas: +45 XP
+
+Reputation:
+- score >= minimum + 8: +10
+- score >= minimum: +6
+- score >= 72% du minimum: +1
+- sinon: -7
+
+Autres gains:
+- fatigue +16;
+- creativite augmente selon score;
+- technique augmente selon score;
+- XP du style musical du gig augmente;
+- certains skills peuvent recevoir de la pratique.
+
+Le gig passe ensuite en "termine".
+Il obtient:
+- lastCompletedDay;
+- timesCompleted +1;
+- cooldown de 7 jours avant replay.
+
+
+24. ANNULER UN GIG
+==================
+
+Si le joueur annule un gig:
+- penalite argent;
+- reputation baisse;
+- fatigue augmente;
+- email client envoye;
+- la journee est consideree utilisee.
+
+Annuler est possible mais coute cher.
+
+
+25. GIG SETUP AVANT SALLE
+=========================
+
+Avant d'entrer dans une salle:
+- le joueur voit le brief client;
+- il voit le materiel requis;
+- il choisit son loadout;
+- il peut louer ce qui manque si le gig le permet;
+- il choisit les VJ loops;
+- parfois il choisit la position du rack.
+
+Le setup calcule:
+- cout de location;
+- budget apres location;
+- bonus gear;
+- qualite du setup:
+  - Setup debutant
+  - Setup correct
+  - Setup solide
+  - Setup premium
+
+Si un choix manque ou coute trop cher, le bouton d'entree est bloque.
+
+
+26. CAMERA ET CONTROLES
+=======================
+
+Le jeu 3D utilise une camera libre/orbite.
+
+Objectif:
+- permettre de reculer;
+- inspecter la salle;
+- voir le VJ, le bureau, les projecteurs et les ecrans;
+- rester dans les limites de la salle.
+
+La souris et la molette servent a bouger la camera.
+Le joueur ne controle pas le personnage pendant le gig.
+Le gameplay est centre sur les projecteurs.
+
+
+27. OBJECTIFS A LONG TERME
+==========================
+
+Le joueur progresse en:
+- montant de niveau;
+- achetant meilleur gear;
+- achetant VJ loops;
+- ameliorant ses skills;
+- augmentant reputation;
+- augmentant reseau;
+- ameliorant son logement;
+- gagnant plus a la jobine;
+- reussissant des gigs plus difficiles.
+
+Objectif final:
+- etre capable de prendre des gros gigs multi-projecteurs;
+- gerer 3 projecteurs;
+- avoir des loops adaptees;
+- avoir une machine pro;
+- avoir les skills niveau 2/3;
+- faire de bons scores malgre temps, fatigue, masque et contraintes.
+
+
+28. POINTS IMPORTANTS POUR FUTURES AMELIORATIONS
+================================================
+
+A garder coherent:
+
+1. Les emails de candidature restent dans VJ Booking, pas dans calendrier.
+2. Le calendrier sert aux actions de journee et planning.
+3. Finance contient argent, loyer, jobine et contrats.
+4. Les gigs doivent toujours avoir une raison d'exiger un item.
+5. Les 5 premiers gigs peuvent preter du gear sans bonus.
+6. Les locations coutent environ 1/3 du prix.
+7. Les gros gigs doivent exiger:
+   - meilleur ordinateur;
+   - GPU;
+   - longs cables;
+   - adaptateurs;
+   - routeur/matrix;
+   - console;
+   - ecran;
+   - sac;
+   - mapping kit;
+   - plusieurs VJ loops.
+8. Un gig trop haut doit rester jouable mais risque:
+   - score plus bas;
+   - argent plus bas;
+   - reputation plus basse;
+   - fatigue plus forte.
+9. Rejouer un gig doit toujours respecter le cooldown et le processus email.
+10. Le joueur doit sentir que tout achat sert a une future difficulte.
+11. Le telephone doit devenir la source principale des histoires: DM, appels, stories, promoters.
+12. Ajouter plus tard usure gear: laptop chauffe, cable fragile, projecteur sale, GPU instable.
+13. Ajouter crew: tech video, ami VJ, stage helper, chauffeur.
+14. Ajouter studio personnalisable: LEDs, affiches, synths, desk setup, projecteurs exposes.
+15. Ajouter evenements rares memorables: rave illegale, festival desert, musee, wedding catastrophe, livestream mondial.
+
+
+29. RESUME RAPIDE POUR DESIGN
+=============================
+
+Le jeu est une simulation RPG de VJ.
+Le calendrier gere le temps.
+VJ Booking gere les opportunites.
+Email gere les reponses.
+Finance gere l'argent.
+Shop/Immobilier/Skills gerent la progression.
+La salle 3D teste la capacite reelle a aligner les projecteurs.
+
+La meilleure boucle:
+
+Jour normal:
+1. Regarder VJ Booking.
+2. Envoyer jusqu'a 3 candidatures.
+3. Gerer energie: pratique, jobine, repos, skill.
+4. Lire Phone pour les histoires/DM.
+5. Next Day.
+6. Lire les reponses email.
+7. Accepter un gig.
+8. Attendre vendredi/samedi.
+9. Choisir une preparation.
+10. Preparer gear.
+11. Jouer gig 3D.
+12. Lire le resultat visuel.
+13. Reinvestir l'argent dans le bon equipement.

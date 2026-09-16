@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "syntheticScoringCases": {
+    "first": 91,
+    "boosted": 91,
+    "noSignal": 0,
+    "noLive": 0,
+    "noFade": 81
+  },
+  "setupCollapsed": true
+}

@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "fixtureSetup": true,
+  "uiTransitions": 6,
+  "clips": [
+    {
+      "src": "http://127.0.0.1:5173/video/originals/aurora.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "loopAfter": 0.704375
+    },
+    {
+      "src": "http://127.0.0.1:5173/video/originals/ribbons.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "loopAfter": 0.699432
+    },
+    {
+      "src": "http://127.0.0.1:5173/video/originals/orbits.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "loopAfter": 0.706126
+    },
+    {
+      "src": "http://127.0.0.1:5173/video/originals/grid.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "loopAfter": 0.693911
+    },
+    {
+      "src": "http://127.0.0.1:5173/video/originals/tunnel.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "loopAfter": 0.695304
+    },
+    {
+      "src": "http://127.0.0.1:5173/video/originals/kaleido.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "loopAfter": 0.697948
+    }
+  ],
+  "errors": []
+}

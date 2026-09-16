@@ -1,0 +1,7 @@
+{
+  "matrixRoutes": true,
+  "cardRemoval": true,
+  "lensMountedByPointer": true,
+  "lensScale": 1.25,
+  "errors": []
+}

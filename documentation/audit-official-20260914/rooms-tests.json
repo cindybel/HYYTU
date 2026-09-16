@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "title": "Micro studio sous-sol",
+      "name": "Micro studio sous-sol",
+      "parts": 75
+    },
+    {
+      "title": "Appartement econo",
+      "name": "Appartement econo",
+      "parts": 84
+    },
+    {
+      "title": "Petit loft creatif",
+      "name": "Petit loft creatif",
+      "parts": 88
+    },
+    {
+      "title": "Appartement medium",
+      "name": "Appartement medium",
+      "parts": 84
+    },
+    {
+      "title": "Studio partage VJ",
+      "name": "Studio partage VJ",
+      "parts": 136
+    },
+    {
+      "title": "Chambre warehouse",
+      "name": "Chambre warehouse",
+      "parts": 88
+    },
+    {
+      "title": "Studio insonorise",
+      "name": "Studio insonorise",
+      "parts": 132
+    },
+    {
+      "title": "Appartement luxe",
+      "name": "Appartement luxe",
+      "parts": 102
+    },
+    {
+      "title": "Loft artiste premium",
+      "name": "Loft artiste premium",
+      "parts": 106
+    },
+    {
+      "title": "Penthouse scene view",
+      "name": "Penthouse scene view",
+      "parts": 84
+    }
+  ],
+  "errors": []
+}

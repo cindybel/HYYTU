@@ -1,0 +1,8 @@
+{
+  "manualPoints": 3,
+  "quality": 100,
+  "mappingSurvivesReload": true,
+  "cancellationPreservesPersonalGear": true,
+  "noDuplicateCharge": true,
+  "errors": []
+}

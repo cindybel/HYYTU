@@ -1,0 +1,338 @@
+{
+  "gates": {
+    "blocked": "Palier 2 : réussir 2 gigs « Écran simple » à 60 % (0/2).",
+    "opened": "",
+    "failed": "Palier 2 : réussir 2 gigs « Écran simple » à 60 % (1/2).",
+    "retained": ""
+  },
+  "tiers": [
+    {
+      "number": 1,
+      "tier": {
+        "index": 0,
+        "name": "Écran simple",
+        "score": 60,
+        "mask": 0
+      },
+      "projectors": 1
+    },
+    {
+      "number": 2,
+      "tier": {
+        "index": 0,
+        "name": "Écran simple",
+        "score": 60,
+        "mask": 0
+      },
+      "projectors": 1
+    },
+    {
+      "number": 3,
+      "tier": {
+        "index": 0,
+        "name": "Écran simple",
+        "score": 60,
+        "mask": 0
+      },
+      "projectors": 1
+    },
+    {
+      "number": 4,
+      "tier": {
+        "index": 0,
+        "name": "Écran simple",
+        "score": 60,
+        "mask": 0
+      },
+      "projectors": 1
+    },
+    {
+      "number": 5,
+      "tier": {
+        "index": 0,
+        "name": "Écran simple",
+        "score": 60,
+        "mask": 0
+      },
+      "projectors": 1
+    },
+    {
+      "number": 6,
+      "tier": {
+        "index": 1,
+        "name": "Formes et plume",
+        "score": 68,
+        "mask": 55
+      },
+      "projectors": 1
+    },
+    {
+      "number": 7,
+      "tier": {
+        "index": 1,
+        "name": "Formes et plume",
+        "score": 68,
+        "mask": 55
+      },
+      "projectors": 1
+    },
+    {
+      "number": 8,
+      "tier": {
+        "index": 1,
+        "name": "Formes et plume",
+        "score": 68,
+        "mask": 55
+      },
+      "projectors": 1
+    },
+    {
+      "number": 9,
+      "tier": {
+        "index": 1,
+        "name": "Formes et plume",
+        "score": 68,
+        "mask": 55
+      },
+      "projectors": 1
+    },
+    {
+      "number": 10,
+      "tier": {
+        "index": 1,
+        "name": "Formes et plume",
+        "score": 68,
+        "mask": 55
+      },
+      "projectors": 1
+    },
+    {
+      "number": 11,
+      "tier": {
+        "index": 2,
+        "name": "Deux projecteurs",
+        "score": 75,
+        "mask": 65
+      },
+      "projectors": 2
+    },
+    {
+      "number": 12,
+      "tier": {
+        "index": 2,
+        "name": "Deux projecteurs",
+        "score": 75,
+        "mask": 65
+      },
+      "projectors": 2
+    },
+    {
+      "number": 13,
+      "tier": {
+        "index": 2,
+        "name": "Deux projecteurs",
+        "score": 75,
+        "mask": 65
+      },
+      "projectors": 2
+    },
+    {
+      "number": 14,
+      "tier": {
+        "index": 2,
+        "name": "Deux projecteurs",
+        "score": 75,
+        "mask": 65
+      },
+      "projectors": 2
+    },
+    {
+      "number": 15,
+      "tier": {
+        "index": 2,
+        "name": "Deux projecteurs",
+        "score": 75,
+        "mask": 65
+      },
+      "projectors": 2
+    },
+    {
+      "number": 16,
+      "tier": {
+        "index": 3,
+        "name": "Fixations au plafond",
+        "score": 82,
+        "mask": 75
+      },
+      "projectors": 2
+    },
+    {
+      "number": 17,
+      "tier": {
+        "index": 3,
+        "name": "Fixations au plafond",
+        "score": 82,
+        "mask": 75
+      },
+      "projectors": 2
+    },
+    {
+      "number": 18,
+      "tier": {
+        "index": 3,
+        "name": "Fixations au plafond",
+        "score": 82,
+        "mask": 75
+      },
+      "projectors": 2
+    },
+    {
+      "number": 19,
+      "tier": {
+        "index": 3,
+        "name": "Fixations au plafond",
+        "score": 82,
+        "mask": 75
+      },
+      "projectors": 2
+    },
+    {
+      "number": 20,
+      "tier": {
+        "index": 3,
+        "name": "Fixations au plafond",
+        "score": 82,
+        "mask": 75
+      },
+      "projectors": 2
+    },
+    {
+      "number": 21,
+      "tier": {
+        "index": 4,
+        "name": "Trois projecteurs",
+        "score": 88,
+        "mask": 82
+      },
+      "projectors": 3
+    },
+    {
+      "number": 22,
+      "tier": {
+        "index": 4,
+        "name": "Trois projecteurs",
+        "score": 88,
+        "mask": 82
+      },
+      "projectors": 3
+    },
+    {
+      "number": 23,
+      "tier": {
+        "index": 4,
+        "name": "Trois projecteurs",
+        "score": 88,
+        "mask": 82
+      },
+      "projectors": 3
+    },
+    {
+      "number": 24,
+      "tier": {
+        "index": 4,
+        "name": "Trois projecteurs",
+        "score": 88,
+        "mask": 82
+      },
+      "projectors": 3
+    },
+    {
+      "number": 25,
+      "tier": {
+        "index": 4,
+        "name": "Trois projecteurs",
+        "score": 88,
+        "mask": 82
+      },
+      "projectors": 3
+    },
+    {
+      "number": 26,
+      "tier": {
+        "index": 5,
+        "name": "Architecture avancée",
+        "score": 92,
+        "mask": 88
+      },
+      "projectors": 3
+    },
+    {
+      "number": 27,
+      "tier": {
+        "index": 5,
+        "name": "Architecture avancée",
+        "score": 92,
+        "mask": 88
+      },
+      "projectors": 3
+    },
+    {
+      "number": 28,
+      "tier": {
+        "index": 5,
+        "name": "Architecture avancée",
+        "score": 92,
+        "mask": 88
+      },
+      "projectors": 3
+    },
+    {
+      "number": 29,
+      "tier": {
+        "index": 5,
+        "name": "Architecture avancée",
+        "score": 92,
+        "mask": 88
+      },
+      "projectors": 3
+    },
+    {
+      "number": 30,
+      "tier": {
+        "index": 5,
+        "name": "Architecture avancée",
+        "score": 92,
+        "mask": 88
+      },
+      "projectors": 3
+    }
+  ],
+  "score": {
+    "perfect": 100,
+    "wrong": 0
+  },
+  "quality": [
+    {
+      "quality": 100,
+      "counts": [
+        4,
+        4
+      ]
+    },
+    {
+      "quality": 100,
+      "counts": [
+        4,
+        4
+      ]
+    },
+    {
+      "quality": 100,
+      "counts": [
+        4,
+        4
+      ]
+    }
+  ],
+  "errors": []
+}

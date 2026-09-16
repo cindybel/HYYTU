@@ -1,0 +1,1121 @@
+{
+  "count": 159,
+  "failures": [],
+  "dupes": [],
+  "hashes": [
+    {
+      "id": "projector-cheap",
+      "category": "gear",
+      "type": "projector",
+      "label": "Binq StarterBeam 2200",
+      "hash": "6584aca7b0162aecb77d7df47aa45adf8accc3286a98cadbdd6389a490ea0b47"
+    },
+    {
+      "id": "projector-standard",
+      "category": "gear",
+      "type": "projector",
+      "label": "Epsun EB-Lo 4200 3LCD",
+      "hash": "4c87930f84fdede0381588cbefe58c1db4ba23d251e8103ac4d626577e5891b8"
+    },
+    {
+      "id": "projector-short-throw",
+      "category": "gear",
+      "type": "projector",
+      "label": "Optomix ShortCast ST-4",
+      "hash": "83a24d5d33e5a4b2a7f1ef0acb710ca563ffa3c55d79e61d8d52097d2af3014b"
+    },
+    {
+      "id": "projector-laser-entry",
+      "category": "gear",
+      "type": "projector",
+      "label": "Panasound PT-Rave LZ320",
+      "hash": "0e427473384b0b2738a9286f7122f8251cf21fed5630d693133c06e008f185c8"
+    },
+    {
+      "id": "projector-pro-6500",
+      "category": "gear",
+      "type": "projector",
+      "label": "Christalux Boxer Mini 6500",
+      "hash": "80911b032026e789405ca6528759591b5c5c03968f675c6cb096f197eb041ee1"
+    },
+    {
+      "id": "projector-ultra-4k",
+      "category": "gear",
+      "type": "projector",
+      "label": "Barq UDMini 4K Laser",
+      "hash": "622356bf5b6ff9cca5dc603c7b89b2f3692c3cf30b79f793beae830b8ce9d2b1"
+    },
+    {
+      "id": "computer-starter-laptop",
+      "category": "gear",
+      "type": "computer",
+      "label": "Lenovox FieldPad iGPU",
+      "hash": "2d29eb5a0fa685511ba68cee5ab69017921abcd7ca178ced7a77db3b89cda499"
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "category": "gear",
+      "type": "computer",
+      "label": "M-Synth StageMini GTX 1 HDMI",
+      "hash": "3372472d99fb5d85b6d5f00e1b546c481c93cc74487871d564b69b26bf80ca31"
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "category": "gear",
+      "type": "computer",
+      "label": "Azus ProArtish RTX 2 sorties",
+      "hash": "662faf01385b3f877f2954a87218d5631515979e020d3eb137016b76bae1ac4f"
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "category": "gear",
+      "type": "computer",
+      "label": "Raytrix Tower 4060 DP3",
+      "hash": "14e76f91f5016448f628655757009867a354d2ea89e7546af9d9c17c2b1af2e8"
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "category": "gear",
+      "type": "computer",
+      "label": "Raytrix Tower 4080 Show DP3",
+      "hash": "af01bb461aa0ec361af30f35b46b25446869401359a3f6389fb1e6c4399dc3ee"
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "category": "gear",
+      "type": "gpu",
+      "label": "Raytrix Mobile VJ Core",
+      "hash": "efdceed93ad9a4425c2204ce8f50a0b88d59f57d4dfc27a80e9a96f65287b123"
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "category": "gear",
+      "type": "gpu",
+      "label": "Raytrix Desktop DP Duo",
+      "hash": "6608ec7e4dfd619613789c7a49ed30b4e6533b5531bf02cc3fe827cf26b65652"
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "category": "gear",
+      "type": "gpu",
+      "label": "Raytrix Desktop DP Quad Pro",
+      "hash": "7427653d4bf59c5f53747523d0beda6099a7036429be24c1b0105036e4a037c6"
+    },
+    {
+      "id": "cable-25ft-basic",
+      "category": "gear",
+      "type": "cable",
+      "label": "Kramark HDMI Run 25",
+      "hash": "b1a13c7fa8e4015cafcf52bfebe26c09cc093901c1a2116b25603f03ee888143"
+    },
+    {
+      "id": "cable-75ft-active",
+      "category": "gear",
+      "type": "cable",
+      "label": "Kramark ActiveRun 75",
+      "hash": "d00a0562df63d9630fe2199f819c03df63cbc2d78ea0b2b70f18d7c4709f2062"
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "category": "gear",
+      "type": "cable",
+      "label": "Kramark FiberRun 150",
+      "hash": "47f16d7f9010a9b5a758f32337910faf01f3c8474393137ab90569b4dbf53005"
+    },
+    {
+      "id": "cable-loom-3pack-75",
+      "category": "gear",
+      "type": "cable",
+      "label": "LiteWire Trio Loom 75",
+      "hash": "6ae579d2e97064fd8aba82cc15632abb7a178a628004f1d77253e5b663599b6d"
+    },
+    {
+      "id": "cable-loom-3pack-150",
+      "category": "gear",
+      "type": "cable",
+      "label": "LiteWire Fiber Trio 150",
+      "hash": "42671772be8d707836cd6af42752f2d163ed2973c19b8e0e3d9af2c31301c1a0"
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "category": "gear",
+      "type": "adapter",
+      "label": "PortSmith DP-HDMI Solo",
+      "hash": "f8d9c76d93fd1ace0a15c1c87e0dc78cd91eeeb304ef968686340078c3f45603"
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "category": "gear",
+      "type": "adapter",
+      "label": "PortSmith USB-C Active HDMI",
+      "hash": "15ea0db902900051c152be106e702776ef61586f7cb8cb7be971c4d8d8becbe4"
+    },
+    {
+      "id": "adapter-dp-hdmi-pro-3pack",
+      "category": "gear",
+      "type": "adapter",
+      "label": "PortSmith DP-HDMI Triple Pro",
+      "hash": "fbd97fbd3cee8ad2e191c32d62dd0983f5c4a47bae7d0bc962ddb62e87cee34a"
+    },
+    {
+      "id": "adapter-edid-locker",
+      "category": "gear",
+      "type": "adapter",
+      "label": "SignalLock EDID Box",
+      "hash": "95d9eb5ddb95a5a926eea8c838b54159c11a629223ccc562a039ca7d9082f601"
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "category": "gear",
+      "type": "accessory",
+      "label": "StageTack Pocket Roll",
+      "hash": "5bdd99c6e806f7b07bc88247237d54f9f2dca972cab3b86a7138508bff8acf1b"
+    },
+    {
+      "id": "accessory-wide-lens",
+      "category": "gear",
+      "type": "accessory",
+      "label": "Optomix WideKit 0.8",
+      "hash": "77f9460434e36596a99ba3f97855643fd57fdef6f371af7cc69ae594ced5b84a"
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "category": "gear",
+      "type": "accessory",
+      "label": "MapLab Marker Kit",
+      "hash": "e27477ce92a87e1d7b63c41a0465d1d314429d178a3217eb769dd086a8b80f44"
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "category": "gear",
+      "type": "accessory",
+      "label": "RoadVault Flight XL",
+      "hash": "16aa3dc952c00f2d69471900e0ee36387116b5e4dfa7a44c0938bf621257c47f"
+    },
+    {
+      "id": "accessory-mini-controller",
+      "category": "gear",
+      "type": "accessory",
+      "label": "StageCue Footswitch Duo",
+      "hash": "8a5f4e7213f43254a0f1e00d75bf3bcce29ecf1a90a0636a0dfac2efa6f5e24c"
+    },
+    {
+      "id": "router-splitter-duo",
+      "category": "gear",
+      "type": "router",
+      "label": "DataPatch Duo Split",
+      "hash": "2fa3782cf52342356a28a398ccf6ace1c28fca99dff8357905046ce5eb43dac8"
+    },
+    {
+      "id": "router-mapper-triple",
+      "category": "gear",
+      "type": "router",
+      "label": "BlackMagi MapBox Triple",
+      "hash": "fa03f343f0d986e4ccc3652153947665254a318c7dedb751baca42b29b8757bf"
+    },
+    {
+      "id": "router-matrix-4x4",
+      "category": "gear",
+      "type": "router",
+      "label": "AnalogWhey Matrix 4x4 Pro",
+      "hash": "15766ddb8617e54d6845e22f79e277bbbc52da75fcc2fcf0861423f05b1fd881"
+    },
+    {
+      "id": "console-midi-mini",
+      "category": "gear",
+      "type": "console",
+      "label": "A-KAI PadMix Mini",
+      "hash": "37cab96b4cfc3ad67403d4fbbbf53e9ebb95e94159548813dbfd14c4177b4957"
+    },
+    {
+      "id": "console-vj-deck",
+      "category": "gear",
+      "type": "console",
+      "label": "ElGateau StreamPad VJ 8",
+      "hash": "dd098927ed5da80d1dc030db1d1fdab3145f17067821d05da779f3cbd6818d79"
+    },
+    {
+      "id": "console-show-control-pro",
+      "category": "gear",
+      "type": "console",
+      "label": "Rezolume ShowDeck Pro",
+      "hash": "75a00ae930889ebb8d24fa09a7102ad85df68960aa2044a7fd97e54a2dd2a41a"
+    },
+    {
+      "id": "screen-monitor-24",
+      "category": "gear",
+      "type": "screen",
+      "label": "Delle ViewDesk 24",
+      "hash": "c0c260447f9eeb0cfacc1001025c869f12231beb6fd920b313d5cfbcf1b86587"
+    },
+    {
+      "id": "screen-monitor-27",
+      "category": "gear",
+      "type": "screen",
+      "label": "Azus ProArtish 27",
+      "hash": "7ce480f50fee772b7889a2e111ed27a73b25ce54a620e27d3b2ecee9a2e3e26e"
+    },
+    {
+      "id": "screen-portable-touch",
+      "category": "gear",
+      "type": "screen",
+      "label": "ViewSonic-ish TouchStage 15",
+      "hash": "65402c09ecab53e1640e4ee534afed276ccbdd1f4191aacf110ad2be868abcf4"
+    },
+    {
+      "id": "bag-messenger-basic",
+      "category": "gear",
+      "type": "bag",
+      "label": "RoadVault Messenger 12",
+      "hash": "7c423749ce977ac0f37f218550d4605d6196936f0c4a244ce286e112e5f6828c"
+    },
+    {
+      "id": "bag-vj-backpack",
+      "category": "gear",
+      "type": "bag",
+      "label": "RoadVault VJ Pack 32",
+      "hash": "4b669279a683b84cc72648c824814955deafb67546e5389d1b7ef5e5b91db673"
+    },
+    {
+      "id": "bag-road-backpack",
+      "category": "gear",
+      "type": "bag",
+      "label": "RoadVault Flight Backpack",
+      "hash": "fa9ce7bc490872b68be1ae98a55a7455c43a72822fb7a53fa245ad84a7b865da"
+    },
+    {
+      "id": "housing-micro-room",
+      "category": "housing",
+      "type": "housing",
+      "label": "Micro studio sous-sol",
+      "hash": "a9ee33bbd4eb7191a192c229ae574ffd2b77ebea0d1484a40fea356bd3eb7c82"
+    },
+    {
+      "id": "housing-econo",
+      "category": "housing",
+      "type": "housing",
+      "label": "Appartement econo",
+      "hash": "f48909d8a383e57dfe17c061be4654b39fdd9ab0c0e018613be1b980ca1febe1"
+    },
+    {
+      "id": "housing-loft-small",
+      "category": "housing",
+      "type": "housing",
+      "label": "Petit loft creatif",
+      "hash": "a6ecd8766aac09868bb00d5d3656d281456e7de78bef269e62dd4c35e364e086"
+    },
+    {
+      "id": "housing-medium",
+      "category": "housing",
+      "type": "housing",
+      "label": "Appartement medium",
+      "hash": "28de633d507be52bd47b94181f7dae37675c0e67e6ed5fcca296e2a1cc00d224"
+    },
+    {
+      "id": "housing-shared-studio",
+      "category": "housing",
+      "type": "housing",
+      "label": "Studio partage VJ",
+      "hash": "e56041607a25c55bb7d9a746ae08991e696ce6579b3c0b3088da367576875189"
+    },
+    {
+      "id": "housing-warehouse-room",
+      "category": "housing",
+      "type": "housing",
+      "label": "Chambre warehouse",
+      "hash": "4f2f71d5c37ed87a4ad1421d898affefb1f439dceb7892f08063e64bf907dd85"
+    },
+    {
+      "id": "housing-soundproof",
+      "category": "housing",
+      "type": "housing",
+      "label": "Studio insonorise",
+      "hash": "f90d5200ff0282a5f17fecab03f2ef9f3c433e72ebba69a73f6413502e89e121"
+    },
+    {
+      "id": "housing-luxe",
+      "category": "housing",
+      "type": "housing",
+      "label": "Appartement luxe",
+      "hash": "cc7b4baeed4e19381cadacc1c8c94ccfc1bbf9b30b0d2899bf19c10ab1a76c87"
+    },
+    {
+      "id": "housing-artist-loft",
+      "category": "housing",
+      "type": "housing",
+      "label": "Loft artiste premium",
+      "hash": "fe8fc0eac422504bbba1e2541c5a1a34470bcf6cd253eabd1d3113881ff04473"
+    },
+    {
+      "id": "housing-penthouse",
+      "category": "housing",
+      "type": "housing",
+      "label": "Penthouse scene view",
+      "hash": "5c8f7e09d301717ccd9c955bfa34b370e86e2c3d85c33df562feb01e008483a4"
+    },
+    {
+      "id": "clothing-pin-vj",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Pin VJ neon",
+      "hash": "c1f1d33c7db28e82b1f95a89b7c73dcd8d8269b0bdb6867719894bb555f54520"
+    },
+    {
+      "id": "clothing-beanie-black",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Tuque noire VJ",
+      "hash": "3565d237ad1f7eb4776f7bab51ab6b6f1214d34f83a90f50b551715e1dd5a8c9"
+    },
+    {
+      "id": "clothing-hoodie-vj",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Hoodie VJ classic",
+      "hash": "7210beffa05e68829a13df20e3d9ca8c950aed1b7a0e270a672c62dba8e16cc9"
+    },
+    {
+      "id": "clothing-jacket-blackout",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Veste Blackout",
+      "hash": "0a07fadfed4246a1f1b53e46636dee4a98f0ada9b36db7be4bb586fae84e787a"
+    },
+    {
+      "id": "clothing-jacket-reflective",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Veste reflective",
+      "hash": "8dcc5e6d26ff18dbfd4f57234213cd3c56fea6855c2078f76897ed8f5358715e"
+    },
+    {
+      "id": "clothing-cap-low",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Casquette low profile",
+      "hash": "a40ed59e2e628ba7b1285b715366500a4f4443b2a5bfbc4dd7a06edb93701a0f"
+    },
+    {
+      "id": "clothing-pants-cargo",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Cargo noir scene",
+      "hash": "6b002e5cb04ae19cf5b92012bcf5dd241a76bf1a516fdb0b8c3ba49377641e4b"
+    },
+    {
+      "id": "clothing-pants-tech",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Pantalon techwear",
+      "hash": "6196101469b0fa1c37a4149b907367abc5a945cf85c44eccc95cd20d504ce464"
+    },
+    {
+      "id": "clothing-shoes-cyan",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Sneakers cyan LED",
+      "hash": "3050db6e80d696a9589c4696e607304ef5a3978e9425bbe6fc847168bf9e14e1"
+    },
+    {
+      "id": "clothing-shoes-magenta",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Sneakers magenta",
+      "hash": "1d4d2f499da36f3ecb0c92ecbb8adb113ffab66f89af82e4b44a4f16bd00b5ac"
+    },
+    {
+      "id": "clothing-headphones-basic",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Casque monitoring basic",
+      "hash": "feae8b616f5a355ab102e5167ff7c1906b776276813ab8dd249520095fa213c6"
+    },
+    {
+      "id": "clothing-headphones-pro",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Casque monitoring pro",
+      "hash": "43699fd688b166abaef9853e9657c0a42fc5c11a3b4575fb366d5cfa524b646c"
+    },
+    {
+      "id": "clothing-gloves-stage",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Gants stage noir",
+      "hash": "c9c2b25151b543a3511bf109bdce66f95413ceeeaad6b47d6574afe607ad2346"
+    },
+    {
+      "id": "clothing-mask-club",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Masque club neon",
+      "hash": "62d0147f898ea4ce421ff6fe4757a52093cdebf57a746c1894b38d0b3e907306"
+    },
+    {
+      "id": "clothing-coat-tour",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Manteau tour manager",
+      "hash": "ba9a6ccc86352cf85bb6f311ab27bb6d82ffb3ca7bb1de6cbf542233c60c4de0"
+    },
+    {
+      "id": "clothing-vest-led",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Veste LED VJ",
+      "hash": "f0022469a5a0208a0c9bf8d2de7631a2199750485e58e17aa4ed19434a75df6e"
+    },
+    {
+      "id": "clothing-full-fit-pro",
+      "category": "clothing",
+      "type": "clothing",
+      "label": "Fit complet Pro VJ",
+      "hash": "5b82e98992e3ea3ff8bfcd74e3b491bad97e5c665f636b11b474ba52061c2e18"
+    },
+    {
+      "id": "clip-starter-loop",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Starter Loop",
+      "hash": "4198582a605941bedf56869880dbb5f6f7f3ca1254cb7eab11da4e10e1b99279"
+    },
+    {
+      "id": "clip-garage-noise",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Garage Noise",
+      "hash": "278a250bd8c3892e4186cddad328cbefd7b67d22d6acd26ecef15ca0ab9d7bd8"
+    },
+    {
+      "id": "clip-liquid-lines",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Liquid Lines",
+      "hash": "95eb3f7920d231d4ee363f07cad55f18fbe5fb8b9f4bd2ace51e0a61e701a3a8"
+    },
+    {
+      "id": "clip-psy-grid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Psy Grid",
+      "hash": "1039e751c9a3cda759f88e4394169802bbc0992947e03e339d4bce61dbc56a36"
+    },
+    {
+      "id": "clip-techno-strobe",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Techno Strobe",
+      "hash": "79f7742186000e374a6b7bf8fda0fbe88e13c71fc2a412442d81b9e9c0d0efed"
+    },
+    {
+      "id": "clip-hiphop-chrome",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack HipHop Chrome",
+      "hash": "aa5117708fc16207ff9c702df2c8c5d72922eff568ee1e7c5b6b380c16104955"
+    },
+    {
+      "id": "clip-ambient-clouds",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Ambient Clouds",
+      "hash": "84b6bda19db131712cfd4ed2573860a7739658c0834416d95324ba0ebe69e37b"
+    },
+    {
+      "id": "clip-laser-cave",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Laser Cave",
+      "hash": "59266dd5c464f85766bcfb68570c25d257336210c1e4535e97faf144960ff0f2"
+    },
+    {
+      "id": "clip-fractal-bloom",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Fractal Bloom",
+      "hash": "2215bf240897fd3e430835fab6e3f513e1a85656c1415b14d4295fa615edb197"
+    },
+    {
+      "id": "clip-city-glitch",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack City Glitch",
+      "hash": "54d9bb0da6ece0afa83634b9d0a30142f66989306370458fb962cbc1599aeb2e"
+    },
+    {
+      "id": "clip-premium-opener",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Premium Opener",
+      "hash": "ab9239c626c669eedb8564d64a33f67668c9e743287cefcfaccbaa899a5d159c"
+    },
+    {
+      "id": "clip-festival-rush",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Festival Rush",
+      "hash": "f568a1ee03e9ca0ddccb663a7164539319c5dfaf778bdcd6d4fe8f55fe2287f9"
+    },
+    {
+      "id": "clip-neon-water",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Neon Water",
+      "hash": "d1b6c2789146326b9ccb2caede2e1efebe01c9a522788c7c77abb060d13a0c9f"
+    },
+    {
+      "id": "clip-black-white",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Noir Blanc Impact",
+      "hash": "cbaeae6a86fe912a68135d413a5bcfd34a4febb428e235703afee5891102192c"
+    },
+    {
+      "id": "clip-retro-crt",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Retro CRT",
+      "hash": "ba0d7199ea5bfe39469d9c6f5202da720ca957f6b1d348ea87ff6133f6bcfd35"
+    },
+    {
+      "id": "clip-organic-tunnel",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Organic Tunnel",
+      "hash": "161a07a3eed8a581a69536292d5abf65f49842faf730ff1ab459f046f61834a4"
+    },
+    {
+      "id": "clip-gold-show",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "Pack Gold Show",
+      "hash": "61c5219002d21992ea17a45d3be497a25625f688b271fb5c8c6f61ced47c8e7d"
+    },
+    {
+      "id": "clip-techno-01-signal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 01 Signal techno",
+      "hash": "55cd2a726129ec6945a35651cf504c8e08eaa267e9518bdc4b35cc0992615587"
+    },
+    {
+      "id": "clip-techno-02-laser",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 02 Laser techno",
+      "hash": "bf8fee4d4c8dae308aa0aec25cab5cc616702f59eb15f06a8e5abc3e418e86a4"
+    },
+    {
+      "id": "clip-techno-03-chrome",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 03 Chrome techno",
+      "hash": "184bace19837c740e5595579ccaee72487597f1e7d71a7235767fee20e1f8ea3"
+    },
+    {
+      "id": "clip-techno-04-liquid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 04 Liquid techno",
+      "hash": "0ca7589e9f8be11d78cae929e41895c9a755105f772c9b879b7ca6fd776f1429"
+    },
+    {
+      "id": "clip-techno-05-tunnel",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 05 Tunnel techno",
+      "hash": "986614a404ff75feb2489593e15470d64082e225561464056e55d6bf28cf63a4"
+    },
+    {
+      "id": "clip-techno-06-pulse",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 06 Pulse techno",
+      "hash": "c67886402c607c522300ab0532e97edcaf0e6de1ea42f4da4e7174bb4a856c86"
+    },
+    {
+      "id": "clip-techno-07-prism",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 07 Prism techno",
+      "hash": "77323119aa79d1cfe6de164b4e44dac45398a329106adbfbb6e5ec9470c8fb4e"
+    },
+    {
+      "id": "clip-techno-08-grid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 08 Grid techno",
+      "hash": "f09ad4e72f1f5ea3508e47d179f628ed8484518edf40a3952815babee7f275f7"
+    },
+    {
+      "id": "clip-techno-09-neon",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 09 Neon techno",
+      "hash": "098671c84a83e123ab6bd304c31bf1b8806e94cca878985bfd2d4c9985d73088"
+    },
+    {
+      "id": "clip-techno-10-smoke",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 10 Smoke techno",
+      "hash": "39159b0e1aabb4cb2c51abc65388d5bb31dadf28796147178c887bef8ce9c4cd"
+    },
+    {
+      "id": "clip-techno-11-orbit",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 11 Orbit techno",
+      "hash": "464f0973d57b7d752265082a4c35c13624aea719271289960ad2a6e2182ba37a"
+    },
+    {
+      "id": "clip-techno-12-fractal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 12 Fractal techno",
+      "hash": "dae4f409f46b310e545d69b90e60c7860acb4e292f433d81ef0fb1d6349013d0"
+    },
+    {
+      "id": "clip-techno-13-glass",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 13 Glass techno",
+      "hash": "8d6f221786814f0bb47921cde9a72e2f2df05364ee65af37ae7e12a95303bc11"
+    },
+    {
+      "id": "clip-techno-14-strobe",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 14 Strobe techno",
+      "hash": "d6f2475d90055c47fc35dfeb8e302f82b092a09505ee7a2dd39009af221fd7a9"
+    },
+    {
+      "id": "clip-techno-15-depth",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 15 Depth techno",
+      "hash": "ff3690509a96aaa40f89ef28b361c07c274b3db72f391bbac6fb37252435da31"
+    },
+    {
+      "id": "clip-hiphop-16-signal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 16 Signal hiphop",
+      "hash": "17cfdd3a289aff0bc7ea3198dbdc9ee8352f35e0deafb932a6a3d11d6e0d3118"
+    },
+    {
+      "id": "clip-hiphop-17-laser",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 17 Laser hiphop",
+      "hash": "99fdfcd5ad6d0eb7a8eebba5d068107de55cbacaa7abe58695685311b0ec7874"
+    },
+    {
+      "id": "clip-hiphop-18-chrome",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 18 Chrome hiphop",
+      "hash": "af490684bd2d8d4d688d91d3c9556dc9a739ada47e9804a91f24aa6644f711ef"
+    },
+    {
+      "id": "clip-hiphop-19-liquid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 19 Liquid hiphop",
+      "hash": "17903757c0c701b44c48f84b525a468669de5d9375396bad5d7aa3e5cdd6640f"
+    },
+    {
+      "id": "clip-hiphop-20-tunnel",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 20 Tunnel hiphop",
+      "hash": "91329865d9ae25c1a883c6cf4fcceaf8e665369b81c295ba00f7ef7c4624c57c"
+    },
+    {
+      "id": "clip-hiphop-21-pulse",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 21 Pulse hiphop",
+      "hash": "88ee5eb8b5433aedd551fab90eee9a5dff2c7a455642465992af01f4c27bc60f"
+    },
+    {
+      "id": "clip-hiphop-22-prism",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 22 Prism hiphop",
+      "hash": "466a818ac69097e2c46fd2c2fa28ccf808ece1450ee9cbc55606f14e9fa20c38"
+    },
+    {
+      "id": "clip-hiphop-23-grid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 23 Grid hiphop",
+      "hash": "9c3fe857ed9d936732d841929ce99718557ede806d3cbcacde587f7889e994a4"
+    },
+    {
+      "id": "clip-hiphop-24-neon",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 24 Neon hiphop",
+      "hash": "d3477c121320e2d1bf9224346613177dcac03d74ba58786b343d24f5fb317464"
+    },
+    {
+      "id": "clip-hiphop-25-smoke",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 25 Smoke hiphop",
+      "hash": "25fce335fdaaa38eb92a8f9af58c53b700157ed72f811eb907ce34476f4be1e0"
+    },
+    {
+      "id": "clip-hiphop-26-orbit",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 26 Orbit hiphop",
+      "hash": "54d279e49fe88ca73efabec39ba13635ef46a349954dd03f853bccd6d00198a2"
+    },
+    {
+      "id": "clip-hiphop-27-fractal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 27 Fractal hiphop",
+      "hash": "62b9d9e3dc2879933933177a16ab01a414a192f14a33375327b1d773ca6717c7"
+    },
+    {
+      "id": "clip-hiphop-28-glass",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 28 Glass hiphop",
+      "hash": "c409957c226c81aee782c800abcdcfb02727101530c15c37d278a8729f8b1a8d"
+    },
+    {
+      "id": "clip-hiphop-29-strobe",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 29 Strobe hiphop",
+      "hash": "39a8f1ad88c990f7ce9b656194c400d52c267d1f8621e3be056c764ab7280a3d"
+    },
+    {
+      "id": "clip-hiphop-30-depth",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 30 Depth hiphop",
+      "hash": "d066a15ccd868ac403640db3147be36bbe853461d952e94cf8a10f1f141175ff"
+    },
+    {
+      "id": "clip-chill-31-signal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 31 Signal chill",
+      "hash": "3c949c806898fb7e79909da939e7d25e10ae211863fe9e30582a1159f52d700f"
+    },
+    {
+      "id": "clip-chill-32-laser",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 32 Laser chill",
+      "hash": "99a24ef18b55b51d242723532fa73373dafde3d7859e2ce881f2fab6180153cf"
+    },
+    {
+      "id": "clip-chill-33-chrome",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 33 Chrome chill",
+      "hash": "e5d29f818d52c44ac78c48995d8e25d3a45018c7f302a28c705c71468ed323ef"
+    },
+    {
+      "id": "clip-chill-34-liquid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 34 Liquid chill",
+      "hash": "456fb8bc6ead8157d7ee951237a82871fb83ecacdf84172980d3225938a66433"
+    },
+    {
+      "id": "clip-chill-35-tunnel",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 35 Tunnel chill",
+      "hash": "d44cd468d5c53aee24d3af28968128224591a907ce5c27db99be4b8320fe95ec"
+    },
+    {
+      "id": "clip-chill-36-pulse",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 36 Pulse chill",
+      "hash": "634434d1193d4dc81c9c3e5656413775750695378d25965fbc3ac4368806eca0"
+    },
+    {
+      "id": "clip-chill-37-prism",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 37 Prism chill",
+      "hash": "31d3f16602fc15eb75e00520e14587bfd8062f583abac415d8df9cd3450d2592"
+    },
+    {
+      "id": "clip-chill-38-grid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 38 Grid chill",
+      "hash": "aa8e05565bff564150f64a8cf2ffdf4389d8a2d47aa10882aec19a12442f43b0"
+    },
+    {
+      "id": "clip-chill-39-neon",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 39 Neon chill",
+      "hash": "8956648f3d24fff065dc83824a8a00562ab865ca04ad29788158e21e5150ddd8"
+    },
+    {
+      "id": "clip-chill-40-smoke",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 40 Smoke chill",
+      "hash": "aea9fa17d98ecae9a8c962378d5122606f5fcfa5a451ec2a8c7e53ffa7e0e8a6"
+    },
+    {
+      "id": "clip-chill-41-orbit",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 41 Orbit chill",
+      "hash": "64642682b0e074d90be20bf03f152a3b28ec9f5802a596c8ed538193c22dddda"
+    },
+    {
+      "id": "clip-chill-42-fractal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 42 Fractal chill",
+      "hash": "1dc5429e560a52c3626479f107b485770872e442004ed10e0e1089c5f9823ef9"
+    },
+    {
+      "id": "clip-chill-43-glass",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 43 Glass chill",
+      "hash": "69f19f958078f1dbc40f982c086a5251399ca0b6638c903b120d87ebe7d96e68"
+    },
+    {
+      "id": "clip-chill-44-strobe",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 44 Strobe chill",
+      "hash": "e4d8a50db40d515fafc4f75599b0decc716ba97f28555f5006072805ca3c368c"
+    },
+    {
+      "id": "clip-chill-45-depth",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 45 Depth chill",
+      "hash": "d5bb71455ea302322b47db50bfcc4f52d364a0902eb22297cae32c74d107bc47"
+    },
+    {
+      "id": "clip-psytrance-46-signal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 46 Signal psytrance",
+      "hash": "f2bd05f6643d8857d00839d2bebbb01136fe0777ef44b9fb400eddc1fc685afc"
+    },
+    {
+      "id": "clip-psytrance-47-laser",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 47 Laser psytrance",
+      "hash": "6d91822e0b001bd4a2433d6201fc202e2ae51ec680a1783606071f6f9f8e45b1"
+    },
+    {
+      "id": "clip-psytrance-48-chrome",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 48 Chrome psytrance",
+      "hash": "9345024167366571e11b62f4dba1616d9013de3213696cab05e32a4f4fd2d5b7"
+    },
+    {
+      "id": "clip-psytrance-49-liquid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 49 Liquid psytrance",
+      "hash": "f18e97a0cc02487b666fb20b1785766bbb22df9fa3715c611464c9ee8d7d6e58"
+    },
+    {
+      "id": "clip-psytrance-50-tunnel",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 50 Tunnel psytrance",
+      "hash": "8e4f0758b1d5fcfb0a278df93d885393d17897a3b826a101bfc7ad324e85c70a"
+    },
+    {
+      "id": "clip-psytrance-51-pulse",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 51 Pulse psytrance",
+      "hash": "0c0efebdd9e0420308aa4107f13bee608ade334672a27db38e0d9bec96194e6a"
+    },
+    {
+      "id": "clip-psytrance-52-prism",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 52 Prism psytrance",
+      "hash": "0d58e5edb0c13932ff325c8823a4c51eb6fd79d80666bbc2da477a44980f8f76"
+    },
+    {
+      "id": "clip-psytrance-53-grid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 53 Grid psytrance",
+      "hash": "eff4a30ac9003a34e06f888cb8bf7dba8f9555a6b06c12d18635b208bbaa9c3e"
+    },
+    {
+      "id": "clip-psytrance-54-neon",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 54 Neon psytrance",
+      "hash": "4203261da096126c309680dbe58760f3b67bfd3a1efcab2b6985755e1bc8c87a"
+    },
+    {
+      "id": "clip-psytrance-55-smoke",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 55 Smoke psytrance",
+      "hash": "fb139be6c986c18f2576dc433eed58b9300216cda6b777a307ab523005f2d3ce"
+    },
+    {
+      "id": "clip-psytrance-56-orbit",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 56 Orbit psytrance",
+      "hash": "412d66d2ffc593678895e959d5eca4a445055917dd30f14e0b213aba1e3809b0"
+    },
+    {
+      "id": "clip-psytrance-57-fractal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 57 Fractal psytrance",
+      "hash": "1015425e0e51a1a2e1fb40dba6a71ed4829378068779446423a9d497722a9a08"
+    },
+    {
+      "id": "clip-psytrance-58-glass",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 58 Glass psytrance",
+      "hash": "1d31f595af341d3d3a8412f60b89d10de1dfa763a41a8855c0abef2041c752e2"
+    },
+    {
+      "id": "clip-psytrance-59-strobe",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 59 Strobe psytrance",
+      "hash": "d91b443bd516f266e238c799949760c84438462661e68c20d1e3c2d502fd2545"
+    },
+    {
+      "id": "clip-psytrance-60-depth",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 60 Depth psytrance",
+      "hash": "e19f71331146a4792d83ad3c1534bbce11300ac8b9421e31b0f5a7b0904260f9"
+    },
+    {
+      "id": "clip-rock-61-signal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 61 Signal rock",
+      "hash": "d76f16a059206b29ba247e66daa55fc5ec9dac3643ecab7740b2ae84259cb90e"
+    },
+    {
+      "id": "clip-rock-62-laser",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 62 Laser rock",
+      "hash": "78c131bfc7cca73c5a8f624aeb3d88a355e19ad74adb42f2a4a88a174dbb57b1"
+    },
+    {
+      "id": "clip-rock-63-chrome",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 63 Chrome rock",
+      "hash": "b609ee993db41e32ff79bb9a98d05cec9a738569c3a223a8bbf06c40e7f1b9ab"
+    },
+    {
+      "id": "clip-rock-64-liquid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 64 Liquid rock",
+      "hash": "b2fc4327b50b42bbfc6e95cc0b7af2e464e799e4fb2d55e33296264d2cfd7fb8"
+    },
+    {
+      "id": "clip-rock-65-tunnel",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 65 Tunnel rock",
+      "hash": "1c656d318e04a1ad7a9fb3e9f0628729f87df8637cb008ec3eb6ffedc0db3922"
+    },
+    {
+      "id": "clip-rock-66-pulse",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 66 Pulse rock",
+      "hash": "da7f6e3b0f6b8b87720fe51f6c6f2ea12471210a2c2fe383fe8ae31bef5e46d4"
+    },
+    {
+      "id": "clip-rock-67-prism",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 67 Prism rock",
+      "hash": "9af3a36b519f204f818d82891120f1843293248e6e9292ad0bfa539d31fc3a7c"
+    },
+    {
+      "id": "clip-rock-68-grid",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 68 Grid rock",
+      "hash": "f7157218bc58694c10e6411ccaf99ac7ca52c3582b13a731db78ea2e9aa41283"
+    },
+    {
+      "id": "clip-rock-69-neon",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 69 Neon rock",
+      "hash": "668878ad5bc76f4b672d1e4ac5e0878201b5585b31fc91540bb5b71a388b417a"
+    },
+    {
+      "id": "clip-rock-70-smoke",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 70 Smoke rock",
+      "hash": "72aa146278e273b4bd10c355b82fb0c6fe27642adabae679f1519acb720fa871"
+    },
+    {
+      "id": "clip-rock-71-orbit",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 71 Orbit rock",
+      "hash": "3fb6f820b7994634a8199846eee5b94a18e108d42fe1c529c73d3be45a0fa727"
+    },
+    {
+      "id": "clip-rock-72-fractal",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 72 Fractal rock",
+      "hash": "e12a461ea82345c1b5bce8a774212d477bf09952910ccf1b1b2d795b6edd63cd"
+    },
+    {
+      "id": "clip-rock-73-glass",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 73 Glass rock",
+      "hash": "e95c8cb4813d1ca00cb9f1bd991127189b3486e72e095fa1a5abfc11d2c576f6"
+    },
+    {
+      "id": "clip-rock-74-strobe",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 74 Strobe rock",
+      "hash": "40a63ebf9254c605de4129f6ab68fad406465de7bc02c15a4339a8f069a5a5b3"
+    },
+    {
+      "id": "clip-rock-75-depth",
+      "category": "vjloop",
+      "type": "vjloop",
+      "label": "VJ Loop 75 Depth rock",
+      "hash": "98ca7c354d791ea53192ad53e878bf549c8d08aeedc778b21155f0476a93398a"
+    }
+  ],
+  "errors": []
+}

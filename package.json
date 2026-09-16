@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "python -m http.server 5173 --bind 127.0.0.1",
+    "test": "npm run test:foundation",
+    "test:foundation": "node scripts/foundation-smoke.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

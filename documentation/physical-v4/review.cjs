@@ -1,0 +1,8 @@
+const {chromium}=require('../qa-browser.cjs'),a=require('node:assert/strict'),fs=require('fs');
+(async()=>{const b=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});try{const p=await b.newPage({viewport:{width:1116,height:717}}),errors=[],checks=[];p.on('pageerror',e=>errors.push(e.stack));
+ await p.goto('http://127.0.0.1:5187/documentation/physical-v4/apercu.html');
+ for(const width of [1116,620]){await p.setViewportSize({width,height:717});await p.locator('img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();})));a(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));checks.push({width,images:await p.locator('img').count(),noHorizontalOverflow:true});if(width===1116)await p.screenshot({path:'documentation/physical-v4/review.png',fullPage:true});}
+ const links=await p.locator('a').evaluateAll(as=>[...new Set(as.map(a=>a.href))]);for(const url of links){const res=await p.request.get(url);a.equal(res.status(),200,url);}
+ await p.setViewportSize({width:1116,height:717});await p.goto('http://127.0.0.1:5187/');await p.locator('#studio-entry-button').click();await p.locator('#vj-name').fill('Guide QA');await p.locator('#create-vj-button').click();await p.waitForTimeout(150);await p.evaluate(()=>openApp('guide'));a.equal(await p.locator('#app-window a[href$="physical-v4/apercu.html"]').count(),1);a.deepEqual(errors,[]);
+ fs.writeFileSync('documentation/physical-v4/review-results.json',JSON.stringify({checks,links:links.length,guideLink:true,errors},null,2));console.log('PASS review widths, decoded captures, HTTP links and in-game guide link');
+}finally{await b.close()}})().catch(e=>{console.error(e);process.exit(1)});

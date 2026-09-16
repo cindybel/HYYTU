@@ -1,0 +1,9 @@
+/* Locally synthesized learning track, aligned to the same timeline as the cues. */
+window.LiveSoundtrack=class {
+ constructor(){this.lastBeat=-1;this.voices=new Set();const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;this.context=new AC();this.master=this.context.createGain();this.master.gain.value=0;this.master.connect(this.context.destination);this.context.resume().catch(()=>{});}
+ tone(hz,duration,volume,type='sine',slide=false){const a=this.context;if(!a||a.state!=='running')return;const o=a.createOscillator(),g=a.createGain(),t=a.currentTime;o.type=type;o.frequency.setValueAtTime(hz,t);if(slide)o.frequency.exponentialRampToValueAtTime(42,t+.12);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(volume,t+.008);g.gain.exponentialRampToValueAtTime(.0001,t+duration);o.connect(g);g.connect(this.master);o.onended=()=>{o.disconnect();g.disconnect();this.voices.delete(o);};this.voices.add(o);o.start();o.stop(t+duration+.02);}
+ tick(show){if(!this.context)return;const muted=show.paused||show.completed||document.hidden||profile.settings.liveMusic===false||isMusicActive();this.master.gain.setTargetAtTime(muted?0:(profile.settings.volume??70)/100,this.context.currentTime,.03);if(muted)return;const beat=Math.floor(show.elapsed*2);if(beat===this.lastBeat)return;this.lastBeat=beat;const phase=Math.min(3,Math.floor(show.elapsed/15));if(phase!==3){this.tone(135,.2,phase===2?.13:.09,'sine',true);if(beat%2)this.tone(2100,.045,.012,'triangle');if(phase>0)this.tone([130.81,155.56,196,233.08][beat%4],.2,.035,'triangle');}if(beat%8===0){[130.81,155.56,196].forEach(hz=>this.tone(hz,2.8,.018));}if(phase===3&&beat%4===0)this.tone(392,.8,.025);}
+ mute(){if(this.context)this.master.gain.setTargetAtTime(0,this.context.currentTime,.015);}
+ resume(){this.context?.resume().catch(()=>{});}
+ dispose(){for(const v of this.voices){try{v.stop();}catch{}}this.voices.clear();this.context?.close().catch(()=>{});}
+};

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "aurora",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 846476,
+    "seamDifference": 0.9290509223937988,
+    "maxAdjacentDifference": 1.2049074172973633
+  },
+  {
+    "id": "ribbons",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 3224550,
+    "seamDifference": 1.2659027576446533,
+    "maxAdjacentDifference": 1.9289120435714722
+  },
+  {
+    "id": "orbits",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1944002,
+    "seamDifference": 0.7112268805503845,
+    "maxAdjacentDifference": 0.6921990513801575
+  },
+  {
+    "id": "grid",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1848573,
+    "seamDifference": 1.3866435289382935,
+    "maxAdjacentDifference": 1.2678009271621704
+  },
+  {
+    "id": "tunnel",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2261271,
+    "seamDifference": 1.5492593050003052,
+    "maxAdjacentDifference": 1.748009204864502
+  },
+  {
+    "id": "kaleido",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1182436,
+    "seamDifference": 0.3159722089767456,
+    "maxAdjacentDifference": 0.4734722077846527
+  }
+]

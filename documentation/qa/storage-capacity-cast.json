@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "fixtureInventory": true,
+  "storage": {
+    "full": 24,
+    "denied": true,
+    "capacity": 36,
+    "success": true,
+    "overInventory": "{\"cable-25ft-basic\":20}",
+    "caps": [
+      36,
+      48,
+      64,
+      80,
+      100,
+      128,
+      160,
+      200,
+      256,
+      320
+    ]
+  },
+  "results": [
+    {
+      "character": "nova",
+      "attachments": [
+        "cap-low",
+        "headphones-pro",
+        "mask-club",
+        "L-gloves-stage",
+        "R-gloves-stage",
+        "pin-vj",
+        "full-fit-pro",
+        "L-shoe-trim",
+        "L-pants-pocket",
+        "R-shoe-trim",
+        "R-pants-pocket"
+      ]
+    },
+    {
+      "character": "eli",
+      "attachments": [
+        "cap-low",
+        "headphones-pro",
+        "mask-club",
+        "L-gloves-stage",
+        "R-gloves-stage",
+        "pin-vj",
+        "full-fit-pro",
+        "L-shoe-trim",
+        "L-pants-pocket",
+        "R-shoe-trim",
+        "R-pants-pocket"
+      ]
+    },
+    {
+      "character": "sam",
+      "attachments": [
+        "cap-low",
+        "headphones-pro",
+        "mask-club",
+        "L-gloves-stage",
+        "R-gloves-stage",
+        "pin-vj",
+        "full-fit-pro",
+        "L-shoe-trim",
+        "L-pants-pocket",
+        "R-shoe-trim",
+        "R-pants-pocket"
+      ]
+    }
+  ],
+  "errors": []
+}

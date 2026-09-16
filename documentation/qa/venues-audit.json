@@ -1,0 +1,182 @@
+[
+  {
+    "number": 1,
+    "id": "gig-01-party-garage",
+    "family": "garage",
+    "props": 99
+  },
+  {
+    "number": 2,
+    "id": "gig-02-neon-wall",
+    "family": "street",
+    "props": 28
+  },
+  {
+    "number": 3,
+    "id": "gig-03-rush-setup",
+    "family": "bar",
+    "props": 65
+  },
+  {
+    "number": 4,
+    "id": "gig-04-moon-circle",
+    "family": "hall",
+    "props": 86
+  },
+  {
+    "number": 5,
+    "id": "gig-05-hexa-pulse",
+    "family": "club",
+    "props": 88
+  },
+  {
+    "number": 6,
+    "id": "gig-06-bad-placement",
+    "family": "basement",
+    "props": 65
+  },
+  {
+    "number": 7,
+    "id": "gig-07-zoom-test",
+    "family": "studio",
+    "props": 88
+  },
+  {
+    "number": 8,
+    "id": "gig-08-far-circle",
+    "family": "loft",
+    "props": 49
+  },
+  {
+    "number": 9,
+    "id": "gig-09-split-vision",
+    "family": "gallery",
+    "props": 39
+  },
+  {
+    "number": 10,
+    "id": "gig-10-dual-rush",
+    "family": "club",
+    "props": 88
+  },
+  {
+    "number": 11,
+    "id": "gig-11-twin-screens",
+    "family": "hall",
+    "props": 86
+  },
+  {
+    "number": 12,
+    "id": "gig-12-long-cable",
+    "family": "hall",
+    "props": 86
+  },
+  {
+    "number": 13,
+    "id": "gig-13-triple-shape",
+    "family": "studio",
+    "props": 88
+  },
+  {
+    "number": 14,
+    "id": "gig-14-tight-venue",
+    "family": "bar",
+    "props": 65
+  },
+  {
+    "number": 15,
+    "id": "gig-15-quad-layout",
+    "family": "gallery",
+    "props": 39
+  },
+  {
+    "number": 16,
+    "id": "gig-16-club-pressure",
+    "family": "club",
+    "props": 88
+  },
+  {
+    "number": 17,
+    "id": "gig-17-mixed-geometry",
+    "family": "gallery",
+    "props": 39
+  },
+  {
+    "number": 18,
+    "id": "gig-18-no-rental-night",
+    "family": "loft",
+    "props": 49
+  },
+  {
+    "number": 19,
+    "id": "gig-19-crooked-walls",
+    "family": "warehouse",
+    "props": 145
+  },
+  {
+    "number": 20,
+    "id": "gig-20-warehouse-major",
+    "family": "warehouse",
+    "props": 145
+  },
+  {
+    "number": 21,
+    "id": "gig-21-triple-intro",
+    "family": "hall",
+    "props": 86
+  },
+  {
+    "number": 22,
+    "id": "gig-22-output-crisis",
+    "family": "lab",
+    "props": 88
+  },
+  {
+    "number": 23,
+    "id": "gig-23-triple-split",
+    "family": "lab",
+    "props": 88
+  },
+  {
+    "number": 24,
+    "id": "gig-24-festival-sidewalls",
+    "family": "festival",
+    "props": 133
+  },
+  {
+    "number": 25,
+    "id": "gig-25-psy-main-room",
+    "family": "club",
+    "props": 88
+  },
+  {
+    "number": 26,
+    "id": "gig-26-mapping-cathedral",
+    "family": "cathedral",
+    "props": 32
+  },
+  {
+    "number": 27,
+    "id": "gig-27-geometry-overload",
+    "family": "arena",
+    "props": 142
+  },
+  {
+    "number": 28,
+    "id": "gig-28-technical-nightmare",
+    "family": "lab",
+    "props": 88
+  },
+  {
+    "number": 29,
+    "id": "gig-29-festival-headliner",
+    "family": "festival",
+    "props": 133
+  },
+  {
+    "number": 30,
+    "id": "gig-30-legendary-av-show",
+    "family": "arena",
+    "props": 142
+  }
+]

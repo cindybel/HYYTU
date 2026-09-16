@@ -1,0 +1,7 @@
+{
+  "samples": 601,
+  "averageFps": 60,
+  "medianMs": 17,
+  "p95Ms": 17,
+  "longFrames": 0
+}

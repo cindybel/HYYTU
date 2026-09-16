@@ -1,0 +1,24 @@
+# Windows metadata
+Thumbs.db
+Desktop.ini
+desktop.ini
+
+# Local development backups / one-off scripts
+.local-backup-*/
+.local-backup-*
+.local-*.py
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+
+# Node / Python caches
+node_modules/
+__pycache__/
+*.pyc
+
+# Test / temporary output
+coverage/
+.tmp/
+tmp/

@@ -1,0 +1,6549 @@
+{
+  "catalog": [
+    {
+      "id": "projector-cheap",
+      "label": "Binq StarterBeam 2200",
+      "type": "projector",
+      "category": "gear",
+      "cost": 180,
+      "description": "Projecteur bas de gamme du debut: suffisant pour Garage, faible puissance et peu de marge.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +1",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "projector-standard",
+      "label": "Epsun EB-Lo 4200 3LCD",
+      "type": "projector",
+      "category": "gear",
+      "cost": 420,
+      "description": "Image stable et couleurs propres, proche des gammes installation 3LCD.",
+      "rarity": "standard",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 4,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +4",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +4",
+        "gear +2",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "projector-short-throw",
+      "label": "Optomix ShortCast ST-4",
+      "type": "projector",
+      "category": "gear",
+      "cost": 680,
+      "description": "Optique courte pour petites salles et garages ou le recul manque.",
+      "rarity": "standard",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 6,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +6",
+        "gear +4"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +6",
+        "gear +4",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 4,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "projector-laser-entry",
+      "label": "Panasound PT-Rave LZ320",
+      "type": "projector",
+      "category": "gear",
+      "cost": 760,
+      "description": "Laser compact, meilleur contraste et demarrage rapide pour bars.",
+      "rarity": "standard",
+      "qualityStars": 4,
+      "stats": {
+        "technique": 5,
+        "style": 2,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +5",
+        "style +2",
+        "gear +4"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +5",
+        "style +2",
+        "gear +4",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 4,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "projector-pro-6500",
+      "label": "Christalux Boxer Mini 6500",
+      "type": "projector",
+      "category": "gear",
+      "cost": 1450,
+      "description": "Modele scene moyenne: beaucoup plus de lumiere et chassis plus fiable.",
+      "rarity": "rare",
+      "qualityStars": 5,
+      "stats": {
+        "technique": 10,
+        "reputation": 3,
+        "gear": 8,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +10",
+        "reputation +3",
+        "gear +8"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +10",
+        "reputation +3",
+        "gear +8",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 8,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "projector-ultra-4k",
+      "label": "Barq UDMini 4K Laser",
+      "type": "projector",
+      "category": "gear",
+      "cost": 2400,
+      "description": "Projecteur premium inspire des machines evenementielles 4K/laser.",
+      "rarity": "pro",
+      "qualityStars": 5,
+      "stats": {
+        "technique": 14,
+        "reputation": 6,
+        "gear": 13,
+        "fatigue": 9,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +14",
+        "reputation +6",
+        "gear +13"
+      ],
+      "disadvantages": [
+        "fatigue +9",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +14",
+        "reputation +6",
+        "gear +13",
+        "fatigue +9",
+        "reseau -1"
+      ],
+      "scoreBonus": 13,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "computer-starter-laptop",
+      "label": "Lenovox FieldPad iGPU",
+      "type": "computer",
+      "category": "gear",
+      "cost": 360,
+      "description": "Niveau 1: portable simple, 1 HDMI, clips legers seulement.",
+      "rarity": "standard",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 2,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +2",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +2",
+        "gear +2",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "label": "M-Synth StageMini GTX 1 HDMI",
+      "type": "computer",
+      "category": "gear",
+      "cost": 860,
+      "description": "Niveau 2: vraie carte graphique mobile, bon pour deux petits projecteurs avec boite.",
+      "rarity": "standard",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 6,
+        "creativity": 2,
+        "gear": 5,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +6",
+        "creativite +2",
+        "gear +5"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +6",
+        "creativite +2",
+        "gear +5",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 5,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "label": "Azus ProArtish RTX 2 sorties",
+      "type": "computer",
+      "category": "gear",
+      "cost": 1580,
+      "description": "Niveau 3: GPU mobile solide, HDMI + USB-C/DP pour mapping propre.",
+      "rarity": "rare",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 11,
+        "creativity": 4,
+        "gear": 9,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +11",
+        "creativite +4",
+        "gear +9"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +11",
+        "creativite +4",
+        "gear +9",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 9,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "label": "Raytrix Tower 4060 DP3",
+      "type": "computer",
+      "category": "gear",
+      "cost": 1980,
+      "description": "Niveau 4: desktop avec carte graphique dediee, demande ecran et adaptateurs DP vers HDMI.",
+      "rarity": "pro",
+      "qualityStars": 4,
+      "stats": {
+        "technique": 14,
+        "reputation": 2,
+        "gear": 11,
+        "fatigue": 9,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +14",
+        "reputation +2",
+        "gear +11"
+      ],
+      "disadvantages": [
+        "fatigue +9",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +14",
+        "reputation +2",
+        "gear +11",
+        "fatigue +9",
+        "reseau -1"
+      ],
+      "scoreBonus": 11,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "label": "Raytrix Tower 4080 Show DP3",
+      "type": "computer",
+      "category": "gear",
+      "cost": 3600,
+      "description": "Niveau 5: tour pro pour 3 projecteurs, clips lourds et shows rapides.",
+      "rarity": "pro",
+      "qualityStars": 5,
+      "stats": {
+        "technique": 22,
+        "creativity": 7,
+        "reputation": 5,
+        "gear": 20,
+        "fatigue": 9,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +22",
+        "creativite +7",
+        "reputation +5",
+        "gear +20"
+      ],
+      "disadvantages": [
+        "fatigue +9",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +22",
+        "creativite +7",
+        "reputation +5",
+        "gear +20",
+        "fatigue +9",
+        "reseau -1"
+      ],
+      "scoreBonus": 20,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "label": "Raytrix Mobile VJ Core",
+      "type": "gpu",
+      "category": "gear",
+      "cost": 520,
+      "description": "Upgrade compact pour laptop: meilleurs loops, mais sorties limitees.",
+      "rarity": "standard",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 4,
+        "gear": 3,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +4",
+        "gear +3"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +4",
+        "gear +3",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 3,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "label": "Raytrix Desktop DP Duo",
+      "type": "gpu",
+      "category": "gear",
+      "cost": 960,
+      "description": "1 HDMI + 2 DisplayPort. Demande souvent des adaptateurs.",
+      "rarity": "rare",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 8,
+        "gear": 5,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +8",
+        "gear +5"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +8",
+        "gear +5",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 5,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "label": "Raytrix Desktop DP Quad Pro",
+      "type": "gpu",
+      "category": "gear",
+      "cost": 1760,
+      "description": "1 HDMI + 3 DisplayPort, stable pour mapping multi-projecteurs.",
+      "rarity": "rare",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 13,
+        "reputation": 2,
+        "gear": 10,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +13",
+        "reputation +2",
+        "gear +10"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +13",
+        "reputation +2",
+        "gear +10",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 10,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "cable-25ft-basic",
+      "label": "Kramark HDMI Run 25",
+      "type": "cable",
+      "category": "gear",
+      "cost": 60,
+      "description": "Grandeur 1: petit setup, projo proche de la table.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +1"
+      ],
+      "tags": [
+        "technique +1",
+        "gear +1",
+        "fatigue +1"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "cable-75ft-active",
+      "label": "Kramark ActiveRun 75",
+      "type": "cable",
+      "category": "gear",
+      "cost": 180,
+      "description": "Grandeur 2: scene moyenne, moins de tension dans le fil.",
+      "rarity": "starter",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 3,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +3",
+        "reputation +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +3",
+        "reputation +1",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "label": "Kramark FiberRun 150",
+      "type": "cable",
+      "category": "gear",
+      "cost": 420,
+      "description": "Grandeur 3: long run propre jusqu au mur du fond.",
+      "rarity": "standard",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 6,
+        "reputation": 2,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +6",
+        "reputation +2",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +6",
+        "reputation +2",
+        "gear +2",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "cable-loom-3pack-75",
+      "label": "LiteWire Trio Loom 75",
+      "type": "cable",
+      "category": "gear",
+      "cost": 480,
+      "description": "Trois runs identiques pour deux ou trois projecteurs.",
+      "rarity": "standard",
+      "qualityStars": 4,
+      "stats": {
+        "technique": 7,
+        "style": 2,
+        "gear": 3,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +7",
+        "style +2",
+        "gear +3"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +7",
+        "style +2",
+        "gear +3",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 3,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "cable-loom-3pack-150",
+      "label": "LiteWire Fiber Trio 150",
+      "type": "cable",
+      "category": "gear",
+      "cost": 1120,
+      "description": "Pack pro pour gros lieux et racks eloignes.",
+      "rarity": "rare",
+      "qualityStars": 5,
+      "stats": {
+        "technique": 12,
+        "reputation": 4,
+        "gear": 6,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +12",
+        "reputation +4",
+        "gear +6"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +12",
+        "reputation +4",
+        "gear +6",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 6,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "label": "PortSmith DP-HDMI Solo",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 45,
+      "description": "Indispensable avec les cartes desktop: souvent 1 HDMI et le reste en DisplayPort.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +1"
+      ],
+      "tags": [
+        "technique +1",
+        "gear +1",
+        "fatigue +1"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "label": "PortSmith USB-C Active HDMI",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 85,
+      "description": "Sortie video fiable pour laptop creator.",
+      "rarity": "starter",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 2,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +2",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +1"
+      ],
+      "tags": [
+        "technique +2",
+        "gear +1",
+        "fatigue +1"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "adapter-dp-hdmi-pro-3pack",
+      "label": "PortSmith DP-HDMI Triple Pro",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 210,
+      "description": "Necessaire pour brancher plusieurs projecteurs depuis une tour.",
+      "rarity": "starter",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 4,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +4",
+        "reputation +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +4",
+        "reputation +1",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "adapter-edid-locker",
+      "label": "SignalLock EDID Box",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 260,
+      "description": "Evite les pertes de signal quand un projo redemarre.",
+      "rarity": "starter",
+      "qualityStars": 4,
+      "stats": {
+        "technique": 5,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": true,
+      "advantages": [
+        "technique +5",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +5",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "label": "StageTack Pocket Roll",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 55,
+      "description": "Petit rouleau utile pour les setups rapides.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 1,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +1",
+        "reputation +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +1"
+      ],
+      "tags": [
+        "technique +1",
+        "reputation +1",
+        "gear +1",
+        "fatigue +1"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "accessory-wide-lens",
+      "label": "Optomix WideKit 0.8",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 380,
+      "description": "Permet de couvrir plus large sans reculer autant.",
+      "rarity": "standard",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 3,
+        "gear": 2,
+        "fatigue": 0,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +3",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +3",
+        "gear +2",
+        "reseau -1"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "label": "MapLab Marker Kit",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 540,
+      "description": "Reperes et outils pour ajuster les masques plus vite.",
+      "rarity": "standard",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 5,
+        "creativity": 2,
+        "gear": 3,
+        "fatigue": 0,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +5",
+        "creativite +2",
+        "gear +3"
+      ],
+      "disadvantages": [
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +5",
+        "creativite +2",
+        "gear +3",
+        "reseau -1"
+      ],
+      "scoreBonus": 3,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "label": "RoadVault Flight XL",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 620,
+      "description": "Look pro et moins de stress avant un gig.",
+      "rarity": "standard",
+      "qualityStars": 4,
+      "stats": {
+        "reputation": 3,
+        "style": 2,
+        "gear": 3,
+        "fatigue": 0,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "reputation +3",
+        "style +2",
+        "gear +3"
+      ],
+      "disadvantages": [
+        "reseau -1"
+      ],
+      "tags": [
+        "reputation +3",
+        "style +2",
+        "gear +3",
+        "reseau -1"
+      ],
+      "scoreBonus": 3,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "accessory-mini-controller",
+      "label": "StageCue Footswitch Duo",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 450,
+      "description": "Pédalier à deux commandes : change de clip en gardant les mains disponibles pour le mapping.",
+      "rarity": "standard",
+      "qualityStars": 5,
+      "stats": {
+        "creativity": 5,
+        "style": 2,
+        "gear": 3,
+        "fatigue": 0,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "creativite +5",
+        "style +2",
+        "gear +3"
+      ],
+      "disadvantages": [
+        "reseau -1"
+      ],
+      "tags": [
+        "creativite +5",
+        "style +2",
+        "gear +3",
+        "reseau -1"
+      ],
+      "scoreBonus": 3,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "router-splitter-duo",
+      "label": "DataPatch Duo Split",
+      "type": "router",
+      "category": "gear",
+      "cost": 260,
+      "description": "Permet deux projecteurs avec un seul signal miroir.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 3,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +3",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +3",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "router-mapper-triple",
+      "label": "BlackMagi MapBox Triple",
+      "type": "router",
+      "category": "gear",
+      "cost": 720,
+      "description": "Sortie propre vers trois projecteurs avec controle rapide.",
+      "rarity": "standard",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 8,
+        "creativity": 2,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +8",
+        "creativite +2",
+        "gear +4"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +8",
+        "creativite +2",
+        "gear +4",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 4,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "router-matrix-4x4",
+      "label": "AnalogWhey Matrix 4x4 Pro",
+      "type": "router",
+      "category": "gear",
+      "cost": 1450,
+      "description": "Route plusieurs sources et projecteurs pour les gros gigs.",
+      "rarity": "rare",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 13,
+        "reputation": 4,
+        "gear": 8,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +13",
+        "reputation +4",
+        "gear +8"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +13",
+        "reputation +4",
+        "gear +8",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 8,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "console-midi-mini",
+      "label": "A-KAI PadMix Mini",
+      "type": "console",
+      "category": "gear",
+      "cost": 280,
+      "description": "Controle live simple: opacity, clip suivant, strobe.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "creativity": 4,
+        "style": 2,
+        "gear": 2,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": false,
+      "advantages": [
+        "creativite +4",
+        "style +2",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "creativite +4",
+        "style +2",
+        "gear +2",
+        "fatigue +3"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "console-vj-deck",
+      "label": "ElGateau StreamPad VJ 8",
+      "type": "console",
+      "category": "gear",
+      "cost": 740,
+      "description": "Controle plus rapide pour styles et transitions.",
+      "rarity": "standard",
+      "qualityStars": 2,
+      "stats": {
+        "creativity": 8,
+        "technique": 3,
+        "style": 3,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "creativite +8",
+        "technique +3",
+        "style +3",
+        "gear +4"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "creativite +8",
+        "technique +3",
+        "style +3",
+        "gear +4",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 4,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "console-show-control-pro",
+      "label": "Rezolume ShowDeck Pro",
+      "type": "console",
+      "category": "gear",
+      "cost": 1580,
+      "description": "Controle premium pour multi-projecteurs et gigs rapides.",
+      "rarity": "rare",
+      "qualityStars": 3,
+      "stats": {
+        "creativity": 12,
+        "technique": 6,
+        "reputation": 3,
+        "gear": 9,
+        "fatigue": 7,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "creativite +12",
+        "technique +6",
+        "reputation +3",
+        "gear +9"
+      ],
+      "disadvantages": [
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "tags": [
+        "creativite +12",
+        "technique +6",
+        "reputation +3",
+        "gear +9",
+        "fatigue +7",
+        "reseau -1"
+      ],
+      "scoreBonus": 9,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "screen-monitor-24",
+      "label": "Delle ViewDesk 24",
+      "type": "screen",
+      "category": "gear",
+      "cost": 220,
+      "description": "Necessaire avec une tour, pratique pour previsualiser les loops.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "technique": 2,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +2",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +2",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "screen-monitor-27",
+      "label": "Azus ProArtish 27",
+      "type": "screen",
+      "category": "gear",
+      "cost": 420,
+      "description": "Plus de place pour timeline, preview et mapping.",
+      "rarity": "standard",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 4,
+        "creativity": 1,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +4",
+        "creativite +1",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +4",
+        "creativite +1",
+        "gear +2",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "screen-portable-touch",
+      "label": "ViewSonic-ish TouchStage 15",
+      "type": "screen",
+      "category": "gear",
+      "cost": 680,
+      "description": "Ajoute une surface de controle meme avec laptop.",
+      "rarity": "standard",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 5,
+        "creativity": 3,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +5",
+        "creativite +3",
+        "gear +4"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +5",
+        "creativite +3",
+        "gear +4",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 4,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "bag-messenger-basic",
+      "label": "RoadVault Messenger 12",
+      "type": "bag",
+      "category": "gear",
+      "cost": 55,
+      "description": "Transporte laptop et fils courts.",
+      "rarity": "starter",
+      "qualityStars": 1,
+      "stats": {
+        "style": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "stackable": false,
+      "advantages": [
+        "style +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +1"
+      ],
+      "tags": [
+        "style +1",
+        "gear +1",
+        "fatigue +1"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "bag-vj-backpack",
+      "label": "RoadVault VJ Pack 32",
+      "type": "bag",
+      "category": "gear",
+      "cost": 180,
+      "description": "Compartiments pour adaptateurs, fils et controleur.",
+      "rarity": "starter",
+      "qualityStars": 2,
+      "stats": {
+        "technique": 2,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +2",
+        "reputation +1",
+        "gear +1"
+      ],
+      "disadvantages": [
+        "fatigue +3"
+      ],
+      "tags": [
+        "technique +2",
+        "reputation +1",
+        "gear +1",
+        "fatigue +3"
+      ],
+      "scoreBonus": 1,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "bag-road-backpack",
+      "label": "RoadVault Flight Backpack",
+      "type": "bag",
+      "category": "gear",
+      "cost": 360,
+      "description": "Transport propre et protege pour gear de niveau pro.",
+      "rarity": "standard",
+      "qualityStars": 3,
+      "stats": {
+        "technique": 3,
+        "reputation": 3,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "stackable": false,
+      "advantages": [
+        "technique +3",
+        "reputation +3",
+        "gear +2"
+      ],
+      "disadvantages": [
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "tags": [
+        "technique +3",
+        "reputation +3",
+        "gear +2",
+        "fatigue +5",
+        "reseau -1"
+      ],
+      "scoreBonus": 2,
+      "effectScope": "Bonus actif quand ce matériel est équipé ou sélectionné pour le contrat. Une seule fois par modèle, quelle que soit la quantité."
+    },
+    {
+      "id": "housing-micro-room",
+      "label": "Micro studio sous-sol",
+      "type": "housing",
+      "category": "housing",
+      "cost": 240,
+      "description": "Un coin cheap pour pratiquer sans pression.",
+      "rarity": "starter",
+      "stats": {
+        "comfort": 6,
+        "loyer": 140,
+        "style": 1,
+        "fatigue": -1,
+        "creativity": 1,
+        "reputation": 0,
+        "network": 0
+      },
+      "advantages": [
+        "confort +6",
+        "style +1",
+        "fatigue -1",
+        "creativite +1"
+      ],
+      "disadvantages": [
+        "loyer 140$/mois"
+      ],
+      "tags": [
+        "confort +6",
+        "loyer 140$/mois",
+        "style +1",
+        "fatigue -1",
+        "creativite +1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-econo",
+      "label": "Appartement econo",
+      "type": "housing",
+      "category": "housing",
+      "cost": 300,
+      "description": "Demarrage autonome avec un vrai bureau.",
+      "rarity": "starter",
+      "stats": {
+        "comfort": 8,
+        "loyer": 220,
+        "reputation": 2,
+        "fatigue": -1,
+        "creativity": 1,
+        "network": 0
+      },
+      "advantages": [
+        "confort +8",
+        "reputation +2",
+        "fatigue -1",
+        "creativite +1"
+      ],
+      "disadvantages": [
+        "loyer 220$/mois"
+      ],
+      "tags": [
+        "confort +8",
+        "loyer 220$/mois",
+        "reputation +2",
+        "fatigue -1",
+        "creativite +1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-loft-small",
+      "label": "Petit loft creatif",
+      "type": "housing",
+      "category": "housing",
+      "cost": 620,
+      "description": "Espace plus beau pour preparer les shows.",
+      "rarity": "standard",
+      "stats": {
+        "comfort": 14,
+        "loyer": 420,
+        "style": 4,
+        "fatigue": -2,
+        "creativity": 1,
+        "reputation": 0,
+        "network": -1
+      },
+      "advantages": [
+        "confort +14",
+        "style +4",
+        "fatigue -2",
+        "creativite +1"
+      ],
+      "disadvantages": [
+        "loyer 420$/mois",
+        "reseau -1"
+      ],
+      "tags": [
+        "confort +14",
+        "loyer 420$/mois",
+        "style +4",
+        "fatigue -2",
+        "creativite +1",
+        "reseau -1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-medium",
+      "label": "Appartement medium",
+      "type": "housing",
+      "category": "housing",
+      "cost": 750,
+      "description": "Meilleur espace de travail, fatigue plus stable.",
+      "rarity": "standard",
+      "stats": {
+        "comfort": 18,
+        "loyer": 520,
+        "style": 5,
+        "fatigue": -2,
+        "creativity": 2,
+        "reputation": 0,
+        "network": -1
+      },
+      "advantages": [
+        "confort +18",
+        "style +5",
+        "fatigue -2",
+        "creativite +2"
+      ],
+      "disadvantages": [
+        "loyer 520$/mois",
+        "reseau -1"
+      ],
+      "tags": [
+        "confort +18",
+        "loyer 520$/mois",
+        "style +5",
+        "fatigue -2",
+        "creativite +2",
+        "reseau -1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-shared-studio",
+      "label": "Studio partage VJ",
+      "type": "housing",
+      "category": "housing",
+      "cost": 900,
+      "description": "Rencontres et contacts avec autres artistes.",
+      "rarity": "rare",
+      "stats": {
+        "comfort": 20,
+        "loyer": 600,
+        "network": 6,
+        "reputation": 2,
+        "fatigue": -3,
+        "creativity": 2
+      },
+      "advantages": [
+        "confort +20",
+        "reseau +6",
+        "reputation +2",
+        "fatigue -3",
+        "creativite +2"
+      ],
+      "disadvantages": [
+        "loyer 600$/mois"
+      ],
+      "tags": [
+        "confort +20",
+        "loyer 600$/mois",
+        "reseau +6",
+        "reputation +2",
+        "fatigue -3",
+        "creativite +2"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-warehouse-room",
+      "label": "Chambre warehouse",
+      "type": "housing",
+      "category": "housing",
+      "cost": 1120,
+      "description": "Ambiance underground et place pour le gear.",
+      "rarity": "rare",
+      "stats": {
+        "comfort": 22,
+        "loyer": 680,
+        "style": 8,
+        "fatigue": -3,
+        "creativity": 2,
+        "reputation": 2,
+        "network": -1
+      },
+      "advantages": [
+        "confort +22",
+        "style +8",
+        "fatigue -3",
+        "creativite +2",
+        "reputation +2"
+      ],
+      "disadvantages": [
+        "loyer 680$/mois",
+        "reseau -1"
+      ],
+      "tags": [
+        "confort +22",
+        "loyer 680$/mois",
+        "style +8",
+        "fatigue -3",
+        "creativite +2",
+        "reputation +2",
+        "reseau -1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-soundproof",
+      "label": "Studio insonorise",
+      "type": "housing",
+      "category": "housing",
+      "cost": 1450,
+      "description": "Pratique tard le soir sans perdre de reputation.",
+      "rarity": "rare",
+      "stats": {
+        "comfort": 28,
+        "loyer": 820,
+        "technique": 4,
+        "reputation": 4,
+        "fatigue": -4,
+        "creativity": 2,
+        "network": -1
+      },
+      "advantages": [
+        "confort +28",
+        "technique +4",
+        "reputation +4",
+        "fatigue -4",
+        "creativite +2"
+      ],
+      "disadvantages": [
+        "loyer 820$/mois",
+        "reseau -1"
+      ],
+      "tags": [
+        "confort +28",
+        "loyer 820$/mois",
+        "technique +4",
+        "reputation +4",
+        "fatigue -4",
+        "creativite +2",
+        "reseau -1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-luxe",
+      "label": "Appartement luxe",
+      "type": "housing",
+      "category": "housing",
+      "cost": 1600,
+      "description": "Gros boost social pour gigs premium.",
+      "rarity": "rare",
+      "stats": {
+        "comfort": 30,
+        "loyer": 1100,
+        "style": 10,
+        "reputation": 5,
+        "fatigue": -4,
+        "creativity": 3,
+        "network": -1
+      },
+      "advantages": [
+        "confort +30",
+        "style +10",
+        "reputation +5",
+        "fatigue -4",
+        "creativite +3"
+      ],
+      "disadvantages": [
+        "loyer 1100$/mois",
+        "reseau -1"
+      ],
+      "tags": [
+        "confort +30",
+        "loyer 1100$/mois",
+        "style +10",
+        "reputation +5",
+        "fatigue -4",
+        "creativite +3",
+        "reseau -1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-artist-loft",
+      "label": "Loft artiste premium",
+      "type": "housing",
+      "category": "housing",
+      "cost": 2200,
+      "description": "Grand espace de creation avec mur test.",
+      "rarity": "pro",
+      "stats": {
+        "comfort": 36,
+        "loyer": 1400,
+        "style": 12,
+        "network": 5,
+        "fatigue": -5,
+        "creativity": 3,
+        "reputation": 2
+      },
+      "advantages": [
+        "confort +36",
+        "style +12",
+        "reseau +5",
+        "fatigue -5",
+        "creativite +3",
+        "reputation +2"
+      ],
+      "disadvantages": [
+        "loyer 1400$/mois"
+      ],
+      "tags": [
+        "confort +36",
+        "loyer 1400$/mois",
+        "style +12",
+        "reseau +5",
+        "fatigue -5",
+        "creativite +3",
+        "reputation +2"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "housing-penthouse",
+      "label": "Penthouse scene view",
+      "type": "housing",
+      "category": "housing",
+      "cost": 3600,
+      "description": "Adresse impressionnante pour clients haut niveau.",
+      "rarity": "pro",
+      "stats": {
+        "comfort": 44,
+        "loyer": 2100,
+        "style": 16,
+        "reputation": 10,
+        "fatigue": -6,
+        "creativity": 4,
+        "network": -1
+      },
+      "advantages": [
+        "confort +44",
+        "style +16",
+        "reputation +10",
+        "fatigue -6",
+        "creativite +4"
+      ],
+      "disadvantages": [
+        "loyer 2100$/mois",
+        "reseau -1"
+      ],
+      "tags": [
+        "confort +44",
+        "loyer 2100$/mois",
+        "style +16",
+        "reputation +10",
+        "fatigue -6",
+        "creativite +4",
+        "reseau -1"
+      ],
+      "scoreBonus": 0
+    },
+    {
+      "id": "clothing-pin-vj",
+      "label": "Pin VJ neon",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 35,
+      "description": "Petit detail visible sur le hoodie.",
+      "rarity": "starter",
+      "stats": {
+        "style": 1,
+        "network": 1,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "pin",
+      "advantages": [
+        "style +1",
+        "reseau +1"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +1",
+        "reseau +1",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-beanie-black",
+      "label": "Tuque noire VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 65,
+      "description": "Look simple pour debuter.",
+      "rarity": "starter",
+      "stats": {
+        "style": 2,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "beanie",
+      "advantages": [
+        "style +2"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +2",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-hoodie-vj",
+      "label": "Hoodie VJ classic",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 130,
+      "description": "Logo VJ visible, simple et efficace.",
+      "rarity": "starter",
+      "stats": {
+        "style": 8,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "neon",
+      "advantages": [
+        "style +8"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +8",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-jacket-blackout",
+      "label": "Veste Blackout",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 190,
+      "description": "Look technique pour montage en salle.",
+      "rarity": "starter",
+      "stats": {
+        "style": 7,
+        "reputation": 1,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "blackout",
+      "advantages": [
+        "style +7",
+        "reputation +1"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +7",
+        "reputation +1",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-jacket-reflective",
+      "label": "Veste reflective",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 260,
+      "description": "Details qui reagissent aux lumieres.",
+      "rarity": "starter",
+      "stats": {
+        "style": 10,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "reflective",
+      "advantages": [
+        "style +10"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +10",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-cap-low",
+      "label": "Casquette low profile",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 85,
+      "description": "Silhouette plus proche du VJ pro.",
+      "rarity": "starter",
+      "stats": {
+        "style": 4,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "headphones",
+      "clothingValue": true,
+      "advantages": [
+        "style +4"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +4",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-pants-cargo",
+      "label": "Cargo noir scene",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 160,
+      "description": "Poches pour adaptateurs et gaff.",
+      "rarity": "starter",
+      "stats": {
+        "style": 5,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "pants",
+      "clothingValue": "cargo",
+      "advantages": [
+        "style +5"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +5",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-pants-tech",
+      "label": "Pantalon techwear",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 240,
+      "description": "Plus premium, plus credible en setup.",
+      "rarity": "starter",
+      "stats": {
+        "style": 8,
+        "reputation": 1,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "pants",
+      "clothingValue": "techwear",
+      "advantages": [
+        "style +8",
+        "reputation +1"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +8",
+        "reputation +1",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-shoes-cyan",
+      "label": "Sneakers cyan LED",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 120,
+      "description": "Accent lumineux sur le personnage.",
+      "rarity": "starter",
+      "stats": {
+        "style": 6,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shoes",
+      "clothingValue": "cyan",
+      "advantages": [
+        "style +6"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +6",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-shoes-magenta",
+      "label": "Sneakers magenta",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 150,
+      "description": "Look club plus colore.",
+      "rarity": "starter",
+      "stats": {
+        "style": 7,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shoes",
+      "clothingValue": "magenta",
+      "advantages": [
+        "style +7"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +7",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-headphones-basic",
+      "label": "Casque monitoring basic",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 110,
+      "description": "Accessoire essentiel pour le VJ.",
+      "rarity": "starter",
+      "stats": {
+        "technique": 0,
+        "style": 3,
+        "fatigue": 0
+      },
+      "clothingSlot": "headphones",
+      "clothingValue": true,
+      "advantages": [
+        "style +3"
+      ],
+      "disadvantages": [
+        "prix eleve"
+      ],
+      "tags": [
+        "style +3"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-headphones-pro",
+      "label": "Casque monitoring pro",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 340,
+      "description": "Plus pro sur la table et sur le perso.",
+      "rarity": "starter",
+      "stats": {
+        "technique": 2,
+        "style": 6,
+        "fatigue": 0
+      },
+      "clothingSlot": "headphones",
+      "clothingValue": true,
+      "advantages": [
+        "technique +2",
+        "style +6"
+      ],
+      "disadvantages": [
+        "prix eleve"
+      ],
+      "tags": [
+        "technique +2",
+        "style +6"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-gloves-stage",
+      "label": "Gants stage noir",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 95,
+      "description": "Petit detail visuel de technicien.",
+      "rarity": "starter",
+      "stats": {
+        "style": 3,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "gloves",
+      "advantages": [
+        "style +3"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +3",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-mask-club",
+      "label": "Masque club neon",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 180,
+      "description": "Signature visuelle pour reseaux sociaux.",
+      "rarity": "starter",
+      "stats": {
+        "style": 9,
+        "network": 2,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "mask",
+      "advantages": [
+        "style +9",
+        "reseau +2"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +9",
+        "reseau +2",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-coat-tour",
+      "label": "Manteau tour manager",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 420,
+      "description": "Look haut niveau pour gros contrats.",
+      "rarity": "standard",
+      "stats": {
+        "style": 12,
+        "reputation": 3,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "tour",
+      "advantages": [
+        "style +12",
+        "reputation +3"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +12",
+        "reputation +3",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-vest-led",
+      "label": "Veste LED VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 680,
+      "description": "Veste lumineuse signature.",
+      "rarity": "standard",
+      "stats": {
+        "style": 16,
+        "reputation": 4,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "led",
+      "advantages": [
+        "style +16",
+        "reputation +4"
+      ],
+      "disadvantages": [
+        "technique -1"
+      ],
+      "tags": [
+        "style +16",
+        "reputation +4",
+        "technique -1"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clothing-full-fit-pro",
+      "label": "Fit complet Pro VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 980,
+      "description": "Tenue premium coordonnee.",
+      "rarity": "rare",
+      "stats": {
+        "style": 20,
+        "reputation": 6,
+        "technique": -1,
+        "fatigue": 2
+      },
+      "clothingSlot": "shirt",
+      "clothingValue": "pro-fit",
+      "advantages": [
+        "style +20",
+        "reputation +6"
+      ],
+      "disadvantages": [
+        "technique -1",
+        "fatigue +2"
+      ],
+      "tags": [
+        "style +20",
+        "reputation +6",
+        "technique -1",
+        "fatigue +2"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Bonus actif uniquement quand cette pièce est portée. Une pièce par emplacement ; aucun gain permanent à l’achat."
+    },
+    {
+      "id": "clip-starter-loop",
+      "label": "Pack Starter Loop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 60,
+      "description": "Quelques boucles simples pour pratiquer.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-garage-noise",
+      "label": "Pack Garage Noise",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 75,
+      "description": "Textures brutes pour petits gigs.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-liquid-lines",
+      "label": "Pack Liquid Lines",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 220,
+      "description": "Boucles fluides pour bars et lounge.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psy-grid",
+      "label": "Pack Psy Grid",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 340,
+      "description": "Grilles rapides et patterns hypnotiques.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-strobe",
+      "label": "Pack Techno Strobe",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 280,
+      "description": "Visuels durs pour kick et strobes.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-chrome",
+      "label": "Pack HipHop Chrome",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 260,
+      "description": "Chrome, glitch et typographies urbaines.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-ambient-clouds",
+      "label": "Pack Ambient Clouds",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 190,
+      "description": "Textures lentes pour setup plus doux.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-laser-cave",
+      "label": "Pack Laser Cave",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 420,
+      "description": "Tunnels lasers et mouvements profonds.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-fractal-bloom",
+      "label": "Pack Fractal Bloom",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 520,
+      "description": "Fractales propres pour mapping avance.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-city-glitch",
+      "label": "Pack City Glitch",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 360,
+      "description": "Buildings, glitches et motion rapide.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-premium-opener",
+      "label": "Pack Premium Opener",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 880,
+      "description": "Intro visuelle qui impressionne les clients.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-festival-rush",
+      "label": "Pack Festival Rush",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 1200,
+      "description": "Boucles plus riches pour grosses scenes.",
+      "rarity": "rare",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-neon-water",
+      "label": "Pack Neon Water",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 310,
+      "description": "Reflets liquides et couleurs propres.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-black-white",
+      "label": "Pack Noir Blanc Impact",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 250,
+      "description": "Contraste fort pour murs simples.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-retro-crt",
+      "label": "Pack Retro CRT",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 290,
+      "description": "Scanlines, VHS et textures old school.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-organic-tunnel",
+      "label": "Pack Organic Tunnel",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 460,
+      "description": "Tunnels organiques pour projections profondes.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-gold-show",
+      "label": "Pack Gold Show",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 760,
+      "description": "Palette luxueuse pour clients corporatifs.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-01-signal",
+      "label": "VJ Loop 01 Signal techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 175,
+      "description": "Pack numerote 1/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-02-laser",
+      "label": "VJ Loop 02 Laser techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 186,
+      "description": "Pack numerote 2/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-03-chrome",
+      "label": "VJ Loop 03 Chrome techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 197,
+      "description": "Pack numerote 3/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-04-liquid",
+      "label": "VJ Loop 04 Liquid techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 293,
+      "description": "Pack numerote 4/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-05-tunnel",
+      "label": "VJ Loop 05 Tunnel techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 304,
+      "description": "Pack numerote 5/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-06-pulse",
+      "label": "VJ Loop 06 Pulse techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 315,
+      "description": "Pack numerote 6/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-07-prism",
+      "label": "VJ Loop 07 Prism techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 411,
+      "description": "Pack numerote 7/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-08-grid",
+      "label": "VJ Loop 08 Grid techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 422,
+      "description": "Pack numerote 8/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-09-neon",
+      "label": "VJ Loop 09 Neon techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 433,
+      "description": "Pack numerote 9/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-10-smoke",
+      "label": "VJ Loop 10 Smoke techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 529,
+      "description": "Pack numerote 10/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-11-orbit",
+      "label": "VJ Loop 11 Orbit techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 540,
+      "description": "Pack numerote 11/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-12-fractal",
+      "label": "VJ Loop 12 Fractal techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 551,
+      "description": "Pack numerote 12/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-13-glass",
+      "label": "VJ Loop 13 Glass techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 647,
+      "description": "Pack numerote 13/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-14-strobe",
+      "label": "VJ Loop 14 Strobe techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 658,
+      "description": "Pack numerote 14/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-techno-15-depth",
+      "label": "VJ Loop 15 Depth techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 669,
+      "description": "Pack numerote 15/75 pour gigs techno. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "techno",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Techno",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-16-signal",
+      "label": "VJ Loop 16 Signal hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 193,
+      "description": "Pack numerote 16/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-17-laser",
+      "label": "VJ Loop 17 Laser hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 204,
+      "description": "Pack numerote 17/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-18-chrome",
+      "label": "VJ Loop 18 Chrome hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 215,
+      "description": "Pack numerote 18/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-19-liquid",
+      "label": "VJ Loop 19 Liquid hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 311,
+      "description": "Pack numerote 19/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-20-tunnel",
+      "label": "VJ Loop 20 Tunnel hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 322,
+      "description": "Pack numerote 20/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-21-pulse",
+      "label": "VJ Loop 21 Pulse hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 333,
+      "description": "Pack numerote 21/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-22-prism",
+      "label": "VJ Loop 22 Prism hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 429,
+      "description": "Pack numerote 22/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-23-grid",
+      "label": "VJ Loop 23 Grid hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 440,
+      "description": "Pack numerote 23/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-24-neon",
+      "label": "VJ Loop 24 Neon hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 451,
+      "description": "Pack numerote 24/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-25-smoke",
+      "label": "VJ Loop 25 Smoke hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 547,
+      "description": "Pack numerote 25/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-26-orbit",
+      "label": "VJ Loop 26 Orbit hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 558,
+      "description": "Pack numerote 26/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-27-fractal",
+      "label": "VJ Loop 27 Fractal hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 569,
+      "description": "Pack numerote 27/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-28-glass",
+      "label": "VJ Loop 28 Glass hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 665,
+      "description": "Pack numerote 28/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-29-strobe",
+      "label": "VJ Loop 29 Strobe hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 676,
+      "description": "Pack numerote 29/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-hiphop-30-depth",
+      "label": "VJ Loop 30 Depth hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 687,
+      "description": "Pack numerote 30/75 pour gigs hiphop. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "hiphop",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "HipHop",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-31-signal",
+      "label": "VJ Loop 31 Signal chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 211,
+      "description": "Pack numerote 31/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-32-laser",
+      "label": "VJ Loop 32 Laser chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 222,
+      "description": "Pack numerote 32/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-33-chrome",
+      "label": "VJ Loop 33 Chrome chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 233,
+      "description": "Pack numerote 33/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-34-liquid",
+      "label": "VJ Loop 34 Liquid chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 329,
+      "description": "Pack numerote 34/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-35-tunnel",
+      "label": "VJ Loop 35 Tunnel chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 340,
+      "description": "Pack numerote 35/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-36-pulse",
+      "label": "VJ Loop 36 Pulse chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 351,
+      "description": "Pack numerote 36/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-37-prism",
+      "label": "VJ Loop 37 Prism chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 447,
+      "description": "Pack numerote 37/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-38-grid",
+      "label": "VJ Loop 38 Grid chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 458,
+      "description": "Pack numerote 38/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-39-neon",
+      "label": "VJ Loop 39 Neon chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 469,
+      "description": "Pack numerote 39/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-40-smoke",
+      "label": "VJ Loop 40 Smoke chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 565,
+      "description": "Pack numerote 40/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-41-orbit",
+      "label": "VJ Loop 41 Orbit chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 576,
+      "description": "Pack numerote 41/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-42-fractal",
+      "label": "VJ Loop 42 Fractal chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 587,
+      "description": "Pack numerote 42/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-43-glass",
+      "label": "VJ Loop 43 Glass chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 683,
+      "description": "Pack numerote 43/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-44-strobe",
+      "label": "VJ Loop 44 Strobe chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 694,
+      "description": "Pack numerote 44/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-chill-45-depth",
+      "label": "VJ Loop 45 Depth chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 705,
+      "description": "Pack numerote 45/75 pour gigs chill. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "chill",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Chill",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-46-signal",
+      "label": "VJ Loop 46 Signal psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 229,
+      "description": "Pack numerote 46/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-47-laser",
+      "label": "VJ Loop 47 Laser psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 240,
+      "description": "Pack numerote 47/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-48-chrome",
+      "label": "VJ Loop 48 Chrome psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 251,
+      "description": "Pack numerote 48/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-49-liquid",
+      "label": "VJ Loop 49 Liquid psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 347,
+      "description": "Pack numerote 49/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-50-tunnel",
+      "label": "VJ Loop 50 Tunnel psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 358,
+      "description": "Pack numerote 50/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-51-pulse",
+      "label": "VJ Loop 51 Pulse psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 369,
+      "description": "Pack numerote 51/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-52-prism",
+      "label": "VJ Loop 52 Prism psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 465,
+      "description": "Pack numerote 52/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-53-grid",
+      "label": "VJ Loop 53 Grid psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 476,
+      "description": "Pack numerote 53/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-54-neon",
+      "label": "VJ Loop 54 Neon psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 487,
+      "description": "Pack numerote 54/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-55-smoke",
+      "label": "VJ Loop 55 Smoke psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 583,
+      "description": "Pack numerote 55/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-56-orbit",
+      "label": "VJ Loop 56 Orbit psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 594,
+      "description": "Pack numerote 56/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-57-fractal",
+      "label": "VJ Loop 57 Fractal psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 605,
+      "description": "Pack numerote 57/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-58-glass",
+      "label": "VJ Loop 58 Glass psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 701,
+      "description": "Pack numerote 58/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-59-strobe",
+      "label": "VJ Loop 59 Strobe psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 712,
+      "description": "Pack numerote 59/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-psytrance-60-depth",
+      "label": "VJ Loop 60 Depth psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 723,
+      "description": "Pack numerote 60/75 pour gigs psytrance. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "psytrance",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Psytrance",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-61-signal",
+      "label": "VJ Loop 61 Signal rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 247,
+      "description": "Pack numerote 61/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-62-laser",
+      "label": "VJ Loop 62 Laser rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 258,
+      "description": "Pack numerote 62/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-63-chrome",
+      "label": "VJ Loop 63 Chrome rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 269,
+      "description": "Pack numerote 63/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "starter",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-64-liquid",
+      "label": "VJ Loop 64 Liquid rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 365,
+      "description": "Pack numerote 64/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-65-tunnel",
+      "label": "VJ Loop 65 Tunnel rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 376,
+      "description": "Pack numerote 65/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-66-pulse",
+      "label": "VJ Loop 66 Pulse rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 387,
+      "description": "Pack numerote 66/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-67-prism",
+      "label": "VJ Loop 67 Prism rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 483,
+      "description": "Pack numerote 67/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-68-grid",
+      "label": "VJ Loop 68 Grid rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 494,
+      "description": "Pack numerote 68/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-69-neon",
+      "label": "VJ Loop 69 Neon rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 505,
+      "description": "Pack numerote 69/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-70-smoke",
+      "label": "VJ Loop 70 Smoke rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 601,
+      "description": "Pack numerote 70/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-71-orbit",
+      "label": "VJ Loop 71 Orbit rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 612,
+      "description": "Pack numerote 71/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-72-fractal",
+      "label": "VJ Loop 72 Fractal rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 623,
+      "description": "Pack numerote 72/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-73-glass",
+      "label": "VJ Loop 73 Glass rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 719,
+      "description": "Pack numerote 73/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-74-strobe",
+      "label": "VJ Loop 74 Strobe rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 730,
+      "description": "Pack numerote 74/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    },
+    {
+      "id": "clip-rock-75-depth",
+      "label": "VJ Loop 75 Depth rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 741,
+      "description": "Pack numerote 75/75 pour gigs rock. Les contrats avancent demandent 1, 2 puis 3 packs du bon style.",
+      "rarity": "standard",
+      "stats": {},
+      "styleTarget": "rock",
+      "styleXp": 0,
+      "advantages": [
+        "Collection de style"
+      ],
+      "disadvantages": [
+        "Aucun gain de compétence automatique"
+      ],
+      "tags": [
+        "Rock",
+        "Bibliothèque live"
+      ],
+      "scoreBonus": 0,
+      "effectScope": "Collection de carrière : ce pack n’ajoute pas encore de source à la régie vidéo. Aucun gain de compétence à l’achat."
+    }
+  ],
+  "skills": [
+    {
+      "id": "cabling",
+      "label": "Cablage propre",
+      "description": "Lire les distances, eviter la surtension et gerer les fils au sol.",
+      "costs": [
+        0,
+        240,
+        620
+      ]
+    },
+    {
+      "id": "mapping",
+      "label": "Mapping trapeze",
+      "description": "Corriger angles, trapeze et profondeur quand le rack est mal place.",
+      "costs": [
+        120,
+        420,
+        980
+      ]
+    },
+    {
+      "id": "multiOutput",
+      "label": "Multi-projecteurs",
+      "description": "Boites, matrix, sorties HDMI/DisplayPort et synchronisation.",
+      "costs": [
+        220,
+        720,
+        1500
+      ]
+    },
+    {
+      "id": "timePressure",
+      "label": "Pression live",
+      "description": "Rester efficace quand le client impose une limite de temps.",
+      "costs": [
+        180,
+        560,
+        1200
+      ]
+    },
+    {
+      "id": "penTool",
+      "label": "Plume contour",
+      "description": "Delimitation des formes, ecrans ronds et masques propres.",
+      "costs": [
+        260,
+        820,
+        1700
+      ]
+    }
+  ],
+  "gigs": [
+    {
+      "id": "gig-01-party-garage",
+      "number": 1,
+      "title": "Party Garage",
+      "type": "Base projection",
+      "date": "Jour 4",
+      "baseBudget": 364,
+      "budget": 364,
+      "venue": "Garage de quartier",
+      "style": "techno",
+      "minRep": 0,
+      "minGear": "starter",
+      "requirement": "Base projection: aucune. 1 rectangle, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rectangle",
+      "zoneCount": 1,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Base projection",
+      "constraints": "aucune",
+      "gearText": "starter laptop + 1 HDMI",
+      "rentalRule": "prete",
+      "skillText": "aucune",
+      "timerLabel": "non",
+      "loanerGear": true,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 82,
+      "maskRequired": 0,
+      "requiredSkills": {},
+      "status": "open",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "starter-laptop",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1
+    },
+    {
+      "id": "gig-02-neon-wall",
+      "number": 2,
+      "title": "Neon Wall",
+      "type": "Plume intro",
+      "date": "Jour 6",
+      "baseBudget": 446,
+      "budget": 446,
+      "venue": "Mur neon local",
+      "style": "chill",
+      "minRep": 3,
+      "minGear": "starter",
+      "requirement": "Plume intro: decoupe simple. 1 rectangle, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rectangle",
+      "zoneCount": 1,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Plume intro",
+      "constraints": "decoupe simple",
+      "gearText": "plume basic",
+      "rentalRule": "prete",
+      "skillText": "plume 1",
+      "timerLabel": "non",
+      "loanerGear": true,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 83,
+      "maskRequired": 53,
+      "requiredSkills": {
+        "penTool": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "starter-laptop",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-03-rush-setup",
+      "number": 3,
+      "title": "Rush Setup",
+      "type": "Premier stress",
+      "date": "Jour 8",
+      "baseBudget": 591,
+      "budget": 591,
+      "venue": "Bar rush",
+      "style": "hiphop",
+      "minRep": 6,
+      "minGear": "starter",
+      "requirement": "Premier stress: setup rapide. 1 rectangle, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rectangle",
+      "zoneCount": 1,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Premier stress",
+      "constraints": "setup rapide",
+      "gearText": "starter gear",
+      "rentalRule": "prete",
+      "skillText": "aucune",
+      "timerLabel": "facile",
+      "loanerGear": true,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 430,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 85,
+      "maskRequired": 0,
+      "requiredSkills": {},
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "starter-laptop",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1
+    },
+    {
+      "id": "gig-04-moon-circle",
+      "number": 4,
+      "title": "Moon Circle",
+      "type": "Forme ronde",
+      "date": "Jour 10",
+      "baseBudget": 610,
+      "budget": 610,
+      "venue": "Salle lune",
+      "style": "psytrance",
+      "minRep": 9,
+      "minGear": "starter",
+      "requirement": "Forme ronde: contour precis. 1 rond, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rond",
+      "zoneCount": 1,
+      "zoneShape": "rond",
+      "newDifficulty": "Forme ronde",
+      "constraints": "contour precis",
+      "gearText": "plume basic",
+      "rentalRule": "prete",
+      "skillText": "plume 1",
+      "timerLabel": "non",
+      "loanerGear": true,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 84,
+      "maskRequired": 55,
+      "requiredSkills": {
+        "penTool": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "starter-laptop",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-05-hexa-pulse",
+      "number": 5,
+      "title": "Hexa Pulse",
+      "type": "Angles",
+      "date": "Jour 12",
+      "baseBudget": 775,
+      "budget": 775,
+      "venue": "Club Hexa",
+      "style": "rock",
+      "minRep": 12,
+      "minGear": "starter",
+      "requirement": "Angles: precision trapeze. 1 hexagone, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 hexagone",
+      "zoneCount": 1,
+      "zoneShape": "hexagone",
+      "newDifficulty": "Angles",
+      "constraints": "precision trapeze",
+      "gearText": "plume basic",
+      "rentalRule": "prete",
+      "skillText": "mapping 1",
+      "timerLabel": "leger",
+      "loanerGear": true,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 380,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 86,
+      "maskRequired": 56,
+      "requiredSkills": {
+        "mapping": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "starter-laptop",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-06-bad-placement",
+      "number": 6,
+      "title": "Bad Placement",
+      "type": "3 positions possibles",
+      "date": "Jour 14",
+      "baseBudget": 774,
+      "budget": 774,
+      "venue": "Sous-sol etroit",
+      "style": "techno",
+      "minRep": 15,
+      "minGear": "starter",
+      "requirement": "3 positions possibles: mauvais angle possible. 1 rectangle, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rectangle",
+      "zoneCount": 1,
+      "zoneShape": "rectangle",
+      "newDifficulty": "3 positions possibles",
+      "constraints": "mauvais angle possible",
+      "gearText": "ton projo conseille",
+      "rentalRule": "oui",
+      "skillText": "cablage 1",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 85,
+      "maskRequired": 0,
+      "requiredSkills": {
+        "cabling": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1
+    },
+    {
+      "id": "gig-07-zoom-test",
+      "number": 7,
+      "title": "Zoom Test",
+      "type": "Zoom projection",
+      "date": "Jour 16",
+      "baseBudget": 856,
+      "budget": 856,
+      "venue": "Studio long",
+      "style": "chill",
+      "minRep": 18,
+      "minGear": "starter",
+      "requirement": "Zoom projection: distance trop longue. 1 rectangle, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rectangle",
+      "zoneCount": 1,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Zoom projection",
+      "constraints": "distance trop longue",
+      "gearText": "software zoom",
+      "rentalRule": "oui",
+      "skillText": "mapping 1",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": true,
+      "lockedHorizontal": false,
+      "minScore": 85,
+      "maskRequired": 0,
+      "requiredSkills": {
+        "mapping": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "wide-lens"
+      ],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "cheap",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "wide-lens"
+    },
+    {
+      "id": "gig-08-far-circle",
+      "number": 8,
+      "title": "Far Circle",
+      "type": "Zoom + plume",
+      "date": "Jour 18",
+      "baseBudget": 1051,
+      "budget": 1051,
+      "venue": "Loft rond",
+      "style": "hiphop",
+      "minRep": 21,
+      "minGear": "starter",
+      "requirement": "Zoom + plume: placement serre. 1 rond, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "1 rond",
+      "zoneCount": 1,
+      "zoneShape": "rond",
+      "newDifficulty": "Zoom + plume",
+      "constraints": "placement serre",
+      "gearText": "zoom + plume",
+      "rentalRule": "oui",
+      "skillText": "plume 1",
+      "timerLabel": "leger",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 380,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": true,
+      "lockedHorizontal": false,
+      "minScore": 88,
+      "maskRequired": 58,
+      "requiredSkills": {
+        "penTool": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit",
+        "wide-lens"
+      ],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "standard",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-09-split-vision",
+      "number": 9,
+      "title": "Split Vision",
+      "type": "2 ecrans avec 1 projo",
+      "date": "Jour 20",
+      "baseBudget": 1062,
+      "budget": 1062,
+      "venue": "Galerie split",
+      "style": "psytrance",
+      "minRep": 24,
+      "minGear": "starter",
+      "requirement": "2 ecrans avec 1 projo: decoupe precise. 2 zones, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "2 zones",
+      "zoneCount": 2,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "2 ecrans avec 1 projo",
+      "constraints": "decoupe precise",
+      "gearText": "plume niv.1",
+      "rentalRule": "oui",
+      "skillText": "plume 1",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 86,
+      "maskRequired": 66,
+      "requiredSkills": {
+        "penTool": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "standard",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-10-dual-rush",
+      "number": 10,
+      "title": "Dual Rush",
+      "type": "Timer + split",
+      "date": "Jour 22",
+      "baseBudget": 1281,
+      "budget": 1281,
+      "venue": "Club minute",
+      "style": "rock",
+      "minRep": 27,
+      "minGear": "standard",
+      "requirement": "Timer + split: stress setup. 2 zones, 1 projecteur.",
+      "projectorCount": 1,
+      "zoneLabel": "2 zones",
+      "zoneCount": 2,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Timer + split",
+      "constraints": "stress setup",
+      "gearText": "laptop correct",
+      "rentalRule": "oui",
+      "skillText": "pression live 1",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 89,
+      "maskRequired": 67,
+      "requiredSkills": {
+        "timePressure": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "standard",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1
+    },
+    {
+      "id": "gig-11-twin-screens",
+      "number": 11,
+      "title": "Twin Screens",
+      "type": "Intro 2 projos",
+      "date": "Jour 24",
+      "baseBudget": 1336,
+      "budget": 1336,
+      "venue": "Twin Hall",
+      "style": "techno",
+      "minRep": 30,
+      "minGear": "standard",
+      "requirement": "Intro 2 projos: double connexion. 2 rectangles, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "2 rectangles",
+      "zoneCount": 2,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Intro 2 projos",
+      "constraints": "double connexion",
+      "gearText": "splitter duo",
+      "rentalRule": "oui",
+      "skillText": "multi-projo 1",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 87,
+      "maskRequired": 0,
+      "requiredSkills": {
+        "multiOutput": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "standard",
+      "requiredCable": "25ft-basic",
+      "requiredBag": "messenger-basic",
+      "requiredRouter": "splitter-duo",
+      "requiredLoopPacks": 1
+    },
+    {
+      "id": "gig-12-long-cable",
+      "number": 12,
+      "title": "Long Cable",
+      "type": "Distance",
+      "date": "Jour 26",
+      "baseBudget": 1418,
+      "budget": 1418,
+      "venue": "Salle longue",
+      "style": "chill",
+      "minRep": 33,
+      "minGear": "standard",
+      "requirement": "Distance: cable trop court sinon. 2 rectangles, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "2 rectangles",
+      "zoneCount": 2,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Distance",
+      "constraints": "cable trop court sinon",
+      "gearText": "cable 75 pieds",
+      "rentalRule": "oui",
+      "skillText": "cablage 1",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 88,
+      "maskRequired": 0,
+      "requiredSkills": {
+        "cabling": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "vj-laptop-gtx",
+      "requiredProjector": "standard",
+      "requiredCable": "75ft-active",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1
+    },
+    {
+      "id": "gig-13-triple-shape",
+      "number": 13,
+      "title": "Triple Shape",
+      "type": "1 projo split",
+      "date": "Jour 28",
+      "baseBudget": 1727,
+      "budget": 1727,
+      "venue": "Atelier formes",
+      "style": "hiphop",
+      "minRep": 36,
+      "minGear": "standard",
+      "requirement": "1 projo split: formes mixtes. 3 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "3 zones",
+      "zoneCount": 3,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "1 projo split",
+      "constraints": "formes mixtes",
+      "gearText": "plume niv.1",
+      "rentalRule": "oui",
+      "skillText": "plume 1",
+      "timerLabel": "leger",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 380,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 90,
+      "maskRequired": 77,
+      "requiredSkills": {
+        "penTool": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "standard",
+      "requiredCable": "75ft-active",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-14-tight-venue",
+      "number": 14,
+      "title": "Tight Venue",
+      "type": "Salle serree",
+      "date": "Jour 30",
+      "baseBudget": 1819,
+      "budget": 1819,
+      "venue": "Petit venue",
+      "style": "psytrance",
+      "minRep": 39,
+      "minGear": "standard",
+      "requirement": "Salle serree: peu de place. 3 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "3 zones",
+      "zoneCount": 3,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Salle serree",
+      "constraints": "peu de place",
+      "gearText": "zoom + cable long",
+      "rentalRule": "oui",
+      "skillText": "mapping 1",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": true,
+      "lockedHorizontal": false,
+      "minScore": 91,
+      "maskRequired": 77,
+      "requiredSkills": {
+        "mapping": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "wide-lens"
+      ],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "standard",
+      "requiredCable": "75ft-active",
+      "requiredBag": "messenger-basic",
+      "requiredLoopPacks": 1,
+      "requiredAccessory": "wide-lens"
+    },
+    {
+      "id": "gig-15-quad-layout",
+      "number": 15,
+      "title": "Quad Layout",
+      "type": "2 splits simultanes",
+      "date": "Jour 32",
+      "baseBudget": 1748,
+      "budget": 1748,
+      "venue": "Layout room",
+      "style": "rock",
+      "minRep": 42,
+      "minGear": "standard",
+      "requirement": "2 splits simultanes: precision forte. 4 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "2 splits simultanes",
+      "constraints": "precision forte",
+      "gearText": "plume niv.2",
+      "rentalRule": "oui",
+      "skillText": "plume 2",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 89,
+      "maskRequired": 85,
+      "requiredSkills": {
+        "penTool": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "standard",
+      "requiredCable": "75ft-active",
+      "requiredBag": "vj-backpack",
+      "requiredLoopPacks": 2,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-16-club-pressure",
+      "number": 16,
+      "title": "Club Pressure",
+      "type": "Stress live",
+      "date": "Jour 34",
+      "baseBudget": 2050,
+      "budget": 2050,
+      "venue": "Club pression",
+      "style": "techno",
+      "minRep": 45,
+      "minGear": "standard",
+      "requirement": "Stress live: timer agressif. 4 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Stress live",
+      "constraints": "timer agressif",
+      "gearText": "console MIDI mini",
+      "rentalRule": "oui",
+      "skillText": "pression live 1",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 92,
+      "maskRequired": 86,
+      "requiredSkills": {
+        "timePressure": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "laser-entry",
+      "requiredCable": "75ft-active",
+      "requiredBag": "vj-backpack",
+      "requiredConsole": "midi-mini",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-17-mixed-geometry",
+      "number": 17,
+      "title": "Mixed Geometry",
+      "type": "Rond + hexa + rectangle",
+      "date": "Jour 36",
+      "baseBudget": 2141,
+      "budget": 2141,
+      "venue": "Galerie geometry",
+      "style": "chill",
+      "minRep": 48,
+      "minGear": "standard",
+      "requirement": "Rond + hexa + rectangle: angles complexes. 4 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "rond",
+      "newDifficulty": "Rond + hexa + rectangle",
+      "constraints": "angles complexes",
+      "gearText": "meilleur laptop",
+      "rentalRule": "oui",
+      "skillText": "mapping 2",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 92,
+      "maskRequired": 87,
+      "requiredSkills": {
+        "mapping": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "laser-entry",
+      "requiredCable": "75ft-active",
+      "requiredBag": "vj-backpack",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-18-no-rental-night",
+      "number": 18,
+      "title": "No Rental Night",
+      "type": "Plus de location",
+      "date": "Jour 38",
+      "baseBudget": 2233,
+      "budget": 2233,
+      "venue": "Private no-rental",
+      "style": "hiphop",
+      "minRep": 51,
+      "minGear": "rare",
+      "requirement": "Plus de location: doit posseder gear. 4 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Plus de location",
+      "constraints": "doit posseder gear",
+      "gearText": "2 projos perso",
+      "rentalRule": "non",
+      "skillText": "multi-projo 1",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 93,
+      "maskRequired": 88,
+      "requiredSkills": {
+        "multiOutput": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "standard",
+      "requiredCable": "75ft-active",
+      "requiredBag": "vj-backpack",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-19-crooked-walls",
+      "number": 19,
+      "title": "Crooked Walls",
+      "type": "Mauvais murs",
+      "date": "Jour 40",
+      "baseBudget": 2325,
+      "budget": 2325,
+      "venue": "Crooked warehouse",
+      "style": "psytrance",
+      "minRep": 54,
+      "minGear": "rare",
+      "requirement": "Mauvais murs: trapeze fort. 4 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Mauvais murs",
+      "constraints": "trapeze fort",
+      "gearText": "zoom + plume 2",
+      "rentalRule": "non",
+      "skillText": "mapping 2",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 93,
+      "maskRequired": 89,
+      "requiredSkills": {
+        "mapping": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit",
+        "wide-lens"
+      ],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "laser-entry",
+      "requiredCable": "75ft-active",
+      "requiredBag": "vj-backpack",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-20-warehouse-major",
+      "number": 20,
+      "title": "Warehouse Major",
+      "type": "Premier gros gig",
+      "date": "Jour 42",
+      "baseBudget": 2417,
+      "budget": 2417,
+      "venue": "Warehouse major",
+      "style": "rock",
+      "minRep": 57,
+      "minGear": "rare",
+      "requirement": "Premier gros gig: grosses penalites. 4 zones, 2 projecteurs.",
+      "projectorCount": 2,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Premier gros gig",
+      "constraints": "grosses penalites",
+      "gearText": "laptop VJ + splitter",
+      "rentalRule": "oui",
+      "skillText": "pression live 1",
+      "timerLabel": "difficile",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 240,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 94,
+      "maskRequired": 90,
+      "requiredSkills": {
+        "timePressure": 1
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "creator-laptop-rtx",
+      "requiredProjector": "laser-entry",
+      "requiredCable": "75ft-active",
+      "requiredBag": "vj-backpack",
+      "requiredRouter": "splitter-duo",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-21-triple-intro",
+      "number": 21,
+      "title": "Triple Intro",
+      "type": "Intro 3 projos",
+      "date": "Jour 44",
+      "baseBudget": 2308,
+      "budget": 2308,
+      "venue": "Triple room",
+      "style": "techno",
+      "minRep": 60,
+      "minGear": "rare",
+      "requirement": "Intro 3 projos: outputs multiples. 3 rectangles, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "3 rectangles",
+      "zoneCount": 3,
+      "zoneShape": "rectangle",
+      "newDifficulty": "Intro 3 projos",
+      "constraints": "outputs multiples",
+      "gearText": "routeur triple",
+      "rentalRule": "oui",
+      "skillText": "multi-projo 2",
+      "timerLabel": "non",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 0,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 92,
+      "maskRequired": 0,
+      "requiredSkills": {
+        "multiOutput": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "laser-entry",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredRouter": "mapper-triple",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-22-output-crisis",
+      "number": 22,
+      "title": "Output Crisis",
+      "type": "Ports limites",
+      "date": "Jour 46",
+      "baseBudget": 2677,
+      "budget": 2677,
+      "venue": "Output lab",
+      "style": "chill",
+      "minRep": 63,
+      "minGear": "rare",
+      "requirement": "Ports limites: adaptateurs requis. 3 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "3 zones",
+      "zoneCount": 3,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Ports limites",
+      "constraints": "adaptateurs requis",
+      "gearText": "DP-HDMI adapters",
+      "rentalRule": "oui",
+      "skillText": "multi-projo 2",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 95,
+      "maskRequired": 84,
+      "requiredSkills": {
+        "multiOutput": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "laser-entry",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredAdapter": "dp-hdmi-pro-3pack",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-23-triple-split",
+      "number": 23,
+      "title": "Triple Split",
+      "type": "Split avance",
+      "date": "Jour 48",
+      "baseBudget": 2816,
+      "budget": 2816,
+      "venue": "Split lab",
+      "style": "hiphop",
+      "minRep": 66,
+      "minGear": "rare",
+      "requirement": "Split avance: synchronisation. 4 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "4 zones",
+      "zoneCount": 4,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Split avance",
+      "constraints": "synchronisation",
+      "gearText": "plume niv.2",
+      "rentalRule": "oui",
+      "skillText": "plume 2",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 95,
+      "maskRequired": 92,
+      "requiredSkills": {
+        "penTool": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-24-festival-sidewalls",
+      "number": 24,
+      "title": "Festival Sidewalls",
+      "type": "Grande couverture",
+      "date": "Jour 50",
+      "baseBudget": 2955,
+      "budget": 2955,
+      "venue": "Festival sidewall",
+      "style": "psytrance",
+      "minRep": 69,
+      "minGear": "rare",
+      "requirement": "Grande couverture: mauvaise distance. 5 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "5 zones",
+      "zoneCount": 5,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Grande couverture",
+      "constraints": "mauvaise distance",
+      "gearText": "matrix + zoom",
+      "rentalRule": "oui",
+      "skillText": "mapping 2",
+      "timerLabel": "moyen",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 310,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": true,
+      "lockedHorizontal": false,
+      "minScore": 96,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "mapping": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "wide-lens"
+      ],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2,
+      "requiredAccessory": "wide-lens"
+    },
+    {
+      "id": "gig-25-psy-main-room",
+      "number": 25,
+      "title": "Psy Main Room",
+      "type": "Stress intense",
+      "date": "Jour 52",
+      "baseBudget": 3046,
+      "budget": 3046,
+      "venue": "Psy main room",
+      "style": "rock",
+      "minRep": 72,
+      "minGear": "rare",
+      "requirement": "Stress intense: timer severe. 5 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "5 zones",
+      "zoneCount": 5,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Stress intense",
+      "constraints": "timer severe",
+      "gearText": "VJ Deck",
+      "rentalRule": "oui",
+      "skillText": "pression live 2",
+      "timerLabel": "difficile",
+      "loanerGear": false,
+      "allowRent": true,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 240,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 97,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "timePressure": 2
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredConsole": "vj-deck",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 2
+    },
+    {
+      "id": "gig-26-mapping-cathedral",
+      "number": 26,
+      "title": "Mapping Cathedral",
+      "type": "2 zones/projo",
+      "date": "Jour 54",
+      "baseBudget": 3185,
+      "budget": 3185,
+      "venue": "Mapping cathedral",
+      "style": "techno",
+      "minRep": 75,
+      "minGear": "pro",
+      "requirement": "2 zones/projo: architecture complexe. 6 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "6 zones",
+      "zoneCount": 6,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "2 zones/projo",
+      "constraints": "architecture complexe",
+      "gearText": "plume niv.3",
+      "rentalRule": "non",
+      "skillText": "plume 3",
+      "timerLabel": "difficile",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 240,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 97,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "penTool": 3
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [
+        "mapping-kit"
+      ],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 3,
+      "requiredAccessory": "mapping-kit"
+    },
+    {
+      "id": "gig-27-geometry-overload",
+      "number": 27,
+      "title": "Geometry Overload",
+      "type": "Toutes formes mixtes",
+      "date": "Jour 56",
+      "baseBudget": 3277,
+      "budget": 3277,
+      "venue": "Geometry arena",
+      "style": "chill",
+      "minRep": 78,
+      "minGear": "pro",
+      "requirement": "Toutes formes mixtes: precision extreme. 6 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "6 zones",
+      "zoneCount": 6,
+      "zoneShape": "mixte",
+      "newDifficulty": "Toutes formes mixtes",
+      "constraints": "precision extreme",
+      "gearText": "GPU pro",
+      "rentalRule": "non",
+      "skillText": "mapping 3",
+      "timerLabel": "difficile",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 240,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 98,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "mapping": 3
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4060",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "vj-backpack",
+      "requiredGpu": "gpu-desktop-pro",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 3
+    },
+    {
+      "id": "gig-28-technical-nightmare",
+      "number": 28,
+      "title": "Technical Nightmare",
+      "type": "Tres peu de placements",
+      "date": "Jour 58",
+      "baseBudget": 3369,
+      "budget": 3369,
+      "venue": "Technical hall",
+      "style": "hiphop",
+      "minRep": 81,
+      "minGear": "pro",
+      "requirement": "Tres peu de placements: mauvais angles partout. 6 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "6 zones",
+      "zoneCount": 6,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Tres peu de placements",
+      "constraints": "mauvais angles partout",
+      "gearText": "matrix 4x4",
+      "rentalRule": "non",
+      "skillText": "multi-projo 3",
+      "timerLabel": "tres difficile",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 190,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Point risque centre",
+          "penalty": 8
+        },
+        {
+          "id": "left",
+          "label": "Angle serre gauche",
+          "penalty": 22
+        },
+        {
+          "id": "deep",
+          "label": "Fond de salle",
+          "penalty": 30
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": true,
+      "minScore": 98,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "multiOutput": 3
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4080",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-75",
+      "requiredBag": "road-backpack",
+      "requiredRouter": "matrix-4x4",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 3
+    },
+    {
+      "id": "gig-29-festival-headliner",
+      "number": 29,
+      "title": "Festival Headliner",
+      "type": "Aucun droit erreur",
+      "date": "Jour 60",
+      "baseBudget": 3461,
+      "budget": 3461,
+      "venue": "Festival headliner",
+      "style": "psytrance",
+      "minRep": 84,
+      "minGear": "pro",
+      "requirement": "Aucun droit erreur: pas de location. 6 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "6 zones",
+      "zoneCount": 6,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Aucun droit erreur",
+      "constraints": "pas de location",
+      "gearText": "full setup pro",
+      "rentalRule": "non",
+      "skillText": "pression live 3",
+      "timerLabel": "extreme",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 160,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 99,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "timePressure": 3
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4080",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-150",
+      "requiredBag": "road-backpack",
+      "requiredGpu": "gpu-desktop-pro",
+      "requiredRouter": "matrix-4x4",
+      "requiredConsole": "show-control-pro",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 3
+    },
+    {
+      "id": "gig-30-legendary-av-show",
+      "number": 30,
+      "title": "Legendary AV Show",
+      "type": "Toutes mecaniques combinees",
+      "date": "Jour 62",
+      "baseBudget": 3553,
+      "budget": 3553,
+      "venue": "Legendary AV stage",
+      "style": "rock",
+      "minRep": 87,
+      "minGear": "pro",
+      "requirement": "Toutes mecaniques combinees: timer + placement + plume + zoom + stress. 6 zones, 3 projecteurs.",
+      "projectorCount": 3,
+      "zoneLabel": "6 zones",
+      "zoneCount": 6,
+      "zoneShape": "multi-zone",
+      "newDifficulty": "Toutes mecaniques combinees",
+      "constraints": "timer + placement + plume + zoom + stress",
+      "gearText": "setup premium complet",
+      "rentalRule": "non",
+      "skillText": "toutes skills niv.3",
+      "timerLabel": "brutal",
+      "loanerGear": false,
+      "allowRent": false,
+      "cooldownDays": 7,
+      "timeLimitSeconds": 130,
+      "placementOptions": [
+        {
+          "id": "center",
+          "label": "Centre standard",
+          "penalty": 0
+        },
+        {
+          "id": "left",
+          "label": "Rack gauche",
+          "penalty": 18
+        },
+        {
+          "id": "deep",
+          "label": "Rack au fond",
+          "penalty": 24
+        }
+      ],
+      "correctPlacement": "center",
+      "lockedDepth": false,
+      "lockedHorizontal": false,
+      "minScore": 99,
+      "maskRequired": 96,
+      "requiredSkills": {
+        "cabling": 3,
+        "mapping": 3,
+        "multiOutput": 3,
+        "timePressure": 3,
+        "penTool": 3
+      },
+      "status": "locked",
+      "responseIn": null,
+      "requiredAccessories": [],
+      "requiredComputer": "desktop-rtx4080",
+      "requiredProjector": "pro-6500",
+      "requiredCable": "loom-3pack-150",
+      "requiredBag": "road-backpack",
+      "requiredGpu": "gpu-desktop-pro",
+      "requiredRouter": "matrix-4x4",
+      "requiredConsole": "show-control-pro",
+      "requiredScreen": "monitor-24",
+      "requiredLoopPacks": 3
+    }
+  ],
+  "cast": {
+    "nova": {
+      "label": "Nova",
+      "look": "Hoodie sombre · denim · sneakers",
+      "path": "/assets/characters/nova/nova.glb"
+    },
+    "eli": {
+      "label": "Eli",
+      "look": "Denim urbain · t-shirt · sneakers",
+      "path": "/assets/characters/eli/eli.glb"
+    },
+    "sam": {
+      "label": "Sam",
+      "look": "Veste streetwear · casquette · denim",
+      "path": "/assets/characters/sam/sam.glb"
+    }
+  },
+  "settings": {
+    "language": "fr",
+    "volume": 70,
+    "graphics": "balanced",
+    "windowBounds": {
+      "width": 1160,
+      "height": 680
+    }
+  },
+  "stats": {
+    "creativity": 100,
+    "technique": 0,
+    "fatigue": 0,
+    "reputation": 0,
+    "style": 0,
+    "network": 0,
+    "jobine": 120,
+    "xp": 0,
+    "level": 1
+  },
+  "apps": [
+    "calendar",
+    "guide",
+    "phone",
+    "email",
+    "social",
+    "transport",
+    "music",
+    "stats",
+    "inventory",
+    "finance",
+    "settings",
+    "skills",
+    "shop"
+  ],
+  "clips": [
+    {
+      "label": "Blue Red Waves",
+      "src": "/video/vecteezy_blue-and-red-random-shapes-waves-background-vj-loop-in-4k_63180364.mp4"
+    },
+    {
+      "label": "Green Tunnel",
+      "src": "/video/vecteezy_green-slow-strobe-grate-tunnel-background-vj-loop-in-4k_75291098.mp4"
+    },
+    {
+      "label": "Hex Neon",
+      "src": "/video/vecteezy_red-and-blue-hexagonal-neon-line-moving-lighting_78239514.mp4"
+    }
+  ],
+  "gearProgressions": {
+    "projector": [
+      "cheap",
+      "standard",
+      "short-throw",
+      "laser-entry",
+      "pro-6500",
+      "ultra-4k"
+    ],
+    "computer": [
+      "starter-laptop",
+      "vj-laptop-gtx",
+      "creator-laptop-rtx",
+      "desktop-rtx4060",
+      "desktop-rtx4080"
+    ],
+    "gpu": [
+      "gpu-mobile",
+      "gpu-desktop-mid",
+      "gpu-desktop-pro"
+    ],
+    "cable": [
+      "25ft-basic",
+      "75ft-active",
+      "150ft-fiber",
+      "loom-3pack-75",
+      "loom-3pack-150"
+    ],
+    "adapter": [
+      "dp-hdmi-basic",
+      "dp-hdmi-pro-3pack"
+    ],
+    "router": [
+      "splitter-duo",
+      "mapper-triple",
+      "matrix-4x4"
+    ],
+    "console": [
+      "midi-mini",
+      "vj-deck",
+      "show-control-pro"
+    ],
+    "screen": [
+      "monitor-24",
+      "monitor-27",
+      "portable-touch"
+    ],
+    "bag": [
+      "messenger-basic",
+      "vj-backpack",
+      "road-backpack"
+    ]
+  },
+  "clients": {
+    "chill": {
+      "label": "Client chill",
+      "description": "Facile a convaincre, paie moins, pardonne les petits defauts.",
+      "budgetMultiplier": 0.88,
+      "acceptanceBonus": 18,
+      "weights": {
+        "technical": 0.28,
+        "artistic": 0.42,
+        "professional": 0.3
+      }
+    },
+    "corpo": {
+      "label": "Client corpo",
+      "description": "Exige un setup propre, paie bien, pardonne peu la technique.",
+      "budgetMultiplier": 1.24,
+      "acceptanceBonus": -4,
+      "weights": {
+        "technical": 0.44,
+        "artistic": 0.22,
+        "professional": 0.34
+      }
+    },
+    "underground": {
+      "label": "Client underground",
+      "description": "Aime le style et l audace, tolere un peu de chaos.",
+      "budgetMultiplier": 0.98,
+      "acceptanceBonus": 8,
+      "weights": {
+        "technical": 0.24,
+        "artistic": 0.54,
+        "professional": 0.22
+      }
+    },
+    "festival": {
+      "label": "Client festival",
+      "description": "Gros potentiel, demande fiabilite, reputation et gear solide.",
+      "budgetMultiplier": 1.38,
+      "acceptanceBonus": -10,
+      "weights": {
+        "technical": 0.36,
+        "artistic": 0.3,
+        "professional": 0.34
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "cable-short",
+      "label": "Cable trop court",
+      "description": "Il faut improviser un chemin de cable.",
+      "penalty": {
+        "technical": 8
+      }
+    },
+    {
+      "id": "projector-dim",
+      "label": "Projecteur faible",
+      "description": "La projection manque un peu de punch.",
+      "penalty": {
+        "artistic": 7
+      }
+    },
+    {
+      "id": "laptop-lag",
+      "label": "Ordinateur qui lag",
+      "description": "Les transitions live deviennent plus fragiles.",
+      "penalty": {
+        "professional": 7
+      }
+    },
+    {
+      "id": "client-change",
+      "label": "Client change d idee",
+      "description": "Le style demande ne colle plus parfaitement aux loops.",
+      "penalty": {
+        "artistic": 6,
+        "professional": 3
+      }
+    },
+    {
+      "id": "crooked-wall",
+      "label": "Mur pas droit",
+      "description": "Le trapeze devient plus dur a corriger.",
+      "penalty": {
+        "technical": 6
+      }
+    }
+  ],
+  "saveBytes": 108228
+}

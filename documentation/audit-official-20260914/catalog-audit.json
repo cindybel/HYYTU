@@ -1,0 +1,2708 @@
+{
+  "items": [
+    {
+      "id": "projector-cheap",
+      "label": "Binq StarterBeam 2200",
+      "type": "projector",
+      "category": "gear",
+      "cost": 180,
+      "stats": {
+        "technique": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.8999999761581421,
+        0.29999999873340133,
+        0.8269999942556023
+      ]
+    },
+    {
+      "id": "projector-standard",
+      "label": "Epsun EB-Lo 4200 3LCD",
+      "type": "projector",
+      "category": "gear",
+      "cost": 420,
+      "stats": {
+        "technique": 4,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        0.9900000095367432,
+        0.32999999754130843,
+        0.8470000049844384
+      ]
+    },
+    {
+      "id": "projector-short-throw",
+      "label": "Optomix ShortCast ST-4",
+      "type": "projector",
+      "category": "gear",
+      "cost": 680,
+      "stats": {
+        "technique": 6,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1.0800000429153442,
+        0.3649999957531691,
+        0.8669999859109521
+      ]
+    },
+    {
+      "id": "projector-laser-entry",
+      "label": "Panasound PT-Rave LZ320",
+      "type": "projector",
+      "category": "gear",
+      "cost": 760,
+      "stats": {
+        "technique": 5,
+        "style": 2,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 6,
+      "size": [
+        1.1699999570846558,
+        0.4549999994784594,
+        0.8869999966397881
+      ]
+    },
+    {
+      "id": "projector-pro-6500",
+      "label": "Christalux Boxer Mini 6500",
+      "type": "projector",
+      "category": "gear",
+      "cost": 1450,
+      "stats": {
+        "technique": 10,
+        "reputation": 3,
+        "gear": 8,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 8,
+      "size": [
+        1.2599999904632568,
+        0.48999999947845946,
+        0.9070000073686242
+      ]
+    },
+    {
+      "id": "projector-ultra-4k",
+      "label": "Barq UDMini 4K Laser",
+      "type": "projector",
+      "category": "gear",
+      "cost": 2400,
+      "stats": {
+        "technique": 14,
+        "reputation": 6,
+        "gear": 13,
+        "fatigue": 9,
+        "network": -1
+      },
+      "unlock": 8,
+      "size": [
+        1.350000023841858,
+        0.5249999994784594,
+        0.9269999882951379
+      ]
+    },
+    {
+      "id": "computer-starter-laptop",
+      "label": "Lenovox FieldPad iGPU",
+      "type": "computer",
+      "category": "gear",
+      "cost": 360,
+      "stats": {
+        "technique": 2,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 1,
+      "size": [
+        0.8680000070407987,
+        0.5599999995529651,
+        0.5699999928474426
+      ]
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "label": "M-Synth StageMini GTX 1 HDMI",
+      "type": "computer",
+      "category": "gear",
+      "cost": 860,
+      "stats": {
+        "technique": 6,
+        "creativity": 2,
+        "gear": 5,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        1.0079999998882414,
+        0.6210000041127205,
+        0.6200000047683716
+      ]
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "label": "Azus ProArtish RTX 2 sorties",
+      "type": "computer",
+      "category": "gear",
+      "cost": 1580,
+      "stats": {
+        "technique": 11,
+        "creativity": 4,
+        "gear": 9,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1.1479999927356839,
+        0.6820000086724758,
+        0.6700000166893005
+      ]
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "label": "Raytrix Tower 4060 DP3",
+      "type": "computer",
+      "category": "gear",
+      "cost": 1980,
+      "stats": {
+        "technique": 14,
+        "reputation": 2,
+        "gear": 11,
+        "fatigue": 9,
+        "network": -1
+      },
+      "unlock": 6,
+      "size": [
+        0.5699999928474426,
+        1,
+        0.7414126723259687
+      ]
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "label": "Raytrix Tower 4080 Show DP3",
+      "type": "computer",
+      "category": "gear",
+      "cost": 3600,
+      "stats": {
+        "technique": 22,
+        "creativity": 7,
+        "reputation": 5,
+        "gear": 20,
+        "fatigue": 9,
+        "network": -1
+      },
+      "unlock": 8,
+      "size": [
+        0.6100000143051147,
+        1,
+        0.7414126723259687
+      ]
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "label": "Raytrix Mobile VJ Core",
+      "type": "gpu",
+      "category": "gear",
+      "cost": 520,
+      "stats": {
+        "technique": 4,
+        "gear": 3,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 1,
+      "size": [
+        1,
+        0.20250000020489095,
+        0.4200000027567148
+      ]
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "label": "Raytrix Desktop DP Duo",
+      "type": "gpu",
+      "category": "gear",
+      "cost": 960,
+      "stats": {
+        "technique": 8,
+        "gear": 5,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        1,
+        0.20250000020489095,
+        0.4200000027567148
+      ]
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "label": "Raytrix Desktop DP Quad Pro",
+      "type": "gpu",
+      "category": "gear",
+      "cost": 1760,
+      "stats": {
+        "technique": 13,
+        "reputation": 2,
+        "gear": 10,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1,
+        0.20250000020489095,
+        0.4200000027567148
+      ]
+    },
+    {
+      "id": "cable-25ft-basic",
+      "label": "Kramark HDMI Run 25",
+      "type": "cable",
+      "category": "gear",
+      "cost": 60,
+      "stats": {
+        "technique": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.9000000014901162,
+        0.6600000262260437,
+        0.28461217749643536
+      ]
+    },
+    {
+      "id": "cable-75ft-active",
+      "label": "Kramark ActiveRun 75",
+      "type": "cable",
+      "category": "gear",
+      "cost": 180,
+      "stats": {
+        "technique": 3,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.9000000014901162,
+        0.6840000152587891,
+        0.28461217749643536
+      ]
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "label": "Kramark FiberRun 150",
+      "type": "cable",
+      "category": "gear",
+      "cost": 420,
+      "stats": {
+        "technique": 6,
+        "reputation": 2,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        0.9000000014901162,
+        0.7080000042915344,
+        0.28461217749643536
+      ]
+    },
+    {
+      "id": "cable-loom-3pack-75",
+      "label": "LiteWire Trio Loom 75",
+      "type": "cable",
+      "category": "gear",
+      "cost": 480,
+      "stats": {
+        "technique": 7,
+        "style": 2,
+        "gear": 3,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 6,
+      "size": [
+        0.9400000005960465,
+        0.7319999933242798,
+        0.44961218584108564
+      ]
+    },
+    {
+      "id": "cable-loom-3pack-150",
+      "label": "LiteWire Fiber Trio 150",
+      "type": "cable",
+      "category": "gear",
+      "cost": 1120,
+      "stats": {
+        "technique": 12,
+        "reputation": 4,
+        "gear": 6,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 8,
+      "size": [
+        0.9400000005960465,
+        0.7559999823570251,
+        0.44961218584108564
+      ]
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "label": "PortSmith DP-HDMI Solo",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 45,
+      "stats": {
+        "technique": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.3499999940395355,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "label": "PortSmith USB-C Active HDMI",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 85,
+      "stats": {
+        "technique": 2,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.5299999713897705,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "adapter-dp-hdmi-pro-3pack",
+      "label": "PortSmith DP-HDMI Triple Pro",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 210,
+      "stats": {
+        "technique": 4,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 4,
+      "size": [
+        0.7099999785423279,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "adapter-edid-locker",
+      "label": "SignalLock EDID Box",
+      "type": "adapter",
+      "category": "gear",
+      "cost": 260,
+      "stats": {
+        "technique": 5,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 6,
+      "size": [
+        0.8899999856948853,
+        0.12999999523162842,
+        0.6974999987334013
+      ]
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "label": "StageTack Pocket Roll",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 55,
+      "stats": {
+        "technique": 1,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.7252701949224736,
+        0.1616796106100084,
+        0.6100000143051147
+      ]
+    },
+    {
+      "id": "accessory-wide-lens",
+      "label": "Optomix WideKit 0.8",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 380,
+      "stats": {
+        "technique": 3,
+        "gear": 2,
+        "fatigue": 0,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        0.4300000071525574,
+        0.4525000044703483,
+        0.38426584500819444
+      ]
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "label": "MapLab Marker Kit",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 540,
+      "stats": {
+        "technique": 5,
+        "creativity": 2,
+        "gear": 3,
+        "fatigue": 0,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        0.8999999761581421,
+        0.5300000049173832,
+        0.6000000238418579
+      ]
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "label": "RoadVault Flight XL",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 620,
+      "stats": {
+        "reputation": 3,
+        "style": 2,
+        "gear": 3,
+        "fatigue": 0,
+        "network": -1
+      },
+      "unlock": 6,
+      "size": [
+        1.0949999997019768,
+        0.7974999976903201,
+        0.7599999952316284
+      ]
+    },
+    {
+      "id": "accessory-mini-controller",
+      "label": "StageCue Footswitch Duo",
+      "type": "accessory",
+      "category": "gear",
+      "cost": 450,
+      "stats": {
+        "creativity": 5,
+        "style": 2,
+        "gear": 3,
+        "fatigue": 0,
+        "network": -1
+      },
+      "unlock": 8,
+      "size": [
+        0.6800000071525574,
+        0.18190464267750456,
+        0.49999999813735485
+      ]
+    },
+    {
+      "id": "router-splitter-duo",
+      "label": "DataPatch Duo Split",
+      "type": "router",
+      "category": "gear",
+      "cost": 260,
+      "stats": {
+        "technique": 3,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.8999999761581421,
+        0.6330203927255091,
+        0.5667447809905634
+      ]
+    },
+    {
+      "id": "router-mapper-triple",
+      "label": "BlackMagi MapBox Triple",
+      "type": "router",
+      "category": "gear",
+      "cost": 720,
+      "stats": {
+        "technique": 8,
+        "creativity": 2,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        1.0199999809265137,
+        0.6330203927255091,
+        0.5667447809905634
+      ]
+    },
+    {
+      "id": "router-matrix-4x4",
+      "label": "AnalogWhey Matrix 4x4 Pro",
+      "type": "router",
+      "category": "gear",
+      "cost": 1450,
+      "stats": {
+        "technique": 13,
+        "reputation": 4,
+        "gear": 8,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1.1399999856948853,
+        0.6330203927255091,
+        0.5667447809905634
+      ]
+    },
+    {
+      "id": "console-midi-mini",
+      "label": "A-KAI PadMix Mini",
+      "type": "console",
+      "category": "gear",
+      "cost": 280,
+      "stats": {
+        "creativity": 4,
+        "style": 2,
+        "gear": 2,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.8999999761581421,
+        0.19749999828636647,
+        0.5
+      ]
+    },
+    {
+      "id": "console-vj-deck",
+      "label": "ElGateau StreamPad VJ 8",
+      "type": "console",
+      "category": "gear",
+      "cost": 740,
+      "stats": {
+        "creativity": 8,
+        "technique": 3,
+        "style": 3,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        1.0199999809265137,
+        0.19749999828636647,
+        0.5
+      ]
+    },
+    {
+      "id": "console-show-control-pro",
+      "label": "Rezolume ShowDeck Pro",
+      "type": "console",
+      "category": "gear",
+      "cost": 1580,
+      "stats": {
+        "creativity": 12,
+        "technique": 6,
+        "reputation": 3,
+        "gear": 9,
+        "fatigue": 7,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1.1399999856948853,
+        0.19749999828636647,
+        0.5
+      ]
+    },
+    {
+      "id": "screen-monitor-24",
+      "label": "Delle ViewDesk 24",
+      "type": "screen",
+      "category": "gear",
+      "cost": 220,
+      "stats": {
+        "technique": 2,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        1.100000023841858,
+        0.8687499940395355,
+        0.25
+      ]
+    },
+    {
+      "id": "screen-monitor-27",
+      "label": "Azus ProArtish 27",
+      "type": "screen",
+      "category": "gear",
+      "cost": 420,
+      "stats": {
+        "technique": 4,
+        "creativity": 1,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 2,
+      "size": [
+        1.2799999713897705,
+        0.9700000202655792,
+        0.31243902598597695
+      ]
+    },
+    {
+      "id": "screen-portable-touch",
+      "label": "ViewSonic-ish TouchStage 15",
+      "type": "screen",
+      "category": "gear",
+      "cost": 680,
+      "stats": {
+        "technique": 5,
+        "creativity": 3,
+        "gear": 4,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        0.8199999928474426,
+        0.5062500039488078,
+        0.3375000003166497
+      ]
+    },
+    {
+      "id": "bag-messenger-basic",
+      "label": "RoadVault Messenger 12",
+      "type": "bag",
+      "category": "gear",
+      "cost": 55,
+      "stats": {
+        "style": 1,
+        "gear": 1,
+        "fatigue": 1,
+        "network": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.6200000047683716,
+        0.8110000103712082,
+        0.4275000031664967
+      ]
+    },
+    {
+      "id": "bag-vj-backpack",
+      "label": "RoadVault VJ Pack 32",
+      "type": "bag",
+      "category": "gear",
+      "cost": 180,
+      "stats": {
+        "technique": 2,
+        "reputation": 1,
+        "gear": 1,
+        "fatigue": 3,
+        "network": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.7400000095367432,
+        0.9710000127553939,
+        0.49000000208616257
+      ]
+    },
+    {
+      "id": "bag-road-backpack",
+      "label": "RoadVault Flight Backpack",
+      "type": "bag",
+      "category": "gear",
+      "cost": 360,
+      "stats": {
+        "technique": 3,
+        "reputation": 3,
+        "gear": 2,
+        "fatigue": 5,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        0.8600000143051147,
+        1.1310000151395796,
+        0.49000000208616257
+      ]
+    },
+    {
+      "id": "housing-micro-room",
+      "label": "Micro studio sous-sol",
+      "type": "housing",
+      "category": "housing",
+      "cost": 240,
+      "stats": {
+        "comfort": 6,
+        "loyer": 140,
+        "style": 1,
+        "fatigue": -1,
+        "creativity": 1,
+        "reputation": 0,
+        "network": 0
+      },
+      "unlock": 3,
+      "size": [
+        1.600000023841858,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-econo",
+      "label": "Appartement econo",
+      "type": "housing",
+      "category": "housing",
+      "cost": 300,
+      "stats": {
+        "comfort": 8,
+        "loyer": 220,
+        "reputation": 2,
+        "fatigue": -1,
+        "creativity": 1,
+        "network": 0
+      },
+      "unlock": 3,
+      "size": [
+        1.6799999475479126,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-loft-small",
+      "label": "Petit loft creatif",
+      "type": "housing",
+      "category": "housing",
+      "cost": 620,
+      "stats": {
+        "comfort": 14,
+        "loyer": 420,
+        "style": 4,
+        "fatigue": -2,
+        "creativity": 1,
+        "reputation": 0,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1.7599999904632568,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-medium",
+      "label": "Appartement medium",
+      "type": "housing",
+      "category": "housing",
+      "cost": 750,
+      "stats": {
+        "comfort": 18,
+        "loyer": 520,
+        "style": 5,
+        "fatigue": -2,
+        "creativity": 2,
+        "reputation": 0,
+        "network": -1
+      },
+      "unlock": 4,
+      "size": [
+        1.840000033378601,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-shared-studio",
+      "label": "Studio partage VJ",
+      "type": "housing",
+      "category": "housing",
+      "cost": 900,
+      "stats": {
+        "comfort": 20,
+        "loyer": 600,
+        "network": 6,
+        "reputation": 2,
+        "fatigue": -3,
+        "creativity": 2
+      },
+      "unlock": 5,
+      "size": [
+        1.9199999570846558,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-warehouse-room",
+      "label": "Chambre warehouse",
+      "type": "housing",
+      "category": "housing",
+      "cost": 1120,
+      "stats": {
+        "comfort": 22,
+        "loyer": 680,
+        "style": 8,
+        "fatigue": -3,
+        "creativity": 2,
+        "reputation": 2,
+        "network": -1
+      },
+      "unlock": 5,
+      "size": [
+        2,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-soundproof",
+      "label": "Studio insonorise",
+      "type": "housing",
+      "category": "housing",
+      "cost": 1450,
+      "stats": {
+        "comfort": 28,
+        "loyer": 820,
+        "technique": 4,
+        "reputation": 4,
+        "fatigue": -4,
+        "creativity": 2,
+        "network": -1
+      },
+      "unlock": 5,
+      "size": [
+        2.0799999237060547,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-luxe",
+      "label": "Appartement luxe",
+      "type": "housing",
+      "category": "housing",
+      "cost": 1600,
+      "stats": {
+        "comfort": 30,
+        "loyer": 1100,
+        "style": 10,
+        "reputation": 5,
+        "fatigue": -4,
+        "creativity": 3,
+        "network": -1
+      },
+      "unlock": 6,
+      "size": [
+        2.1600000858306885,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-artist-loft",
+      "label": "Loft artiste premium",
+      "type": "housing",
+      "category": "housing",
+      "cost": 2200,
+      "stats": {
+        "comfort": 36,
+        "loyer": 1400,
+        "style": 12,
+        "network": 5,
+        "fatigue": -5,
+        "creativity": 3,
+        "reputation": 2
+      },
+      "unlock": 6,
+      "size": [
+        2.240000009536743,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "housing-penthouse",
+      "label": "Penthouse scene view",
+      "type": "housing",
+      "category": "housing",
+      "cost": 3600,
+      "stats": {
+        "comfort": 44,
+        "loyer": 2100,
+        "style": 16,
+        "reputation": 10,
+        "fatigue": -6,
+        "creativity": 4,
+        "network": -1
+      },
+      "unlock": 6,
+      "size": [
+        2.319999933242798,
+        0.7699999931454657,
+        1.100000023841858
+      ]
+    },
+    {
+      "id": "clothing-pin-vj",
+      "label": "Pin VJ neon",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 35,
+      "stats": {
+        "style": 1,
+        "network": 1,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 1,
+      "size": [
+        0.5,
+        0.5,
+        0.09592324316501623
+      ]
+    },
+    {
+      "id": "clothing-beanie-black",
+      "label": "Tuque noire VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 65,
+      "stats": {
+        "style": 2,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.6736892340163135,
+        0.3700000122189522,
+        0.6700000166893005
+      ]
+    },
+    {
+      "id": "clothing-hoodie-vj",
+      "label": "Hoodie VJ classic",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 130,
+      "stats": {
+        "style": 8,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        1.2447497062368866,
+        1.2423752546491167,
+        0.35999999955296513
+      ]
+    },
+    {
+      "id": "clothing-jacket-blackout",
+      "label": "Veste Blackout",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 190,
+      "stats": {
+        "style": 7,
+        "reputation": 1,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        1.2447497062368866,
+        1.2423752546491167,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-jacket-reflective",
+      "label": "Veste reflective",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 260,
+      "stats": {
+        "style": 10,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 4,
+      "size": [
+        1.2447497062368866,
+        1.2423752546491167,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-cap-low",
+      "label": "Casquette low profile",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 85,
+      "stats": {
+        "style": 4,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.6700000166893005,
+        0.3700000122189522,
+        0.7911723704275877
+      ]
+    },
+    {
+      "id": "clothing-pants-cargo",
+      "label": "Cargo noir scene",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 160,
+      "stats": {
+        "style": 5,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        0.6400000011920929,
+        0.9699999904632568,
+        0.2425000023841858
+      ]
+    },
+    {
+      "id": "clothing-pants-tech",
+      "label": "Pantalon techwear",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 240,
+      "stats": {
+        "style": 8,
+        "reputation": 1,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        0.6400000011920929,
+        0.9699999904632568,
+        0.2425000023841858
+      ]
+    },
+    {
+      "id": "clothing-shoes-cyan",
+      "label": "Sneakers cyan LED",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 120,
+      "stats": {
+        "style": 6,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        0.8400000143051147,
+        0.38500000163912773,
+        0.7300000190734863
+      ]
+    },
+    {
+      "id": "clothing-shoes-magenta",
+      "label": "Sneakers magenta",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 150,
+      "stats": {
+        "style": 7,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        0.8400000143051147,
+        0.4100000001490116,
+        0.7300000190734863
+      ]
+    },
+    {
+      "id": "clothing-headphones-basic",
+      "label": "Casque monitoring basic",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 110,
+      "stats": {
+        "technique": 0,
+        "style": 3,
+        "fatigue": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.8099999952316286,
+        0.7699999809265137,
+        0.25999999046325684
+      ]
+    },
+    {
+      "id": "clothing-headphones-pro",
+      "label": "Casque monitoring pro",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 340,
+      "stats": {
+        "technique": 2,
+        "style": 6,
+        "fatigue": 0
+      },
+      "unlock": 3,
+      "size": [
+        0.8099999952316286,
+        0.7699999809265137,
+        0.3400000035762787
+      ]
+    },
+    {
+      "id": "clothing-gloves-stage",
+      "label": "Gants stage noir",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 95,
+      "stats": {
+        "style": 3,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 2,
+      "size": [
+        0.7799429956988161,
+        0.4150000035762787,
+        0.07500000298023224
+      ]
+    },
+    {
+      "id": "clothing-mask-club",
+      "label": "Masque club neon",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 180,
+      "stats": {
+        "style": 9,
+        "network": 2,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 4,
+      "size": [
+        0.9639999985694885,
+        0.2639999985694885,
+        0.17599999826401472
+      ]
+    },
+    {
+      "id": "clothing-coat-tour",
+      "label": "Manteau tour manager",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 420,
+      "stats": {
+        "style": 12,
+        "reputation": 3,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 4,
+      "size": [
+        1.2805101872009914,
+        1.5669999784231186,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-vest-led",
+      "label": "Veste LED VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 680,
+      "stats": {
+        "style": 16,
+        "reputation": 4,
+        "technique": -1,
+        "fatigue": 0
+      },
+      "unlock": 5,
+      "size": [
+        0.8223606753186775,
+        1.1820000058412552,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clothing-full-fit-pro",
+      "label": "Fit complet Pro VJ",
+      "type": "clothing",
+      "category": "clothing",
+      "cost": 980,
+      "stats": {
+        "style": 20,
+        "reputation": 6,
+        "technique": -1,
+        "fatigue": 2
+      },
+      "unlock": 5,
+      "size": [
+        1.2447497062368866,
+        1.786999996304512,
+        0.2500000010430813
+      ]
+    },
+    {
+      "id": "clip-starter-loop",
+      "label": "Pack Starter Loop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 60,
+      "stats": {},
+      "unlock": 1,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-garage-noise",
+      "label": "Pack Garage Noise",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 75,
+      "stats": {},
+      "unlock": 1,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-liquid-lines",
+      "label": "Pack Liquid Lines",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 220,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psy-grid",
+      "label": "Pack Psy Grid",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 340,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-strobe",
+      "label": "Pack Techno Strobe",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 280,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-chrome",
+      "label": "Pack HipHop Chrome",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 260,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-ambient-clouds",
+      "label": "Pack Ambient Clouds",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 190,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-laser-cave",
+      "label": "Pack Laser Cave",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 420,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-fractal-bloom",
+      "label": "Pack Fractal Bloom",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 520,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-city-glitch",
+      "label": "Pack City Glitch",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 360,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-premium-opener",
+      "label": "Pack Premium Opener",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 880,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-festival-rush",
+      "label": "Pack Festival Rush",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 1200,
+      "stats": {},
+      "unlock": 4,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-neon-water",
+      "label": "Pack Neon Water",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 310,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-black-white",
+      "label": "Pack Noir Blanc Impact",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 250,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-retro-crt",
+      "label": "Pack Retro CRT",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 290,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-organic-tunnel",
+      "label": "Pack Organic Tunnel",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 460,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-gold-show",
+      "label": "Pack Gold Show",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 760,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-01-signal",
+      "label": "VJ Loop 01 Signal techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 175,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-02-laser",
+      "label": "VJ Loop 02 Laser techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 186,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-03-chrome",
+      "label": "VJ Loop 03 Chrome techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 197,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-04-liquid",
+      "label": "VJ Loop 04 Liquid techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 293,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-05-tunnel",
+      "label": "VJ Loop 05 Tunnel techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 304,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-06-pulse",
+      "label": "VJ Loop 06 Pulse techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 315,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-07-prism",
+      "label": "VJ Loop 07 Prism techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 411,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-08-grid",
+      "label": "VJ Loop 08 Grid techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 422,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-09-neon",
+      "label": "VJ Loop 09 Neon techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 433,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-10-smoke",
+      "label": "VJ Loop 10 Smoke techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 529,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-11-orbit",
+      "label": "VJ Loop 11 Orbit techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 540,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-12-fractal",
+      "label": "VJ Loop 12 Fractal techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 551,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-13-glass",
+      "label": "VJ Loop 13 Glass techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 647,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-14-strobe",
+      "label": "VJ Loop 14 Strobe techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 658,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-techno-15-depth",
+      "label": "VJ Loop 15 Depth techno",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 669,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-16-signal",
+      "label": "VJ Loop 16 Signal hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 193,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-17-laser",
+      "label": "VJ Loop 17 Laser hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 204,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-18-chrome",
+      "label": "VJ Loop 18 Chrome hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 215,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-19-liquid",
+      "label": "VJ Loop 19 Liquid hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 311,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-20-tunnel",
+      "label": "VJ Loop 20 Tunnel hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 322,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-21-pulse",
+      "label": "VJ Loop 21 Pulse hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 333,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-22-prism",
+      "label": "VJ Loop 22 Prism hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 429,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-23-grid",
+      "label": "VJ Loop 23 Grid hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 440,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-24-neon",
+      "label": "VJ Loop 24 Neon hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 451,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-25-smoke",
+      "label": "VJ Loop 25 Smoke hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 547,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-26-orbit",
+      "label": "VJ Loop 26 Orbit hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 558,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-27-fractal",
+      "label": "VJ Loop 27 Fractal hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 569,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-28-glass",
+      "label": "VJ Loop 28 Glass hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 665,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-29-strobe",
+      "label": "VJ Loop 29 Strobe hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 676,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-hiphop-30-depth",
+      "label": "VJ Loop 30 Depth hiphop",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 687,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-31-signal",
+      "label": "VJ Loop 31 Signal chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 211,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-32-laser",
+      "label": "VJ Loop 32 Laser chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 222,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-33-chrome",
+      "label": "VJ Loop 33 Chrome chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 233,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-34-liquid",
+      "label": "VJ Loop 34 Liquid chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 329,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-35-tunnel",
+      "label": "VJ Loop 35 Tunnel chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 340,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-36-pulse",
+      "label": "VJ Loop 36 Pulse chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 351,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-37-prism",
+      "label": "VJ Loop 37 Prism chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 447,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-38-grid",
+      "label": "VJ Loop 38 Grid chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 458,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-39-neon",
+      "label": "VJ Loop 39 Neon chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 469,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-40-smoke",
+      "label": "VJ Loop 40 Smoke chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 565,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-41-orbit",
+      "label": "VJ Loop 41 Orbit chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 576,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-42-fractal",
+      "label": "VJ Loop 42 Fractal chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 587,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-43-glass",
+      "label": "VJ Loop 43 Glass chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 683,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-44-strobe",
+      "label": "VJ Loop 44 Strobe chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 694,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-chill-45-depth",
+      "label": "VJ Loop 45 Depth chill",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 705,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-46-signal",
+      "label": "VJ Loop 46 Signal psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 229,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-47-laser",
+      "label": "VJ Loop 47 Laser psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 240,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-48-chrome",
+      "label": "VJ Loop 48 Chrome psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 251,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-49-liquid",
+      "label": "VJ Loop 49 Liquid psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 347,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-50-tunnel",
+      "label": "VJ Loop 50 Tunnel psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 358,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-51-pulse",
+      "label": "VJ Loop 51 Pulse psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 369,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-52-prism",
+      "label": "VJ Loop 52 Prism psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 465,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-53-grid",
+      "label": "VJ Loop 53 Grid psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 476,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-54-neon",
+      "label": "VJ Loop 54 Neon psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 487,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-55-smoke",
+      "label": "VJ Loop 55 Smoke psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 583,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-56-orbit",
+      "label": "VJ Loop 56 Orbit psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 594,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-57-fractal",
+      "label": "VJ Loop 57 Fractal psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 605,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-58-glass",
+      "label": "VJ Loop 58 Glass psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 701,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-59-strobe",
+      "label": "VJ Loop 59 Strobe psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 712,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-psytrance-60-depth",
+      "label": "VJ Loop 60 Depth psytrance",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 723,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-61-signal",
+      "label": "VJ Loop 61 Signal rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 247,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-62-laser",
+      "label": "VJ Loop 62 Laser rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 258,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-63-chrome",
+      "label": "VJ Loop 63 Chrome rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 269,
+      "stats": {},
+      "unlock": 2,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-64-liquid",
+      "label": "VJ Loop 64 Liquid rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 365,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-65-tunnel",
+      "label": "VJ Loop 65 Tunnel rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 376,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-66-pulse",
+      "label": "VJ Loop 66 Pulse rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 387,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-67-prism",
+      "label": "VJ Loop 67 Prism rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 483,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-68-grid",
+      "label": "VJ Loop 68 Grid rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 494,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-69-neon",
+      "label": "VJ Loop 69 Neon rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 505,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-70-smoke",
+      "label": "VJ Loop 70 Smoke rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 601,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-71-orbit",
+      "label": "VJ Loop 71 Orbit rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 612,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-72-fractal",
+      "label": "VJ Loop 72 Fractal rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 623,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-73-glass",
+      "label": "VJ Loop 73 Glass rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 719,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-74-strobe",
+      "label": "VJ Loop 74 Strobe rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 730,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    },
+    {
+      "id": "clip-rock-75-depth",
+      "label": "VJ Loop 75 Depth rock",
+      "type": "vjloop",
+      "category": "vjloop",
+      "cost": 741,
+      "stats": {},
+      "unlock": 3,
+      "size": [
+        0.75,
+        1,
+        0.1299999988488853
+      ]
+    }
+  ],
+  "duplicateShapes": [
+    [
+      "clip-starter-loop",
+      "clip-garage-noise",
+      "clip-liquid-lines",
+      "clip-psy-grid",
+      "clip-techno-strobe",
+      "clip-hiphop-chrome",
+      "clip-ambient-clouds",
+      "clip-laser-cave",
+      "clip-fractal-bloom",
+      "clip-city-glitch",
+      "clip-premium-opener",
+      "clip-festival-rush",
+      "clip-neon-water",
+      "clip-black-white",
+      "clip-retro-crt",
+      "clip-organic-tunnel",
+      "clip-gold-show",
+      "clip-techno-01-signal",
+      "clip-techno-02-laser",
+      "clip-techno-03-chrome",
+      "clip-techno-04-liquid",
+      "clip-techno-05-tunnel",
+      "clip-techno-06-pulse",
+      "clip-techno-07-prism",
+      "clip-techno-08-grid",
+      "clip-techno-09-neon",
+      "clip-techno-10-smoke",
+      "clip-techno-11-orbit",
+      "clip-techno-12-fractal",
+      "clip-techno-13-glass",
+      "clip-techno-14-strobe",
+      "clip-techno-15-depth",
+      "clip-hiphop-16-signal",
+      "clip-hiphop-17-laser",
+      "clip-hiphop-18-chrome",
+      "clip-hiphop-19-liquid",
+      "clip-hiphop-20-tunnel",
+      "clip-hiphop-21-pulse",
+      "clip-hiphop-22-prism",
+      "clip-hiphop-23-grid",
+      "clip-hiphop-24-neon",
+      "clip-hiphop-25-smoke",
+      "clip-hiphop-26-orbit",
+      "clip-hiphop-27-fractal",
+      "clip-hiphop-28-glass",
+      "clip-hiphop-29-strobe",
+      "clip-hiphop-30-depth",
+      "clip-chill-31-signal",
+      "clip-chill-32-laser",
+      "clip-chill-33-chrome",
+      "clip-chill-34-liquid",
+      "clip-chill-35-tunnel",
+      "clip-chill-36-pulse",
+      "clip-chill-37-prism",
+      "clip-chill-38-grid",
+      "clip-chill-39-neon",
+      "clip-chill-40-smoke",
+      "clip-chill-41-orbit",
+      "clip-chill-42-fractal",
+      "clip-chill-43-glass",
+      "clip-chill-44-strobe",
+      "clip-chill-45-depth",
+      "clip-psytrance-46-signal",
+      "clip-psytrance-47-laser",
+      "clip-psytrance-48-chrome",
+      "clip-psytrance-49-liquid",
+      "clip-psytrance-50-tunnel",
+      "clip-psytrance-51-pulse",
+      "clip-psytrance-52-prism",
+      "clip-psytrance-53-grid",
+      "clip-psytrance-54-neon",
+      "clip-psytrance-55-smoke",
+      "clip-psytrance-56-orbit",
+      "clip-psytrance-57-fractal",
+      "clip-psytrance-58-glass",
+      "clip-psytrance-59-strobe",
+      "clip-psytrance-60-depth",
+      "clip-rock-61-signal",
+      "clip-rock-62-laser",
+      "clip-rock-63-chrome",
+      "clip-rock-64-liquid",
+      "clip-rock-65-tunnel",
+      "clip-rock-66-pulse",
+      "clip-rock-67-prism",
+      "clip-rock-68-grid",
+      "clip-rock-69-neon",
+      "clip-rock-70-smoke",
+      "clip-rock-71-orbit",
+      "clip-rock-72-fractal",
+      "clip-rock-73-glass",
+      "clip-rock-74-strobe",
+      "clip-rock-75-depth"
+    ]
+  ]
+}

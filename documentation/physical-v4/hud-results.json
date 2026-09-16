@@ -1,0 +1,149 @@
+{
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "separate": true,
+      "headerInside": true,
+      "headerBottom": 86.1875,
+      "buttonsTop": 116,
+      "controls": [
+        {
+          "text": "Retour ordi",
+          "inside": true
+        },
+        {
+          "text": "Cacher aide",
+          "inside": true
+        },
+        {
+          "text": "Plume",
+          "inside": true
+        },
+        {
+          "text": "Surface suivante",
+          "inside": true
+        },
+        {
+          "text": "Refaire ce contour",
+          "inside": true
+        },
+        {
+          "text": "Undo",
+          "inside": true
+        },
+        {
+          "text": "Refaire",
+          "inside": true
+        },
+        {
+          "text": "Annuler gig",
+          "inside": true
+        },
+        {
+          "text": "Valider l’installation",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "separate": true,
+      "headerInside": true,
+      "headerBottom": 86.1875,
+      "buttonsTop": 116,
+      "controls": [
+        {
+          "text": "Retour ordi",
+          "inside": true
+        },
+        {
+          "text": "Cacher aide",
+          "inside": true
+        },
+        {
+          "text": "Plume",
+          "inside": true
+        },
+        {
+          "text": "Surface suivante",
+          "inside": true
+        },
+        {
+          "text": "Refaire ce contour",
+          "inside": true
+        },
+        {
+          "text": "Undo",
+          "inside": true
+        },
+        {
+          "text": "Refaire",
+          "inside": true
+        },
+        {
+          "text": "Annuler gig",
+          "inside": true
+        },
+        {
+          "text": "Valider l’installation",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "separate": true,
+      "headerInside": true,
+      "headerBottom": 86.1875,
+      "buttonsTop": 116,
+      "controls": [
+        {
+          "text": "Retour ordi",
+          "inside": true
+        },
+        {
+          "text": "Cacher aide",
+          "inside": true
+        },
+        {
+          "text": "Plume",
+          "inside": true
+        },
+        {
+          "text": "Surface suivante",
+          "inside": true
+        },
+        {
+          "text": "Refaire ce contour",
+          "inside": true
+        },
+        {
+          "text": "Undo",
+          "inside": true
+        },
+        {
+          "text": "Refaire",
+          "inside": true
+        },
+        {
+          "text": "Annuler gig",
+          "inside": true
+        },
+        {
+          "text": "Valider l’installation",
+          "inside": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

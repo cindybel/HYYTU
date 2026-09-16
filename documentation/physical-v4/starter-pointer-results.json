@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "out1 → power",
+    "out2 → power",
+    "out1 → power",
+    "out1 → power",
+    "vga → vga",
+    "audio → audio",
+    "powered laptop opens computer desktop through button and E"
+  ],
+  "powerButtons": true,
+  "signal": true,
+  "errors": []
+}

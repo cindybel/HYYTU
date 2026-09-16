@@ -1,0 +1,1044 @@
+PAGE 1
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+VJ SIMULATOR
+GAME DESIGN MASTER - REFONTE PHYSIQUE
+Version 4 - refonte du GAMEPLAY dans l’univers visuel existant : inventaire physique, sacs de 
+gig, objets mobiles/connectables, workstation, micro, VGA/HDMI/SDI, mapping, tours/GPU, 
+vêtements, clips VJ, points et économie
+Document de référence à donner à Codex avant la refonte du gameplay
+PRINCIPE ABSOLU : conserver le design, les pièces, l’ambiance, les personnages et l’univers 
+déjà en place. Modifier la logique des gigs/jobs et les interactions, PAS refaire le jeu 
+visuellement.
+Principe central : chaque nouvelle gig reprend TOUT ce qui a été appris avant et ajoute une 
+nouvelle difficulté.
+
+PAGE 2
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+0. Directive non négociable : refonte du gameplay, PAS refonte 
+visuelle
+Le projet actuel reste la base. Codex ne doit pas repartir dans une autre direction artistique, reconstruire les 
+pièces, remplacer le monde 3D par une application 2D, ni refaire l’interface générale. Le document change surtout 
+la logique des gigs, des jobs, du matériel et des interactions physiques. Le joueur doit toujours reconnaître 
+immédiatement VJ Simulator et son univers actuel.
+• À CONSERVER : le garage/studio 3D actuel, ses pièces, volumes, couleurs, éclairages, ambiance, caméra et direction 
+artistique générale.
+• À CONSERVER : les personnages, leur style visuel, les vêtements, les animations/poses déjà en place et la logique de 
+personnalisation. On peut ajouter ou rééquilibrer des vêtements sans refaire les personnages.
+• À CONSERVER : la structure générale de carrière, contrats, matériel, clips, tenue, économie, sauvegardes et 
+progression. On adapte les règles; on ne remplace pas le jeu par un nouveau menu de gestion.
+• À CONSERVER : les objets et modèles déjà pertinents. On ajoute ports, câbles, micros, convertisseurs, supports, 
+claviers, souris, sacs/roadcases et objets manquants; on retire seulement les items sans rapport avec la nouvelle 
+progression.
+• AUTORISÉ : modifier les objectifs de gigs, les jobs, les prérequis, les prix, les points, la difficulté, les interactions, les 
+connexions, le signal, l’alimentation, le keystone, le mapping, le micro et le transport.
+• AUTORISÉ : masquer/désactiver Resolute/Resolume et l’ancienne “partie 2” pour le moment, sans détruire inutilement 
+les systèmes ou assets qui pourront revenir plus tard.
+• INTERDIT : remplacer l’expérience par un grand tableau de bord 2D “Atelier & installations”, refaire tout le HUD, changer 
+la palette ou réorganiser complètement l’univers parce que la logique de gameplay change.
+• INTERDIT : transformer les interactions physiques en simples boutons. Les nouvelles mécaniques doivent s’intégrer 
+DANS les scènes 3D existantes : prendre, porter, poser, brancher, déplacer, ranger, tester et dépanner.
+RÈGLE POUR CODEX
+Avant de coder, figer visuellement la version actuelle : ne pas modifier CSS, géométrie Three.js, disposition des 
+pièces, personnages, navigation ou art direction sauf nécessité locale précise. Si une mécanique nouvelle peut être 
+ajoutée sans redesign, elle DOIT être ajoutée sans redesign. La refonte demandée est une refonte de GAMEPLAY et de 
+PROGRESSION, pas un nouveau jeu visuel.
+Cette contrainte de conservation visuelle prime sur toutes les sections suivantes.
+1. Vision définitive du jeu
+Cette refonte change le cœur du GAMEPLAY de VJ Simulator, pas son identité visuelle. Le jeu actuel, son 
+garage/studio, ses personnages, ses pièces, son ambiance et sa présentation générale restent la base. Pour le 
+moment, le gameplay ne doit plus être construit autour d’un faux Resolume/Resolute ou d’une “partie 2” séparée : 
+on réoriente surtout les gigs et les jobs vers la préparation et l’installation physique d’une régie vidéo 
+événementielle, à l’intérieur de l’univers déjà existant.
+Règle non négociable
+Une gig avancée ne remplace jamais les tâches des premières gigs. Elle reprend la chaîne complète : choisir le matériel, le 
+transporter, le placer, l’alimenter, le connecter, obtenir le signal, régler le projecteur, faire le keystone, mapper si nécessaire, 
+brancher le micro si nécessaire, tester et dépanner. Puis elle ajoute UNE nouvelle difficulté.
+• Le joueur apprend en manipulant des objets, pas en lisant de gros paragraphes.
+• Les câbles, ports, convertisseurs, projecteurs, micros, récepteurs, écrans et ordinateurs sont de vrais objets du monde 3D.
+• Les connexions doivent être logiques : SOURCE → CÂBLE → CONVERTISSEUR/DISTRIBUTION → DESTINATION.
+• Le logiciel VJ reviendra plus tard. Pour cette phase, aucun mix de clips, aucun FX, aucun BPM et aucune régie Resolume à 
+jouer.
+• Les clips VJ restent dans l’économie et les prérequis de carrière, mais ils sont sélectionnés AVANT la gig et servent de 
+contenu de test/ambiance automatiquement affiché. Ils ne réintroduisent pas le mix logiciel.
+
+PAGE 3
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+• Les vêtements et accessoires restent importants pour l’identité du personnage, la présentation client et certains prérequis 
+de sécurité ou de dress code, sans remplacer la compétence technique.
+2. Boucle principale de gameplay
+# Étape Ce que le joueur fait
+1 Choisir une gig Lire lieu, matériel demandé, style visuel, dress 
+code, limite de temps.
+2 Préparer le matériel Choisir ordinateur, projecteurs, écrans, câbles, 
+convertisseurs, micro, clips et tenue.
+3 Charger / transporter Le matériel choisi existe physiquement et quitte 
+l’inventaire du garage pour la gig.
+4 Installer Placer écrans, projecteurs, table/rack, 
+ordinateur, micro et boîtes de conversion.
+5 Alimenter
+Brancher les appareils actifs : projecteur, 
+ordinateur, convertisseur, splitter, matrice, 
+récepteur, moniteur.
+6 Connecter Brancher les bons ports avec les bons câbles et 
+respecter la longueur.
+7 Obtenir le signal Choisir le bon input et vérifier toute la chaîne.
+8 Régler Orientation, distance, zoom, keystone et 
+cadrage.
+9 Mapper Seulement lorsque la gig l’exige : créer les 
+points soi-même et épouser la forme.
+10 Audio de base Si demandé : micro → XLR → 
+console/récepteur → test simple.
+11 Tester / dépanner
+Résoudre panne, câble trop court, mauvais 
+input, boîtier éteint, mauvais sens de 
+conversion.
+12 Valider / être payé Score technique, bonus de préparation, 
+pénalités et paiement.
+13 Évoluer Acheter gear, clips, vêtements et ouvrir des 
+configurations plus avancées.
+3. Modèle technique : appareils, ports, câbles et signal
+La simulation doit reposer sur un graphe de connexions réel. Chaque appareil possède des ports identifiables. Chaque 
+câble relie deux ports compatibles. Le signal n’existe que si toute la chaîne est valide.
+Appareil Ports principaux Rôle
+Laptop legacy VGA OUT, parfois HDMI OUT, alimentation Source
+Laptop moderne HDMI OUT, USB-C/DP OUT, alimentation Source
+Tour Sorties GPU, carte SDI PCIe optionnelle, 
+alimentation Source
+Moniteur HDMI/DP IN, alimentation Destination locale
+Projecteur legacy VGA IN, HDMI IN, alimentation Destination
+Projecteur pro HDMI IN, SDI IN, alimentation Destination
+Micro filaire XLR OUT Source audio
+Récepteur sans fil XLR OUT, alimentation Source audio
+Petite console audio MIC/XLR IN, MAIN OUT, alimentation Traitement simple
+Convertisseur HDMI→SDI HDMI IN, SDI OUT, alimentation Conversion
+Convertisseur SDI→HDMI SDI IN, HDMI OUT, alimentation Conversion
+Bidirectionnel HDMI + SDI selon sens actif, alimentation Conversion
+Splitter HDMI 1x2 HDMI IN, 2x HDMI OUT, alimentation Distribution miroir
+Distribution SDI 1x4 SDI IN, 4x SDI OUT, alimentation Distribution miroir
+Matrice 4x4 Plusieurs IN/OUT, alimentation Routage
+Important - splitter ≠ sorties indépendantes
+Un splitter duplique le même signal. Deux sorties GPU peuvent fournir deux sorties indépendantes. Une matrice route plusieurs 
+sources vers plusieurs destinations. Cette différence doit devenir un vrai apprentissage de gameplay.
+4. Progression des standards : VGA → HDMI → SDI
+Standard Introduction Ce qui est appris Objets liés
+VGA Palier 1
+Signal analogique simple. Le 
+joueur comprend 
+source/câble/destination.
+VGA 3 m, VGA 10 m, adaptateur 
+actif plus tard.
+HDMI Palier 2 Nouveau connecteur, signal 
+numérique, inputs différents. HDMI 2 m, 5 m, 15 m actif.
+
+PAGE 4
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+DisplayPort / USB-C Paliers 4-8 Sorties de laptop/tour modernes; 
+adaptateurs vers HDMI. DP→HDMI, USB-C→HDMI.
+3G-SDI Palier 5
+Longue distance, BNC, 
+convertisseurs et sens de 
+conversion.
+HDMI→SDI 3G, SDI→HDMI 3G, 
+BiDirectional.
+6G/12G-SDI Fin de jeu Résolutions/flux avancés, 
+projecteurs et cartes pro.
+Convertisseurs 12G, distribution, 
+carte SDI PCIe.
+Référence de comportement : les boîtes de conversion doivent être des objets visibles et alimentés. On peut s’inspirer de 
+familles réelles comme les Micro Converter HDMI to SDI, SDI to HDMI, BiDirectional, 3G et 12G, mais utiliser des noms 
+fictifs dans le jeu.
+5. Microphone : mécanique physique obligatoire
+Le microphone est ajouté après les bases VGA/HDMI. Le jeu n’a pas besoin de devenir un simulateur de son complet : on 
+apprend le chemin physique du signal et le diagnostic de base.
+Étape Chaîne Gameplay
+Micro filaire Micro → XLR → MIC IN console → système du 
+lieu
+Prendre le micro, choisir XLR, brancher les deux 
+côtés, vérifier vumètre.
+Panne XLR Même chaîne Mauvais input, câble débranché ou câble trop 
+court.
+Micro sans fil Micro RF → récepteur → XLR → console Le récepteur est une vraie boîte; il doit être 
+alimenté.
+Panne sans fil Même chaîne Récepteur éteint, batterie faible, mauvais XLR, 
+mauvais input.
+Limite volontaire
+Pas d’EQ avancé, compresseur, gate ou mixage de plusieurs micros dans cette première refonte. Le but est de comprendre et 
+dépanner le branchement physique.
+6. Keystone et mapping : deux mécaniques différentes
+Le keystone arrive au début. Le mapping arrive plus tard et doit être la mécanique technique la plus exigeante.
+Mécanique But Interaction Quand
+Keystone Corriger une image trapézoïdale 
+sur un écran simple.
+Coins de l’image / réglage de 
+géométrie. Début de jeu
+Mapping carré Créer soi-même 4 points et fermer 
+la forme. Plume + 4 points déplaçables. Palier 6
+Triangle Créer 3 points. Plume + 3 sommets. Palier 6
+Cercle Créer plusieurs points autour du 
+contour. Plume + courbe polygonale. Palier 6
+Étoile Tracer les sommets et creux. Plume, ordre des points important. Palier 7
+Multi-formes Plusieurs surfaces sur un ou 
+plusieurs projecteurs.
+Sélection de surface + mapping 
+indépendant. Paliers 7-8
+• Les points de mapping ne doivent jamais être préplacés correctement.
+• Le joueur crée les points dans le bon ordre.
+• Le contour projeté se déforme en temps réel quand un point est déplacé.
+• La précision influence le score; la vitesse devient importante seulement plus tard.
+7. Progression principale : 8 paliers / 24 gigs
+Chaque gig reprend toutes les obligations précédentes qui s’appliquent. La colonne “Nouveauté” indique uniquement ce 
+qui s’ajoute.
+Gig Titre Lieu Signal Setup Contenu Nouveauté Temps Cachet
+1 Projection legacy Garage de 
+quartier VGA 1 proj. / 1 écran 
+carré Aucune
+Connexion + 
+démarrage + 
+input VGA + 
+keystone
+Non $70
+2 Placement 
+legacy Petit café VGA 1 / 1 Aucune Déplacer/orienter 
+le projecteur Non $85
+3 Test legacy Garage de 
+quartier VGA 1 / 1 1 clip test Même chaîne + 
+chrono doux 8 min $105
+4 Passage HDMI Bar local HDMI 1 / 1 1 clip au choix Nouveau 
+standard HDMI Non $110
+5 Même image, 
+deux écrans
+Salle 
+communautaire HDMI 2 / 2 2 clips Splitter miroir + 2 
+projecteurs Non $135
+
+PAGE 5
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+6 Rush HDMI Bar local HDMI 2 / 2 2 clips style client
+Mauvais input 
+possible + 
+chrono
+10 min $160
+7 Premier micro Petit club HDMI + XLR 1 / 1 + micro 2 clips Micro filaire + 
+XLR + vumètre Non $150
+8 Micro capricieux Petit club HDMI + XLR 1 / 1 + micro 2 clips XLR trop court / 
+mauvais input Non $180
+9 Installation 
+événement
+Salle 
+communautaire HDMI + XLR 2 / 2 + micro 3 clips Vidéo + micro 
+sous chrono 12 min $210
+10 Deux sorties 
+indépendantes Loft HDMI/DP 2 / 2 3 clips 2 sorties GPU 
+indépendantes Non $190
+11 Projecteur en 
+hauteur Club HDMI/DP 2 / 2 3 clips
+Support imposé 
++ 
+rotation/hauteur
+Non $230
+12 Multi-projection 
+rush Club HDMI/DP 2 / 2 3 clips Tout le palier 
+sous chrono 11 min $280
+13 Première longue 
+distance Warehouse HDMI→SDI→HD
+MI 1 / 1 3 clips Convertisseurs + 
+SDI BNC Non $250
+14 Sens de 
+conversion Warehouse SDI 2 / 2 3 clips
+Choisir 
+HDMI→SDI ou 
+SDI→HDMI 
+correctement
+Non $300
+15 Diagnostic SDI Salle spectacle SDI + XLR 2 / 2 + micro 4 clips
+Boîte éteinte / 
+mauvais sens / 
+input
+13 min $360
+16 Mapping carré Galerie HDMI/SDI 1 / forme carrée 4 clips Créer 4 points Non $300
+17 Mapping triangle Galerie HDMI/SDI 1 / triangle 4 clips Créer 3 points + 
+précision Non $360
+18 Mapping rond Loft HDMI/SDI 1 / cercle 4 clips Plusieurs points 
+sur courbe 14 min $430
+19 Deux formes Atelier mapping SDI 1 / 2 formes 4 clips Deux mappings 
+indépendants Non $420
+20 Deux projecteurs 
+mappés Salle spectacle SDI 2 / 2 formes 5 clips Multi-projecteur + 
+multi-mapping Non $500
+21 Étoile sous 
+pression Club avancé SDI 2 / étoile + carré 5 clips Forme complexe 
++ chrono 12 min $580
+22 Première tour Corporate hall DP/HDMI/SDI + 
+XLR 3 / 3 + micro 5 clips + tenue 
+propre
+Tour + GPU + 
+moniteur + 
+plusieurs sorties
+Non $550
+23 Régie pro Festival 
+secondaire SDI + XLR 3-4 / 3-4 6 clips + tenue 
+stage
+Distribution SDI 
++ panne + dress 
+code sécurité
+15 min $700
+24 Grande finale 
+chapitre 1 Festival principal SDI/HDMI + XLR 4 / multi-formes + 
+micro
+6 clips style 
+demandé
+Tour, GPU, SDI, 
+mapping, micro, 
+pannes, chrono
+18 min $900
+Équilibrage des paliers
+Le cachet augmente lentement. L’argent doit rester serré : acheter un gros projecteur, une tour ou une chaîne SDI demande 
+plusieurs gigs, des choix de priorité et parfois de la location. Les bonus de performance ne doivent jamais transformer une 
+petite gig en jackpot.
+8. 15 lieux réutilisables et évolutifs
+Lieu Taille Standards Projecteurs Réutilisation
+Garage de quartier Très petit VGA/HDMI 1-2 Tutoriels, tests, chronos de 
+maîtrise.
+Petit café Petit VGA/HDMI 1 Peu de recul, public proche.
+Bar local Petit HDMI 1-2 Placement serré, rythme 
+rapide.
+Salle communautaire Moyen HDMI 1-2 Écrans multiples, micro.
+Petit club Moyen HDMI/XLR 1-2 Micro, câbles au sol, faible 
+lumière.
+Loft Moyen HDMI/DP/SDI 1-2 Angles et surfaces variées.
+Club principal Moyen HDMI/SDI 2-3 Supports en hauteur, chrono.
+Warehouse Grand SDI 2-3 Longues distances, 
+convertisseurs.
+Galerie Moyen HDMI/SDI 1-2 Mapping de formes.
+Atelier mapping Moyen SDI 1-3 Plusieurs surfaces non 
+standards.
+Salle spectacle Grand SDI/XLR 2-4 Régie plus structurée, micro.
+Corporate hall Grand DP/HDMI/SDI 2-4 Dress code propre, fiabilité.
+Festival secondaire Très grand SDI 3-4 Sécurité, distribution, pannes.
+Extérieur / scène temporaire Très grand SDI 2-4 Distance, météo simulée 
+légère, circulation.
+Festival principal Très grand SDI/12G 4+ Finale : tous les systèmes.
+Un même lieu revient plus tard avec un autre cahier des charges. Cela crée une sensation de carrière réelle : le joueur 
+reconnaît le lieu, mais la production est devenue plus complexe.
+
+PAGE 6
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+9. Catalogue matériel et dépendances
+Les objets techniques doivent d’abord produire des capacités réelles. Les petits points indiqués servent seulement au 
+score de préparation/fiabilité; ils ne remplacent jamais les ports, la longueur, la luminosité ou le nombre de sorties.
+9.1 Projecteurs
+Item Prix Entrées Puissance Capacité Pts Déblocage
+Binq StarterBeam 
+2200 $220 VGA + HDMI 2200 lm 1 écran, petites 
+salles Tech +1 Début
+Epsun EB-Lo 4200 $380 HDMI 4200 lm Salles 
+petites/moyennes Tech +2 Après Gig 3
+Optomix ShortCast 
+ST-4 $650 HDMI 4000 lm Courte distance Tech +2 Après Gig 6
+Panasound PT-
+Rave Laser $950 HDMI 5000 lm Laser, démarrage 
+rapide Tech +3 Après Gig 9
+Christalux Boxer 
+Mini 6500 $1 550 HDMI + SDI 6500 lm Salles pro Tech +4 Après Gig 15
+Barq UDMini 4K 
+Laser $2 600 HDMI + 12G-SDI 8000+ lm Gros contrats Tech +5 Après Gig 21
+9.2 Ordinateurs et GPU
+Ordinateur Prix Sorties Capacité Usage Pts
+LegacyBook VGA Inclus VGA + HDMI 1 sortie active stable Starter Tech +0
+FieldPad HDMI $500 HDMI 1 sortie Gig 4+ Tech +1
+Creator Laptop $1 050 HDMI + USB-C/DP 2 sorties Gig 10+ Tech +2
+Tour Stage Mid $1 350 Selon GPU GPU remplaçable Gig 22+ Tech +2
+Tour Stage Pro $1 700 Selon GPU + PCIe GPU + carte SDI Fin de chapitre Tech +3
+Carte Prix Sorties Effet réel Pts
+GPU Basic $380 1 HDMI + 1 DP 2 écrans Tech +1
+GPU Mid $750 1 HDMI + 2 DP 3 écrans Tech +2
+GPU Pro $1 300 1 HDMI + 3 DP 4 écrans Tech +3
+Carte SDI PCIe $900 2-4 SDI selon modèle Sorties SDI directes; 
+nécessite tour Tech +3
+9.3 Câbles, alimentation, adaptateurs et boîtes
+Objet Prix Ports Utilité Pts
+VGA 3 m $12 VGA↔VGA Starter Rel +1
+VGA 10 m $25 VGA↔VGA Plus de recul Rel +1
+HDMI 2 m $15 HDMI↔HDMI Table courte Rel +1
+HDMI 5 m $25 HDMI↔HDMI Petite salle Rel +1
+HDMI actif 15 m $55 HDMI↔HDMI Long HDMI Rel +2
+SDI BNC 10 m $30 BNC↔BNC 3G-SDI Rel +2
+SDI BNC 30 m $65 BNC↔BNC Longue distance Rel +2
+SDI BNC 50 m $95 BNC↔BNC Grand venue Rel +3
+XLR 3 m $14 XLR F↔M Micro court Rel +1
+XLR 10 m $25 XLR F↔M Micro salle Rel +1
+XLR 20 m $40 XLR F↔M Long micro Rel +2
+IEC alimentation $12 IEC Projecteur/PC -
+Extension 10 m $18 Secteur Distance électrique -
+Power bar $25 Secteur Plusieurs appareils Pro +1
+DP→HDMI $30 DP OUT→HDMI Tour/laptop Tech +1
+USB-C→HDMI $45 USB-C vidéo→HDMI Laptop moderne Tech +1
+VGA→HDMI actif $45 VGA OUT→HDMI IN Transition legacy Tech +1
+HDMI→SDI 3G $95 HDMI IN / SDI OUT Longue distance Tech +2
+SDI→HDMI 3G $95 SDI IN / HDMI OUT Retour projecteur HDMI Tech +2
+BiDirectional 3G $140 HDMI + SDI Conversion flexible Tech +2
+Converter 12G $250 HDMI/SDI 12G Late-game Tech +3
+HDMI Splitter 1x2 $70 1 IN / 2 OUT Même image Tech +1
+SDI Distribution 1x4 $220 1 IN / 4 OUT Même signal SDI Tech +2
+Matrix 4x4 $520 4 IN / 4 OUT Routage Tech +3
+9.4 Micro, supports et accessoires physiques
+Objet Prix Fonction Quand Pts
+Micro filaire $55 XLR OUT Premier micro Audio +1
+Micro sans fil basic $220 Récepteur + XLR Mobilité Audio +2
+Micro sans fil pro $450 Récepteur pro + XLR Festival Audio +3
+Petite console 4 ch $140 4 entrées Test micro / petite gig Audio +1
+Console 8 ch $320 8 entrées Événement Audio +2
+Projector stand $85 Support réglable Placement hauteur Tech +1
+Truss mount $140 Fixation projecteur Installation imposée Tech +2
+Safety cable $18 Sécurité Requis en hauteur Pro +1
+
+PAGE 7
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+Gaffer $18 Fixation câbles Réduit risques Pro +1
+Roadcase $180 Transport Protection du gear Pro +1
+Mapping marker kit $85 Repères Aide précision mapping; 
+jamais obligatoire Map +1
+Clavier USB Basic $25 Contrôle tour Première tour Qualité Starter
+Clavier Compact Pro $65 Compact / robuste Tour mobile Qualité Pro
+Souris USB Basic $18 Contrôle tour Première tour Qualité Starter
+Souris Touring $80 Robuste / fiable Gros gigs Qualité Touring
+VJ Pack 32 $180 16 unités / 13 kg Loadout intermédiaire Transport
+Flight Backpack $360 24 unités / 18 kg Loadout pro Transport
+Flight XL Roadcase $620 36 unités / 28 kg Projecteurs / lourd Transport
+10. Vêtements et accessoires du personnage
+Les vêtements restent une vraie progression parallèle. Ils donnent des points modestes de Style, Professionnalisme et 
+Réseau, et certains portent un tag de contexte. Aucun vêtement ne doit remplacer une compétence technique. Le score 
+total d’une tenue est plafonné pour éviter le pay-to-win.
+Caps recommandés
+Tenue équipée : maximum +12 Style, +5 Professionnalisme et +3 Réseau comptés dans une gig, même si la somme brute des 
+pièces est supérieure. Les vêtements peuvent aussi satisfaire un dress code ou une exigence de sécurité.
+Vêtement Prix Slot Points Utilité
+T-shirt noir starter $0 Torso Style +0 / Pro +0 Toujours valide; tenue de base.
+Pin VJ néon $15 Accessoire Style +1 / Réseau +1 Petit signe d’identité.
+Tuque noire VJ $25 Tête Style +1 Cosmétique.
+Casquette low profile $30 Tête Style +2 Club / montage.
+Gants stage noirs $35 Mains Style +1 / Pro +1 Tag manutention; cohérence 
+montage.
+Hoodie VJ classic $55 Torso Style +3 Club / pratique.
+Cargo noir scène $60 Pantalon Style +2 / Pro +1 Tag poches; peut porter 1 petit 
+adaptateur en accès rapide.
+Sneakers cyan LED $55 Chaussures Style +3 Club; pas un item sécurité.
+Sneakers magenta $60 Chaussures Style +3 Club.
+Masque club néon $70 Visage Style +4 / Réseau +1 Réseaux / club, interdit dans 
+certains corporate.
+Veste Blackout $80 Torso Style +3 / Pro +2 Tenue technique sombre.
+Veste réfléchissante $95 Torso Style +1 / Pro +3 Tag SÉCURITÉ; requise sur 
+certains load-ins festival.
+Pantalon techwear $95 Pantalon Style +4 / Pro +1 Montage / club.
+Casque monitoring basic $50 Tête Style +1 / Pro +1 Reste optionnel tant que 
+Resolume est retiré.
+Casque monitoring pro $140 Tête Style +2 / Pro +2 Corporate / festival.
+Manteau tour manager $130 Torso Style +4 / Pro +3 / Réseau +1 Gros clients.
+Veste LED VJ $180 Torso Style +6 / Réseau +1 Show/club; pas adaptée à tous 
+les clients.
+Fit complet Pro VJ $250 Tenue Style +6 / Pro +4 / Réseau +2 Late-game; présentation 
+premium.
+Exemples de prérequis : Corporate hall peut demander “Pro ≥ 3”; festival peut demander le tag SÉCURITÉ pendant le 
+montage; club peut offrir un petit bonus de réseau avec un look fort. Un dress code inadéquat ne doit jamais faire 
+disparaître le signal vidéo : il agit sur la satisfaction client et certaines invitations futures.
+11. Clips VJ : bibliothèque, prix, points et utilité sans Resolume
+Les clips restent dans le jeu, mais on retire leur ancien prix très élevé. Tous les clips doivent coûter presque la même 
+chose. La différence entre un clip débutant et un clip avancé ne doit pas dépasser environ 15 $. Ils servent à préparer le 
+contenu demandé par le client, pas à rejouer immédiatement une interface Resolume.
+Nouvelle règle de prix
+Base : 20 $. Les clips montent progressivement jusqu’à 35 $ maximum. La différence totale entre le moins cher et le plus cher 
+reste de 15 $. Aucun clip individuel à 200 $, 500 $ ou 1 200 $.
+Tier Prix Points Exemples Usage
+Niveau visuel 1 $20-22 1 point visuel Signal, Liquid, Pulse Début; test et petits gigs.
+Niveau 2 $23-25 2 points visuels Chrome, Grid, Neon Gigs HDMI / club.
+Niveau 3 $26-28 3 points visuels Tunnel, Prism, Smoke Multi-projecteur.
+Niveau 4 $29-32 4 points visuels Orbit, Fractal, Strobe SDI / mapping.
+Niveau 5 $33-35 5 points visuels Laser, Glass, Depth Gigs pro / festival.
+
+PAGE 8
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+Organisation recommandée : conserver les 5 familles déjà présentes (Techno, HipHop, Chill, Psytrance, Rock) avec 
+environ 15 clips par famille, soit 75 clips. Chaque clip porte aussi 1 ou 2 tags d’énergie/usage : warm-up, groove, montée, 
+peak, break, géométrique, organique, abstrait, corporate-safe, etc.
+Progression Clips requis Score bibliothèque cible Rôle
+Gigs 1-2 Test pattern gratuit 0 Aucun achat nécessaire.
+Gig 3 1 clip quelconque 1 Premier achat possible, pas 
+obligatoire si clip starter offert.
+Gigs 4-6 2 clips du style demandé 2-4 Permet au client de voir du contenu 
+cohérent pendant les tests.
+Gigs 7-9 2-3 clips 3-6 Vidéo + micro; library légère.
+Gigs 10-12 3 clips 5-8 Multi-projecteur.
+Gigs 13-15 3-4 clips 7-10 SDI / clients plus exigeants.
+Gigs 16-18 4 clips 9-12 Mapping.
+Gigs 19-21 4-5 clips 11-15 Multi-mapping.
+Gigs 22-24 5-6 clips du bon style 14-20 Tour / festival / grosse production.
+Le “score bibliothèque” est la somme des points visuels des clips compatibles avec la gig, plafonnée à 20. Il ne remplace 
+pas le gameplay technique. Il sert à vérifier que le joueur possède du contenu suffisant et peut donner jusqu’à +5 % de 
+satisfaction artistique, jamais plus.
+11.1 Normalisation des clips actuels
+Clip actuel Style Nouveau prix Points visuels
+Pack Starter Loop Techno $20 1
+Garage Noise HipHop $21 1
+Liquid Lines Chill $24 2
+Psy Grid Psytrance $28 3
+Techno Strobe Techno $30 4
+HipHop Chrome HipHop $25 2
+Ambient Clouds Chill $23 2
+Laser Cave Techno $34 5
+Fractal Bloom Psytrance $31 4
+City Glitch HipHop $27 3
+Premium Opener Techno $35 5
+Festival Rush Psytrance $35 5
+Neon Water Chill $26 3
+Noir Blanc Impact Techno $24 2
+Retro CRT HipHop $25 2
+Organic Tunnel Psytrance $29 4
+Gold Show Chill $33 5
+Les 75 clips générés “Signal, Laser, Chrome, Liquid, Tunnel, Pulse, Prism, Grid, Neon, Smoke, Orbit, Fractal, Glass, 
+Strobe, Depth” doivent suivre exactement la même échelle 20-35 $ plutôt que l’ancienne formule qui les rendait 
+progressivement très chers.
+12. Système de points : simple, lisible et plafonné
+Score Mesure Sources Plage
+Technique (TEC) Qualité d’installation, gear fiable, 
+compétence du joueur. Gear + progression de gigs 0-100
+Signal (SIG) Compréhension des ports, standards 
+et diagnostic. Réussites VGA/HDMI/SDI 0-100
+Mapping (MAP) Précision et vitesse de création de 
+formes. Gigs 16+ 0-100
+Audio de base (AUD) Branchement micro/XLR et diagnostic 
+simple. Gigs micro 0-50
+Professionnalisme (PRO) Préparation, sécurité, dress code, 
+temps. Vêtements, équipement, résultats 0-100
+Style / Image (STYLE) Identité visuelle et cohérence du 
+personnage. Vêtements + clips 0-100
+Réseau (NET) Relations et opportunités. Clients, vêtements, résultats 0-100
+Bibliothèque visuelle Capacité à répondre au style 
+demandé. Clips compatibles 0-20 par gig
+Pas de “bonus magique”
+Un GPU ne doit pas ouvrir 4 projecteurs parce qu’il donne +10 Technique. Il ouvre 4 projecteurs parce qu’il possède réellement 
+4 sorties. Les points servent au score, à la réputation et à de petits modificateurs; les capacités physiques restent la vraie porte 
+d’accès.
+
+PAGE 9
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+13. Économie : volontairement serrée
+Le joueur ne doit pas devenir riche trop vite. Les achats doivent demander des choix. Les premières gigs paient peu; les 
+gros équipements nécessitent plusieurs contrats réussis, de la location ou une progression ciblée.
+Élément Valeur Règle
+Argent de départ $75 Assez pour petits achats, pas pour un upgrade 
+majeur.
+Kit de départ Inclus
+LegacyBook VGA, StarterBeam, VGA 3 m, 
+alimentations, écran carré, sac, tenue de base, 1 
+clip starter.
+Bonus note parfaite +5 à +10 % max Récompense la maîtrise sans casser l’économie.
+Pénalité erreur -5 à -30 % Selon signal perdu, retard, sécurité, mapping raté.
+Location 10 à 18 % du prix d’achat / gig Permet d’essayer un setup sans tout posséder.
+Jobine $40-60 / action Dépannage financier mais consomme du 
+temps/énergie.
+Revente 45-55 % du prix Évite de financer tous les upgrades par arbitrage.
+Aucun jackpot 0 Pas de récompense aléatoire massive.
+Sac de départ Messenger 12 inclus
+Capacité faible : oblige à choisir et donne 
+une vraie raison d’acheter un meilleur 
+sac.
+Capacité transport Volume + poids
+Impossible de tout emporter avec un petit 
+sac; roadcase requis pour certains gros 
+setups.
+Périphériques de tour $43 minimum
+Clavier + souris basic sont de petits achats, 
+mais nécessaires pour qu’une tour soit 
+pratique.
+13.1 Courbe de revenus par palier
+Palier Cachet/gig Brut 3 gigs Achats typiques
+Palier 1 $70-105 $260 env. sur 3 gigs VGA, petits câbles, quelques clips.
+Palier 2 $110-160 $405 HDMI, splitter, premier upgrade.
+Palier 3 $150-210 $540 Micro, XLR, petite console.
+Palier 4 $190-280 $700 2e projecteur / sorties GPU / 
+supports.
+Palier 5 $250-360 $910 Convertisseurs + SDI.
+Palier 6 $300-430 $1 090 Mapping + meilleur projecteur.
+Palier 7 $420-580 $1 500 Multi-mapping, distribution.
+Palier 8 $550-900 $2 150 Tour, GPU, SDI pro, festival.
+Ces montants sont BRUTS. Les locations, réparations, transport et pénalités réduisent la marge. Le joueur ne doit pas 
+pouvoir acheter simultanément une tour, deux projecteurs pro et tout le SDI après quelques gigs.
+14. Dépendances : “il faut X pour pouvoir faire Y”
+Objectif Prérequis physiques Déblocage logique
+Gig VGA Laptop VGA + VGA cable + projecteur VGA + écran 
++ alimentation Base du jeu
+Gig HDMI Source HDMI + HDMI cable + destination HDMI Après maîtrise VGA
+Deux écrans identiques 2 projecteurs + splitter + câbles Même signal
+Deux sorties indépendantes 2 sorties GPU actives + 2 projecteurs + câbles Pas possible avec simple splitter
+Projecteur en hauteur Stand/truss + safety cable + câble assez long Sécurité/placement
+Micro filaire Micro + XLR + console/système du lieu Palier 3
+Micro sans fil Micro RF + récepteur alimenté + XLR + console Plus tard
+Long SDI HDMI→SDI + SDI BNC + SDI→HDMI si projo HDMI Palier 5
+Projecteur SDI natif Source/convertisseur SDI + SDI cable Évite conversion finale
+Mapping carré Compétence mapping débloquée + surface + 
+projecteur Palier 6
+Multi-mapping Compétence avancée + sorties suffisantes + 
+projecteurs Palier 7
+Tour 3-4 outputs Tour + moniteur + GPU 3-4 sorties + adaptateurs Palier 8
+SDI direct de la tour Tour + carte SDI PCIe + câble SDI Late-game
+Corporate Tenue Pro suffisante + bibliothèque style 
+compatible Client
+Festival load-in Tag sécurité + gear pro + câbles/SDI appropriés Client/lieu
+Partir en gig avec le loadout Objets réellement rangés + sac/roadcase 
+avec assez de volume et poids Préparation physique
+Utiliser une tour Tour + alimentation + moniteur + câble 
+écran + clavier + souris Late-game / multi-output
+Transporter gros projecteur Roadcase ou contenant compatible Évite le transport magique
+Réorganiser l’atelier Objet possédé + surface libre Tous les objets peuvent être déplacés et 
+
+PAGE 10
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+leur position est sauvegardée
+15. Difficulté des gigs et réutilisation des lieux
+La difficulté d’une gig est calculée en interne, mais affichée simplement au joueur.
+Composante Poids Exemple
+Appareils 0-20 Nombre d’appareils actifs.
+Câblage 0-20 Nombre de liaisons, standards et longueurs.
+Placement 0-15 Distance, hauteur, obstacles, zones imposées.
+Mapping 0-20 Nombre de formes et complexité.
+Audio 0-10 Micro, sans fil, diagnostic.
+Pannes 0-5 Probabilité / complexité du problème.
+Temps 0-10 Pression de la limite de temps.
+Niveaux affichés : 0-20 FACILE, 21-40 INITIÉ, 41-60 TECHNIQUE, 61-80 PRO, 81-100 EXPERT.
+16. Scoring de la gig
+Critère Pts Notes
+Signal / connexions 25 Ports corrects, appareils alimentés, chaîne stable.
+Placement / sécurité 20 Distance, support, passage câbles, safety.
+Keystone / cadrage 15 Image propre sur la surface.
+Mapping 15 Si utilisé; sinon redistribué à technique.
+Micro / audio de base 10 Si utilisé; sinon redistribué.
+Temps / organisation 10 Seulement si chrono.
+Préparation client 5 Clips compatibles, tenue/dress code.
+Une gig est réussie à 70/100. 85+ = excellent. 95+ = maîtrise. Une perte totale de signal ou une installation dangereuse 
+peut plafonner le score même si le reste est bon.
+17. Garage / maison : atelier physique, inventaire, sacs et 
+workstation
+IMPORTANT : conserver la pièce/garage actuelle et son look. On enrichit les étagères, le bureau et les zones 
+interactives existantes avec de vrais objets mobiles/connectables; on ne reconstruit pas la maison et on ne 
+transforme pas cette zone en menu 2D.
+• Étagère projecteurs : chaque projecteur acheté apparaît physiquement et peut être pris, posé sur le bureau, emballé ou 
+amené en gig.
+• Mur de câbles : VGA, HDMI, DisplayPort, USB-C vidéo, SDI, XLR et alimentation visibles; chaque câble est une instance 
+avec longueur, état et connecteurs.
+• Étagère boîtes : adaptateurs, convertisseurs, splitter, distribution, matrice.
+• Zone ordinateurs : laptop(s), tour, moniteur, claviers, souris et possibilité de changer GPU/carte SDI. Chaque élément est 
+mobile et connectable.
+• Zone audio : micro(s), XLR, récepteur et petite console.
+• Zone test : écran carré + surface 16:9 + espace pour projecteur et mapping simple.
+• Garde-robe : vêtements réellement achetés et équipables.
+• Bibliothèque clips : liste visuelle simple des clips possédés; sélection pré-gig, pas de mix Resolume.
+L’inventaire ne doit pas créer de doublons fantômes : si le joueur possède deux HDMI, il doit avoir deux objets. Si l’un est 
+parti en gig, il ne peut pas être utilisé simultanément ailleurs.
+17.1 Règle fondamentale : tout le matériel existe physiquement
+• Tout objet technique acheté doit exister comme objet réel dans le garage : il peut être pris, porté, posé, rangé, 
+déplacé et utilisé.
+• Un appareil connectable conserve ses ports quand il est déplacé. Les ports suivent donc l’objet dans le monde 3D.
+
+PAGE 11
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+• Un câble connecté reste attaché aux ports. Sa géométrie se met à jour lorsque les appareils bougent et sa 
+longueur maximale reste une vraie contrainte.
+• Si un appareil connecté est déplacé plus loin que la longueur disponible, le câble devient tendu puis bloque le 
+déplacement ou se déconnecte selon le type de situation.
+• Les objets peuvent passer étagère  main  bureau  sac/roadcase  véhicule/transition de gig  lieu  → → → → → →
+table/support  retour garage.→
+• La position personnalisée des objets dans le garage doit être sauvegardée. Le joueur peut organiser son atelier 
+comme il veut.
+17.2 Étagères, bureau et surfaces de travail
+• Les étagères ne sont pas seulement décoratives : elles représentent l’inventaire physique disponible.
+• Le joueur peut prendre un projecteur, un câble, un convertisseur, un micro, un laptop ou un accessoire et le 
+déposer sur le bureau ou la zone test.
+• Le bureau et les tables possèdent des zones de pose/snap discrètes pour éviter que les objets flottent, mais le 
+placement doit rester assez libre.
+• Un projecteur posé sur le bureau peut être connecté au laptop et à un écran/surface du garage pour pratiquer 
+exactement comme en gig.
+• Les appareils rangés ne sont pas considérés comme branchés. Pour fonctionner, ils doivent être sortis, alimentés 
+et reliés par une chaîne valide.
+• Les vêtements sont physiques dans la garde-robe et portables; les clips VJ restent numériques dans la 
+bibliothèque du joueur et ne prennent pas de place dans le sac.
+17.3 Sacs de gig, capacité et préparation physique
+Le sac devient une mécanique centrale de préparation. Avant une gig, le joueur doit réellement aller chercher le 
+matériel sur les étagères et le ranger dans le sac ou le roadcase qu’il possède. Le sac n’est pas une liste abstraite : 
+c’est un contenant physique avec une capacité de volume ET une limite de poids.
+Contenant Prix cible Capacité volume Poids max Utilisation / 
+contraintes
+RoadVault Messenger 
+12 Inclus / $55 8 unités 7 kg
+Starter. Laptop + 
+quelques 
+câbles/adaptateurs. 
+Aucun gros projecteur.
+RoadVault VJ Pack 32 $180 16 unités 13 kg
+Plus de câbles, micro, 
+convertisseurs et petit 
+matériel. Un compact 
+peut prendre beaucoup 
+de place.
+RoadVault Flight 
+Backpack $360 24 unités 18 kg
+Renforcé. Peut 
+transporter un petit 
+projecteur + laptop ou 
+un gros lot de 
+câbles/boîtes.
+RoadVault Flight XL $620 36 unités 28 kg
+Roadcase roulant pour 
+projecteur(s), 
+distributions, lourds 
+accessoires. Ne se porte 
+
+PAGE 12
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+pas comme un sac.
+Claviers / souris AJOUTER
+Objets physiques 
+connectables. Laptops 
+les intègrent; tours 
+nécessitent clavier + 
+souris + moniteur.
+Système de sacs REFAIRE / RENDRE 
+PHYSIQUE
+Capacité volume + 
+poids. Le joueur prend 
+les objets sur les 
+étagères et les range 
+réellement.
+Placement libre garage AJOUTER
+Objets mobiles entre 
+étagères, bureau, zone 
+test, sacs et roadcases; 
+positions sauvegardées.
+Qualité des objets AJOUTER / 
+NORMALISER
+Starter/Standard/Pro/
+Touring avec propriétés 
+physiques, pas bonus 
+arbitraires.
+Règle de capacité : chaque objet possède weightKg et volumeUnits. Pour entrer dans un sac, les deux limites 
+doivent être respectées. Un câble court peut valoir 1 unité; un convertisseur 1; un micro 2; un laptop 4; un petit 
+projecteur 7-9; un gros projecteur doit exiger un roadcase ou être transporté séparément.
+• Le sac s’ouvre physiquement dans le garage. Le joueur prend un objet sur l’étagère puis le dépose dans le sac.
+• L’interface du sac reste minimale : capacité utilisée, poids, et petits pictogrammes des objets déjà rangés.
+• Le joueur peut sortir un objet du sac et le remettre sur une étagère ou sur le bureau.
+• Au lieu de téléporter le loadout, la gig charge exactement les objets réellement emballés.
+• Dans les premières gigs tutoriel, le départ peut être bloqué si un objet obligatoire manque. Plus tard, le jeu 
+avertit seulement et laisse le joueur partir, ce qui permet de vivre une vraie erreur de préparation.
+• Les vêtements portés ne consomment pas la capacité du sac. Une tenue de rechange, si cette mécanique est 
+ajoutée plus tard, oui.
+17.4 Liste de préparation : besoins du contrat → objets réellement emballés
+Le contrat ne doit pas choisir automatiquement le matériel. Il affiche un besoin lisible, par exemple : “1 sortie 
+HDMI, 1 projecteur, 1 écran, 1 micro filaire”. Le joueur doit construire lui-même une solution compatible à partir 
+de ce qu’il possède.
+Besoin du contrat Exemple de solution correcte Ce qui peut mal tourner
+1 projection VGA Laptop VGA + VGA 3 m + projo VGA + 
+power
+Câble oublié, trop court, mauvais input, 
+projo non alimenté
+2 sorties indépendantes GPU 2 sorties + 2 câbles + 2 projecteurs Splitter miroir utilisé par erreur, sortie 
+indisponible
+Micro filaire Micro + XLR + console/entrée du lieu XLR oublié, mauvais input, câble trop 
+court
+Longue distance SDI HDMI SDI + BNC + SDI HDMI si → →
+nécessaire
+Boîte oubliée, sens inversé, boîte non 
+alimentée
+Tour en gig Tour + power + moniteur + câble écran + 
+clavier + souris
+Tour inutilisable faute de périphérique ou 
+d’écran
+
+PAGE 13
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+17.5 Claviers, souris, moniteurs et vraie workstation
+Les laptops ont clavier et trackpad intégrés. Une tour, elle, n’est pas autonome : pour être utilisable dans l’atelier 
+ou en gig, elle doit posséder un moniteur, un clavier, une souris et les connexions nécessaires. Cela rend la tour 
+plus puissante mais aussi plus lourde et plus exigeante à transporter.
+Objet Prix cible Connexion Niveau de qualité Effet réel
+Clavier USB Basic $25 USB-A Starter
+Permet de 
+contrôler/configurer 
+une tour. Solide mais 
+encombrant.
+Clavier Compact Pro $65 USB-A/USB-C Pro
+Plus compact dans le 
+sac, meilleure 
+durabilité.
+Clavier Touring $110 USB filaire Touring
+Châssis robuste, faible 
+risque de panne en 
+transport.
+Souris USB Basic $18 USB-A Starter Minimum requis avec 
+une tour.
+Souris Wireless 
+Compact $45 Récepteur USB Standard
+Plus facile à transporter 
+mais batterie/récepteur 
+à gérer.
+Souris Touring $80 USB filaire Touring Robuste et fiable pour 
+gros load-ins.
+Moniteur 24" $220 HDMI/DP Standard Écran de contrôle 
+requis pour tour.
+Moniteur 27" $420 HDMI/DP Pro
+Plus confortable; plus 
+volumineux à 
+transporter.
+• La tour ne peut pas être configurée si aucun écran de contrôle n’est connecté.
+• Une tour sans clavier ou sans souris peut démarrer, mais le joueur ne peut pas effectuer certaines actions de 
+configuration tant que les périphériques manquent.
+• Les périphériques doivent eux aussi pouvoir être pris, rangés, branchés et débranchés.
+• Les ports USB disponibles deviennent une petite contrainte réelle quand beaucoup de périphériques sont 
+utilisés; éviter toutefois d’en faire une simulation bureaucratique.
+17.6 Niveaux de qualité des objets
+La qualité ne doit pas être un simple “+10 technique”. Elle doit modifier des propriétés concrètes : fiabilité, 
+robustesse, ports, capacité, longueur, bande passante, luminosité, poids, encombrement ou résistance au 
+transport.
+Qualité Position dans la carrière Caractéristiques générales Économie
+Usagé / Starter Début
+Moins cher, capacités limitées, 
+usure/failure un peu plus 
+élevée
+Accessible rapidement; utile 
+mais pas optimal
+Standard Début-milieu Fiabilité normale, fonctions 
+essentielles Meilleur rapport qualité/prix
+Pro Milieu-fin
+Plus de ports/capacité, 
+meilleure robustesse, 
+meilleure compatibilité
+Demande plusieurs gigs 
+d’épargne
+Touring Fin
+Matériel robuste pour 
+transport fréquent, 
+connectique pro, forte fiabilité
+Cher; achat stratégique, jamais 
+obligatoire trop tôt
+
+PAGE 14
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+Exemples : un câble Starter peut être court et moins robuste; un câble Pro peut être plus long/actif; un sac Pro 
+transporte davantage; un projecteur Pro apporte plus de lumens et de connectique; une tour Pro possède un 
+meilleur GPU et davantage de sorties. Les différences doivent toujours être explicables physiquement.
+17.7 Persistance, rangement et propriété réelle
+• Sauvegarder pour chaque objet : propriétaire, condition, emplacement (étagère/bureau/sac/roadcase/main/lieu), 
+rotation et éventuelles connexions persistantes dans le garage.
+• Si le joueur déplace son projecteur de l’étagère au bureau, il doit rester sur le bureau à la prochaine visite.
+• Un objet emballé pour une gig ne doit pas rester disponible simultanément sur une autre étagère : zéro 
+duplication fantôme.
+• Les objets de même modèle doivent rester des instances distinctes (HDMI #1, HDMI #2) avec leur propre 
+état/condition.
+• Les sacs/roadcases sont eux-mêmes des objets mobiles. Un sac peut être posé, ouvert, fermé, porté et 
+chargé/déchargé.
+17.8 Dépendances supplémentaires à intégrer aux gigs
+Action / gig Prérequis réel Pourquoi
+Quitter le garage pour une gig tutoriel Tous les essentiels rangés + capacité du 
+contenant respectée
+Apprendre la préparation sans punition 
+arbitraire
+Gig avec 2 projecteurs 2 projecteurs + câbles + capacité de 
+transport suffisante
+Le deuxième projecteur doit réellement 
+voyager avec le joueur
+Gig micro Micro + XLR + console/entrée + espace 
+dans le sac Le système audio fait partie du loadout
+Gig SDI Convertisseur(s) + BNC + alimentation + 
+place dans le sac
+Les boîtes ne sont pas des options 
+abstraites
+Gig avec tour Tour + moniteur + clavier + souris + câbles 
++ roadcase/sac adapté
+La puissance supplémentaire demande 
+plus de logistique
+Gig mapping complexe Projecteur(s) + surfaces + équipement déjà 
+appris + temps suffisant
+Le mapping se superpose au montage 
+physique
+18. Audit des items actuels : garder, modifier, désactiver
+Système actuel Décision Nouvelle règle
+Projecteurs actuels GARDER / REBALANCER Conserver les 6 niveaux, ajouter ports réels, 
+luminosité, distance et SDI sur les modèles pro.
+Laptops + tours GARDER Le repo a déjà 3 laptops et 2 tours; rendre 
+GPU/ports réellement fonctionnels.
+GPU GARDER / RENDRE PHYSIQUE Les sorties déterminent vraiment le nombre de 
+displays.
+HDMI cables GARDER / REFAIRE Remplacer la logique “bonus gear” par 
+longueur/ports; ajouter VGA, SDI, XLR, power.
+DP/HDMI adapters GARDER Ajouter direction, compatibilité.
+Splitters / matrices GARDER / CLARIFIER Distinguer miroir vs sorties indépendantes vs 
+routage.
+MIDI / VJ Deck / Show Control DÉSACTIVER POUR MAINTENANT Dépendent du gameplay Resolume.
+Moniteurs GARDER Obligatoires avec tours, utiles en atelier.
+Sacs / roadcases GARDER Capacité/transport et présentation.
+Gaffer / wide lens / mapping kit GARDER / REBALANCER Effet physique ou aide réelle, pas seulement points.
+Vêtements GARDER / REPRICER Utiliser le système points/dress code défini dans ce 
+document.
+Clips VJ GARDER / REPRICER FORTEMENT Passer tous les clips à 20-35 $, points 1-5; 
+sélectionner avant gig.
+Resolute / live clip mixing DÉSACTIVER Aucune partie 2 pour l’instant.
+Housing/career/email/booking GARDER SI STABLE Conserver la carrière autour du nouveau gameplay 
+physique.
+
+PAGE 15
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+Design / monde 3D / UI actuels GARDER STRICTEMENT Aucune refonte globale. Intégrer les 
+nouvelles mécaniques dans les 
+scènes, layouts, personnages, 
+couleurs et navigation existants. 
+Changements visuels seulement s’ils 
+sont nécessaires à une interaction 
+précise.
+19. Interface et pédagogie
+L’interface existante reste la référence visuelle. Les changements UI doivent être petits et fonctionnels : ajouter un 
+indicateur, un port, un pictogramme ou une consigne quand nécessaire, sans refaire tout le design ni déplacer la 
+majorité de la navigation.
+• Une consigne principale à la fois : “Prends le VGA”, puis “Branche-le au laptop”, puis “Allume le projecteur”.
+• Ports compatibles : contour vert. Incompatibles : rouge. Adaptateur requis : jaune.
+• Projecteur : écran noir + NO SIGNAL tant que la chaîne n’est pas valide.
+• Quand le signal apparaît, afficher brièvement le standard et la résolution.
+• Les aides deviennent moins présentes à mesure que la progression avance.
+• Le joueur doit pouvoir inspecter un câble et lire longueur + connecteurs sans ouvrir une fiche géante.
+• Limiter les HUD permanents; privilégier feedback dans le monde 3D.
+20. Plan de refonte à donner à Codex
+Étape Action Livrable
+1 Figer le design actuel + auditer le 
+code
+Capturer/répertorier l’UI, le garage 
+3D, les pièces, personnages, 
+navigation, objets et styles à 
+CONSERVER; identifier main.js, gigs, 
+inventaire, projecteurs, mapping, 
+monde 3D et modules Resolute.
+2 Désactiver Resolute et la partie 2 
+sans redesign
+Retirer leurs entrées de gameplay et 
+chargements nécessaires sans 
+remplacer l’interface, sans 
+reconstruire les scènes et sans casser 
+les sauvegardes.
+3 Créer device/port system Appareils avec ports IN/OUT et états power/input.
+4 Créer cable system Objets câbles physiques, deux extrémités, longueur 
+et compatibilité.
+5 Créer signal graph Validation de chaîne source→destination.
+6 Créer power system Appareils actifs doivent être alimentés.
+7 Refaire Gig 1 VGA complet + projecteur + signal + keystone.
+8 Tester Gig 1 Tous les cas d’échec avant de continuer.
+9 Construire Gigs 2-3 Placement + chrono.
+10 Ajouter HDMI Gigs 4-6.
+11 Ajouter micro/XLR Gigs 7-9.
+12 Ajouter multi-projecteur/GPU Gigs 10-12.
+13 Ajouter SDI/converters Gigs 13-15.
+14 Ajouter mapping plume Gigs 16-21.
+15 Ajouter tour/GPU/SDI pro Gigs 22-24.
+16 Rebalancer shop Prix et prérequis de ce document.
+17 Rebalancer vêtements/clips Points, prix, dress code, bibliothèque.
+18 Créer 15 lieux réutilisables Le même lieu revient avec plus de complexité.
+19 Migration sauvegardes Fallback pour anciens items et anciennes données 
+Resolute.
+20 Test complet Jouer la progression du début à la fin et corriger 
+toute incohérence.
+21. Critères de réussite de la refonte
+• Le joueur reconnaît immédiatement le même VJ Simulator : mêmes pièces, même univers, même direction 
+artistique et même structure générale; seuls le gameplay des gigs/jobs et les systèmes physiques évoluent.
+
+PAGE 16
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+• Gig 1 est jouable entièrement sans écran logiciel VJ.
+• Le joueur voit et prend réellement le câble VGA.
+• Un câble trop court ne peut pas atteindre sa destination.
+• Un mauvais type de port empêche la connexion.
+• Un projecteur non alimenté ne fonctionne pas.
+• Un mauvais input affiche NO SIGNAL.
+• Le projecteur peut être déplacé et orienté physiquement.
+• Le keystone corrige réellement la forme projetée.
+• Le micro/XLR devient un vrai chemin de signal dans les gigs 7+.
+• Le SDI exige de vraies boîtes de conversion lorsque nécessaire.
+• Le mapping exige que le joueur crée lui-même les points.
+• Les tours et GPU ouvrent des sorties réelles, pas seulement des bonus de stats.
+• Les vêtements ont des points modestes, tags et dress codes cohérents.
+• Les clips coûtent tous entre 20 et 35 $ et servent de bibliothèque de contenu pré-gig.
+• Les revenus restent assez bas pour forcer des choix et rendre les gros achats significatifs.
+• Les 15 lieux peuvent être revisités avec une difficulté croissante.
+• Le code Resolute peut exister temporairement en arrière-plan, mais il n’est plus dans le parcours joueur.
+• Le joueur comprend progressivement VGA, HDMI, SDI, XLR, splitter, conversion, GPU, mapping et dépannage en jouant.
+• Le joueur prépare réellement son sac de gig en allant chercher les objets sur les étagères; la capacité volume/poids est 
+vérifiée.
+• Tous les équipements techniques sont mobiles entre étagères, bureau, sac/roadcase et lieu; leurs positions et 
+connexions suivent les objets.
+• Une tour exige un moniteur, un clavier et une souris; les laptops conservent leurs périphériques intégrés.
+• Les niveaux de qualité Starter/Standard/Pro/Touring modifient des propriétés physiques et la fiabilité plutôt que de 
+simples bonus magiques.
+22. Résumé des règles maîtresses
+# Règle Décision
+1 Progression cumulative Chaque gig conserve les responsabilités déjà 
+apprises.
+2 Une nouveauté principale Une nouvelle mécanique par gig, puis 
+combinaison/chrono.
+3 Physique avant logiciel Pas de Resolume/Resolute maintenant.
+4 Capacité réelle Ports, sorties, longueurs et standards 
+déterminent ce qui est possible.
+5 Clips abordables 20-35 $, différence max 15 $, points 1-5.
+6 Vêtements utiles mais modestes Style/Pro/Réseau plafonnés; dress code et 
+sécurité.
+7 Économie serrée Pas trop d’argent, gros gear = plusieurs gigs ou 
+location.
+8 Lieux réutilisés 15 bons lieux qui deviennent plus difficiles.
+9 Mapping manuel Le joueur crée ses points; rien n’est pré-fait.
+10 Micro intégré XLR et récepteur font partie de la progression.
+11 SDI pédagogique Boîtes, sens de conversion et longues 
+distances.
+12 Tours/GPU late-game Multi-output réel et carte SDI PCIe.
+13 Jeu, pas manuel Feedback visuel, interaction, diagnostic et 
+pression graduelle.
+• TRANSPORT : ce qui part en gig doit être réellement emballé ou transporté; aucun loadout ne se téléporte.
+• MOBILITÉ : tout équipement possédé peut être pris, déplacé, posé et rangé; le garage est un espace de travail 
+persistant.
+• WORKSTATION : une tour devient une chaîne complète (tour + GPU + écran + clavier + souris + câbles), pas un simple 
+item de bonus.
+
+PAGE 17
+VJ SIMULATOR - GAME DESIGN MASTER
+Refonte physique - progression, matériel, clips, vêtements, économie
+• QUALITÉ : les tiers d’objets changent ports, capacité, robustesse, longueur, puissance, poids ou fiabilité.
+Annexe A. Matrice rapide des déblocages
+Moment Nouveaux achats/déblocages Contenu
+Départ VGA 3m, LegacyBook, StarterBeam, écran carré, 1 
+clip, tenue base Gigs 1-3
+Après Gig 3 HDMI 2/5m, FieldPad, 2e clip, splitter Gigs 4-6
+Après Gig 6 Micro filaire, XLR, console 4ch Gigs 7-9
+Après Gig 9 Creator laptop, DP→HDMI, 2e projecteur, stand Gigs 10-12
+Après Gig 12 3G-SDI, converters, longs BNC Gigs 13-15
+Après Gig 15 Mapping carré/triangle/cercle, kit mapping Gigs 16-18
+Après Gig 18 Distribution SDI, mapping multi-formes Gigs 19-21
+Après Gig 21 Tour, GPU Pro, carte SDI, projecteur SDI/12G Gigs 22-24
+Annexe B. Philosophie d’équilibrage
+Le joueur doit régulièrement se demander : “Est-ce que j’achète maintenant, est-ce que je loue, ou est-ce que j’attends 
+deux gigs de plus ?” C’est cette tension qui donne de la valeur aux objets. Les clips restent accessibles pour ne pas 
+bloquer la progression artistique, tandis que les équipements lourds restent des objectifs de moyen/long terme.
+• Un nouvel item doit soit ouvrir une capacité, réduire une contrainte, satisfaire un prérequis ou améliorer légèrement le score. 
+Sinon il doit être retiré.
+• Les clips ne doivent jamais absorber l’argent nécessaire aux câbles et convertisseurs : leur prix est volontairement bas.
+• Les vêtements sont une progression de personnalité et de professionnalisme; ils ne doivent pas devenir plus importants que 
+le matériel.
+• Les clients avancés paient plus, mais demandent aussi davantage de gear, de préparation, de clips et parfois de location.
+• Le joueur doit pouvoir échouer une gig par mauvaise préparation, mais toujours comprendre pourquoi il a échoué.

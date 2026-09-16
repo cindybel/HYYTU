@@ -1,0 +1,32 @@
+[
+  {
+    "name": "table to table",
+    "crossings": 0,
+    "length": 1.9197649434353068
+  },
+  {
+    "name": "table to floor right",
+    "crossings": 0,
+    "length": 4.21234242251338
+  },
+  {
+    "name": "table to floor back",
+    "crossings": 0,
+    "length": 2.5718151954090827
+  },
+  {
+    "name": "table to floor front",
+    "crossings": 0,
+    "length": 3.6899486362969354
+  },
+  {
+    "name": "floor to table",
+    "crossings": 0,
+    "length": 3.6899486362969323
+  },
+  {
+    "name": "very close ports",
+    "crossings": 0,
+    "length": 0.9802685064088005
+  }
+]

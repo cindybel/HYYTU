@@ -1,0 +1,21 @@
+from pathlib import Path
+p=Path('src/physical-core.js');s=p.read_text(encoding='utf-8')
+s=s.replace(" const spec=id=>", " define('accessory-wide-lens',{kind:'lens',label:'Optomix WideKit 0.8',price:380,unlock:9,weightKg:.45,volumeUnits:1,quality:'Pro'});\n define('accessory-mapping-kit',{kind:'marker-kit',label:'MapLab Marker Kit',price:85,unlock:15,weightKg:.4,volumeUnits:1,quality:'Pro'});\n const spec=id=>")
+at=s.index(" root.PhysicalCore=");s=s[:at]+""" function attach(s,id,targetId){const o=get(s,id),target=get(s,targetId);if(!o||!target||o.location!=='hand')return fail('Prends cet accessoire.');const kind=spec(o.modelId).kind;if(kind==='marker-kit'&&spec(target.modelId).kind==='surface'){target.referenceMarkers=true;return{ok:true};}if(kind!=='lens'||spec(target.modelId).kind!=='projector')return fail('La lentille se monte sur un projecteur.');if(target.powerOn)return fail('Éteins le projecteur avant de monter la lentille.');if(target.installed.some(id=>spec(get(s,id)?.modelId).kind==='lens'))return fail('Retire la lentille actuelle.');target.installed.push(id);o.location='installed';o.container=targetId;return{ok:true};}
+ function opticalScale(s,id){const o=get(s,id);if(!o)return 1;const lens=o.installed.some(id=>spec(get(s,id)?.modelId).kind==='lens');return(o.modelId==='projector-short-throw'?1.35:1)*(lens?1.25:1);}
+"""+s[at:];s=s.replace("setRoute,secure};","setRoute,secure,attach,opticalScale};");p.write_text(s,encoding='utf-8')
+p=Path('src/gear-models.js');s=p.read_text(encoding='utf-8');anchor="const lx=rank<3?w*.23:rank===3?-w*.22:0,lr=rank===2?.185:rank>3?.177:.107,ly=y+.006;"
+# create() uses g as its root, verify before choosing the name.
+s=s.replace(anchor,anchor+"\n   group.userData.lensAnchor={x:lx,y:ly,z:front+.14,r:lr};")
+p.write_text(s,encoding='utf-8')
+p=Path('src/main.js');s=p.read_text(encoding='utf-8').replace("const baseW = rig.screen.width * distanceScale;", "const opticalScale=currentGig?.physical&&rig.physicalId?PhysicalCore.opticalScale(PhysicalV4.state,rig.physicalId):1;\n  const baseW = rig.screen.width * distanceScale * opticalScale;").replace("const baseH = rig.screen.height * distanceScale;", "const baseH = rig.screen.height * distanceScale * opticalScale;")
+s=s.replace("rig.maskPoints.push({ x: local.x, y: local.y });", "if(currentGig?.physical&&rig.referenceMarkers){const target=rig.mappingTargets?.[rig.mappingZone||0]?.find(p=>Math.hypot(p.x-local.x,p.y-local.y)<.08);if(target){local.x=target.x;local.y=target.y;}}\n  rig.maskPoints.push({ x: local.x, y: local.y });")
+p.write_text(s,encoding='utf-8')
+p=Path('src/physical-v4.js');s=p.read_text(encoding='utf-8')
+s=s.replace("${d.kind==='tower'?o.installed.map", "${['tower','projector'].includes(d.kind)?o.installed.map")
+# Accessory placement remains a direct click on the device/screen.
+s=s.replace("if(target&&d.kind==='gaffer'", "if(d.kind==='marker-kit'&&state.active&&!target){const h=ray.intersectObjects(rigs.map(r=>r.screenHitArea),true)[0],index=h?.object?.userData.rigIndex,surfaces=state.objects.filter(o=>o.location==='venue'&&C.spec(o.modelId).kind==='surface'&&o.placed);if(h&&surfaces[index]){if(result(C.attach(state,o.uid,surfaces[index].uid)))notify('Repères posés. La plume accroche seulement près du contour : trace chaque point.');return;}}\n   if(target&&['lens','marker-kit'].includes(d.kind)){if(result(C.attach(state,o.uid,target.uid))){if(d.kind==='lens')held=null;persist();}return;}\n   if(target&&d.kind==='gaffer'")
+s=s.replace("r.screenPlane.visible=Boolean(surfaces[i]);", "r.referenceMarkers=Boolean(surfaces[i]?.referenceMarkers);r.screenPlane.visible=Boolean(surfaces[i]);")
+# Lens geometry is mounted on the canonical model's existing optical axis.
+s=s.replace("root.add(m);if(C.spec", "root.add(m);if(o.installed.some(id=>C.spec(C.get(state,id)?.modelId).kind==='lens')&&m.userData.lensAnchor){const a=m.userData.lensAnchor,collar=new THREE.Mesh(new THREE.CylinderGeometry(a.r*1.22,a.r*1.1,.09,32),new THREE.MeshStandardMaterial({color:0x18222b,metalness:.65,roughness:.32}));collar.rotation.x=Math.PI/2;collar.position.set(a.x,a.y,a.z+.035);const glass=new THREE.Mesh(new THREE.CircleGeometry(a.r*1.07,32),new THREE.MeshStandardMaterial({color:0x294754,metalness:.75,roughness:.18}));glass.position.set(a.x,a.y,a.z+.082);m.add(collar,glass);}if(C.spec")
+p.write_text(s,encoding='utf-8')

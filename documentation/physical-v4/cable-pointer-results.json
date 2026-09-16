@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "geometry": {
+    "tube": "TubeGeometry",
+    "plugs": 2,
+    "loose": false
+  },
+  "errors": [],
+  "checks": [
+    "VGA rejects HDMI",
+    "two real socket clicks",
+    "loose end visible",
+    "two solid plugs and tube",
+    "reload restores wire",
+    "power key",
+    "disconnect",
+    "closed bag opens before packing",
+    "open bag packs",
+    "unpack"
+  ]
+}

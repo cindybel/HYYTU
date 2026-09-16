@@ -1,0 +1,210 @@
+{
+  "clientInitializationStable": true,
+  "cast": [
+    {
+      "id": "nova",
+      "height": 1.4232262201556232,
+      "visible": true,
+      "finite": true
+    },
+    {
+      "id": "eli",
+      "height": 1.4787602897631853,
+      "visible": true,
+      "finite": true
+    },
+    {
+      "id": "sam",
+      "height": 1.4653255642053349,
+      "visible": true,
+      "finite": true
+    }
+  ],
+  "features": {
+    "profiles": [
+      {
+        "id": "learning",
+        "name": "Première scène",
+        "bpm": 120,
+        "ranges": [
+          [
+            25,
+            45
+          ],
+          [
+            50,
+            70
+          ],
+          [
+            75,
+            95
+          ],
+          [
+            15,
+            35
+          ]
+        ],
+        "names": [
+          "WARM-UP",
+          "MONTÉE",
+          "PEAK",
+          "BREAK"
+        ]
+      },
+      {
+        "id": "bar",
+        "name": "Bar intimiste",
+        "bpm": 96,
+        "ranges": [
+          [
+            20,
+            40
+          ],
+          [
+            35,
+            55
+          ],
+          [
+            50,
+            70
+          ],
+          [
+            20,
+            40
+          ]
+        ],
+        "names": [
+          "ACCUEIL",
+          "GROOVE",
+          "REFRAIN",
+          "SORTIE"
+        ]
+      },
+      {
+        "id": "club",
+        "name": "Club électronique",
+        "bpm": 128,
+        "ranges": [
+          [
+            35,
+            55
+          ],
+          [
+            60,
+            80
+          ],
+          [
+            80,
+            100
+          ],
+          [
+            15,
+            30
+          ]
+        ],
+        "names": [
+          "OUVERTURE",
+          "MONTÉE",
+          "DROP",
+          "BREAK"
+        ]
+      },
+      {
+        "id": "festival",
+        "name": "Festival",
+        "bpm": 140,
+        "ranges": [
+          [
+            40,
+            60
+          ],
+          [
+            65,
+            85
+          ],
+          [
+            85,
+            100
+          ],
+          [
+            30,
+            50
+          ]
+        ],
+        "names": [
+          "ENTRÉE",
+          "MONTÉE",
+          "GRAND FINAL",
+          "SALUT"
+        ]
+      },
+      {
+        "id": "corporate",
+        "name": "Événement client",
+        "bpm": 104,
+        "ranges": [
+          [
+            15,
+            30
+          ],
+          [
+            25,
+            45
+          ],
+          [
+            45,
+            65
+          ],
+          [
+            15,
+            30
+          ]
+        ],
+        "names": [
+          "ACCUEIL",
+          "PRÉSENTATION",
+          "RÉVÉLATION",
+          "CLÔTURE"
+        ]
+      }
+    ],
+    "resolutions": [
+      640,
+      960,
+      1280,
+      1600,
+      1920
+    ],
+    "brightness": [
+      0.72,
+      0.8,
+      0.87,
+      0.92,
+      0.97,
+      1
+    ]
+  },
+  "relation": {
+    "emailsStable": true,
+    "budgetStable": true,
+    "first": 32,
+    "budget": 352,
+    "moneyStable": true,
+    "state": {
+      "trust": 2,
+      "shows": 1,
+      "successful": 1,
+      "events": [
+        "gig-01-party-garage:1"
+      ],
+      "lastFeedback": "Tu as livré le brief. Je te reprends volontiers : +10 % sur une prochaine offre tant que notre confiance reste au moins à 2/10."
+    },
+    "id": "gig-01-party-garage"
+  },
+  "failed": {
+    "bonus": 0,
+    "trust": 1
+  },
+  "audioSamples": 44100,
+  "errors": []
+}

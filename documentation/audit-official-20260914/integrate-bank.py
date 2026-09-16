@@ -1,0 +1,14 @@
+from pathlib import Path
+for f in ['index.html','src/desktop-focus.js']:
+ p=Path(f);b=Path('documentation/audit-official-20260914/before-fixes')/f;b.parent.mkdir(parents=True,exist_ok=True)
+ if not b.exists(): b.write_bytes(p.read_bytes())
+p=Path('src/main.js');s=p.read_text(encoding='utf-8').replace('function renderFinance() {','function renderFinanceManagement() {',1)
+s=s.replace('const netMonthly = monthIncome - monthExpenses - projectedMonthCost;','const netMonthly = monthIncome - monthExpenses;').replace('const projectedBalance = Math.round(profile.money + netMonthly);','const projectedBalance = Math.round(profile.money - projectedMonthCost);').replace('${monthExpenses + monthSpent + minPayments}$','${monthExpenses}$').replace('Projection mois</span>','Bilan du mois</span>').replace('revenus - depenses - dettes','revenus encaissés - dépenses payées').replace('si tout passe ce mois','après le prochain loyer et les minimums').replace('projection claire','bilan des opérations payées')
+s=s.replace("function recordFinance(amount, label) {\n  if (!profile.financeLog)", "function recordFinance(amount, label, details = {}) {\n  const bankTransfer = window.VJBank?.record(amount, label, details);\n  if (!profile.financeLog)")
+s=s.replace('profile.financeLog.push({ day: profile.day, amount: Math.round(amount), label });','profile.financeLog.push({ day: profile.day, amount: Math.round(amount), label, ...(bankTransfer ? {reference:bankTransfer.reference} : {}) });')
+s=s.replace('profile.money -= cost;\n  profile.skills[skillId]', 'profile.money -= cost;\n  recordFinance(-cost, `Formation VJ · ${skill.label}`);\n  profile.skills[skillId]')
+s=s.replace("recordFinance(-loadout.totalCost, `Uver${loadout.rentalCost ? ' + gear' : ''} ${gig.title}`);", "if(loadout.transportCost)recordFinance(-loadout.transportCost, `Transport · ${gig.title}`, {counterparty:'Uver',balanceAfter:profile.money+loadout.rentalCost});\n  if(loadout.rentalCost)recordFinance(-loadout.rentalCost, `Location de matériel · ${gig.title}`, {counterparty:'Atazone Location'});")
+s=s.replace('recordFinance(money, `Paiement ${currentGig.title}`);', "recordFinance(money, `Cachet · ${currentGig.title}`, {counterparty:currentGig.venue||currentGig.title});")
+p.write_text(s,encoding='utf-8')
+p=Path('index.html');s=p.read_text(encoding='utf-8').replace('<script defer src="./src/main.js?v=library48-20260914"></script>', '<script defer src="./src/main.js?v=library48-20260914"></script>\n<script defer src="./src/bank.js?v=bank-20260914"></script>\n<link rel="stylesheet" href="./src/bank.css?v=bank-20260914" />');s=s.replace('>Finance</button>','>Banque</button>');p.write_text(s,encoding='utf-8')
+p=Path('src/desktop-focus.js');s=p.read_text(encoding='utf-8').replace("finance:'Finance'","finance:'Banque'");p.write_text(s,encoding='utf-8')

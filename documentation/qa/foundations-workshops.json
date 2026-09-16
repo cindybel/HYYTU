@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "realUiWorkshops": 5,
+  "wrongActionsRejected": 4,
+  "free": true,
+  "reloadPreserved": true,
+  "saved": {
+    "cabling": 1,
+    "mapping": 1,
+    "multiOutput": 1,
+    "timePressure": 1,
+    "penTool": 1
+  },
+  "errors": []
+}

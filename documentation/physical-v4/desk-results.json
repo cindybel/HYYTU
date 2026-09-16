@@ -1,0 +1,17 @@
+{
+  "check": [
+    {
+      "id": "av-5",
+      "intersections": 0
+    },
+    {
+      "id": "av-17",
+      "intersections": 0
+    },
+    {
+      "id": "av-18",
+      "intersections": 0
+    }
+  ],
+  "errors": []
+}

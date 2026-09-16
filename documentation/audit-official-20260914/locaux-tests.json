@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Ouverture depuis le bureau",
+    "Visite ouverte et fermée",
+    "Deux déménagements DMTEAM",
+    "Inventaire et compétences conservés",
+    "Lieu conservé après rechargement",
+    "Carrière normale : frais débités et enregistrés en banque",
+    "Retour à un lieu débloqué sans double facturation"
+  ],
+  "home": {
+    "type": "Appartement econo",
+    "rent": 220,
+    "comfort": 8
+  },
+  "errors": []
+}

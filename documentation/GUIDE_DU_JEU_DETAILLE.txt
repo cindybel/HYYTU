@@ -1,0 +1,267 @@
+GUIDE DU JEU - VJ SIMULATOR
+===========================
+
+Ce guide explique le jeu sans devoir mettre des instructions partout dans l interface.
+Dans le jeu, il est accessible depuis l icone Guide sur le bureau VJOS, dans la colonne de gauche.
+
+
+1. BUT DU JEU
+=============
+
+Le joueur incarne un VJ qui commence avec peu de materiel et peu de reputation.
+Le but est de monter une vraie carriere:
+- chercher des contrats;
+- repondre aux clients;
+- acheter ou louer le bon gear;
+- preparer les VJ loops;
+- jouer les gigs en 3D;
+- gagner argent, XP, reputation et hype;
+- debloquer des contrats de plus en plus techniques.
+
+La progression doit sentir comme un RPG de metier.
+Chaque achat, skill et choix de journee doit aider a survivre aux gigs futurs.
+
+
+2. JOURNEE ET CALENDRIER
+========================
+
+Chaque jour donne 3 points d energie.
+
+Actions principales:
+- Pratiquer VJ: 1 energie, + creativite, + XP, + fatigue.
+- Jobine: 2 energies, + argent, + fatigue.
+- Repos simple: 1 energie, - fatigue, gratuit.
+- Sortie inspiration: 1 energie, + creativite, coute de l argent.
+- Repos premium: 1 energie, baisse beaucoup la fatigue, coute plus cher.
+- Apprendre un skill: 2 energies, remplit une grosse partie de la journee.
+
+Le joueur ne passe pas automatiquement au lendemain.
+Il doit cliquer Next Day.
+
+Quand une gig est prevue aujourd hui:
+- la journee est reservee;
+- le joueur doit jouer la gig ou la canceler;
+- une gig prend toute la journee.
+
+
+3. BOOKING ET EMAIL
+===========================
+
+VJ Booking sert a chercher des gigs.
+Le joueur peut envoyer 3 candidatures par jour.
+
+Processus:
+1. Choisir une gig dans VJ Booking.
+2. Envoyer une candidature dans Booking.
+3. Attendre une reponse entre 1 et 3 jours.
+4. Lire la reponse dans Email.
+5. Accepter, negocier ou refuser.
+6. Si accepte, la gig se place le vendredi ou samedi le plus proche.
+
+Regle de date:
+- Une candidature reserve deja la soiree du gig.
+- Le joueur ne peut pas postuler a un autre gig sur la meme date.
+- Le calendrier montre les candidatures, les emails de reponse et les gigs confirmes.
+- Le systeme repare aussi les anciennes sauvegardes pour eviter plusieurs gigs actifs le meme soir.
+
+Regle de competence:
+- Le joueur ne peut pas postuler a une gig si un skill requis manque.
+- Dans ce cas, le jeu ouvre la page Skills et bloque la candidature.
+- Les skills doivent etre appris avant de chercher des contrats trop avances.
+
+Regle d ouverture du monde:
+- Une gig n apparait pas dans Booking tant que le VJ n a pas les prerequis essentiels.
+- Les prerequis peuvent etre: gear possede, nombre de projecteurs, fils/adaptateurs, VJ loops du bon style, skills, reputation ou look/style.
+- Quand la reputation, le gear ou les skills ouvrent une nouvelle scene, le joueur recoit un email/message.
+- Les filtres de style dans Booking permettent de voir seulement Techno, HipHop, Chill, Psytrance ou Rock.
+
+Transport:
+- Le depart vers une gig passe par Uver Transport.
+- Le prix depend du budget du contrat et du volume de materiel requis.
+- Plus il y a de projecteurs, fils, boites, ecrans, loops et accessoires, plus Uver coute cher.
+- Le transport est paye avant d entrer dans la salle.
+
+Rejouer une gig:
+- possible plusieurs fois;
+- cooldown de 7 jours apres completion;
+- il faut renvoyer un email;
+- le processus recommence.
+
+Types de clients:
+- Chill: accepte plus facilement, paie moins, pardonne plus.
+- Corpo: paie mieux, exige technique, gear propre et peu d erreurs.
+- Underground: aime le style, pardonne plus si la vibe est forte.
+- Festival: gros potentiel, demande fiabilite, reputation et setup solide.
+
+
+4. GEAR ET LOCATION
+===================
+
+Avant chaque gig, le joueur voit le minimum demande par le client.
+
+Regles:
+- Si le joueur possede l item, il ne paie pas de location.
+- Si l item manque, il peut le louer seulement si la gig autorise la location.
+- Les 5 premiers gigs peuvent preter du gear, sans bonus.
+- Certains gigs interdisent la location: le joueur doit posseder son setup.
+- La location coute environ un tiers du prix de l item.
+
+Categories importantes:
+- Projecteurs: puissance et stabilite.
+- Ordinateurs: sorties video, puissance clips, stabilite.
+- GPU: multi-output et clips lourds.
+- Cables: distances et tension au sol.
+- Adaptateurs: DisplayPort, USB-C, HDMI.
+- Routeurs/matrix: plusieurs projecteurs.
+- Consoles: vitesse live et transitions.
+- Ecrans de controle: preview et gestion multi-sortie.
+- Sacs/transport: reduction des problemes logistiques.
+- Outils speciaux: plume, mapping kit, zoom/wide lens.
+- VJ Loop packs: style musical et score artistique.
+
+
+5. INVENTAIRE AVANT GIG
+=======================
+
+Avant d entrer dans la salle, le jeu utilise automatiquement l inventaire.
+
+Logique:
+- gear possede: utilise sans frais;
+- gear manquant: location seulement si le contrat le permet;
+- VJ loops: achat requis, pas de location;
+- vetements, skills et progression: jamais vendus;
+- revente gear: 70% du prix d achat.
+
+Le joueur prepare donc son avenir dans Inventaire, Shop, Finance et Skills.
+
+
+6. GIG 3D
+=========
+
+Dans la salle, le joueur controle surtout les projecteurs.
+Le personnage reste au bureau ou proche du setup.
+
+Commandes principales:
+- Cliquer un projecteur ou touches 1, 2, 3: selectionner.
+- Bouton connecter projo: brancher le projecteur selectionne.
+- Fleches: deplacer le projecteur/rack.
+- W/S et A/D: ajuster angles et trapeze.
+- Souris et molette: camera.
+- Plume: delimiter des formes et zones avancees.
+- Terminer: valider le show a tout moment.
+
+Le joueur peut terminer meme si ce n est pas 100%.
+Le score, la paie et le feedback baissent si la projection est faible.
+
+
+7. SCORE FINAL
+==============
+
+Le score est lisible et separe en trois axes.
+
+Technique - 40%:
+- alignement projection;
+- trapeze;
+- connexions;
+- placement projecteur;
+- temps de setup;
+- stabilite du gear.
+
+Artistique - 35%:
+- choix des loops;
+- style adapte au client;
+- creativite;
+- vibe;
+- transitions live.
+
+Professionnel - 25%:
+- arriver prepare;
+- bon gear;
+- fatigue basse;
+- contraintes respectees;
+- reputation.
+
+Notes finales:
+- Legendary
+- Excellent
+- Solid
+- Messy
+- Disaster
+
+Le resultat doit montrer:
+- Projection Quality;
+- Artistic Direction;
+- Client Satisfaction;
+- Technical Stability;
+- argent gagne;
+- XP;
+- reputation;
+- fatigue;
+- contacts ou feedback.
+
+
+8. SKILLS
+=========
+
+Skills principaux:
+- Cablage propre: distances, fils au sol, surtension.
+- Mapping trapeze: angles, murs croche, profondeur.
+- Multi-projecteurs: splitter, matrix, routing video.
+- Pression live: timers et setup rapide.
+- Plume contour: rond, hexa, multi-zones et masques.
+
+Chaque skill a 3 niveaux.
+Certains gigs demandent un niveau precis.
+
+
+9. SHOP ET IDENTITE VJ
+======================
+
+Le shop Atazone contient:
+- Gear;
+- Vetements;
+- VJ Loop;
+- Appartement/logement.
+
+Les vetements changent le personnage en 3D.
+Les VJ loops augmentent le style musical correspondant.
+Les appartements influencent confort, fatigue, reputation et cout mensuel.
+
+Chaque item doit avoir:
+- avantage;
+- inconvenient;
+- prix logique;
+- utilite dans la progression.
+
+
+10. PROGRESSION DES 30 GIGS
+===========================
+
+Debut:
+- apprendre les bases;
+- gear prete;
+- premiers contours;
+- peu de stress.
+
+Milieu:
+- zoom;
+- plume;
+- deux projecteurs;
+- cables longs;
+- adaptateurs;
+- split et multi-zones;
+- timers plus presents.
+
+Fin:
+- trois projecteurs;
+- routing video;
+- matrix;
+- GPU pro;
+- pas de location;
+- mauvais placements;
+- formes complexes;
+- timer brutal;
+- toutes les mecaniques combinees.
+
+L idee centrale:
+Le joueur doit sentir que chaque nouvelle difficulte explique pourquoi il devait acheter ou apprendre quelque chose avant.

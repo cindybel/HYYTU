@@ -1,0 +1,197 @@
+{
+  "rows": [
+    {
+      "name": "inspector",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "width": 1120,
+      "height": 701.78125,
+      "left": 160,
+      "top": 149.109375,
+      "scrollWidth": 1118,
+      "clientWidth": 1118,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "inspector",
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1084,
+      "height": 685,
+      "left": 16,
+      "top": 16,
+      "scrollWidth": 1082,
+      "clientWidth": 1082,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "inspector",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "width": 366,
+      "height": 812,
+      "left": 12,
+      "top": 16,
+      "scrollWidth": 364,
+      "clientWidth": 364,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "gear",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "width": 360,
+      "height": 567,
+      "left": 72,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "clothing",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "width": 540,
+      "height": 880,
+      "left": 884,
+      "top": 76,
+      "scrollWidth": 538,
+      "clientWidth": 538,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "vjloop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "width": 540,
+      "height": 850,
+      "left": 72,
+      "top": 50,
+      "scrollWidth": 538,
+      "clientWidth": 538,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "gear",
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 540,
+      "height": 567,
+      "left": 56,
+      "top": 50,
+      "scrollWidth": 538,
+      "clientWidth": 538,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "clothing",
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 468.71875,
+      "height": 617,
+      "left": 631.28125,
+      "top": 76,
+      "scrollWidth": 467,
+      "clientWidth": 467,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "vjloop",
+      "size": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 469,
+      "height": 567,
+      "left": 56,
+      "top": 50,
+      "scrollWidth": 467,
+      "clientWidth": 467,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "gear",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "width": 360,
+      "height": 567,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "clothing",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "width": 366,
+      "height": 438.875,
+      "left": 12,
+      "top": 393.125,
+      "scrollWidth": 364,
+      "clientWidth": 364,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    },
+    {
+      "name": "vjloop",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "width": 360,
+      "height": 439,
+      "left": 18,
+      "top": 66,
+      "scrollWidth": 358,
+      "clientWidth": 358,
+      "overflow": false,
+      "offscreen": false,
+      "issues": []
+    }
+  ],
+  "errors": []
+}

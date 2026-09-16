@@ -1,0 +1,1251 @@
+{
+  "checks": [
+    {
+      "app": "calendar",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Réseau VJ Booking",
+      "clipped": []
+    },
+    {
+      "app": "guide",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Guide officiel · Refonte physique v4",
+      "clipped": []
+    },
+    {
+      "app": "phone",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Contacts",
+      "clipped": []
+    },
+    {
+      "app": "email",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Email",
+      "clipped": []
+    },
+    {
+      "app": "social",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Réseau VJ Booking",
+      "clipped": []
+    },
+    {
+      "app": "transport",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Uver",
+      "clipped": []
+    },
+    {
+      "app": "music",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Music Player",
+      "clipped": []
+    },
+    {
+      "app": "settings",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Réglages de jeu",
+      "clipped": []
+    },
+    {
+      "app": "stats",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Progression des installations",
+      "clipped": []
+    },
+    {
+      "app": "job",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Jobine",
+      "clipped": []
+    },
+    {
+      "app": "rest",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Repos",
+      "clipped": []
+    },
+    {
+      "app": "inventory",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Inventaire",
+      "clipped": []
+    },
+    {
+      "app": "finance",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Banque Signal",
+      "clipped": []
+    },
+    {
+      "app": "housing",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Locaux",
+      "clipped": []
+    },
+    {
+      "app": "skills",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "VJ School & Skills",
+      "clipped": []
+    },
+    {
+      "app": "shop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Equipe ta carriere comme un vrai artiste de scene.",
+      "clipped": []
+    },
+    {
+      "app": "files",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "width": 1368,
+      "scrollWidth": 1368,
+      "inViewport": true,
+      "title": "Explorateur de fichiers",
+      "clipped": []
+    },
+    {
+      "app": "calendar",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Réseau VJ Booking",
+      "clipped": []
+    },
+    {
+      "app": "guide",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Guide officiel · Refonte physique v4",
+      "clipped": []
+    },
+    {
+      "app": "phone",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Contacts",
+      "clipped": []
+    },
+    {
+      "app": "email",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Email",
+      "clipped": []
+    },
+    {
+      "app": "social",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Réseau VJ Booking",
+      "clipped": []
+    },
+    {
+      "app": "transport",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Uver",
+      "clipped": []
+    },
+    {
+      "app": "music",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Music Player",
+      "clipped": []
+    },
+    {
+      "app": "settings",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Réglages de jeu",
+      "clipped": []
+    },
+    {
+      "app": "stats",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Progression des installations",
+      "clipped": []
+    },
+    {
+      "app": "job",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Jobine",
+      "clipped": []
+    },
+    {
+      "app": "rest",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Repos",
+      "clipped": []
+    },
+    {
+      "app": "inventory",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Inventaire",
+      "clipped": []
+    },
+    {
+      "app": "finance",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Banque Signal",
+      "clipped": []
+    },
+    {
+      "app": "housing",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Locaux",
+      "clipped": []
+    },
+    {
+      "app": "skills",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "VJ School & Skills",
+      "clipped": []
+    },
+    {
+      "app": "shop",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Equipe ta carriere comme un vrai artiste de scene.",
+      "clipped": []
+    },
+    {
+      "app": "files",
+      "viewport": {
+        "width": 1116,
+        "height": 717
+      },
+      "width": 1044,
+      "scrollWidth": 1044,
+      "inViewport": true,
+      "title": "Explorateur de fichiers",
+      "clipped": []
+    },
+    {
+      "app": "calendar",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Réseau VJ Booking",
+      "clipped": []
+    },
+    {
+      "app": "guide",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Guide officiel · Refonte physique v4",
+      "clipped": []
+    },
+    {
+      "app": "phone",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Contacts",
+      "clipped": []
+    },
+    {
+      "app": "email",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Email",
+      "clipped": []
+    },
+    {
+      "app": "social",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Réseau VJ Booking",
+      "clipped": []
+    },
+    {
+      "app": "transport",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Uver",
+      "clipped": []
+    },
+    {
+      "app": "music",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Music Player",
+      "clipped": []
+    },
+    {
+      "app": "settings",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Réglages de jeu",
+      "clipped": []
+    },
+    {
+      "app": "stats",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Progression des installations",
+      "clipped": []
+    },
+    {
+      "app": "job",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Jobine",
+      "clipped": []
+    },
+    {
+      "app": "rest",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Repos",
+      "clipped": []
+    },
+    {
+      "app": "inventory",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Inventaire",
+      "clipped": []
+    },
+    {
+      "app": "finance",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Banque Signal",
+      "clipped": []
+    },
+    {
+      "app": "housing",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Locaux",
+      "clipped": []
+    },
+    {
+      "app": "skills",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "VJ School & Skills",
+      "clipped": []
+    },
+    {
+      "app": "shop",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Equipe ta carriere comme un vrai artiste de scene.",
+      "clipped": []
+    },
+    {
+      "app": "files",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "width": 888,
+      "scrollWidth": 888,
+      "inViewport": true,
+      "title": "Explorateur de fichiers",
+      "clipped": []
+    }
+  ],
+  "models": [
+    {
+      "id": "projector-cheap",
+      "finite": true,
+      "size": [
+        0.8930000066757202,
+        0.3224999881349504,
+        0.7660000026226044
+      ]
+    },
+    {
+      "id": "projector-standard",
+      "finite": true,
+      "size": [
+        1.0529999732971191,
+        0.3354999995790422,
+        0.8160000145435333
+      ]
+    },
+    {
+      "id": "projector-short-throw",
+      "finite": true,
+      "size": [
+        0.9229999780654907,
+        0.4304999983869493,
+        0.835999995470047
+      ]
+    },
+    {
+      "id": "projector-laser-entry",
+      "finite": true,
+      "size": [
+        1.1130000352859497,
+        0.32550000911578536,
+        0.8160000145435333
+      ]
+    },
+    {
+      "id": "projector-pro-6500",
+      "finite": true,
+      "size": [
+        1.5203922986984253,
+        0.4849999821744859,
+        0.9959999918937683
+      ]
+    },
+    {
+      "id": "projector-ultra-4k",
+      "finite": true,
+      "size": [
+        1.6162272691726685,
+        0.5250000334344804,
+        1.085999995470047
+      ]
+    },
+    {
+      "id": "computer-starter-laptop",
+      "finite": true,
+      "size": [
+        0.9800000190734863,
+        0.6478699422441423,
+        0.720154881477356
+      ]
+    },
+    {
+      "id": "computer-vj-laptop-gtx",
+      "finite": true,
+      "size": [
+        1.0800000429153442,
+        0.6875324225984514,
+        0.7503402233123779
+      ]
+    },
+    {
+      "id": "computer-creator-laptop-rtx",
+      "finite": true,
+      "size": [
+        1.1799999475479126,
+        0.7271949029527605,
+        0.7805255949497223
+      ]
+    },
+    {
+      "id": "computer-desktop-rtx4060",
+      "finite": true,
+      "size": [
+        0.5214999914169312,
+        1.0875000334344804,
+        0.835999995470047
+      ]
+    },
+    {
+      "id": "computer-desktop-rtx4080",
+      "finite": true,
+      "size": [
+        0.6315000057220459,
+        1.0875000334344804,
+        0.835999995470047
+      ]
+    },
+    {
+      "id": "gpu-gpu-mobile",
+      "finite": true,
+      "size": [
+        0.9025000035762787,
+        0.23999999649822712,
+        0.4100000113248825
+      ]
+    },
+    {
+      "id": "gpu-gpu-desktop-mid",
+      "finite": true,
+      "size": [
+        0.9025000035762787,
+        0.23999999649822712,
+        0.4100000113248825
+      ]
+    },
+    {
+      "id": "gpu-gpu-desktop-pro",
+      "finite": true,
+      "size": [
+        1.162500023841858,
+        0.23999999649822712,
+        0.4100000113248825
+      ]
+    },
+    {
+      "id": "cable-25ft-basic",
+      "finite": true,
+      "size": [
+        0.878000020980835,
+        0.11000000312924385,
+        0.804999977350235
+      ]
+    },
+    {
+      "id": "cable-75ft-active",
+      "finite": true,
+      "size": [
+        0.878000020980835,
+        0.11000000312924385,
+        0.804999977350235
+      ]
+    },
+    {
+      "id": "cable-150ft-fiber",
+      "finite": true,
+      "size": [
+        0.878000020980835,
+        0.11000000312924385,
+        0.804999977350235
+      ]
+    },
+    {
+      "id": "adapter-dp-hdmi-basic",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "adapter-usb-c-hdmi",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "adapter-edid-locker",
+      "finite": true,
+      "size": [
+        0.1599999964237213,
+        0.13299999997019762,
+        0.2800000011920929
+      ]
+    },
+    {
+      "id": "accessory-gaff-pocket",
+      "finite": true,
+      "size": [
+        0.6250026673078537,
+        0.13250000309199095,
+        0.49000534415245056
+      ]
+    },
+    {
+      "id": "accessory-wide-lens",
+      "finite": true,
+      "size": [
+        0.47999998927116394,
+        0.4300000064820051,
+        0.41200000047683716
+      ]
+    },
+    {
+      "id": "accessory-mapping-kit",
+      "finite": true,
+      "size": [
+        0.8769999742507935,
+        0.6058862395584583,
+        0.6620784103870392
+      ]
+    },
+    {
+      "id": "accessory-roadcase-pro",
+      "finite": true,
+      "size": [
+        0.6850000023841858,
+        0.5074999877251685,
+        0.42500001192092896
+      ]
+    },
+    {
+      "id": "router-splitter-duo",
+      "finite": true,
+      "size": [
+        0.4000000059604645,
+        0.12399999983608723,
+        0.3999999910593033
+      ]
+    },
+    {
+      "id": "router-matrix-4x4",
+      "finite": true,
+      "size": [
+        1.2599999904632568,
+        0.16400000639259815,
+        0.42149999737739563
+      ]
+    },
+    {
+      "id": "screen-monitor-24",
+      "finite": true,
+      "size": [
+        1.059999942779541,
+        0.8847500095143914,
+        0.27000001072883606
+      ]
+    },
+    {
+      "id": "screen-monitor-27",
+      "finite": true,
+      "size": [
+        1.2699999809265137,
+        1.0028749713674188,
+        0.27000001072883606
+      ]
+    },
+    {
+      "id": "screen-portable-touch",
+      "finite": true,
+      "size": [
+        0.9100000262260437,
+        0.5527733936905861,
+        0.34471429139375687
+      ]
+    },
+    {
+      "id": "bag-messenger-basic",
+      "finite": true,
+      "size": [
+        0.6850000023841858,
+        0.5074999877251685,
+        0.42500001192092896
+      ]
+    },
+    {
+      "id": "bag-vj-backpack",
+      "finite": true,
+      "size": [
+        0.6850000023841858,
+        0.5074999877251685,
+        0.42500001192092896
+      ]
+    },
+    {
+      "id": "bag-road-backpack",
+      "finite": true,
+      "size": [
+        0.6850000023841858,
+        0.5074999877251685,
+        0.42500001192092896
+      ]
+    },
+    {
+      "id": "gpu-sdi-pcie",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "cable-vga-3",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-vga-10",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-hdmi-5",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-sdi-10",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.4284999966621399
+      ]
+    },
+    {
+      "id": "cable-sdi-30",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.4284999966621399
+      ]
+    },
+    {
+      "id": "cable-sdi-50",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.4284999966621399
+      ]
+    },
+    {
+      "id": "cable-xlr-3",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.4284999966621399
+      ]
+    },
+    {
+      "id": "cable-xlr-10",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.4284999966621399
+      ]
+    },
+    {
+      "id": "cable-xlr-20",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.4284999966621399
+      ]
+    },
+    {
+      "id": "cable-iec",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-extension",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-dp",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-usbc-video",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "cable-usb",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "adapter-vga-hdmi",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "converter-hdmi-sdi",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "converter-sdi-hdmi",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "converter-bidirectional",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "converter-12g",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "router-sdi-distribution",
+      "finite": true,
+      "size": [
+        0.6000000238418579,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "power-bar",
+      "finite": true,
+      "size": [
+        0.5199999809265137,
+        0.0755000002682209,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "cable-audio-3",
+      "finite": true,
+      "size": [
+        0.3619999885559082,
+        0.03599999751895666,
+        0.45100000500679016
+      ]
+    },
+    {
+      "id": "audio-speakers-basic",
+      "finite": true,
+      "size": [
+        0.5600000023841858,
+        0.2969984244555235,
+        0.26813533902168274
+      ]
+    },
+    {
+      "id": "audio-speakers-active",
+      "finite": true,
+      "size": [
+        0.5600000023841858,
+        0.2969984244555235,
+        0.26813533902168274
+      ]
+    },
+    {
+      "id": "audio-mic",
+      "finite": true,
+      "size": [
+        0.09099999815225601,
+        0.3100000023841858,
+        0.09099999815225601
+      ]
+    },
+    {
+      "id": "audio-console",
+      "finite": true,
+      "size": [
+        0.4300000071525574,
+        0.08350000157952309,
+        0.3400000184774399
+      ]
+    },
+    {
+      "id": "audio-wireless",
+      "finite": true,
+      "size": [
+        0.09099999815225601,
+        0.3100000023841858,
+        0.09099999815225601
+      ]
+    },
+    {
+      "id": "audio-receiver",
+      "finite": true,
+      "size": [
+        0.25,
+        0.08350000157952309,
+        0.15000000596046448
+      ]
+    },
+    {
+      "id": "keyboard-basic",
+      "finite": true,
+      "size": [
+        0.580997422337532,
+        0.05171323847025633,
+        0.2979837507009506
+      ]
+    },
+    {
+      "id": "keyboard-compact-pro",
+      "finite": true,
+      "size": [
+        0.580997422337532,
+        0.05171323847025633,
+        0.2979837507009506
+      ]
+    },
+    {
+      "id": "keyboard-touring",
+      "finite": true,
+      "size": [
+        0.580997422337532,
+        0.05171323847025633,
+        0.2979837507009506
+      ]
+    },
+    {
+      "id": "mouse-basic",
+      "finite": true,
+      "size": [
+        0.14950278028845787,
+        0.052999999141320586,
+        0.28655393049120903
+      ]
+    },
+    {
+      "id": "mouse-wireless",
+      "finite": true,
+      "size": [
+        0.07000000029802322,
+        0.052999999141320586,
+        0.11999999731779099
+      ]
+    },
+    {
+      "id": "mouse-touring",
+      "finite": true,
+      "size": [
+        0.14950278028845787,
+        0.052999999141320586,
+        0.28655393049120903
+      ]
+    },
+    {
+      "id": "surface-square",
+      "finite": true,
+      "size": [
+        1.2000000476837158,
+        1.995000011753291,
+        0.41999998688697815
+      ]
+    },
+    {
+      "id": "support-studio-cart",
+      "finite": true,
+      "size": [
+        0.8999999761581421,
+        1.0399999982118606,
+        0.7999999821186066
+      ]
+    },
+    {
+      "id": "support-stand",
+      "finite": true,
+      "size": [
+        0.6266958117485046,
+        1.4400000452995299,
+        0.49506042897701263
+      ]
+    }
+  ],
+  "clips": 92,
+  "guidePages": 17,
+  "errors": []
+}

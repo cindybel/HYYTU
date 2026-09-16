@@ -1,0 +1,17 @@
+from pathlib import Path
+p=Path('src/physical-career.js');s=p.read_text(encoding='utf-8')
+s=s.replace("n<3?0:n<5?1:n<9?2:n<15?3:n<20?4:n<23?5:6", "n<3?0:n===3?1:n<9?2:n<15?3:n<20?4:n<23?5:6")
+s=s.replace("clipMinimum:n<3?", "styleClipMinimum:n>=23?6:n===22?5:n>=4&&n<=6?2:0,clipMinimum:n<3?")
+s=s.replace("i.stats={};i.tags=[getStyleMeta(i.styleTarget).label,'Contenu avant gig'];", "i.visualPoints=i.cost<=22?1:i.cost<=25?2:i.cost<=28?3:i.cost<=32?4:5;i.stats={};i.tags=[getStyleMeta(i.styleTarget).label,i.visualPoints<3?'warm-up / groove':i.visualPoints<5?'montée / géométrique':'peak / abstrait'];")
+s=s.replace("g.baseBudget=g.budget;if(['open'", "g.baseBudget=g.budget;const required=contracts().find(x=>x.number===g.number);g.clipMinimum=required.clipMinimum;g.requiredLoopPacks=required.requiredLoopPacks;g.styleClipMinimum=required.styleClipMinimum;if(['open'")
+p.write_text(s,encoding='utf-8')
+p=Path('src/physical-v4.js');s=p.read_text(encoding='utf-8')
+s=s.replace("return{objects,missing};", "if(g.styleClipMinimum&&clips.matching<g.styleClipMinimum)missing.push(g.styleClipMinimum+' clips du style '+getStyleMeta(g.style).label);return{objects,missing};")
+s=s.replace("if(g.number===24&&clips.matching<6){score=Math.min(score,69);reasons.push('Six clips du style demandé sont requis');}", "if(g.styleClipMinimum&&clips.matching<g.styleClipMinimum){score=Math.min(score,69);reasons.push(g.styleClipMinimum+' clips du style demandé sont requis');}")
+s=s.replace("5*Number(clips.count>=g.clipMinimum&&dress)", "5*(g.number<=3?Number(clips.count>=g.clipMinimum):(.75*Math.min(1,clips.matching/Math.max(1,g.clipMinimum))+.25*Number(dress)))")
+# Explain which box is responsible for the interruption.
+s=s.replace("'Clique un projecteur pour diagnostiquer : '+signals.find(s=>!s.valid).reason", "'À corriger : '+signals.find(s=>!s.valid).reason+(signals.find(s=>!s.valid).device?' · '+item(C.get(state,signals.find(s=>!s.valid).device)?.modelId).label:'')")
+s=s.replace("'NO SIGNAL · '+escapeHtml(sig.reason)", "'NO SIGNAL · '+escapeHtml(sig.reason)+(sig.device?' · '+escapeHtml(item(C.get(state,sig.device)?.modelId).label):'')")
+p.write_text(s,encoding='utf-8')
+p=Path('src/physical-core.js');s=p.read_text(encoding='utf-8').replace("{valid:false,reason:powered(s,id)?", "{valid:false,device:id,reason:powered(s,id)?").replace("{valid:false,reason:'Mauvais input.'}", "{valid:false,device:id,reason:'Mauvais input.'}").replace("{valid:false,reason:'Câble absent.'}", "{valid:false,device:id,reason:'Câble absent.'}")
+p.write_text(s,encoding='utf-8')

@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "width": 1116,
+      "images": 7,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 620,
+      "images": 7,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "links": 16,
+  "guideLink": true,
+  "errors": []
+}

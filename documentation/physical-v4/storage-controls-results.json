@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "one original cart, projector resting on top, no additional stand",
+    "real shelf pickup, same model size in hand, keyboard rotation, Escape restores shelf",
+    "hanging VGA cable can be selected and taken from wall",
+    "rack and projector move and rotate together; rack placed on floor",
+    "take projector separately and click original rack to put it back",
+    "rack and mounted projector survive reload without duplication"
+  ],
+  "errors": []
+}

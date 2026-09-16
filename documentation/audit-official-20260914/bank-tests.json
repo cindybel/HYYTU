@@ -1,0 +1,46 @@
+{
+  "checks": [
+    "Compte nominatif visible dans Banque",
+    "Prêt versé : +300 $, solde 375 $",
+    "Formation : virement sortant 180 $, solde 195 $",
+    "Remboursement : 35 $, références uniques, soldes exacts",
+    "Filtres entrées / sorties",
+    "Rechargement : compte, opérations et solde conservés sans double débit",
+    "Fonds insuffisants : aucune opération créée",
+    "Achat en boutique : article possédé et virement Atazone du montant exact",
+    "Ancienne sauvegarde : historique migré une fois, solde préservé"
+  ],
+  "rows": [
+    {
+      "reference": "SIG-000001",
+      "day": 1,
+      "time": "18:00",
+      "amount": 300,
+      "label": "Pret Micro pret",
+      "counterparty": "Banque Signal · Crédit",
+      "status": "completed",
+      "balanceAfter": 375
+    },
+    {
+      "reference": "SIG-000002",
+      "day": 1,
+      "time": "18:00",
+      "amount": -180,
+      "label": "Formation VJ · Cablage propre",
+      "counterparty": "École VJ",
+      "status": "completed",
+      "balanceAfter": 195
+    },
+    {
+      "reference": "SIG-000003",
+      "day": 1,
+      "time": "18:00",
+      "amount": -35,
+      "label": "Paiement dette Micro pret",
+      "counterparty": "Banque Signal · Crédit",
+      "status": "completed",
+      "balanceAfter": 160
+    }
+  ],
+  "errors": []
+}

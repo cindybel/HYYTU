@@ -1,0 +1,434 @@
+[
+  {
+    "id": "aurora",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 846476,
+    "seamDifference": 0.9290509223937988,
+    "maxAdjacentDifference": 1.2049074172973633
+  },
+  {
+    "id": "ribbons",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 3224550,
+    "seamDifference": 1.2659027576446533,
+    "maxAdjacentDifference": 1.9289120435714722
+  },
+  {
+    "id": "orbits",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1944002,
+    "seamDifference": 0.7112268805503845,
+    "maxAdjacentDifference": 0.6921990513801575
+  },
+  {
+    "id": "grid",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1848573,
+    "seamDifference": 1.3866435289382935,
+    "maxAdjacentDifference": 1.2678009271621704
+  },
+  {
+    "id": "tunnel",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2261271,
+    "seamDifference": 1.5492593050003052,
+    "maxAdjacentDifference": 1.748009204864502
+  },
+  {
+    "id": "kaleido",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1182436,
+    "seamDifference": 0.3159722089767456,
+    "maxAdjacentDifference": 0.4734722077846527
+  },
+  {
+    "id": "particles-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 184066,
+    "seamDifference": 0.10469907522201538,
+    "maxAdjacentDifference": 0.10377314686775208
+  },
+  {
+    "id": "particles-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 436108,
+    "seamDifference": 0.19620370864868164,
+    "maxAdjacentDifference": 0.18064814805984497
+  },
+  {
+    "id": "contours-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2949565,
+    "seamDifference": 0.7096759080886841,
+    "maxAdjacentDifference": 0.5531250238418579
+  },
+  {
+    "id": "contours-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 3814066,
+    "seamDifference": 1.191736102104187,
+    "maxAdjacentDifference": 1.062407374382019
+  },
+  {
+    "id": "waves-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2649989,
+    "seamDifference": 2.012963056564331,
+    "maxAdjacentDifference": 2.2835185527801514
+  },
+  {
+    "id": "waves-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2630476,
+    "seamDifference": 1.7055786848068237,
+    "maxAdjacentDifference": 2.4837732315063477
+  },
+  {
+    "id": "arcs-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 489304,
+    "seamDifference": 0.45564815402030945,
+    "maxAdjacentDifference": 0.2231481522321701
+  },
+  {
+    "id": "arcs-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 637211,
+    "seamDifference": 3.0359721183776855,
+    "maxAdjacentDifference": 3.209074020385742
+  },
+  {
+    "id": "petals-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 3352143,
+    "seamDifference": 0.6513194441795349,
+    "maxAdjacentDifference": 0.8623611330986023
+  },
+  {
+    "id": "petals-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 5030410,
+    "seamDifference": 0.737407386302948,
+    "maxAdjacentDifference": 1.0166897773742676
+  },
+  {
+    "id": "helix-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 327572,
+    "seamDifference": 0.5236573815345764,
+    "maxAdjacentDifference": 0.5821990966796875
+  },
+  {
+    "id": "helix-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 337894,
+    "seamDifference": 0.41837963461875916,
+    "maxAdjacentDifference": 0.4423148036003113
+  },
+  {
+    "id": "lattice-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 5276768,
+    "seamDifference": 1.1302083730697632,
+    "maxAdjacentDifference": 0.9549768567085266
+  },
+  {
+    "id": "lattice-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 5410039,
+    "seamDifference": 1.347986102104187,
+    "maxAdjacentDifference": 1.2984721660614014
+  },
+  {
+    "id": "circuit-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 99348,
+    "seamDifference": 0.1714351922273636,
+    "maxAdjacentDifference": 0.09435185045003891
+  },
+  {
+    "id": "circuit-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 79201,
+    "seamDifference": 0.19761574268341064,
+    "maxAdjacentDifference": 0.0968981459736824
+  },
+  {
+    "id": "discs-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 410583,
+    "seamDifference": 0.4141203761100769,
+    "maxAdjacentDifference": 0.4477083384990692
+  },
+  {
+    "id": "discs-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 287743,
+    "seamDifference": 0.1292361170053482,
+    "maxAdjacentDifference": 0.1830555498600006
+  },
+  {
+    "id": "spiral-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1548639,
+    "seamDifference": 0.5327083468437195,
+    "maxAdjacentDifference": 0.49097222089767456
+  },
+  {
+    "id": "spiral-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2606620,
+    "seamDifference": 0.8426620364189148,
+    "maxAdjacentDifference": 0.7880324125289917
+  },
+  {
+    "id": "bars-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 141495,
+    "seamDifference": 0.4073379635810852,
+    "maxAdjacentDifference": 0.3277546167373657
+  },
+  {
+    "id": "bars-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 137762,
+    "seamDifference": 0.9141203761100769,
+    "maxAdjacentDifference": 0.8584259152412415
+  },
+  {
+    "id": "terrain-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2956134,
+    "seamDifference": 2.0673842430114746,
+    "maxAdjacentDifference": 1.9489582777023315
+  },
+  {
+    "id": "terrain-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 3779610,
+    "seamDifference": 2.942523241043091,
+    "maxAdjacentDifference": 2.9861111640930176
+  },
+  {
+    "id": "triangles-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2216633,
+    "seamDifference": 0.7402083277702332,
+    "maxAdjacentDifference": 0.6955786943435669
+  },
+  {
+    "id": "triangles-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 808683,
+    "seamDifference": 0.26472222805023193,
+    "maxAdjacentDifference": 0.25902777910232544
+  },
+  {
+    "id": "squares-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2031578,
+    "seamDifference": 0.6405092477798462,
+    "maxAdjacentDifference": 0.6496990919113159
+  },
+  {
+    "id": "squares-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 901830,
+    "seamDifference": 0.35023146867752075,
+    "maxAdjacentDifference": 0.3752777874469757
+  },
+  {
+    "id": "stars-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 500928,
+    "seamDifference": 0.1495833396911621,
+    "maxAdjacentDifference": 0.15868055820465088
+  },
+  {
+    "id": "stars-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 764696,
+    "seamDifference": 0.19263888895511627,
+    "maxAdjacentDifference": 0.21553240716457367
+  },
+  {
+    "id": "scope-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 8220466,
+    "seamDifference": 5.230717658996582,
+    "maxAdjacentDifference": 13.160531997680664
+  },
+  {
+    "id": "scope-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 5171835,
+    "seamDifference": 1.966851830482483,
+    "maxAdjacentDifference": 4.69384241104126
+  },
+  {
+    "id": "columns-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 401299,
+    "seamDifference": 0.8822916746139526,
+    "maxAdjacentDifference": 1.0868982076644897
+  },
+  {
+    "id": "columns-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1482503,
+    "seamDifference": 0.7128703594207764,
+    "maxAdjacentDifference": 0.6687963008880615
+  },
+  {
+    "id": "diamonds-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2378332,
+    "seamDifference": 0.5693981647491455,
+    "maxAdjacentDifference": 0.5072222352027893
+  },
+  {
+    "id": "diamonds-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 549724,
+    "seamDifference": 0.20000000298023224,
+    "maxAdjacentDifference": 0.21909722685813904
+  },
+  {
+    "id": "fan-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2508154,
+    "seamDifference": 0.4179629683494568,
+    "maxAdjacentDifference": 0.3639351725578308
+  },
+  {
+    "id": "fan-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 4628035,
+    "seamDifference": 0.7649537324905396,
+    "maxAdjacentDifference": 0.6874074339866638
+  },
+  {
+    "id": "knots-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2841041,
+    "seamDifference": 1.132476806640625,
+    "maxAdjacentDifference": 1.2209721803665161
+  },
+  {
+    "id": "knots-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 2436449,
+    "seamDifference": 1.0116204023361206,
+    "maxAdjacentDifference": 1.1479629278182983
+  },
+  {
+    "id": "rays-1",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1010256,
+    "seamDifference": 0.9046527743339539,
+    "maxAdjacentDifference": 1.0213193893432617
+  },
+  {
+    "id": "rays-2",
+    "frames": 240,
+    "duration": "8.000000",
+    "codec": "h264",
+    "bytes": 1051874,
+    "seamDifference": 3.6664583683013916,
+    "maxAdjacentDifference": 3.6866204738616943
+  }
+]

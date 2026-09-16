@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path('src/gig-difficulty.js');s=p.read_text(encoding='utf-8').replace("if(currentGig?.physical)return currentGig.height;","if(currentGig?.physical)return false;");p.write_text(s,encoding='utf-8')
+p=Path('src/physical-v4.js');s=p.read_text(encoding='utf-8').replace("r.projector.group.visible=false;r.physicalId","r.projector.group.visible=false;if(r.cable.mesh)r.cable.mesh.visible=false;r.physicalId");p.write_text(s,encoding='utf-8')
+p=Path('documentation/physical-v4/campaign.cjs');s=p.read_text(encoding='utf-8');start=s.index('const fixture=await p.evaluate(');end=s.index('},n);',start)+1;function=s[start+len('const fixture=await p.evaluate('):end];Path('documentation/physical-v4/fixture.cjs').write_text('module.exports='+function+';\n',encoding='utf-8');s=s[:start]+"const fixture=await p.evaluate(require('./fixture.cjs')"+s[end:];p.write_text(s,encoding='utf-8')
