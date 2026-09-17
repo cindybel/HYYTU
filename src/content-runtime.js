@@ -17,6 +17,11 @@ window.VJContent=(()=>{
     peak:{label:'Peak',intensity:4,tempo:'fort',use:'Soutenir un moment fort avec une image plus dense'},
     legacy:{label:'Polyvalent',intensity:2,tempo:'variable',use:'Visuel flexible pour construire ou contraster une séquence'},
   };
+  const removedLegacyClips=new Set([
+    'Blue Red Waves',
+    'Green Tunnel',
+    'Hex Neon',
+  ]);
   function themeFor(label=''){
     return themes.find(theme=>theme.keywords.some(word=>label.toLowerCase().includes(word.toLowerCase())))||themes[3];
   }
@@ -56,7 +61,15 @@ window.VJContent=(()=>{
     return {theme,energy,label:themes.find(t=>t.id===theme)?.label||'Sélection'};
   }
   if(Array.isArray(window.OriginalClipLibrary))window.OriginalClipLibrary.forEach(enrich);
-  try { if(typeof videoClips!=='undefined'&&Array.isArray(videoClips))videoClips.forEach(enrich); } catch {}
+  try {
+    if(typeof videoClips!=='undefined'&&Array.isArray(videoClips)){
+      for(let i=videoClips.length-1;i>=0;i--){
+        const clip=videoClips[i];
+        if(removedLegacyClips.has(clip?.label)||/\/video\/vecteezy_/i.test(clip?.src||''))videoClips.splice(i,1);
+      }
+      videoClips.forEach(enrich);
+    }
+  } catch {}
   return {themes,energyMeta,enrich,curate,describe,packIdentity};
 })();
 
