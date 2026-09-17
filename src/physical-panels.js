@@ -7,3 +7,23 @@ window.PhysicalPanels=(()=>{
  function tick(){if(current&&!currentApp){current=null;document.body.classList.remove('physical-panel-open');back.hidden=true;StudioWorld.enter();}}
  return {open,close,tick,get current(){return current;}};
 })();
+
+/* Darker room response for the physical ceiling-light dimmer. */
+(()=>{
+ if(document.querySelector('script[data-studio-dimmer-darkness]'))return;
+ const script=document.createElement('script');
+ script.defer=true;
+ script.dataset.studioDimmerDarkness='';
+ script.src='./src/studio-lighting-dimmer-fix.js?v=20260917a';
+ document.head.append(script);
+})();
+
+/* GOD99 editor is part of the normal game build on the dedicated editor branch. */
+(()=>{
+ if(window.God99SceneEditor||document.querySelector('script[data-god99-editor]'))return;
+ const script=document.createElement('script');
+ script.defer=true;
+ script.dataset.god99Editor='';
+ script.src='./src/god99-scene-editor.js?v=20260916c';
+ document.head.append(script);
+})();

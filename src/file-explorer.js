@@ -5,7 +5,7 @@ window.VJFileExplorer=(()=>{
  const icon='<svg viewBox="0 0 32 26" aria-hidden="true"><path fill="#e6b954" d="M1 3h12l3 4h15v18H1Z"/><path fill="#f2cf77" d="M1 10h30l-3 15H1Z"/></svg>';
  function list(){
   if(folder==='home')return Object.entries(folders).filter(([id])=>id!=='home').map(([id,label])=>({id,label,type:'Dossier',kind:'folder'}));
-  if(folder==='clips')return videoClips.filter(c=>ClipProgression.unlocked(c)).map(c=>({id:c.src,label:c.label,type:`Clip vidéo · niveau ${c.requiredLevel}`,kind:'clip',poster:c.poster}));
+  if(folder==='clips')return videoClips.filter(c=>!/\/video\/vecteezy_/i.test(c.src||'')&&ClipProgression.unlocked(c)).map(c=>({id:c.src,label:c.label,type:`Clip vidéo · niveau ${c.requiredLevel}`,kind:'clip',poster:c.poster}));
   if(folder==='documents')return [{id:'physical-guide',label:'Game Design Master — Refonte physique v4.pdf',type:'PDF · 17 pages · guide officiel',kind:'guide'},...profile.emails.slice().reverse().map(e=>({id:e.id,label:e.subject,type:`Courriel · jour ${e.day}`,kind:'email'}))];
   return shopItems.filter(i=>i.category===folder&&profile.ownedItems.includes(i.id)).map(i=>({id:i.id,label:i.label,type:folder==='gear'?'Matériel possédé':'Vêtement possédé',kind:'item'}));
  }
