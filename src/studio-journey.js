@@ -4,7 +4,8 @@ window.StudioLife=(()=>{
  const equipment=new THREE.Group();equipment.name='Equipped garage gear';props.add(equipment);
  const mat=(color,roughness=.75,metalness=.05)=>new THREE.MeshStandardMaterial({color,roughness,metalness});
  function box(w,h,d,x,y,z,m,parent=props){const mesh=new THREE.Mesh(GearModels.rounded(w,h,d,Math.min(.04,h*.2)),m);mesh.position.set(x,y,z);mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;}
- function label(text,x,y,z,rotation=0,w=1.8,parent=props){const cv=document.createElement('canvas');cv.width=512;cv.height=150;const c=cv.getContext('2d');c.fillStyle='#172630';c.fillRect(0,0,512,150);c.strokeStyle='#4c636b';c.lineWidth=4;c.strokeRect(5,5,502,140);c.fillStyle='#e9dec6';c.font='bold 30px Arial';c.textAlign='center';c.fillText(text,256,90,470);const mesh=new THREE.Mesh(new THREE.PlaneGeometry(w,w*.293),new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(cv),side:THREE.FrontSide}));mesh.position.set(x,y,z);mesh.rotation.y=rotation;parent.add(mesh);return mesh;}
+ // Room/location signs are intentionally disabled. Technical connection labels live elsewhere and remain visible.
+ function label(){return null;}
 
  // One bed at a credible double-bed scale; the bounds below match its footprint.
  const bedX=-5.05,bedZ=9.55;
@@ -19,8 +20,6 @@ window.StudioLife=(()=>{
  for(const dx of [-.38,.38]){
   const pillow=new THREE.Mesh(new THREE.SphereGeometry(1,16,10),bedLinen);pillow.scale.set(.32,.07,.22);pillow.position.set(bedX+dx,.725,bedZ-.73);pillow.castShadow=true;bed.add(pillow);
  }
-
- label('REPOS',-6.52,1.55,bedZ,Math.PI/2,.65);
 
  // The desk itself and controller already come from createDeskStation().
  // StudioLife only swaps in the actually equipped computer so there is no duplicate table/controller.
@@ -91,7 +90,6 @@ window.StudioLife=(()=>{
   if(projectorData){
    const model=fitModel(projectorData.model,.86);model.name='Studio equipped projector';model.rotation.y=Math.PI;
    const bounds=new THREE.Box3().setFromObject(model);model.position.set(projectorX,1.12-bounds.min.y,projectorZ);equipment.add(model);
-   label(projectorData.item.label,projectorX,.88,projectorZ+.41,0,.85,equipment);
   }
  }
 
@@ -156,7 +154,20 @@ window.StudioLife=(()=>{
   if(window.PhysicalV4?.enabled&&PhysicalV4.state.objects.some(o=>o.modelId==='support-studio-cart'&&!['hand','bag','vehicle'].includes(o.location)&&Math.abs(x-o.position.x)<.49&&Math.abs(z-o.position.z)<.44))return true;
   return false;
  }
- function tick(walking){props.visible=walking;legacyCart.visible=!window.PhysicalV4?.enabled;if(walking){hideLegacyDeskLaptop();hideLegacyRoomProps();if(window.PhysicalV4?.enabled)equipment.visible=false;else rebuildEquippedGear();}}
+ function hideDecorLabels(root){
+  root?.traverse?.(o=>{
+   if(o?.isMesh&&o.geometry?.type==='PlaneGeometry'&&o.material?.isMeshBasicMaterial&&o.material?.map)o.visible=false;
+  });
+ }
+ function cleanRoomDecor(){
+  // Remove the physical wardrobe and its collision/interactions from the walkable room.
+  if(window.StudioWardrobe?.group)window.StudioWardrobe.group.visible=false;
+  if(window.StudioWardrobe){window.StudioWardrobe.near=()=>false;window.StudioWardrobe.blocked=()=>false;}
+  // Hide decorative/location signs while leaving technical connection/port labels untouched.
+  hideDecorLabels(window.StudioSet?.group);
+  hideDecorLabels(window.StudioStorage?.group);
+ }
+ function tick(walking){props.visible=walking;legacyCart.visible=!window.PhysicalV4?.enabled;if(walking){hideLegacyDeskLaptop();hideLegacyRoomProps();if(window.PhysicalV4?.enabled)equipment.visible=false;else rebuildEquippedGear();}cleanRoomDecor();}
  return {createProjectorCart,legacyCart,hint,act,blocked,tick,openSleepMenu,sleepHours,sleepRecovery};
 })();
 
@@ -164,13 +175,14 @@ window.StudioJourney=(()=>{
  let departing=false;
  const props=new THREE.Group();props.visible=false;scene.add(props);
  function box(w,h,d,x,y,z,color){const mesh=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),new THREE.MeshStandardMaterial({color,roughness:.6,metalness:.25}));mesh.position.set(x,y,z);mesh.castShadow=true;props.add(mesh);return mesh;}
+ // Keep the exit itself, but remove the three decorative show crates at the entrance.
  box(.18,2.75,1.35,6.55,1.38,11.25,0x263b45);box(.18,.12,.2,6.37,1.3,10.82,0xdac28b);
- const crates=[];for(let i=0;i<3;i++){const x=4.35+(i%2)*1.05,y=.35+Math.floor(i/2)*.72;crates.push(box(.95,.65,.7,x,y,12.15,0x202c39));box(.97,.05,.73,x,y+.2,12.15,0x7a919b);box(.24,.08,.06,x,y,12.53,0xa8d4ca);}
- function label(text,x,y,z,rotation=0){const canvas=document.createElement('canvas');canvas.width=512;canvas.height=128;const c=canvas.getContext('2d');c.fillStyle='#142632';c.fillRect(0,0,512,128);c.fillStyle='#e9dec6';c.font='bold 35px Arial';c.textAlign='center';c.fillText(text,256,76);const mesh=new THREE.Mesh(new THREE.PlaneGeometry(2,.5),new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(canvas),side:THREE.FrontSide}));mesh.position.set(x,y,z);mesh.rotation.y=rotation;props.add(mesh);}
- label('SORTIE / VILLE',6.35,2.65,11.25,-Math.PI/2);label('MATÉRIEL DU SHOW',4.85,1.85,11.72,Math.PI);
- function queue(gig){profile.preparedDeparture={gigId:gig.id,quotedCost:readGigLoadoutFromSetup().totalCost,packed:false,selections:[...gigSetupContent.querySelectorAll('select[data-loadout-type]')].map(e=>({type:e.dataset.loadoutType,key:e.dataset.loadoutKey,value:e.value}))};profile.preparedDeparture.packed=JSON.stringify(profile.preparedDeparture.selections)===JSON.stringify(profile.savedStudioSetup);saveSlots();gigSetupModal.hidden=true;pendingGigSetup=null;StudioWorld.enter();notify(profile.preparedDeparture.packed?'Setup déjà maîtrisé : ton matériel est prêt. Rejoins la sortie.':'Préparation enregistrée. Regroupe le matériel près des caisses, puis rejoins la sortie.');}
+ const crates=[];
+ // No floating room/location signs. Connection labels elsewhere are not touched.
+ function label(){return null;}
+ function queue(gig){profile.preparedDeparture={gigId:gig.id,quotedCost:readGigLoadoutFromSetup().totalCost,packed:false,selections:[...gigSetupContent.querySelectorAll('select[data-loadout-type]')].map(e=>({type:e.dataset.loadoutType,key:e.dataset.loadoutKey,value:e.value}))};profile.preparedDeparture.packed=JSON.stringify(profile.preparedDeparture.selections)===JSON.stringify(profile.savedStudioSetup);saveSlots();gigSetupModal.hidden=true;pendingGigSetup=null;StudioWorld.enter();notify(profile.preparedDeparture.packed?'Setup déjà maîtrisé : ton matériel est prêt. Rejoins la sortie.':'Préparation enregistrée. Regroupe le matériel, puis rejoins la sortie.');}
  function nearby(s){if(Math.hypot(s.x-4.8,s.z-12.15)<1.55)return 'cases';if(Math.hypot(s.x-5.75,s.z-11.25)<1.45)return 'door';return null;}
- function hint(s){if(window.PhysicalV4?.enabled&&profile.physical?.prepared)return PhysicalV4.departureHint(s);const zone=nearby(s),p=profile.preparedDeparture;if(zone==='cases')return {label:p?(p.packed?'Matériel regroupé':'Regrouper le matériel · E'):'Caisses du show',enabled:Boolean(p&&!p.packed),hint:p?'Prépare physiquement ton départ.':'Les caisses seront utiles lorsqu’un contrat est confirmé.'};if(zone==='door')return {label:p?.packed?'Partir vers le show · E':'Sortir / choisir une destination · E',enabled:true,hint:p?.packed?'Ton setup est prêt pour le venue.':'La porte sert aux déplacements : magasin, école et rendez-vous.'};return null;}
+ function hint(s){if(window.PhysicalV4?.enabled&&profile.physical?.prepared)return PhysicalV4.departureHint(s);const zone=nearby(s),p=profile.preparedDeparture;if(zone==='cases')return {label:p?(p.packed?'Matériel regroupé':'Regrouper le matériel · E'):'Zone de préparation',enabled:Boolean(p&&!p.packed),hint:p?'Prépare physiquement ton départ.':'Cette zone sera utile lorsqu’un contrat est confirmé.'};if(zone==='door')return {label:p?.packed?'Partir vers le show · E':'Sortir / choisir une destination · E',enabled:true,hint:p?.packed?'Ton setup est prêt pour le venue.':'La porte sert aux déplacements : magasin, école et rendez-vous.'};return null;}
  function travelMenu(){
   const root=document.createElement('section');root.className='menu-screen';root.style.display='grid';root.style.zIndex='1000';root.innerHTML='<div class="menu-panel"><span class="production-eyebrow">SORTIR DU GARAGE</span><h1>Où aller ?</h1><p>Choisis une destination.</p><div class="menu-actions"><button class="primary-action" data-dest="shop">Magasin AV</button><button class="primary-action" data-dest="skills">École / formations VJ</button><button class="primary-action" data-dest="social">Réseau de booking</button><button class="secondary-action" data-close>Rester au garage</button></div></div>';document.body.append(root);
   const close=()=>root.remove();root.querySelector('[data-close]').onclick=close;root.querySelectorAll('[data-dest]').forEach(b=>b.onclick=()=>{const app=b.dataset.dest;close();StudioWorld.showComputer();document.body.classList.remove('studio-world-view');openApp(app);});
@@ -181,7 +193,7 @@ window.StudioJourney=(()=>{
   if(zone==='door'&&!p){travelMenu();return;}
   if(!p)return;
   if(zone==='cases'&&!p.packed){p.packed=true;profile.savedStudioSetup=p.selections.map(s=>({...s}));saveSlots();notify('Matériel regroupé. Rejoins la porte de sortie.');}
-  else if(zone==='door'&&!p.packed){notify('Ton contrat est confirmé, mais le matériel n’est pas regroupé. Passe par les caisses.');}
+  else if(zone==='door'&&!p.packed){notify('Ton contrat est confirmé, mais le matériel n’est pas regroupé. Passe par la zone de préparation.');}
   else if(zone==='door'&&p.packed){const gig=profile.gigs.find(g=>g.id===p.gigId);if(!gig||!canPlayGig(gig)){notify('Ce contrat n’est pas disponible aujourd’hui. Vérifie le calendrier à l’ordinateur.');return;}startGig(gig.id);const selects=[...gigSetupContent.querySelectorAll('select[data-loadout-type]')];let unavailable=false;for(const saved of p.selections){const select=selects.find(e=>e.dataset.loadoutType===saved.type&&e.dataset.loadoutKey===saved.key);if(select&&[...select.options].some(o=>o.value===saved.value))select.value=saved.value;else unavailable=true;}if(unavailable||readGigLoadoutFromSetup().totalCost!==p.quotedCost){notify(unavailable?'Un équipement n’est plus disponible : vérifie la préparation avant de partir.':'Les frais ont changé : vérifie à nouveau la préparation avant de partir.');return;}departing=true;try{beginGigFromSetup();}finally{departing=false;}}}
  function offerSavedSetup(){
   if(!Array.isArray(profile.savedStudioSetup))return;
@@ -189,7 +201,7 @@ window.StudioJourney=(()=>{
   button.onclick=()=>{let missing=0;for(const saved of profile.savedStudioSetup){const select=[...gigSetupContent.querySelectorAll('select[data-loadout-type]')].find(e=>e.dataset.loadoutType===saved.type&&e.dataset.loadoutKey===saved.key);if(select&&[...select.options].some(o=>o.value===saved.value)){select.value=saved.value;select.dispatchEvent(new Event('change',{bubbles:true}));}else missing++;}button.textContent=missing?'Choix disponibles repris · vérifie les autres équipements':'Setup repris · vérifie les frais avant de valider';};
   gigSetupContent.prepend(button);
  }
- function tick(walking){props.visible=walking;crates.forEach(m=>m.material.color.setHex(profile?.preparedDeparture?.packed?0x36574f:0x202c39));}
+ function tick(walking){props.visible=walking;}
  document.querySelector('#result-close-button').addEventListener('click',()=>StudioWorld.enter());
  return {queue,act,hint,tick,offerSavedSetup,get departing(){return departing;}};
 })();
