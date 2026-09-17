@@ -8,12 +8,12 @@ window.PhysicalPanels=(()=>{
  return {open,close,tick,get current(){return current;}};
 })();
 
-/* GOD99 editor is part of the game build on the dedicated editor branch. */
+/* GOD99 editor is part of the normal game build on the dedicated editor branch. */
 (()=>{
  if(window.God99SceneEditor||document.querySelector('script[data-god99-editor]'))return;
  const script=document.createElement('script');
  script.defer=true;
  script.dataset.god99Editor='';
- script.src='./src/god99-scene-editor.js?v=20260916';
+ script.src='./src/god99-editor.js?v=20260916b';
  document.head.append(script);
 })();
