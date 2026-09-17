@@ -1,10 +1,11 @@
-/* Darken legacy/global room lighting with the physical studio dimmer. */
+/* Darken the studio reliably with the physical ceiling-light dimmer. */
 (()=>{
   if(window.__studioDimmerDarknessFix)return;
   window.__studioDimmerDarknessFix=true;
 
   const BASE_KEY='studioDimmerBaseIntensity';
-  const MIN_AMBIENT=.035;
+  const MIN_AMBIENT=.02;
+  const MIN_BRIGHTNESS=.12;
 
   function isInside(root,node){
     let current=node;
@@ -21,8 +22,10 @@
     if(typeof scene==='undefined')return;
     const walking=document.body.classList.contains('studio-world-view');
     const studioRoot=window.StudioSet?.group;
-    const factor=walking ? MIN_AMBIENT+(1-MIN_AMBIENT)*level() : 1;
+    const amount=level();
+    const factor=walking ? MIN_AMBIENT+(1-MIN_AMBIENT)*amount : 1;
 
+    // Dim every global/legacy light that is not already controlled by StudioSet.
     scene.traverse(light=>{
       if(!light?.isLight)return;
       if(studioRoot&&isInside(studioRoot,light))return;
@@ -30,9 +33,20 @@
         light.userData=light.userData||{};
         light.userData[BASE_KEY]=Number(light.intensity)||0;
       }
-      const base=light.userData[BASE_KEY];
-      light.intensity=base*factor;
+      light.intensity=light.userData[BASE_KEY]*factor;
     });
+
+    // Guaranteed visual result: darken only the 3D canvas while walking.
+    // This also catches basic/emissive materials that lights cannot affect.
+    const view=(typeof renderer!=='undefined'&&renderer?.domElement)||document.querySelector('#game');
+    if(view){
+      if(walking){
+        const brightness=MIN_BRIGHTNESS+(1-MIN_BRIGHTNESS)*Math.pow(amount,0.72);
+        view.style.filter=`brightness(${brightness.toFixed(3)})`;
+      }else{
+        view.style.filter='';
+      }
+    }
   }
 
   function install(){
