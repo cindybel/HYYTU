@@ -14,6 +14,6 @@ window.PhysicalPanels=(()=>{
  const script=document.createElement('script');
  script.defer=true;
  script.dataset.god99Editor='';
- script.src='./src/god99-editor.js?v=20260916b';
+ script.src='./src/god99-scene-editor.js?v=20260916c';
  document.head.append(script);
 })();
