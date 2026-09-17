@@ -2,7 +2,7 @@
 window.PhysicalStorage=(()=>{
  const levels=[.36,.94,1.52],bays=[{x:4.35,z:5.42,r:0},{x:5.35,z:7.35,r:-Math.PI/2},{x:5.35,z:9.7,r:-Math.PI/2},{x:-5.35,z:7.4,r:Math.PI/2}];
  const rack=new THREE.Group();rack.name='Usable cable wall rack';scene.add(rack);let signature='';
- const DEFAULT_LAYOUT_VERSION=6;
+ const DEFAULT_LAYOUT_VERSION=7;
  function size(o){if(o.modelId==='support-studio-cart')return 1.04;const k=PhysicalCore.spec(o.modelId).kind;return {laptop:.48,tower:.6,monitor:.6,projector:.44,powerbar:.52,speaker:.44,container:.65,keyboard:.48,mouse:.12,cable:.38,surface:1.8,stand:1.5}[k]||(k==='outlet'?(o.ports.length<=2?.2:1.05):.4);}
  function slot(index){const b=bays[Math.floor(index/9)%4],cell=index%9,lx=-.7+(cell%3)*.7;return{x:b.x+lx*Math.cos(b.r),y:levels[[1,0,2][Math.floor(cell/3)]]+.043,z:b.z-lx*Math.sin(b.r),rotation:b.r};}
  function applyDefaultProjectionCorner(state){
@@ -10,13 +10,14 @@ window.PhysicalStorage=(()=>{
   const screen=state.objects.find(o=>PhysicalCore.spec(o.modelId).kind==='surface');
   const stand=state.objects.find(o=>o.modelId==='support-studio-cart');
   const projector=state.objects.find(o=>PhysicalCore.spec(o.modelId).kind==='projector'&&(o.modelId==='projector-cheap'||o.mountedTo===stand?.uid||o.location==='shelf'||o.location==='desk'));
-  // Approved reference: screen against the left garage-door wall, bed remains visible in the middle,
-  // and the projector stand sits farther back on the right instead of filling the foreground.
-  if(screen){screen.location='desk';screen.position={x:-5.20,y:.168,z:8.45};screen.rotation=Math.PI/2;}
-  if(stand){stand.location='desk';stand.position={x:2.55,y:.168,z:7.95};stand.rotation=0;state.studioCartPlaced=true;}
-  if(projector&&stand){projector.location='desk';projector.position={x:2.55,y:1.216,z:7.95};projector.rotation=-Math.PI/2;projector.mountedTo=stand.uid;projector.mountedOffset={x:0,y:1.048,z:0,rotation:-Math.PI/2};}
-  // Default arrival view matching the reference: from the front-right, but mostly facing the back wall.
-  if(profile?.studioWorld){profile.studioWorld.x=4.70;profile.studioWorld.z=12.65;profile.studioWorld.yaw=.30;profile.studioWorld.pitch=-.02;}
+  // Approved reference composition:
+  // screen tight against the LEFT garage-door wall and clearly in front of the bed,
+  // projector pedestal on the RIGHT, also in front of the bed, aimed across the room at the screen.
+  if(screen){screen.location='desk';screen.position={x:-5.18,y:.168,z:6.55};screen.rotation=Math.PI/2;}
+  if(stand){stand.location='desk';stand.position={x:2.65,y:.168,z:6.95};stand.rotation=0;state.studioCartPlaced=true;}
+  if(projector&&stand){projector.location='desk';projector.position={x:2.65,y:1.216,z:6.95};projector.rotation=-Math.PI/2;projector.mountedTo=stand.uid;projector.mountedOffset={x:0,y:1.048,z:0,rotation:-Math.PI/2};}
+  // Keep the arrival view centered enough to see screen-left / bed-middle / projector-right at once.
+  if(profile?.studioWorld){profile.studioWorld.x=4.45;profile.studioWorld.z=12.35;profile.studioWorld.yaw=.18;profile.studioWorld.pitch=-.03;}
   state.god99GarageLayoutVersion=DEFAULT_LAYOUT_VERSION;
  }
  function arrange(state){let n=0,c=0,f=0;for(const o of state.objects){if(o.location!=='shelf')continue;const k=PhysicalCore.spec(o.modelId).kind;if(k==='cable'){const index=c++;o.position={x:-4.7+(index%6)*.45,y:1.6-Math.floor(index/6)*.5,z:4.57};o.rotation=0;o.storageHook=true;}
