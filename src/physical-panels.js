@@ -8,6 +8,16 @@ window.PhysicalPanels=(()=>{
  return {open,close,tick,get current(){return current;}};
 })();
 
+/* Darker room response for the physical ceiling-light dimmer. */
+(()=>{
+ if(document.querySelector('script[data-studio-dimmer-darkness]'))return;
+ const script=document.createElement('script');
+ script.defer=true;
+ script.dataset.studioDimmerDarkness='';
+ script.src='./src/studio-lighting-dimmer-fix.js?v=20260917a';
+ document.head.append(script);
+})();
+
 /* GOD99 editor is part of the normal game build on the dedicated editor branch. */
 (()=>{
  if(window.God99SceneEditor||document.querySelector('script[data-god99-editor]'))return;
